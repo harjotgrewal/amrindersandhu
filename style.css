@@ -1,0 +1,69 @@
+/* ----------------------------------------------------------------------------------------- 
+
+Amrinder Sandhu
+Author: Amrinder Sandhu
+Created on: August 25, 2009
+Version: 1.0
+
+http://designbyanaami.com
+
+----------------------------------------------------------------------------------------- */
+
+/* reset.css */
+* { margin:0; padding:0; }
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+body { line-height:1.5; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+table,td,th { vertical-align:middle; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:; }
+a img { border:none; }
+
+/* Author Style */
+
+body { background-color: white; font: 62.5% "jubilat", Baskerville,"Times new roman", times,serif; color: #777; text-align: center; line-height: 1.5;}
+
+h1 { font-size: 24px; font-weight: 100; }
+
+a { text-decoration: none; color: #39f;}
+
+h1 em { display: block; font-size: 108px; color: #666; text-transform: uppercase; font-style: normal;}
+ul, ul li { list-style: none; }
+li { font-size: 18px; display: block; position: relative; width: 380px; float: left; height: 48px;   }
+li a { display: block; position: relative; padding: 10px 0; border-bottom: 1px dashed #000; }
+li a:hover { background-color: #161616; -webkit-transition: background-color .5s ease; }
+li em { font-size: 14px; position: absolute; top: 15px; left: 20px; }
+li a:hover em {display: inline; }
+strong {font-weight: 500;}
+
+#content { max-width: 640px; margin: 0 auto; position: absolute; top: 50%; left: 50%; margin: -200px 0 0 -320px; }
+
+
+/* Colors */
+li em, .siteinfo, .siteinfo a { color: #999;}
+
+/* Font Styles */
+
+.delicious a, .facebook a, .flickr a, .readernaut a {font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
+.vimeo a, .twitter a, .facebook a, .flickr a { font-weight: bold;}
+
+.blog a { color: #eee; font-family: Baskerville, "Times new roman", Times, serif; }
+.portfolio a { color: #0cf; font-family: "Arial Black", sans-serif; }
+.vimeo a { color: #09f; font-style: italic; font-family: Georgia, serif; }	
+.delicious a{ color: #3274d1; }
+.twitter a {color: #3cf;font-family: monospace; }
+.facebook a{ color: #3b5998; }
+.flickr a {color: #0063dc; }
+.flickr a span {color: #ff0084; }
+.readernaut a{ color: #82be48; }
+
+.elsewhere a em, .siteinfo  { font-family: Georgia,serif; font-weight: normal; font-style: normal;}
+.hide { display: none;}
+.group:after {
+clear:both;
+content:".";
+display:block;
+height:0;
+visibility:hidden;
+}
