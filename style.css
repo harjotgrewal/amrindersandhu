@@ -22,13 +22,13 @@ a img { border:none; }
 
 /* Author Style */
 
-body { background-color: white; font: 62.5% "jubilat", Baskerville,"Times new roman", times,serif; color: #777; text-align: center; line-height: 1.5;}
+body { background-color: white; font: 62.5% -apple-system, BlinkMacSystemFont, sans-serif; color: #222; text-align: center; line-height: 1.5;}
 
-h1 { font-size: 24px; font-weight: 100; }
+h1 { font-size: 24px; }
 
-a { text-decoration: none; color: #39f;}
+a { text-decoration: none; color: #222; border-bottom: 1px solid #ccc;}
 
-h1 em { display: block; font-size: 108px; color: #666; text-transform: uppercase; font-style: normal;}
+h1 em { display: block; font-size: 160px; font-weight: 900; color: #ccc; text-transform: uppercase; font-style: normal;}
 ul, ul li { list-style: none; }
 li { font-size: 18px; display: block; position: relative; width: 380px; float: left; height: 48px;   }
 li a { display: block; position: relative; padding: 10px 0; border-bottom: 1px dashed #000; }
@@ -40,30 +40,11 @@ strong {font-weight: 500;}
 #content { max-width: 640px; margin: 0 auto; position: absolute; top: 50%; left: 50%; margin: -200px 0 0 -320px; }
 
 
-/* Colors */
-li em, .siteinfo, .siteinfo a { color: #999;}
-
-/* Font Styles */
-
-.delicious a, .facebook a, .flickr a, .readernaut a {font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
-.vimeo a, .twitter a, .facebook a, .flickr a { font-weight: bold;}
-
-.blog a { color: #eee; font-family: Baskerville, "Times new roman", Times, serif; }
-.portfolio a { color: #0cf; font-family: "Arial Black", sans-serif; }
-.vimeo a { color: #09f; font-style: italic; font-family: Georgia, serif; }	
-.delicious a{ color: #3274d1; }
-.twitter a {color: #3cf;font-family: monospace; }
-.facebook a{ color: #3b5998; }
-.flickr a {color: #0063dc; }
-.flickr a span {color: #ff0084; }
-.readernaut a{ color: #82be48; }
-
-.elsewhere a em, .siteinfo  { font-family: Georgia,serif; font-weight: normal; font-style: normal;}
 .hide { display: none;}
 .group:after {
-clear:both;
-content:".";
-display:block;
-height:0;
-visibility:hidden;
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
 }
