@@ -13,12 +13,17 @@ const { src, dest, watch, series, parallel } = require('gulp'),
 var replace = require('gulp-replace');
 
 
+
+
 // File paths
 const files = { 
-    scssPath: 'app/scss/**/*.scss',
-    jsPath: 'app/js/*.js',
-    jadePath: 'app/*.jade'
+    scssPath: 'source/assets/scss/**/*.scss',
+    jsPath: 'source/assets/js/*.js',
+    jadePath: 'source/*.jade'
 }
+
+
+
 
 // Sass task: compiles the style.scss file into style.css
 function scssTask(){    
@@ -27,10 +32,13 @@ function scssTask(){
         .pipe(sass()) // compile SCSS to CSS
         .pipe(postcss([ autoprefixer(), cssnano() ])) // PostCSS plugins
         .pipe(sourcemaps.write('.')) // write sourcemaps file in current directory
-        .pipe(dest('dist'))
+        .pipe(dest('public/assets/css'))
         .pipe(browserSync.stream());
-     // put final CSS in dist folder
+     // put final CSS in public folder
 }
+
+
+
 
 // JS task: concatenates and uglifies JS files to script.js
 function jsTask(){
@@ -38,11 +46,14 @@ function jsTask(){
         files.jsPath
         //,'!' + 'includes/js/jquery.min.js', // to exclude any specific files
         ])
-        .pipe(concat('all.js'))
+        .pipe(concat('main.js'))
         .pipe(uglify())
-        .pipe(dest('dist')
+        .pipe(dest('public/assets/js')
     );
 }
+
+
+
 
 // Jade task: converts jade files into html
 function pugTask(){
@@ -50,9 +61,11 @@ function pugTask(){
     .pipe(pug({
         pretty: true
     }))
-    .pipe(dest('dist'))
+    .pipe(dest('public'))
     .pipe(browserSync.stream());
 }
+
+
 
 
 function reload(done) {
@@ -60,12 +73,15 @@ function reload(done) {
   done();
 }
 
+
+
+
 // Watch task: watch SCSS and JS files for changes
 // If any change, run scss and js tasks simultaneously
 function watchTask(){
   browserSync.init({
     server: {
-        baseDir: "./dist"
+        baseDir: "./public"
     },
     open: false,
     notify: false,
@@ -77,6 +93,8 @@ function watchTask(){
         )
     );    
 }
+
+
 
 
 
