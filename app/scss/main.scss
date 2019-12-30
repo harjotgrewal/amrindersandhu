@@ -5,7 +5,11 @@
   'base/fonts',
   'base/typography';
 
-
-// Page-specific styles
+//
 @import
-  'pages/home';
+  'vendors/normalize',
+  'vendors/reset';
+
+  // Page-specific styles
+@import
+'pages/home';

@@ -64,9 +64,11 @@ function reload(done) {
 // If any change, run scss and js tasks simultaneously
 function watchTask(){
   browserSync.init({
-    server: {
-      baseDir: "./dist"
-    }
+    options: {
+      server: {
+          baseDir: "./dist"
+      }
+  }
   });
     watch([files.scssPath, files.jsPath, files.jadePath], 
         series(
