@@ -67,6 +67,7 @@ function watchTask(){
     server: {
         baseDir: "./dist"
     },
+    open: false,
     notify: false,
     directory: true
 });
