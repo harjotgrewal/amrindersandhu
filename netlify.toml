@@ -1,2 +1,2 @@
 [build]
-publish = "dist/index.html"
+publish = "dist"
