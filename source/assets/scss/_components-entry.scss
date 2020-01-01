@@ -1,5 +1,37 @@
+// -----------------------------------------------------------------------------
+// ENTRY / JOURNAL ENTRY
+// -----------------------------------------------------------------------------
 
-
-.c-nav__list {
-    display: flex;
+.c-entry {
+    margin-bottom: 100px;
 }
+
+
+
+    .c-entry__link {
+        border-left: 6px double $color-grey-lighter;
+        color: $color-text-light;
+        display: block;
+        margin-top: 30px;
+        padding: 15px 30px 25px 50px;
+
+        &:hover {
+            background: white;
+            border-style: solid;
+        }
+    }
+
+
+    .c-entry__embed {
+        margin: 50px 0 0 50px;
+    }
+
+
+        .c-entry__author {
+            color: $color-text-light;
+            font-size: $font-size-s;
+            letter-spacing: 5px;;
+            line-height: 1.5;
+            margin-top: 15px;
+            text-transform: uppercase;
+        }

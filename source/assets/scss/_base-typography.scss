@@ -177,3 +177,24 @@ p,
     box-shadow: 0 5px 20px rgba(black, .15);
     width: 150px;
 }
+
+
+
+.c-section__heading {
+    color: $color-text-light;
+    position: sticky;
+    padding-left: 125px;
+    line-height: 1;
+    top: 50px;
+
+    &::before {
+        background-color: $color-grey-light;
+        content: "";
+        display: block;
+        height: 10px;
+        left: 0;
+        position: absolute;
+        top: 12px;
+        width: 140px;
+    }
+}

@@ -1,10 +1,7 @@
 // -----------------------------------------------------------------------------
-// BILLBOARD
+// NAVIGATION
 // -----------------------------------------------------------------------------
 
-// .c-nav__list {
-//     display: flex;
-// }
 
 
 .c-name {
@@ -13,13 +10,13 @@
     line-height: 1;
 
     &::before {
+        background-color: $color-grey-lighter;
         content: "";
         display: block;
-        position: absolute;
         height: 5px;
-        width: 27%;
         left: 0;
+        position: absolute;
         top: 20px;
-        background-color: $color-grey-lighter;
+        width: 27%;
     }
 }
