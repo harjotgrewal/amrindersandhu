@@ -14,62 +14,60 @@ http://amrindersandhu.com
 
 body { 
     background-color: white;
-    display: grid;
     color: #222; 
     font: 62.5% -apple-system, BlinkMacSystemFont, sans-serif; 
     line-height: 1.5;
-    text-align: center; 
 }
 
-h1 { font-size: 24px; grid-area: main; max-width: 800px; }
+// h1 { font-size: 24px; grid-area: main; max-width: 800px; }
 
-a { text-decoration: none; color: #222; border-bottom: 1px solid #ccc;}
+// a { text-decoration: none; color: #222; border-bottom: 1px solid #ccc;}
 
-h1 em { display: block; font-size: 9vw; font-weight: 900; color: #ccc; text-transform: uppercase; font-style: normal;}
-ul, ul li { list-style: none; }
-li { font-size: 18px; display: block; position: relative; width: 380px; float: left; height: 48px;   }
-li a { display: block; position: relative; padding: 10px 0; border-bottom: 1px dashed #000; }
-li a:hover { background-color: #161616; -webkit-transition: background-color .5s ease; }
-li em { font-size: 14px; position: absolute; top: 15px; left: 20px; }
-li a:hover em {display: inline; }
-strong {font-weight: 500;}
+// h1 em { display: block; font-size: 9vw; font-weight: 900; color: #ccc; text-transform: uppercase; font-style: normal;}
+// ul, ul li { list-style: none; }
+// li { font-size: 18px; display: block; position: relative; width: 380px; float: left; height: 48px;   }
+// li a { display: block; position: relative; padding: 10px 0; border-bottom: 1px dashed #000; }
+// li a:hover { background-color: #161616; -webkit-transition: background-color .5s ease; }
+// li em { font-size: 14px; position: absolute; top: 15px; left: 20px; }
+// li a:hover em {display: inline; }
+// strong {font-weight: 500;}
 
-#content {
-    /* max-width: 640px;
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -200px 0 0 -320px; */
+// #content {
+//     /* max-width: 640px;
+//     margin: 0 auto;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     margin: -200px 0 0 -320px; */
 
-    align-items: center;
-    display: grid;
-    grid-template-columns: auto 50% auto ;
-    grid-template-rows: auto;
-    grid-template-areas: ". main .";
-    height: 100vh;
-    justify-items: center;
+//     align-items: center;
+//     display: grid;
+//     grid-template-columns: auto 50% auto ;
+//     grid-template-rows: auto;
+//     grid-template-areas: ". main .";
+//     height: 100vh;
+//     justify-items: center;
     
-}
+// }
 
 
-  @media only screen and (max-width: 760px) {
-    #content {
-        grid-template-columns: 10% auto 10%;
-    }
+//   @media only screen and (max-width: 760px) {
+//     #content {
+//         grid-template-columns: 10% auto 10%;
+//     }
 
-    h1 em {
-        font-size: 20vw;
-        font-weight: 800;
-    }
-  }
+//     h1 em {
+//         font-size: 20vw;
+//         font-weight: 800;
+//     }
+//   }
 
 
-.hide { display: none;}
-.group:after {
-    clear:both;
-    content:".";
-    display:block;
-    height:0;
-    visibility:hidden;
-}
+// .hide { display: none;}
+// .group:after {
+//     clear:both;
+//     content:".";
+//     display:block;
+//     height:0;
+//     visibility:hidden;
+// }
