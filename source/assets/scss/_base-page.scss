@@ -30,3 +30,35 @@ a {
 
 
 
+
+
+html::before {
+  background-color: $theme-bg-3;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 500px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 0;
+} 
+
+
+body { 
+  background-color: white;
+  color: #222; 
+  font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
+  line-height: 1.5;
+  width: 1250px;
+
+  display: grid;
+  grid-template-columns: repeat(10, 100px);
+  column-gap: 25px;
+}
+
+
+main {
+  position: relative;
+  z-index: 2;
+}

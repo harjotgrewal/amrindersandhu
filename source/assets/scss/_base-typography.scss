@@ -14,63 +14,7 @@ $font-size-l: 45px;
 $font-size-m: 30px;
 $font-size-s: 20px;
 
-
-// body {
-//     column-gap: 25px;
-//     display: grid;
-//     grid-template-columns: repeat(10, 100px);
-//     grid-template-columns: repeat(10, 100px);
-//     row-gap: 25px;
-// }
-
-// h1 {
-//     grid-column-start: 1;
-//     grid-column-end: 5;
-// }
-
  
-html::before {
-    background-color: $theme-bg-3;
-    bottom: 0;
-    content: "";
-    display: block;
-    left: 35%;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 0;
-} 
-
-
-body { 
-    background-color: white;
-    color: #222; 
-    font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
-    line-height: 1.5;
-    width: 1250px;
-
-    display: grid;
-    grid-template-columns: repeat(10, 100px);
-    column-gap: 25px;
-}
-
-
-header {
-    grid-column: 1/10;
-    display: grid;
-    grid-template-columns: repeat(10, 100px);
-    column-gap: 25px;
-}
-
-main {
-    grid-column: 1/10;
-    position: relative;
-}
-
-nav {
-    grid-column: 5/10;
-}
-
 
 h1,
 .text-size-xxl {
@@ -81,6 +25,7 @@ h1,
 }
 
 
+h2,
 .text-size-xl {
     font-size: $font-size-xl;
     font-weight: 700;
@@ -89,6 +34,7 @@ h1,
 }
 
 
+h3,
 .text-size-l {
     font-size: $font-size-l;
     font-weight: 700;
@@ -121,6 +67,7 @@ h4 {
 }
 
 
+p,
 .text-style-4 {
     font-size: $font-size-s;
     line-height: 1.5;

@@ -1,5 +1,25 @@
+// -----------------------------------------------------------------------------
+// BILLBOARD
+// -----------------------------------------------------------------------------
+
+// .c-nav__list {
+//     display: flex;
+// }
 
 
-.c-nav__list {
-    display: flex;
+.c-name {
+    position: relative;
+    padding-left: 125px;
+    line-height: 1;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 27%;
+        left: 0;
+        top: 20px;
+        background-color: $color-grey-lighter;
+    }
 }

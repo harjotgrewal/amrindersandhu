@@ -17,39 +17,73 @@ html(xmlns='http://www.w3.org/1999/xhtml', xml:lang='en', lang='en')
 
 
         link(rel='stylesheet', href='assets/css/styles.css', type='text/css')
+
+        link(rel="stylesheet" href="https://use.typekit.net/cjk1juq.css")
+        link(rel="stylesheet" href="https://use.typekit.net/njh2cfh.css")
         
 
 
 
 
-    body
-        header
+    body.c-body.l-grid
+        header.c-header.l-grid.l-grid--header
             strong.c-name Amrinder Sandhu
 
 
-            nav.c-nav
-                a(href="#") Journal
+            //nav.c-nav
+                ul.c-nav__list
+                    li
+                        a(href="") Home
 
-                a(href="#") Work
+                    li
+                        a(href="") Work
 
-                a(href="#") Reading
+                    li
+                        a(href="") Reading
+                    
+                    li
+                        a(href="") About
 
-                a(href="#") About
 
 
-        
-
-        main
-            section.c-billboard
+        main.c-main.l-grid
+            // HOMEPAGE BILLBOARD
+            section.c-billboard.l-grid.l-grid--billboard
                 h1.c-billboard__title Hello!
 
-                p.c-billboard__blurb Amrinder is a user experience and interface designer with 12 years of experience. Currently, he is head of design at Unmetric.
+                p.c-billboard__blurb Amrinder is a user experience and interface designer with 12 years of experience. Currently, he is the head of design at Unmetric.
+
+                //a.c-billboard__link(href="#") Learn more
 
 
 
 
 
-            
+            // JOURNAL ENTRIES
+            //section.c-section.l-grid.l-grid--section
+                h2.c-section__heading Journal
+
+
+                section.c-section__content
+                    article.c-entry
+                        h3.c-entry__heading Interesting approach for managing your commits.
+
+                        a.c-entry__link(href="#")
+                            address.c-entry__author Sven Hofmann
+
+
+                            section.c-entry__content
+                                h4 Commit Message Driven Development
+                                
+                                p In software development, we usually start with writing the code. But what if we&apos;d start by writing out the commit message? Follow me through the concept of commit message driven development.
+        
+    
+
+
+
 
 
         
+
+
+    

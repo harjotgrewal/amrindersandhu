@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// BILLBOARD
+// -----------------------------------------------------------------------------
+
+
+.c-billboard {
+    background-color: #ff0;
+}
+
+
+.c-billboard__title {
+    padding-left: 125px;
+    position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 15px;
+        width: 50%;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        background-color: $color-grey-darker;
+    }
+}
+
+
+.c-billboard__blurb {
+    font-size: $font-size-l;
+    color: $color-text-light;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}

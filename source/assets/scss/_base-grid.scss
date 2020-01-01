@@ -14,7 +14,8 @@
 
 
 .l-grid--header {
-    grid-template-areas: "name name . . . nav nav nav nav nav";
+    align-items: center;
+    grid-template-areas: "name name name name . nav nav nav nav nav";
     grid-template-rows: 100px;
 
     //#TODO: Grid area names to be placed in component files or in the layout files
@@ -31,7 +32,7 @@
 
 
 .l-grid--billboard {
-    grid-column: 1/8;
+    grid-column: 1/-1;
     grid-auto-flow: row;
     grid-template-rows: auto auto auto;
 
@@ -40,7 +41,7 @@
     }
     
     .c-billboard__blurb {
-        grid-column: 3/8;
+        grid-column: 3/10;
     }
 
     .c-billboard__link {
