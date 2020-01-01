@@ -1,4 +1,181 @@
 /**
  * Basic typography style for copy text
  */
+
+/*
+ * Using 5 sizes based on perfect fifth scale (2:3) using 20px as base size. 
+ * Scale generated using https://www.modularscale.com/
+*/ 
  
+ $font-size-xxl: 101.25px;
+ $font-size-xl: 67.5px;
+ $font-size-l: 45px;
+ $font-size-m: 30px;
+ $font-size-s: 20px;
+
+
+ 
+
+
+.text-size-xxl {
+    font-size: $font-size-xxl;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 1;
+}
+
+
+.text-size-xl {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+
+.text-size-l {
+    font-size: $font-size-l;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+
+.text-size-m {
+    
+    //line-height: 1.5;
+}
+
+
+.text-size-s {
+    font-size: $font-size-s;
+    line-height: 1.5;
+}
+
+
+h4 {
+    font-size: $font-size-m;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 1.1;
+}
+
+
+.text-style-5 {
+    color: $color-text-light;
+    font-size: $font-size-s;
+    letter-spacing: 5px;;
+    line-height: 1.5;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+
+.text-style-4 {
+    font-size: $font-size-s;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+
+body {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        background-color: #ccc;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+    }
+}
+
+.type-body {
+    font-family: ff-scala-web, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.u-mar-left--more {
+    transform: translateX(600px);
+    width: 650px;
+}
+
+
+.u-mar-left--less {
+    transform: translateX(100px);
+}
+
+ 
+
+.c-entry {
+    margin-top: 100px;
+}
+
+
+
+.c-entry__blurb {
+    border-left: 5px solid rgba(black, .1);
+    display: block;
+    margin-top: 15px;
+    padding-left: 50px;
+    //padding-top: 5px;
+
+    // h4 {
+    //     background-color: #F3F3FF;
+    //     margin-left: -75px;
+    //     padding-bottom: 20px;
+    //     padding-left: 25px;
+    //     padding-top: 15px;
+    // }
+}
+
+
+.c-name {
+    font-size: $font-size-m;
+    font-weight: bold;
+    color: $color-text-lighter;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+
+    &::before {
+        content: "";
+        display: block;
+        //border-bottom: 5px solid $color-text-light;
+        position: absolute;
+        left: -9999px;
+        right: 0;
+    }
+}
+
+
+
+.c-billboard {
+    background: white;
+    padding: 100px 100px 100px 0;
+    margin: 100px 0;
+}
+
+
+
+.c-nav__link {
+    align-items: center;
+    background-color: $theme-bg-1;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+
+    &.is-active {
+        .c-nav__icon {
+            fill: $color-grey-darker;
+        }
+    }
+}
+
+.c-nav__icon {
+    fill: $color-text-light;
+}
