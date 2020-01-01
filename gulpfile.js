@@ -19,7 +19,7 @@ var replace = require('gulp-replace');
 const files = { 
     scssPath: 'source/assets/scss/**/*.scss',
     jsPath: 'source/assets/js/*.js',
-    jadePath: 'source/*.jade'
+    pugPath: 'source/*.pug'
 }
 
 
@@ -55,9 +55,9 @@ function jsTask(){
 
 
 
-// Jade task: converts jade files into html
+// Pug task: converts pug files into html
 function pugTask(){
-  return src(files.jadePath)
+  return src(files.pugPath)
     .pipe(pug({
         pretty: true
     }))
@@ -87,7 +87,7 @@ function watchTask(){
     notify: false,
     directory: true
 });
-    watch([files.scssPath, files.jsPath, files.jadePath], 
+    watch([files.scssPath, files.jsPath, files.pugPath], 
         series(
             parallel(scssTask, jsTask, pugTask)
         )
