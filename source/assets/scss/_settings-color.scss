@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// COLORS
+// -----------------------------------------------------------------------------
+
+$color-grey-darker: #050505;
+$color-grey-dark: #454545;
+$color-grey-light: #858585;
+$color-grey-lighter: #c5c5c5;
+$color-grey-lightest: #f5f5f5;
+
+
+
+
+
+// TEXT COLORS
+$color-text-base: $color-grey-darker;
+$color-text-light: $color-grey-light;
+$color-text-lighter: $color-grey-lighter;
+
+.color-text-light {
+  color: $color-text-light;
+}
+
+
+
+// THEME BACKGROUND COLORS
+
+$theme-bg-1: #F3F3FF;

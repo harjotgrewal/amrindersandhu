@@ -12,10 +12,22 @@ http://amrindersandhu.com
 
 /* Author Style */
 
+html::before {
+    background-color: #F3F3FF;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 40%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 0;
+} 
+
 body { 
     background-color: white;
     color: #222; 
-    font: 62.5% -apple-system, BlinkMacSystemFont, sans-serif; 
+    font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
     line-height: 1.5;
 }
 
