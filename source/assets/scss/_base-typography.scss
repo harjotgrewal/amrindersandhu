@@ -15,22 +15,63 @@ $font-size-m: 30px;
 $font-size-s: 20px;
 
 
-body {
-    column-gap: 25px;
-    display: grid;
-    grid-template-columns: repeat(10, 100px);
-    grid-template-columns: repeat(10, 100px);
-    row-gap: 25px;
-}
+// body {
+//     column-gap: 25px;
+//     display: grid;
+//     grid-template-columns: repeat(10, 100px);
+//     grid-template-columns: repeat(10, 100px);
+//     row-gap: 25px;
+// }
 
-h1 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
+// h1 {
+//     grid-column-start: 1;
+//     grid-column-end: 5;
+// }
 
  
+html::before {
+    background-color: $theme-bg-3;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 35%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 0;
+} 
 
 
+body { 
+    background-color: white;
+    color: #222; 
+    font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
+    line-height: 1.5;
+    width: 1250px;
+
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    column-gap: 25px;
+}
+
+
+header {
+    grid-column: 1/10;
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    column-gap: 25px;
+}
+
+main {
+    grid-column: 1/10;
+}
+
+nav {
+    grid-column: 5/10;
+}
+
+
+h1,
 .text-size-xxl {
     font-size: $font-size-xxl;
     font-weight: 700;
@@ -70,7 +111,7 @@ h4 {
 
 
 .text-style-5 {
-    color: $color-text-lighter;
+    color: $color-text-light;
     font-size: $font-size-s;
     letter-spacing: 5px;;
     line-height: 1.5;
@@ -86,24 +127,11 @@ h4 {
 }
 
 
-body {
-    position: relative;
-
-    &::before {
-        position: absolute;
-        background-color: #ccc;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 50%;
-    }
+.type-serif {
+    font-family: ff-scala-web, serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-// .type-body {
-//     font-family: ff-scala-web, serif;
-//     font-weight: 400;
-//     font-style: normal;
-// }
 
 
 .u-mar-left--more {
@@ -125,19 +153,10 @@ body {
 
 
 .c-entry__blurb {
-    border-left: 6px double rgba(black, .1);
+    border-left: 6px double $color-grey-lighter;
     display: block;
     margin-top: 15px;
     padding-left: 50px;
-    //padding-top: 5px;
-
-    // h4 {
-    //     background-color: #F3F3FF;
-    //     margin-left: -75px;
-    //     padding-bottom: 20px;
-    //     padding-left: 25px;
-    //     padding-top: 15px;
-    // }
 }
 
 
@@ -164,11 +183,13 @@ body {
 
 
 .c-billboard {
-    background: white;
+    background: #fff;
     grid-column-start: 1;
     grid-column-end: 8;
-    padding: 100px 100px 100px 0;
-    margin: 100px 0;
+    padding: 200px 100px;
+    margin: 0 0 100px -100px;
+    position: relative;
+    z-index: 9;
 }
 
 
@@ -190,4 +211,21 @@ body {
 
 .c-nav__icon {
     fill: $color-text-light;
+}
+
+
+.c-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-column-gap: 75px;
+    grid-row-gap: 75px;
+    width: 1250px;
+    z-index: 2;
+}
+
+.c-book__cover {
+    //border: 1px solid $color-grey-lighter;
+    box-shadow: 0 5px 20px rgba(black, .15);
+    width: 150px;
 }
