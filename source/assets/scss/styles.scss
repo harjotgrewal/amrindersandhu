@@ -4,15 +4,7 @@
 
 
 //- #SETTINGS
-
-
-
-
-
-//- #BASE
-@import 'base-page';
-@import 'base-typography';
-
+@import 'settings-color';
 
 
 
@@ -20,6 +12,15 @@
 //- #GENERIC
 @import 'generic-normalize';
 @import 'generic-reset';
+
+
+
+
+
+//- #BASE
+//@import 'base-grid';
+@import 'base-page';
+@import 'base-typography';
 
 
 
