@@ -55,7 +55,7 @@ body {
 	font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
 	line-height: 1.5;
 	margin-bottom: 50px;
-	grid-template-columns: ifr;
+	grid-template-columns: 1fr;
 
 	@include media-query(hd) {
 		column-gap: 25px;
