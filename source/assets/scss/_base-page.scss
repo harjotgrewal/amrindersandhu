@@ -49,12 +49,18 @@ body {
   color: $color-grey-darker; 
   font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
   line-height: 1.5;
-  width: 1250px;
+  // width: 1250px; Removing the width attribute since its already provided by the grid
 
   display: grid;
   grid-template-columns: repeat(10, 100px);
   column-gap: 25px;
   margin-bottom: 100px;
+
+    @include media-query(palm) {
+         grid-template-columns: 1fr;
+         width: 100%;
+    }
+
 }
 
 

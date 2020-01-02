@@ -1,0 +1,25 @@
+/* ---------------------------- *\
+    #SETTINGS-RESPONSIVE
+\* ---------------------------- */
+
+// Breakpoints
+$bp-small:   48em;     // 768px
+$bp-medium:  64em;     // 1024px
+$bp-large:   85.375em; // 1366px
+$bp-xlarge:  120em;    // 1920px
+$bp-xxlarge: 160em;    // 2560px
+
+
+// Hold our breakpoint aliases and conditions in a list.
+
+$breakpoints: (
+    "palm"          "screen and (max-width: 44.9375em)",
+    "lap"           "screen and (min-width: 45em) and (max-width: 63.9375em)",
+    "lap-and-up"    "screen and (min-width: 45em)",
+    "portable"      "screen and (max-width: 63.9375em)",
+    "desk"          "screen and (min-width: 64em)",
+    "retina"        "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)",
+    "tv"            "screen and (min-width: 120em)",
+    "hd"            "screen and (min-width: 1139px)",
+    "w_lap"         "screen and (max-height: 800px)"
+) !default;
