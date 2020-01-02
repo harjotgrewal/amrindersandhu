@@ -4,13 +4,20 @@
 
 
 .c-billboard {
-    background-color: #ff0;
+    background: #fff;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    padding: 200px 100px;
+    margin: 0 0 100px -100px;
+    position: relative;
+    z-index: 9;
 }
 
 
 .c-billboard__title {
     padding-left: 125px;
     position: relative;
+    text-transform: uppercase;
 
     &::before {
         content: "";
@@ -25,10 +32,17 @@
     }
 }
 
+.p-about {
+    .c-billboard__title::before {
+        top: 64px;
+    }
+}
+
 
 .c-billboard__blurb {
     font-size: $font-size-l;
-    color: $color-text-light;
+    font-weight: bold;
+    color: $color-grey-dark;
     letter-spacing: -1px;
     line-height: 1.1;
 }

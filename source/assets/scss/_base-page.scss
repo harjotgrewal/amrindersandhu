@@ -33,7 +33,6 @@ a {
 
 
 html::before {
-  background-color: $theme-bg-3;
   bottom: 0;
   content: "";
   display: block;
@@ -47,7 +46,7 @@ html::before {
 
 body { 
   background-color: white;
-  color: #222; 
+  color: $color-grey-darker; 
   font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
   line-height: 1.5;
   width: 1250px;
@@ -55,6 +54,7 @@ body {
   display: grid;
   grid-template-columns: repeat(10, 100px);
   column-gap: 25px;
+  margin-bottom: 100px;
 }
 
 
@@ -62,3 +62,4 @@ main {
   position: relative;
   z-index: 2;
 }
+

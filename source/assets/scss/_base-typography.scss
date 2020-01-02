@@ -130,21 +130,8 @@ p,
 
 
 
-.c-billboard {
-    background: #fff;
-    grid-column-start: 1;
-    grid-column-end: 8;
-    padding: 200px 100px;
-    margin: 0 0 100px -100px;
-    position: relative;
-    z-index: 9;
-}
-
-
-
 .c-nav__link {
     align-items: center;
-    background-color: $theme-bg-1;
     display: flex;
     justify-content: center;
     height: 100px;
@@ -186,6 +173,7 @@ p,
     padding-left: 125px;
     line-height: 1;
     top: 50px;
+    margin-top: 100px;
 
     &::before {
         background-color: $color-grey-light;

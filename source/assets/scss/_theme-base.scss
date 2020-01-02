@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// THEME COLORS
+// -----------------------------------------------------------------------------
+
+
+.p-home {
+    &::before {
+        background-color: $theme-bg-light-1;
+    }
+
+    .c-billboard {
+        background-color: $theme-bg-bright-1;
+    }
+}
+
+
+
+
+
+.p-about {
+    &::before {
+        background-color: $theme-bg-light-2;
+    }
+
+    .c-billboard {
+        background-color: $theme-bg-bright-2;
+    }
+}
