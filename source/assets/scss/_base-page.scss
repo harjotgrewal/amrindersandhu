@@ -18,7 +18,7 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /**
@@ -33,39 +33,35 @@ a {
 
 
 html::before {
-  bottom: 0;
-  content: "";
-  display: block;
-  left: 500px;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 0;
+	bottom: 0;
+	content: "";
+	display: block;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 0;
+
+	@include media-query(hd) {
+		left: 500px;
+	}
 } 
 
 
 body { 
-  background-color: white;
-  color: $color-grey-darker; 
-  font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
-  line-height: 1.5;
-  // width: 1250px; Removing the width attribute since its already provided by the grid
+	background-color: white;
+	color: $color-grey-darker; 
+	display: grid;
+	font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
+	line-height: 1.5;
+	margin-bottom: 50px;
+	grid-template-columns: ifr;
 
-  display: grid;
-  grid-template-columns: repeat(10, 100px);
-  column-gap: 25px;
-  margin-bottom: 100px;
-
-    @include media-query(palm) {
-         grid-template-columns: 1fr;
-         width: 100%;
-    }
-
-}
-
-
-main {
-  position: relative;
-  z-index: 2;
+	@include media-query(hd) {
+		column-gap: 25px;
+		grid-template-columns: repeat(10, 100px);
+		grid-template-rows: 100px auto;
+		margin-bottom: 100px;
+	}
 }
 

@@ -3,6 +3,14 @@
 
 
 
+
+//- #TOOLS
+@import 'tools-responsive';
+
+
+
+
+
 //- #SETTINGS
 @import 'settings-color';
 @import 'settings-responsive';
@@ -22,14 +30,6 @@
 //- #BASE
 @import 'base-page';
 @import 'base-typography';
-@import 'base-grid';
-
-
-
-
-
-//- #TOOLS
-@import 'tools-responsive';
 
 
 
@@ -37,7 +37,9 @@
 //- #COMPONENTS
 @import 'components-billboard';
 @import 'components-entry';
-@import 'components-nav';
+@import 'components-header';
+@import 'components-main';
+@import 'components-section';
 
 
 
