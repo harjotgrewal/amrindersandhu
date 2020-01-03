@@ -5,12 +5,12 @@
 .c-header { 
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 75px;
 
     @include media-query(hd) {
         column-gap: 25px;
-        grid-template-areas: "name name name name . nav nav nav nav nav";
+        grid-template-areas: "name name name name . nav nav nav nav ham";
         grid-template-columns: repeat(10, 100px);   
         grid-template-rows: 100px;
         grid-column: 1/-1;      
@@ -55,6 +55,44 @@
 
 
 
+
+//- TODO: NAV styles should be in header or in a separate components nav file
 .c-nav {
-    grid-area: nav;
+    grid-column: 6/10;
+    z-index: 9;
+
+    @include media-query(palm) {
+        display: none;
+    }
+}
+
+
+
+
+.c-nav__list {
+    align-items: center;
+    column-gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+}
+
+
+
+
+.c-nav__item {
+    
+}
+
+
+
+
+.c-menu {
+    display: none;
+
+    @include media-query(palm) {
+        display: block;
+        justify-self: center;
+        z-index: 9;
+    }
 }
