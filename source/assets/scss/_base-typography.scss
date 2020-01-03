@@ -70,7 +70,6 @@ h4 {
 
     @include media-query(hd) {
         font-size: $font-size-m;
-        letter-spacing: -3px;
     }
 }
 
@@ -160,32 +159,16 @@ p,
 .c-section__heading {
     color: $color-text-light;
     line-height: 1;
-    margin-top: 50px;
+    margin-top: 75px;
     padding-left: 25px;
     position: relative;
-
-    &::before {
-        background-color: $color-grey-light;
-        content: "";
-        display: block;
-        height: 7px;
-        left: 0;
-        position: absolute;
-        top: 7px;
-        width: 38px;
-    }
+    text-transform: uppercase;
 
     @include media-query(hd) {
         margin-top: 100px;
         position: sticky;
         padding-left: 125px;
         top: 50px;
-
-        &::before {
-            height: 10px;
-            top: 12px;
-            width: 140px;
-        }
    }
 }
 

@@ -22,33 +22,16 @@
     color: $color-text-lighter;
     display: inline-block;
     font-size: $font-size-s;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 1;
     padding-left: 25px;
     position: relative;
     text-transform: uppercase;
 
-    &::before {
-        background-color: $color-grey-lighter;
-        content: "";
-        display: block;
-        height: 3px;
-        left: 0;
-        position: absolute;
-        top: 14px;
-        width: 27px;
-    }
-
     @include media-query(hd) {
         font-size: $font-size-m;
         grid-area: name;
         padding-left: 125px;
-
-        &::before {
-            height: 5px;
-            top: 20px;
-            width: 27%;
-        }
    }
 }
 

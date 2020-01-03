@@ -3,41 +3,8 @@
 // -----------------------------------------------------------------------------
 
 
-
-
-.c-billboard__title {
-    position: relative;
-    text-transform: uppercase;
-    grid-column: 1/8;
-
-    &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        height: 10px;
-        width: 30px;
-        left: -25px;
-        top: 50%;
-        transform: translate(0, -50%);
-        background-color: $color-grey-darker;
-    }
-
-    @include media-query(hd) {
-        grid-column: 1/4;
-        padding-left: 125px;
-
-        &::before {
-            height: 15px;
-            width: 145px;
-            left: 0;
-            top: 50%;
-            transform: translate(0, -50%);
-        }
-   }
-}
-
-
 .c-billboard {
+    align-items: center;
     background: #fff;
     display: grid;
     grid-auto-flow: row;
@@ -46,14 +13,28 @@
     position: relative;
     width: calc(100vw - 25px);
     z-index: 9;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-bottom: 50px solid white;
+        border-left: 50px solid transparent;
+    }
     
     @include media-query(hd) {
-        align-items: center;
         column-gap: 25px;
         grid-template-columns: repeat(10, 100px);   
         margin-bottom: 100px;
-        padding: 200px 0;
+        padding: 150px 0;
         width: auto;
+
+        &::after {
+            border-bottom-width: 100px;
+            border-left-width: 100px;
+        }
 
 
         .c-billboard__link {
@@ -63,29 +44,32 @@
 }
 
 
+.c-billboard__title {
+    color: rgba(white, .25);
+    position: absolute;
+    text-transform: uppercase;
+    //grid-column: 1/8;
+    z-index: 1;
 
-
-
-.p-about {
-    .c-billboard__title::before {
-        top: 64px;
-    }
+    @include media-query(hd) {
+        //grid-column: 1/4;
+        //padding-left: 125px;
+   }
 }
-
-
-
 
 
 .c-billboard__blurb {
     grid-column: 1/8;
-    font-size: $font-size-s;
-    font-weight: bold;
+    font-size: $font-size-m;
+    font-weight: 700;
     color: $color-grey-dark;
     line-height: 1.1;
+    position: relative;
+    z-index: 2;
 
     @include media-query(hd) {
-        grid-column: 3/10;
-        font-size: $font-size-l;
+        grid-column: 2/10;
+        font-size: $font-size-xl;
         letter-spacing: -1px;
    }
 }
