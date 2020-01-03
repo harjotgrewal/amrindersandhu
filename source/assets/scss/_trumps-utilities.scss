@@ -1,0 +1,40 @@
+/* -------------------- *\
+   #UTILITIES
+\* -------------------- */
+
+// MARGINS 
+.u-mar-left--more {
+    transform: translateX(600px);
+    width: 650px;
+}
+
+
+.u-mar-left--less {
+    transform: translateX(100px);
+}
+
+
+
+
+// TYPOGRAPHY
+.type-serif {
+    font-family: ff-scala-web, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.u-text-size-s {
+    font-size: $font-size-s;
+    line-height: 1.5;
+}
+
+
+.u-text-style-5 {
+    color: $color-text-light;
+    font-size: $font-size-s;
+    letter-spacing: 5px;;
+    line-height: 1.5;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
