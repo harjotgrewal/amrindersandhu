@@ -10,6 +10,21 @@
 
     .c-billboard {
         background-color: $theme-bg-bright-1;
+
+        &::after {
+            border-bottom-color: $theme-bg-light-1;
+        }
+    }
+
+    .c-billboard__title {
+        color: rgba(white, .5);//$theme-bg-light-1;
+        font-size: 120px;
+        margin-left: -10px;
+
+        @include media-query(hd) {
+            font-size: 420px;
+            margin-left: -30px;
+        }
     }
 }
 
@@ -24,5 +39,76 @@
 
     .c-billboard {
         background-color: $theme-bg-bright-2;
+
+        &::after {
+            border-bottom-color: $theme-bg-light-2;
+        }
+    }
+
+    .c-billboard__title {
+        color: rgba(white, .25);//$theme-bg-light-1;
+        font-size: 120px;
+        margin-left: -10px;
+
+        @include media-query(hd) {
+            font-size: 450px;
+            margin-left: -30px;
+        }
+    }
+}
+
+
+
+
+.p-reading {
+    &::before {
+        background-color: $theme-bg-light-3;
+    }
+
+    .c-billboard {
+        background-color: $theme-bg-bright-3;
+
+        &::after {
+            border-bottom-color: $theme-bg-light-3;
+        }
+    }
+
+    .c-billboard__title {
+        color: rgba(white, .25);//$theme-bg-light-1;
+        font-size: 120px;
+        margin-left: -10px;
+
+        @include media-query(hd) {
+            font-size: 450px;
+            margin-left: -30px;
+        }
+    }
+}
+
+
+
+
+.p-work {
+    &::before {
+        background-color: $theme-bg-light-4;
+    }
+
+    .c-billboard {
+        background-color: $theme-bg-bright-4;
+
+        &::after {
+            border-bottom-color: $theme-bg-light-4;
+        }
+    }
+
+    .c-billboard__title {
+        color: rgba(white, .25);//$theme-bg-light-1;
+        font-size: 120px;
+        margin-left: -10px;
+
+        @include media-query(hd) {
+            font-size: 525px;
+            margin-left: -20px;
+        }
     }
 }
