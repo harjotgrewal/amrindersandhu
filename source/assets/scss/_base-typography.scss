@@ -196,4 +196,35 @@ em {
         font-size: $font-size-s;
         margin-top: 25px;
     }
+
+    li {
+        margin-top: 5px;
+    }
+}
+
+
+.c-books_list {
+    li {
+        color: $color-grey-light;
+    }
+
+    a {
+        border-color: $theme-bg-bright-3;
+        color: $color-grey-darker;
+        font-weight: 500;
+
+        &:hover {
+            border-width: 3px;
+        }
+    }
+
+    em {
+        color: $color-grey-dark;
+    }
+}
+
+
+a {
+    border-bottom: 1px solid;
+    text-decoration: none;
 }
