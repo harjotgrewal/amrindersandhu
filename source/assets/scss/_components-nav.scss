@@ -1,0 +1,64 @@
+// -----------------------------------------------------------------------------
+// NAVIGATION
+// -----------------------------------------------------------------------------
+
+.c-nav {
+    grid-column: 6/10;
+    z-index: 9;
+
+    @include media-query(palm) {
+        display: none;
+    }
+}
+
+
+
+
+.c-nav__list {
+    align-items: center;
+    column-gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+}
+
+
+
+
+.c-nav__item {
+    
+}
+
+
+
+
+.c-menu {
+    display: none;
+
+    @include media-query(palm) {
+        display: block;
+        justify-self: center;
+        z-index: 9;
+    }
+}
+
+
+
+
+
+.c-nav__link {
+    align-items: center;
+    border: 0 none;
+    display: flex;
+    height: 100px;
+
+    &.is-active {
+        .c-nav__icon {
+            fill: $color-grey-darker;
+        }
+    }
+}
+
+.c-nav__icon {
+    fill: $color-text-light;
+}
