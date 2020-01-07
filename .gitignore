@@ -3,3 +3,12 @@ source/assets/.DS_Store
 source/assets/i/.DS_Store
 source/assets/i/icons/.DS_Store
 public/assets/i/.DS_Store
+_site/
+_site/css/styles.css
+_site/index.html
+_site/reading.html
+_site/work.html
+_site/css/styles.css
+_site/index.html
+_site/reading.html
+_site/work.html
