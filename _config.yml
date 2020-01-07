@@ -1,4 +1,10 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+# Site settings
+title: Amrinder Sandhu
+email: amrinder@outlook.in
+description: "Amrinder Singh Sandhu is a UX/UI designer from Ancaster, Canada. He designs web and mobile apps."
+baseurl: ""
+url: "https://amrindersandhu.com/"
+future: true
+
+# Build settings
+markdown: kramdown
