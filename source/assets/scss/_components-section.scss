@@ -32,7 +32,7 @@
 
     @include media-query(hd) {
         grid-column: 1/-1;
-        margin: 30px;
+        margin: 0;
         max-width: 100vw;
         grid-column: 6/-1;  
     }
@@ -46,3 +46,9 @@
     grid-column: 3/5;
 }
 
+
+
+
+.c-photo--1 {
+    width: 500px;
+}

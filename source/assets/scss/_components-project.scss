@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// PROJECT
+// -----------------------------------------------------------------------------
+
+
+.c-project_list {
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-columns: repeat(10, 100px);
+    column-gap: 25px;
+    grid-template-rows: auto;
+    margin-top: 150px;
+
+    .c-project_cover {
+        grid-column: 1/7;
+        height: 450px;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .c-project_info {
+        grid-column: 8/-1;
+        z-index: 2;
+    }
+}

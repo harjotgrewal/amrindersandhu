@@ -27,7 +27,7 @@
     @include media-query(hd) {
         column-gap: 25px;
         grid-template-columns: repeat(10, 100px);   
-        margin-bottom: 100px;
+        //margin-bottom: 100px;
         padding: 150px 0;
         width: auto;
 

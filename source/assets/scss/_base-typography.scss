@@ -150,10 +150,10 @@ em {
     text-transform: uppercase;
 
     @include media-query(hd) {
-        margin-top: 100px;
-        position: sticky;
+        margin-top: 150px;
+        //position: sticky;
         padding-left: 125px;
-        top: 50px;
+        //top: 50px;
    }
 }
 
