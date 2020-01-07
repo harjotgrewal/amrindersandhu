@@ -639,7 +639,7 @@ em {
   color: #858585; }
 
 .c-books_list a {
-  border-color: #41A3FD;
+  border-color: #01CD7D;
   color: #050505;
   font-weight: 500; }
   .c-books_list a:hover {
@@ -919,15 +919,15 @@ a {
     z-index: 2; }
 
 .p-home .c-name {
-  color: #ffcc00; }
+  color: #EF483F; }
 
 .p-home::before {
-  background-color: #e4f9ff; }
+  background-color: #E4FCF9; }
 
 .p-home .c-billboard {
-  background-color: #ffcc00; }
+  background-color: #EF483F; }
   .p-home .c-billboard::after {
-    border-bottom-color: #e4f9ff; }
+    border-bottom-color: #E4FCF9; }
 
 .p-home .c-billboard__title {
   color: rgba(255, 255, 255, 0.15);
@@ -939,18 +939,18 @@ a {
       margin-left: -30px; } }
 
 .p-home .c-billboard__blurb {
-  color: #e4f9ff; }
+  color: #E4FCF9; }
 
 .p-about .c-name {
-  color: #ff7315; }
+  color: #B975FE; }
 
 .p-about::before {
-  background-color: #eaffd0; }
+  background-color: #F1FFDF; }
 
 .p-about .c-billboard {
-  background-color: #ff7315; }
+  background-color: #B975FE; }
   .p-about .c-billboard::after {
-    border-bottom-color: #eaffd0; }
+    border-bottom-color: #F1FFDF; }
 
 .p-about .c-billboard__title {
   color: rgba(255, 255, 255, 0.15);
@@ -962,18 +962,18 @@ a {
       margin-left: -30px; } }
 
 .p-about .c-billboard__blurb {
-  color: #eaffd0; }
+  color: #F1FFDF; }
 
 .p-reading .c-name {
-  color: #41A3FD; }
+  color: #01CD7D; }
 
 .p-reading::before {
-  background-color: #FFE8D6; }
+  background-color: #FFF0E3; }
 
 .p-reading .c-billboard {
-  background-color: #41A3FD; }
+  background-color: #01CD7D; }
   .p-reading .c-billboard::after {
-    border-bottom-color: #FFE8D6; }
+    border-bottom-color: #FFF0E3; }
 
 .p-reading .c-billboard__title {
   color: rgba(255, 255, 255, 0.15);
@@ -985,18 +985,18 @@ a {
       margin-left: -30px; } }
 
 .p-reading .c-billboard__blurb {
-  color: #FFE8D6; }
+  color: #FFF0E3; }
 
 .p-work .c-name {
-  color: #01CD7D; }
+  color: #00D1FF; }
 
 .p-work::before {
-  background-color: #F6E1E1; }
+  background-color: #FAF5E4; }
 
 .p-work .c-billboard {
-  background-color: #01CD7D; }
+  background-color: #00D1FF; }
   .p-work .c-billboard::after {
-    border-bottom-color: #F6E1E1; }
+    border-bottom-color: #FAF5E4; }
 
 .p-work .c-billboard__title {
   color: rgba(255, 255, 255, 0.15);
@@ -1008,7 +1008,7 @@ a {
       margin-left: -20px; } }
 
 .p-work .c-billboard__blurb {
-  color: #F6E1E1; }
+  color: #FAF5E4; }
 
 /* -------------------- *   #UTILITIES
 \* -------------------- */
