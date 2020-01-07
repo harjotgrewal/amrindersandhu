@@ -1,6 +1,8 @@
-/* -------------------- *   #TOOLS-RESPONSIVE
+/* -------------------- *\
+   #TOOLS-RESPONSIVE
 \* -------------------- */
-/* ---------------------------- *    #SETTINGS-RESPONSIVE
+/* ---------------------------- *\
+    #SETTINGS-RESPONSIVE
 \* ---------------------------- */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -1010,7 +1012,8 @@ a {
 .p-work .c-billboard__blurb {
   color: #FAF5E4; }
 
-/* -------------------- *   #UTILITIES
+/* -------------------- *\
+   #UTILITIES
 \* -------------------- */
 .u-mar-left--more {
   -webkit-transform: translateX(600px);
