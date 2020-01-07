@@ -1,0 +1,364 @@
+---
+layout: default
+title: Amrinder Sandhu
+page-class: p-reading
+page-heading: Books
+page-description: I strongly believes in continous learning. Whenever I start working on something new or need to understand something better, I’d pick a book on the subject.
+---
+
+{% include header.html %}
+
+<main class="c-main l-grid">      
+    {% include billboard.html %}
+
+    <!-- JOURNAL ENTRIES-->
+    <section class="c-section">
+        <h2 class="c-section__heading">Books</h2>
+
+
+        <section class="c-section__content">
+            <h3>Branding</h3>            
+                
+                {% for book in site.data.books.branding %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> 
+                        <span>by</span>
+                        <em>{{ book.author }}</em>
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}              
+        </section>
+
+
+
+
+
+        <section class="c-section__content">
+            <h3>Colors</h3>            
+                
+                {% for book in site.data.books.colors %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Content Strategy</h3>            
+                
+                {% for book in site.data.books.content %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Data Visualization</h3>            
+                
+                {% for book in site.data.books.data %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+
+        <section class="c-section__content">
+            <h3>Front-end Development</h3>            
+                
+                {% for book in site.data.books.frontend %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Content Strategy</h3>            
+                
+                {% for book in site.data.books.content %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+        <section class="c-section__content">
+            <h3>Design Process</h3>            
+                
+                {% for book in site.data.books.process %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Data Visualization</h3>            
+                
+                {% for book in site.data.books.data %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Front-end Development</h3>            
+                
+                {% for book in site.data.books.frontend %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+        <section class="c-section__content">
+            <h3>Graphic Design</h3>            
+                
+                {% for book in site.data.books.graphics %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+        <section class="c-section__content">
+            <h3>Information Architecture</h3>            
+                
+                {% for book in site.data.books.ia %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+        <section class="c-section__content">
+            <h3>Interaction Design</h3>            
+                
+                {% for book in site.data.books.id %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+        <section class="c-section__content">
+            <h3>Productivity</h3>            
+                
+                {% for book in site.data.books.productivity %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Content Strategy</h3>            
+                
+                {% for book in site.data.books.content %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Product Design</h3>            
+                
+                {% for book in site.data.books.pd %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+
+        <section class="c-section__content">
+            <h3>Product Management</h3>            
+                
+                {% for book in site.data.books.pm %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Psychology</h3>            
+                
+                {% for book in site.data.books.psy %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Typography</h3>            
+                
+                {% for book in site.data.books.typo %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Usability</h3>            
+                
+                {% for book in site.data.books.usability %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+
+        <section class="c-section__content">
+            <h3>User Experience</h3>            
+                
+                {% for book in site.data.books.ux %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>User Research</h3>            
+                
+                {% for book in site.data.books.ur %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Web and Mobile Design</h3>            
+                
+                {% for book in site.data.books.web %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+
+
+
+
+        <section class="c-section__content">
+            <h3>Miscellaneous</h3>            
+                
+                {% for book in site.data.books.misc %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}             
+        </section>
+    </section>    
+
+    
+</main>    

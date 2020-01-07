@@ -1,0 +1,1045 @@
+
+branding:
+- {	
+	url: 'https://www.amazon.com/Logo-Design-Love-Creating-Identities/dp/0321985206',
+	name: 'Logo design love',
+	author: 'David Airey'
+}
+
+- {	
+	url: 'https://www.amazon.com/Designing-Brand-Identity-Essential-Branding/dp/1118099206',
+	name: 'Designing brand identity',
+	author: 'Alina Wheeler'	
+}
+
+
+
+
+business:
+- {	
+	url: 'https://www.amazon.com/Why-We-Fail-Learning-Experience/dp/1933820179',
+	name: 'Why we fail',
+	author:  'Victor Lombardi'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X',
+	name: 'Hacking growth',
+	author: 'Morgan Brown and <em>Sean Ellis'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Trendology-Advantage-Data-Driven-Real-Time-Marketing/dp/1137479558',
+	name: 'Trendology',
+	author: 'Chris Kerns'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Sense-Respond-Successful-Organizations-Continuously/dp/1633691888',
+	name: 'Sense and Respond',
+	author: 'Jeff Gothelf and Josh Seiden'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Experience-Required-become-leader-regardless/dp/0134398270',
+	name: 'Experience Required',
+	author: 'Hoekman Jr Robert'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Extreme-Revenue-Growth-Startup-Industry/dp/0984183515',
+	name: 'Extreme Revenue Growth',
+	author: 'Victor Cheng'	
+}
+
+
+
+colors:
+- {	
+	url: 'https://www.amazon.com/Elements-Color-Treatise-System-Johannes/dp/0471289299',
+	name: 'The Elements of Color',
+	author:  'Johannes Itten'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Why-We-Fail-Learning-Experience/dp/1933820179',
+	name: 'Colour Index Two',
+	author:  'Jim Krause'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Why-We-Fail-Learning-Experience/dp/1933820179',
+	name: 'The Designer’s Guide to Colour Combinations',
+	author:  'Leslie Cabarga'	
+}
+
+
+
+
+
+content:
+- {	
+	url: 'https://www.amazon.com/Nicely-Said-Writing-Purpose-Voices/dp/0321988191',
+	name: 'Nicely Said',
+	author:  'Kate Kiefer Lee <span>and</span> Nicole Fenton'	
+}
+
+- {	
+	url: 'https://www.fivesimplesteps.com/products/the-craft-of-words',
+	name: 'The Craft of Words',
+	author:  'The Standardistas'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Spunk-Bite-Writers-Guide-Contemporary/dp/0375722270',
+	name: 'Spunk & Bite',
+	author:  'Arthur Plotnik'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Elements-Content-Strategy-People-Websites/dp/B004ZRFJ4G',
+	name: 'The Elements of Content Strategy',
+	author:  'Erin Kissane'	
+}
+
+
+
+
+
+process:
+- {	
+	url: 'https://www.amazon.com/Decoding-Design-Understanding-Symbols-Communication/dp/1581809697',
+	name: 'Decoding Design',
+	author:  'Maggie Macnab'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Designing-Design-Kenya-Hara/dp/3037784504',
+	name: 'Designing Design',
+	author:  'Kenya Hara'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Universal-Methods-Design-Innovative-Effective/dp/1592537561',
+	name: 'Universal Methods of Design',
+	author:  'Bella Martin <span>and</span> Bruce Hanington'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Art-Looking-Sideways-Alan-Fletcher/dp/0714834491',
+	name: 'The Art of Looking Sideways',
+	author:  'Alan Fletcher'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654',
+	name: 'The design of everyday things',
+	author:  'Don Norman'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Creative-Selection-Inside-Apples-Process/dp/1250194466',
+	name: 'Creative Selection',
+	author:  'Ken Kocienda'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Thoughts-Design-Paul-Rand/dp/081187544X',
+	name: 'Thoughts on Design',
+	author:  'Paul Rand'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Ways-Seeing-Based-Television-Penguin/dp/0140135154',
+	name: 'Ways of Seeing',
+	author:  'John Berger'	
+}
+
+- {	
+	url: 'https://www.amazon.com/How-Designers-Think-Fourth-Demystified/dp/0750660775',
+	name: 'How Designers Think',
+	author:  'Bryan Lawson'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Seventy-nine-Essays-Design-Michael-Bierut/dp/1616890614',
+	name: '79 Short Essays on Design',
+	author:  'Michael Bierut'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Design-Job-Mike-Monteiro/dp/1937557049',
+	name: 'Design is a Job',
+	author:  'Mike Monteiro'	
+}
+
+
+
+
+
+data:
+- {	
+	url: 'https://www.amazon.com/Information-Dashboard-Design-Effective-Communication/dp/0596100167',
+	name: 'Information Dashboard Design',
+	author:  'Stephen Few'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Practical-Guide-Designing-Data-ebook/dp/B0058ZWZ8C',
+	name: 'A Practical Guide to Designing with Data',
+	author:  'Brian Suda'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Advanced-Presentations-Design-Creating-Communication/dp/1118347919',
+	name: 'Advanced Presentations by Design',
+	author:  'Andrew V. Abela'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Visual-Display-Quantitative-Information/dp/1930824130',
+	name: 'The Visual Display of Quantitative Information',
+	author:  'Edward Tufte'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Visual-Miscellaneum-Colorful-Worlds-Consequential/dp/0061748366',
+	name: 'The Visual Miscellaneum',
+	author:  'David McCandless'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Visualize-This-FlowingData-Visualization-Statistics/dp/0470944889',
+	name: 'Visualize This: The Flowing Data Guide to Design, Visualization, and Statistics',
+	author:  'Nathan Yau'	
+}
+
+
+
+
+frontend:
+- {	
+	url: 'https://www.amazon.com/Sass-Compass-Designers-Ben-Frain/dp/1849694540',
+	name: 'Sass and Compass for Designers',
+	author:  'Ben Frain'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Implementing-Responsive-Design-Building-everywhere/dp/0321821688',
+	name: 'Implementing Responsive Design',
+	author:  'Tim Kadlec'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Handcrafted-CSS-More-Bulletproof-Design/dp/0321643380',
+	name: 'Handcrafted CSS',
+	author:  'Dan Cederholm and Ethan Marcotte'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Web-Standards-Solutions-Handbook-Pioneering/dp/1590593812',
+	name: 'Web Standard Solution￼s￼￼',
+	author: 'Dan Cederholm'	
+}
+
+- {	
+	url: 'https://www.amazon.com/HTML5-Web-Designers-Jeremy-Keith/dp/0984442502',
+	name: 'HTML 5 for Web Designers',
+	author:  'Jeremy Keith'	
+}
+
+- {	
+	url: 'http://smacss.com/book/',
+	name: 'Scalable and Modular Architecture for CSS',
+	author:  'Jonathan Snook'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Css3-Web-Designers-Dan-Cederholm/dp/B005SYVZVQ',
+	name: 'CSS3 for Web Designers',
+	author:  'Dan Cederholm'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Sass-Web-Designers-Dan-Cederholm/dp/193755712X',
+	name: 'SASS for Web Designers',
+	author:  'Dan Cederholm'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Pocket-Guide-CSS-Animations-ebook/dp/B00GOFZ9K6',
+	name: 'Pocket Guide to CSS Animation',
+	author:  'Val Head'	
+}
+
+- {	
+	url: 'https://www.amazon.com/DOM-Scripting-Design-JavaScript-Document/dp/1430233893',
+	name: 'DOM Scripting',
+	author:  'Jeremy Keith'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Bulletproof-Web-Design-flexibility-protecting/dp/0321509021',
+	name: 'Bulletproof Web Design',
+	author:  'Dan Cederholm'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Designing-Web-Standards-Jeffrey-Zeldman/dp/0321616952',
+	name: 'Designing with Web Standards',
+	author:  'Jeffrey Zeldman'	
+}
+
+- {	
+	url: 'https://www.amazon.com/CSS-Mastery-Advanced-Standards-Solutions/dp/1430223979',
+	name: 'CSS Mastery',
+	author:  'Andy Budd'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Zen-CSS-Design-Visual-Enlightenment/dp/0321303474',
+	name: 'The Zen of CSS Design',
+	author:  'Dave Shea and Molly Holzschlag'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Smashing-CSS-Professional-Techniques-Modern/dp/047068416X',
+	name: 'Smashing CSS',
+	author:  'Eric Meyer'	
+}
+
+
+
+
+
+graphics:
+- {	
+	url: '',
+	name: 'The Graphic Artist and his Design Problems',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The Elements of Graphics Design ',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'How to be a Graphic Designer without Losing your Soul',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Making and Breaking the Grid',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Graphic Design Referenced',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'How to Think Like a Great Graphic Designer',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Ordering Disorder',
+	author: ''	
+}
+
+
+
+
+
+
+ia:
+- {	
+	url: '',
+	name: 'Information architecture for the World Wide Web',
+	author: ''	
+}
+
+
+- {	
+	url: '',
+	name: 'Information Architecture',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Card sorting',
+	author: ''	
+}
+
+
+
+
+
+
+id:
+- {	
+	url: '',
+	name: 'Designing the Obvious',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'About Face – The Essentials￼ of Interaction Design￼',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Micro Interactions',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing for Interaction',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing Visual Interfaces',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing Interactions',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designed for Use',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing Interface Animation',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The Inmates are Running the Asylum',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Seductive Interaction Design',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing Social Interfaces',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing for a Motion',
+	author: ''	
+}
+
+
+
+
+
+productivity:
+- {	
+	url: '',
+	name: 'Checklist Manifesto',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Rest',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Remote',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Rework',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Getting Real',
+	author: ''	
+}
+
+
+
+
+
+
+pd:
+- {	
+	url: '',
+	name: 'Building Web Reputation Systems',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'User-Centred Design',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Validating Product Ideas',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Product Design for the Web',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Principles of Product Design',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'User Story Mapping',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The User’s Journey',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The Elements of User Onboarding',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing Products People Love',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing Interfaces',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Communicating Design',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Outcomes Over Output',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Practical Design Discovery',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing the Conversation',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing for the Social Web',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing Web Navigation',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Design System',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Intercom on Onboarding',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Grouped',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Designing the Moment',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Prototyping',
+	author: ''	
+}
+
+
+
+
+
+
+pm:
+- {	
+	url: '',
+	name: 'Shape Up',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Sprint',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Intercom on product management',
+	author: ''	
+}
+
+
+
+
+psy:
+- {	
+	url: '',
+	name: 'Design for How People Learn',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'How to Get People to Do Stuff',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: '100 Things Every Designer Needs to Know About People',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Psychology for Designers',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Neuro Web Design',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Hooked',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Emotional Design',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Thinking Fast and Slow',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Mental Models',
+	author:  'Indi Young'	
+}
+
+
+
+
+
+typo:
+- {	
+	url: '',
+	name: 'Type and Typography',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The New Typography',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'TypeWise',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Thinking with Type',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The Elements of Typographic Style',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'On Web Typography',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'TDC Annual Typography 29',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The Typographic Desk Reference',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Stop Stealing Sheep and Find Out How Type Works￼',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Typography Essentials',
+	author: ''	
+}
+
+
+
+
+
+usability:
+- {	
+	url: '',
+	name: 'Usable Usability',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Simple and Usable',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Homepage Usability',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Rocket Surgery Made Easy',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Mobile Usability￼',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Don’t Make Me Think',
+	author: ''	
+}
+
+
+
+
+ux:
+- {	
+	url: '',
+	name: 'Lean UX',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The Elements of User Experience',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Undercover User Experience Design',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Storytelling for User Experience',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Sketching User Experiences',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The User Experience Team of One',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Mapping Experiences',
+	author: ''	
+}
+
+
+
+
+
+ur:
+- {	
+	url: '',
+	name: 'Interviewing for Research￼',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Just Enough Research',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Remote Research',
+	author: ''	
+}
+
+
+
+
+
+
+web:
+- {	
+	url: '',
+	name: 'Web Form Design',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Art Direction for the Web',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Redesign the Web',
+	author: ''
+}
+
+- {	
+	url: '',
+	name: '￼The Smashing Book #2',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The Smashing Book #3',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Defensive Design for the Web',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Mobile and Multi Device Design',
+	author: ''	
+}
+- {	
+	url: '',
+	name: 'The Mobile Book',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'New Perspectives on Web Sesign',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Tapworthy',
+	author: ''	
+}
+- {	
+	url: '',
+	name: 'Mobile First',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: '24 Ways',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Search Patterns',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Web Anatomy',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Responsive Web Design',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Hardboiled Web Design',
+	author: ''	
+}
+- {	
+	url: '',
+	name: 'The Practical Guide to Designing for the Web',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Learning Web Design',
+	author: ''	
+}
+
+
+- {	
+	url: '',
+	name: 'Transcending CSS',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Web Standards Creativity',
+	author: ''	
+}
+
+
+
+
+
+
+misc:
+- {	
+	url: '',
+	name: 'Show and Tell',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Understanding Comics',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'The Back of the Napkin',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Insanely Simple',
+	author: ''	
+}
+
+- {	
+	url: '',
+	name: 'Lean analytics',
+	author: ''	
+}
+
+
