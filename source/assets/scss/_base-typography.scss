@@ -123,20 +123,26 @@ em {
 
 
 
-
-
 .c-nav__link {
     align-items: center;
+    border-width: 0;
+    color: $color-grey-light;
     display: flex;
+    font-size: $font-size-s;
+    font-weight: 500;
     justify-content: center;
     height: 100px;
     width: 100px;
+    text-transform: uppercase;
 
     &.is-active {
-        .c-nav__icon {
-            fill: $color-grey-darker;
-        }
+        color: $color-grey-darker;
+        // .c-nav__icon {
+        //     fill: $color-grey-darker;
+        // }
     }
+
+
 }
 
 .c-nav__icon {
@@ -171,10 +177,10 @@ em {
     text-transform: uppercase;
 
     @include media-query(hd) {
-        margin-top: 100px;
-        position: sticky;
+        margin-top: 150px;
+        //position: sticky;
         padding-left: 125px;
-        top: 50px;
+        //top: 50px;
    }
 }
 
