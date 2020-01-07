@@ -1,0 +1,84 @@
+// -----------------------------------------------------------------------------
+// NAVIGATION
+// -----------------------------------------------------------------------------
+
+.c-nav {
+    grid-column: 6/10;
+    z-index: 9;
+
+    @include media-query(palm) {
+        display: none;
+    }
+}
+
+
+
+
+.c-nav__list {
+    align-items: center;
+    column-gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+}
+
+
+
+
+.c-menu {
+    display: none;
+
+    @include media-query(palm) {
+        display: block;
+        justify-self: center;
+        z-index: 9;
+    }
+}
+
+
+
+
+
+.c-nav__link {
+    border: 0 none;
+    display: flex;
+    height: 100px;
+    font-size: $font-size-s;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+    color: $color-text-light;
+
+    strong {
+        transition: .2s transform ease-in-out;
+        font-weight: 700;
+        transform: translateY(10px);
+    }
+
+    span {
+        transition: .2s opacity ease-in-out, .2s visibility ease-in-out;
+        color: $color-text-light;
+        display: block;
+        font-size: $font-size-xs;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    &:hover {
+        strong {
+            color: $color-grey-dark;
+            transform: translateY(0);
+
+        }
+        span {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &.is-active {
+        strong {
+            color: $color-grey-darker;
+        }
+    }
+}

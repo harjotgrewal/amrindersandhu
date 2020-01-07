@@ -27,7 +27,7 @@
     @include media-query(hd) {
         column-gap: 25px;
         grid-template-columns: repeat(10, 100px);   
-        margin-bottom: 100px;
+        //margin-bottom: 100px;
         padding: 150px 0;
         width: auto;
 
@@ -46,6 +46,7 @@
 
 .c-billboard__title {
     color: rgba(white, .25);
+    font-weight: 100;
     position: absolute;
     text-transform: uppercase;
     //grid-column: 1/8;
@@ -68,8 +69,9 @@
     z-index: 2;
 
     @include media-query(hd) {
-        grid-column: 2/10;
-        font-size: $font-size-xl;
+        text-shadow: 0 0 20px rgba(black, .15);
+        grid-column: 3/10;
+        font-size: $font-size-l;
         letter-spacing: -1px;
    }
 }

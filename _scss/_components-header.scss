@@ -22,14 +22,14 @@
     color: $color-text-lighter;
     display: inline-block;
     font-size: $font-size-s;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1;
     padding-left: 25px;
     position: relative;
     text-transform: uppercase;
 
     @include media-query(hd) {
-        font-size: $font-size-m;
+        font-size: $font-size-s;
         grid-area: name;
         padding-left: 125px;
    }

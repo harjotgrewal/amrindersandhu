@@ -122,28 +122,6 @@ em {
  
 
 
-
-
-
-.c-nav__link {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    height: 100px;
-    width: 100px;
-
-    &.is-active {
-        .c-nav__icon {
-            fill: $color-grey-darker;
-        }
-    }
-}
-
-.c-nav__icon {
-    fill: $color-text-light;
-}
-
-
 .c-wrapper {
     position: relative;
     display: grid;

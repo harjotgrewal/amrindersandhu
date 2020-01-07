@@ -4,6 +4,10 @@
 
 
 .p-home {
+    .c-name {
+        color: $theme-bg-bright-1;
+    }
+
     &::before {
         background-color: $theme-bg-light-1;
     }
@@ -17,7 +21,7 @@
     }
 
     .c-billboard__title {
-        color: rgba(white, .5);//$theme-bg-light-1;
+        color: rgba(white, .15);
         font-size: 120px;
         margin-left: -10px;
 
@@ -26,6 +30,10 @@
             margin-left: -30px;
         }
     }
+
+    .c-billboard__blurb {
+        color: $theme-bg-light-1;
+    }
 }
 
 
@@ -33,6 +41,10 @@
 
 
 .p-about {
+    .c-name {
+        color: $theme-bg-bright-2;
+    }
+
     &::before {
         background-color: $theme-bg-light-2;
     }
@@ -46,7 +58,7 @@
     }
 
     .c-billboard__title {
-        color: rgba(white, .25);//$theme-bg-light-1;
+        color: rgba(white, .15);//$theme-bg-light-1;
         font-size: 120px;
         margin-left: -10px;
 
@@ -55,12 +67,20 @@
             margin-left: -30px;
         }
     }
+
+    .c-billboard__blurb {
+        color: $theme-bg-light-2;
+    }
 }
 
 
 
 
 .p-reading {
+    .c-name {
+        color: $theme-bg-bright-3;
+    }
+
     &::before {
         background-color: $theme-bg-light-3;
     }
@@ -74,7 +94,7 @@
     }
 
     .c-billboard__title {
-        color: rgba(white, .25);//$theme-bg-light-1;
+        color: rgba(white, .15);//$theme-bg-light-1;
         font-size: 120px;
         margin-left: -10px;
 
@@ -83,12 +103,20 @@
             margin-left: -30px;
         }
     }
+
+    .c-billboard__blurb {
+        color: $theme-bg-light-3;
+    }
 }
 
 
 
 
 .p-work {
+    .c-name {
+        color: $theme-bg-bright-4;
+    }
+
     &::before {
         background-color: $theme-bg-light-4;
     }
@@ -102,13 +130,17 @@
     }
 
     .c-billboard__title {
-        color: rgba(white, .25);//$theme-bg-light-1;
+        color: rgba(white, .15);
         font-size: 120px;
         margin-left: -10px;
 
         @include media-query(hd) {
-            font-size: 525px;
+            font-size: 450px;
             margin-left: -20px;
         }
+    }
+
+    .c-billboard__blurb {
+        color: $theme-bg-light-4;
     }
 }
