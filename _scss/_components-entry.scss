@@ -1,0 +1,63 @@
+// -----------------------------------------------------------------------------
+// ENTRY / JOURNAL ENTRY
+// -----------------------------------------------------------------------------
+
+.c-entry {
+    margin-top: 50px;
+    
+    @include media-query(hd) {
+        margin-top: 100px;
+    }
+}
+
+
+
+.c-entry__blurb {
+    border-left: 6px double $color-grey-lighter;
+    display: block;
+    margin-top: 15px;
+    padding-left: 50px;
+}
+
+
+
+    .c-entry__link {
+        border-width: 0 0 0 6px;
+        border-left: 6px double $color-grey-lighter;
+        color: $color-text-light;
+        display: block;
+        margin-top: 25px;
+        padding: 0 25px;
+
+        &:hover {
+            background: white;
+            border-style: solid;
+        }
+
+        @include media-query(hd) {
+            padding: 15px 30px 25px 50px;      
+        }
+    }
+
+
+    .c-entry__embed {
+        margin-top: 25px;
+
+        @include media-query(hd) {
+            margin: 50px 0 0 55px;
+        }
+    }
+
+
+        .c-entry__author {
+            color: $color-text-light;
+            font-size: $font-size-xs;
+            letter-spacing: 5px;;
+            line-height: 1.5;
+            text-transform: uppercase;
+
+            @include media-query(hd) {
+                font-size: $font-size-s;
+                margin-top: 15px;
+            }
+        }
