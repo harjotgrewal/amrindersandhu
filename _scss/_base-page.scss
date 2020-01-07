@@ -1,0 +1,68 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+*/
+html {
+    box-sizing: border-box;
+}
+  
+/**
+  * Make all elements from the DOM inherit from the parent box-sizing
+  * Since `*` has a specificity of 0, it does not override the `html` value
+  * making all elements inheriting from the root box-sizing value
+  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+  */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/**
+  * Basic styles for links
+  */
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+html::before {
+	bottom: 0;
+	content: "";
+	display: block;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 0;
+
+	@include media-query(hd) {
+		left: 500px;
+	}
+} 
+
+
+body { 
+	background-color: white;
+	color: $color-grey-darker; 
+	display: grid;
+	font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif; 
+	line-height: 1.5;
+	margin-bottom: 50px;
+	grid-template-columns: 1fr;
+	overflow-x: hidden;
+
+	@include media-query(hd) {
+		column-gap: 25px;
+		grid-template-columns: repeat(10, 100px);
+		grid-template-rows: 100px auto;
+		margin-bottom: 100px;
+	}
+}
+

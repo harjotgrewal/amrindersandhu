@@ -1,0 +1,230 @@
+// -----------------------------------------------------------------------------
+// TYPOGRAPHY
+// -----------------------------------------------------------------------------
+
+
+/*
+ * Using 5 sizes based on perfect fifth scale (2:3) using 20px as base size. 
+ * Scale generated using https://www.modularscale.com/
+*/ 
+ 
+$font-size-xxl: 101.25px;
+$font-size-xl: 67.5px;
+$font-size-l: 45px;
+$font-size-m: 30px;
+$font-size-s: 20px;
+$font-size-xs: 16px;
+
+ 
+
+h1 {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query(hd) {
+        font-size: $font-size-xxl;
+        letter-spacing: -3px;
+    }
+}
+
+
+h2 {
+    font-size: $font-size-l;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query(hd) {
+        font-size: $font-size-xl;
+        letter-spacing: -2px;
+    }
+}
+
+
+h3 {
+    font-size: $font-size-m;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-top: 25px;
+
+    @include media-query(hd) {
+        font-size: $font-size-l;
+        letter-spacing: -2px;
+        margin-top: 50px;
+    }
+}
+
+
+.text-size-s {
+    font-size: $font-size-s;
+    line-height: 1.5;
+}
+
+
+h4 {
+    font-size: $font-size-s;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 1.1;
+
+    @include media-query(hd) {
+        font-size: $font-size-m;
+    }
+}
+
+
+.text-style-5 {
+    color: $color-text-light;
+    font-size: $font-size-s;
+    letter-spacing: 5px;;
+    line-height: 1.5;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-size: $font-size-xs;
+    line-height: 1.5;
+    margin-top: 15px;
+
+    @include media-query(hd) {
+        font-size: $font-size-s;
+    }
+}
+
+
+em {
+    font-style: italic;
+}
+
+
+.type-serif {
+    font-family: ff-scala-web, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.u-mar-left--more {
+    transform: translateX(600px);
+    width: 650px;
+}
+
+
+.u-mar-left--less {
+    transform: translateX(100px);
+}
+
+ 
+
+
+
+
+
+.c-nav__link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+
+    &.is-active {
+        .c-nav__icon {
+            fill: $color-grey-darker;
+        }
+    }
+}
+
+.c-nav__icon {
+    fill: $color-text-light;
+}
+
+
+.c-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-column-gap: 75px;
+    grid-row-gap: 75px;
+    width: 1250px;
+    z-index: 2;
+}
+
+.c-book__cover {
+    //border: 1px solid $color-grey-lighter;
+    box-shadow: 0 5px 20px rgba(black, .15);
+    width: 150px;
+}
+
+
+
+.c-section__heading {
+    color: $color-text-light;
+    line-height: 1;
+    margin-top: 75px;
+    padding-left: 25px;
+    position: relative;
+    text-transform: uppercase;
+
+    @include media-query(hd) {
+        margin-top: 100px;
+        position: sticky;
+        padding-left: 125px;
+        top: 50px;
+   }
+}
+
+
+
+.c-entry__embed .twitter-tweet-rendered {
+    max-width: calc(100% - 175px) !important;
+}
+
+
+.o-list--bullet {
+    font-size: $font-size-xs;
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-top: 10px;
+    margin-left: 25px;
+
+    @include media-query(hd) {
+        font-size: $font-size-s;
+        margin-top: 25px;
+    }
+
+    li {
+        margin-top: 5px;
+    }
+}
+
+
+.c-books_list {
+    li {
+        color: $color-grey-light;
+    }
+
+    a {
+        border-color: $theme-bg-bright-3;
+        color: $color-grey-darker;
+        font-weight: 500;
+
+        &:hover {
+            border-width: 3px;
+        }
+    }
+
+    em {
+        color: $color-grey-dark;
+    }
+}
+
+
+a {
+    border-bottom: 1px solid;
+    text-decoration: none;
+}

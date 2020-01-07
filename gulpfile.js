@@ -1,107 +1,81 @@
-// Initialize modules
-// Importing specific gulp API functions lets us write them below as series() instead of gulp.series()
-const { src, dest, watch, series, parallel } = require('gulp'),
-   browserSync = require("browser-sync").create(),
-   sourcemaps = require('gulp-sourcemaps'),
-   sass = require('gulp-sass'),
-   concat = require('gulp-concat'),
-   uglify = require('gulp-uglify'),
-   postcss = require('gulp-postcss'),
-   autoprefixer = require('autoprefixer'),
-   cssnano = require('cssnano'),
-   pug = require('gulp-pug');
-var replace = require('gulp-replace');
+var gulp        = require('gulp');
+var browserSync = require('browser-sync');
+var sass        = require('gulp-sass');
+var prefix      = require('gulp-autoprefixer');
+var cp          = require('child_process');
+var pug        = require('gulp-jade');
 
+var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+var messages = {
+    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+};
 
-
-
-// File paths
-const files = { 
-    scssPath: 'source/assets/scss/**/*.scss',
-    jsPath: 'source/assets/js/*.js',
-    pugPath: 'source/*.pug'
-}
-
-
-
-
-// Sass task: compiles the style.scss file into style.css
-function scssTask(){    
-    return src(files.scssPath)
-        .pipe(sourcemaps.init()) // initialize sourcemaps first
-        .pipe(sass()) // compile SCSS to CSS
-        .pipe(postcss([ autoprefixer(), cssnano() ])) // PostCSS plugins
-        .pipe(sourcemaps.write('.')) // write sourcemaps file in current directory
-        .pipe(dest('public/assets/css'))
-        .pipe(browserSync.stream());
-     // put final CSS in public folder
-}
-
-
-
-
-// JS task: concatenates and uglifies JS files to script.js
-function jsTask(){
-    return src([
-        files.jsPath
-        //,'!' + 'includes/js/jquery.min.js', // to exclude any specific files
-        ])
-        .pipe(concat('main.js'))
-        .pipe(uglify())
-        .pipe(dest('public/assets/js')
-    );
-}
-
-
-
-
-// Pug task: converts pug files into html
-function pugTask(){
-  return src(files.pugPath)
-    .pipe(pug({
-        pretty: true
-    }))
-    .pipe(dest('public'))
-    .pipe(browserSync.stream());
-}
-
-
-
-
-function reload(done) {
-  browserSync.reload();
-  done();
-}
-
-
-
-
-// Watch task: watch SCSS and JS files for changes
-// If any change, run scss and js tasks simultaneously
-function watchTask(){
-  browserSync.init({
-    server: {
-        baseDir: "./public"
-    },
-    open: false,
-    notify: false,
-    directory: true
+/**
+ * Build the Jekyll Site
+ */
+gulp.task('jekyll-build', function (done) {
+    browserSync.notify(messages.jekyllBuild);
+    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+        .on('close', done);
 });
-    watch([files.scssPath, files.jsPath, files.pugPath], 
-        series(
-            parallel(scssTask, jsTask, pugTask)
-        )
-    );    
-}
 
+/**
+ * Rebuild Jekyll & do page reload
+ */
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+    browserSync.reload();
+});
 
+/**
+ * Wait for jekyll-build, then launch the Server
+ */
+gulp.task('browser-sync', ['sass', 'pug', 'jekyll-build'], function() {
+    browserSync({
+        server: {
+            baseDir: '_site'
+        }
+    });
+});
 
+/**
+ * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
+ */
+gulp.task('sass', function () {
+    return gulp.src('_scss/styles.scss')
+        .pipe(sass({
+            includePaths: ['scss'],
+            onError: browserSync.notify
+        }))
+        .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+        .pipe(gulp.dest('_site/css'))
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest('css'));
+});
 
+/**
+ * Compile files from _jadefiles
+ */
+gulp.task('pug', function () {
+    return gulp.src('_jadefiles/*.pug')
+        .pipe(pug({
+            pretty: true
+        }))        
+        .pipe(gulp.dest('_includes'))
+        .pipe(browserSync.reload({stream:true}))
+});
 
-// Export the default Gulp task so it can be run
-// Runs the scss and js tasks simultaneously
-// then runs cacheBust, then watch task
-exports.default = series(
-    parallel(scssTask, jsTask, pugTask),
-    watchTask
-);
+/**
+ * Watch scss files for changes & recompile
+ * Watch html/md files, run jekyll & reload BrowserSync
+ */
+gulp.task('watch', function () {
+    gulp.watch('_scss/*.scss', ['sass']);
+    gulp.watch(['*.html', '_layouts/*.html', '_includes/*'], ['jekyll-rebuild']);
+    gulp.watch('_jadefiles/*.pug', ['pug']);
+});
+
+/**
+ * Default task, running just `gulp` will compile the sass,
+ * compile the jekyll site, launch BrowserSync & watch files.
+ */
+gulp.task('default', ['browser-sync', 'watch']);

@@ -1,0 +1,48 @@
+---
+layout: default
+title: Amrinder Sandhu
+page-class: p-reading
+page-heading: Work
+page-description: Apart from leading the product design and user experience, Amrinder has introduced processes and tools to align teams, improve communication, and increase productivity.
+---
+
+{% include header.html %}
+
+<main class="c-main l-grid">      
+    {% include billboard.html %}
+
+    <!-- JOURNAL ENTRIES-->
+    <section class="c-section">
+        <h2 class="c-section__heading">Books</h2>
+        
+        <section class="c-section__content">
+            <h3>Branding</h3>            
+                
+                {% for book in site.data.settings.branding %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}
+                            
+        </section>
+
+
+        <section class="c-section__content">
+            <h3>Business and Strategy</h3>            
+                
+                {% for book in site.data.settings.business %}
+                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
+                    <li>
+                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a> {{ book.author }}
+                    </li>
+                    {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}
+                            
+        </section>
+
+    </section>    
+
+    
+</main>    
