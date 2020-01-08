@@ -836,21 +836,21 @@ ux:
 }
 
 - {	
-	url: '',
-	name: 'Sketching User Experiences',
-	author: ''	
+	url: 'https://www.amazon.com/Sketching-User-Experiences-Interactive-Technologies/dp/0123740371',
+	name: 'Sketching User Experiences: Getting the Design Right and the Right Design',
+	author: 'Bill Buxton'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/User-Experience-Team-One-Research/dp/1933820187',
 	name: 'The User Experience Team of One',
-	author: ''	
+	author: 'Leah Buley'	
 }
 
 - {	
-	url: '',
-	name: 'Mapping Experiences',
-	author: ''	
+	url: 'https://www.amazon.com/Mapping-Experiences-Complete-Creating-Blueprints/dp/1491923539',
+	name: 'Mapping Experiences: A Complete Guide to Creating Value Through Journeys, Blueprints, and Diagrams',
+	author: 'J. Kalbach'	
 }
 
 
@@ -859,21 +859,21 @@ ux:
 
 ur:
 - {	
-	url: '',
+	url: 'https://trvrs.co/book',
 	name: 'Interviewing for Research￼',
-	author: ''	
+	author: 'Andrew Travers'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Just-Enough-Research-Erika-Hall/dp/1937557103',
 	name: 'Just Enough Research',
-	author: ''	
+	author: 'Erika Hall'	
 }
 
 - {	
-	url: '',
-	name: 'Remote Research',
-	author: ''	
+	url: 'https://www.amazon.com/Remote-Research-Real-Users-Time/dp/1933820772',
+	name: 'Remote Research: Real Users, Real Time, Real Research',
+	author: 'Nate Bolt and Tony Tulathimutte'	
 }
 
 
@@ -883,121 +883,110 @@ ur:
 
 web:
 - {	
-	url: '',
-	name: 'Web Form Design',
-	author: ''	
+	url: 'https://www.amazon.com/Web-Form-Design-Filling-Blanks/dp/1933820241',
+	name: 'Web Form Design: Filling in the Blanks',
+	author: 'Luke Wroblewski'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Art-Direction-Web-Andy-Clarke-ebook/dp/B07R6RT2KV',
 	name: 'Art Direction for the Web',
-	author: ''	
+	author: 'Andy Clarke'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Redesign-Web-Smashing-Book-Books-ebook/dp/B0085K3TCI',
 	name: 'Redesign the Web',
-	author: ''
+	author: 'Smashing Magazine'
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Smashing-Book-2-Matt-Ward/dp/B004M7GH68',
 	name: '￼The Smashing Book #2',
-	author: ''	
+	author: 'Smashing Magazine'	
 }
 
-- {	
-	url: '',
-	name: 'The Smashing Book #3',
-	author: ''	
-}
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Defensive-Design-Web-improve-messages/dp/073571410X',
 	name: 'Defensive Design for the Web',
-	author: ''	
+	author: 'Jason Fried and Matthew Linderman'	
 }
 
 - {	
-	url: '',
+	url: 'https://books.apple.com/us/book/mobile-multi-device-design/id916423134?ls=1',
 	name: 'Mobile and Multi Device Design',
-	author: ''	
+	author: 'Luke Wroblewski'	
 }
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Mobile-Book-Smashing-Magazine-ebook/dp/B00AMM4QWY',
 	name: 'The Mobile Book',
-	author: ''	
+	author: 'Smashing Magazine'	
 }
 
 - {	
-	url: '',
-	name: 'New Perspectives on Web Sesign',
-	author: ''	
+	url: 'https://www.amazon.com/Smashing-Book-Perspectives-Design-Special-ebook/dp/B00GX9DW5W',
+	name: 'New Perspectives on Web Design',
+	author: 'Smashing Magazine'	
 }
 
 - {	
-	url: '',
-	name: 'Tapworthy',
-	author: ''	
+	url: 'https://www.amazon.com/Tapworthy-Designing-Great-iPhone-Apps/dp/1449381650',
+	name: 'Tapworthy: Designing Great IPhone Apps',
+	author: 'Josh Clark'	
 }
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Mobile-First-Luke-Wroblewski/dp/1937557022',
 	name: 'Mobile First',
-	author: ''	
+	author: 'Luke Wroblewski'	
 }
 
 - {	
-	url: '',
-	name: '24 Ways',
-	author: ''	
+	url: 'https://www.amazon.com/Search-Patterns-Discovery-Peter-Morville/dp/0596802277',
+	name: 'Search Patterns: Design for Discovery',
+	author: 'Jeffery Callender and Peter Morville'	
 }
 
 - {	
-	url: '',
-	name: 'Search Patterns',
-	author: ''	
+	url: 'https://www.amazon.com/Web-Anatomy-Interaction-Design-Frameworks-ebook/dp/B002ZY5FCW',
+	name: 'Web Anatomy: Interaction Design Frameworks That Work',
+	author: 'Hoekman Jr Robert and Jared Spool'	
 }
 
 - {	
-	url: '',
-	name: 'Web Anatomy',
-	author: ''	
-}
-
-- {	
-	url: '',
+	url: 'https://www.amazon.com/Responsive-Design-Brief-People-Websites/dp/098444257X',
 	name: 'Responsive Web Design',
-	author: ''	
+	author: 'Ethan Marcotte'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Hardboiled-Web-Design-Andy-Clarke/dp/1907828001',
 	name: 'Hardboiled Web Design',
-	author: ''	
+	author: 'Andy Clarke'	
 }
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Practical-Guide-Designing-Simple-Steps/dp/0956174019',
 	name: 'The Practical Guide to Designing for the Web',
-	author: ''	
+	author: 'Mark Boulton'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript/dp/1449319270',
 	name: 'Learning Web Design',
-	author: ''	
+	author: 'Jennifer Niederst Robbins'	
 }
 
 
 - {	
-	url: '',
-	name: 'Transcending CSS',
-	author: ''	
+	url: 'https://www.amazon.com/Transcending-CSS-Fine-Art-Design/dp/0321410971',
+	name: 'Transcending CSS: The Fine Art of Web Design',
+	author: 'Andy Clarke'	
 }
 
 - {	
-	url: '',
-	name: 'Web Standards Creativity',
-	author: ''	
+	url: 'https://www.amazon.com/Web-Standards-Creativity-Innovations-Scripting/dp/1590598032',
+	name: 'Web Standards Creativity: Innovations in Web Design with XHTML, CSS, and DOM Scripting',
+	author: 'Andy Budd'	
 }
 
 
@@ -1007,33 +996,33 @@ web:
 
 misc:
 - {	
-	url: '',
-	name: 'Show and Tell',
-	author: ''	
+	url: 'https://www.amazon.com/Show-Tell-Everybody-Extraordinary-Presentations/dp/1591848024',
+	name: 'Show and Tell: How Everybody can make Extraordinary Presentations',
+	author: 'Dan Roam'	
 }
 
 - {	
-	url: '',
-	name: 'Understanding Comics',
-	author: ''	
+	url: 'https://www.amazon.com/Understanding-Comics-Invisible-Scott-McCloud/dp/006097625X',
+	name: 'Understanding Comics: The Invisible Art',
+	author: 'Scott McCloud'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697',
 	name: 'The Back of the Napkin',
-	author: ''	
+	author: 'Dan Roam'	
 }
 
 - {	
-	url: '',
-	name: 'Insanely Simple',
-	author: ''	
+	url: 'https://www.amazon.com/Insanely-Simple-Obsession-Drives-Success/dp/1591846218',
+	name: 'Insanely Simple: The Obsession That Drives Apple's Success',
+	author: 'Ken Segall'	
 }
 
 - {	
-	url: '',
-	name: 'Lean analytics',
-	author: ''	
+	url: 'https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675',
+	name: 'Lean Analytics: Use Data to Build a Better Startup Faster',
+	author: 'Alistair Croll and Benjamin Yoskovitz'	
 }
 
 
