@@ -647,6 +647,10 @@ em {
   .c-books_list a:hover {
     border-width: 3px; }
 
+.c-books_list span {
+  color: #858585;
+  font-style: normal; }
+
 .c-books_list em {
   color: #454545; }
 
