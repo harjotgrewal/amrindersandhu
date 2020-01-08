@@ -25,7 +25,7 @@ business:
 - {	
 	url: 'https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X',
 	name: 'Hacking growth',
-	author: 'Morgan Brown and <em>Sean Ellis'	
+	author: 'Morgan Brown <span>and</span> Sean Ellis'	
 }
 
 - {	
@@ -37,7 +37,7 @@ business:
 - {	
 	url: 'https://www.amazon.com/Sense-Respond-Successful-Organizations-Continuously/dp/1633691888',
 	name: 'Sense and Respond',
-	author: 'Jeff Gothelf and Josh Seiden'	
+	author: 'Jeff Gothelf <span>and</span> Josh Seiden'	
 }
 
 - {	
@@ -233,7 +233,7 @@ frontend:
 - {	
 	url: 'https://www.amazon.com/Handcrafted-CSS-More-Bulletproof-Design/dp/0321643380',
 	name: 'Handcrafted CSS',
-	author:  'Dan Cederholm and Ethan Marcotte'	
+	author:  'Dan Cederholm <span>and</span> Ethan Marcotte'	
 }
 
 - {	
@@ -299,7 +299,7 @@ frontend:
 - {	
 	url: 'https://www.amazon.com/Zen-CSS-Design-Visual-Enlightenment/dp/0321303474',
 	name: 'The Zen of CSS Design',
-	author:  'Dave Shea and Molly Holzschlag'	
+	author:  'Dave Shea <span>and</span> Molly Holzschlag'	
 }
 
 - {	
@@ -314,45 +314,39 @@ frontend:
 
 graphics:
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Graphic-Artist-His-Design-Problems/dp/3721204662',
 	name: 'The Graphic Artist and his Design Problems',
-	author: ''	
+	author: 'Müller-Brockmann'	
 }
 
 - {	
-	url: '',
-	name: 'The Elements of Graphics Design ',
-	author: ''	
-}
-
-- {	
-	url: '',
+	url: 'https://www.amazon.com/Graphic-Designer-without-Losing-Expanded/dp/1568989830',
 	name: 'How to be a Graphic Designer without Losing your Soul',
-	author: ''	
+	author: 'Adrian Shaughnessy'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Making-Breaking-Grid-Graphic-Workshop/dp/1592531253',
 	name: 'Making and Breaking the Grid',
-	author: ''	
+	author: 'Timothy Samara'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Graphic-Design-Referenced-Language-Applications/dp/1592537421',
 	name: 'Graphic Design Referenced',
-	author: ''	
+	author: 'Armin Vit <span>and</span> Bryony Gomez-Palacio'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Think-Like-Great-Graphic-Designer/dp/1581154968',
 	name: 'How to Think Like a Great Graphic Designer',
-	author: ''	
+	author: 'Debbie Millman'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Ordering-Disorder-Principles-Design-Voices/dp/0321703537',
 	name: 'Ordering Disorder',
-	author: ''	
+	author: 'Khoi Vinh'	
 }
 
 
@@ -362,22 +356,22 @@ graphics:
 
 ia:
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Information-Architecture-World-Wide-Web/dp/0596527349',
 	name: 'Information architecture for the World Wide Web',
-	author: ''	
+	author: 'Louis Rosenfeld <span>and</span> Peter Morville'	
 }
 
 
 - {	
-	url: '',
-	name: 'Information Architecture',
-	author: ''	
+	url: 'https://www.amazon.com/Practical-Guide-Information-Architecture-ebook/dp/B004WH4OF4',
+	name: 'A Practical Guide to Information Architecture',
+	author: 'Donna Spencer'	
 }
 
 - {	
-	url: '',
-	name: 'Card sorting',
-	author: ''	
+	url: 'https://www.amazon.com/Card-Sorting-Designing-Usable-Categories/dp/1933820020',
+	name: 'Card Sorting',
+	author: 'Donna Spencer'	
 }
 
 
@@ -387,75 +381,75 @@ ia:
 
 id:
 - {	
-	url: '',
-	name: 'Designing the Obvious',
-	author: ''	
+	url: 'https://www.amazon.com/Designing-Obvious-Common-Approach-Application/dp/0321749855',
+	name: 'Designing the Obvious: A Common Sense Approach to Web & Mobile Application',
+	author: 'Hoekman Jr Robert'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/1118766571',
 	name: 'About Face – The Essentials￼ of Interaction Design￼',
-	author: ''	
+	author: 'Alan Cooper <span>,</span> Dave Cronin <span>and</span> Robert Reimann'	
 }
 
 - {	
-	url: '',
-	name: 'Micro Interactions',
-	author: ''	
+	url: 'https://www.amazon.com/Microinteractions-Full-Color-Designing-Details/dp/1491945923',
+	name: 'Microinteractions: Designing with Details',
+	author: 'Dan Saffer'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Designing-Interaction-Creating-Innovative-Applications/dp/0321643399',
 	name: 'Designing for Interaction',
-	author: ''	
+	author: 'Dan Saffer'	
 }
 
 - {	
-	url: '',
-	name: 'Designing Visual Interfaces',
-	author: ''	
+	url: 'https://www.amazon.com/Designing-Visual-Interfaces-Communication-Techniques/dp/0133033899',
+	name: 'Designing Visual Interfaces: Communication Oriented Techniques',
+	author: 'Darrell Sano and Kevin Mullet'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Designing-Interactions-Press-Bill-Moggridge/dp/0262134748',
 	name: 'Designing Interactions',
-	author: ''	
+	author: 'Bill Moggridge'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Designed-Use-Create-Interfaces-Applications/dp/1680501607',
 	name: 'Designed for Use',
-	author: ''	
+	author: 'Lukas Mathis'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Designing-Interface-Animation-Improving-Experience-ebook/dp/B01J4NKSZA',
 	name: 'Designing Interface Animation',
-	author: ''	
+	author: 'Val Head'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Inmates-Are-Running-Asylum-Products/dp/0672326140',
 	name: 'The Inmates are Running the Asylum',
-	author: ''	
+	author: 'Alan Cooper'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Seductive-Interaction-Design-Effective-Experiences/dp/0321725522',
 	name: 'Seductive Interaction Design',
-	author: ''	
+	author: 'Stephen P. Anderson'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Designing-Social-Interfaces-Principles-Experience/dp/0596154925',
 	name: 'Designing Social Interfaces',
-	author: ''	
+	author: 'Christian Crumlish and Erin Malone'	
 }
 
 - {	
-	url: '',
-	name: 'Designing for a Motion',
-	author: ''	
+	url: 'https://www.amazon.com/Designing-Emotion-Aaron-Walter/dp/1937557006',
+	name: 'Designing for Emotion',
+	author: 'Aarron Walter'	
 }
 
 
@@ -464,33 +458,33 @@ id:
 
 productivity:
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Checklist-Manifesto-How-Things-Right/dp/0312430000',
 	name: 'Checklist Manifesto',
-	author: ''	
+	author: 'Atul Gawande'	
 }
 
 - {	
-	url: '',
-	name: 'Rest',
-	author: ''	
+	url: 'https://www.amazon.com/Rest-More-Done-When-Work/dp/0465074871',
+	name: 'Rest: Why You Get More Done When You Work Less',
+	author: 'Alex Soojung-Kim Pang'	
 }
 
 - {	
-	url: '',
-	name: 'Remote',
-	author: ''	
+	url: 'https://www.amazon.com/Remote-Office-Required-Jason-Fried/dp/0804137501',
+	name: 'Remote: Office Not Required',
+	author: 'David Heinemeier Hansson and Jason Fried'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Rework-Jason-Fried/dp/0307463745',
 	name: 'Rework',
-	author: ''	
+	author: 'David Heinemeier Hansson and Jason Fried'	
 }
 
 - {	
-	url: '',
-	name: 'Getting Real',
-	author: ''	
+	url: 'https://www.amazon.com/Getting-Real-Smarter-Successful-Application/dp/0578012812',
+	name: 'Getting Real: The Smarter, Faster, Easier Way to Build a Successful Web Application',
+	author: 'Jason Fried and David Heinemeier Hansson'	
 }
 
 
@@ -500,129 +494,129 @@ productivity:
 
 pd:
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Building-Reputation-Systems-Randy-Farmer/dp/059615979X',
 	name: 'Building Web Reputation Systems',
-	author: ''	
+	author: 'Bryce Glass and Randy Farmer'	
 }
 
 - {	
-	url: '',
-	name: 'User-Centred Design',
-	author: ''	
+	url: 'https://www.amazon.com/User-Centered-Design-Developers-User-Friendly-Applications/dp/1449359809',
+	name: 'User-Centred Design: A Developer's Guide to Building User-Friendly Applications',
+	author: 'Travis Lowdermilk'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Validating-Product-Ideas-Through-Research/dp/1933820292',
 	name: 'Validating Product Ideas',
-	author: ''	
+	author: 'Tomer Sharon'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Product-Design-Web-Principles-Designing/dp/0321929039',
 	name: 'Product Design for the Web',
-	author: ''	
+	author: 'Randy J. Hunt'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.designbetter.co/principles-of-product-design',
 	name: 'Principles of Product Design',
-	author: ''	
+	author: 'Aarron Walter'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909',
 	name: 'User Story Mapping',
-	author: ''	
+	author: 'Jeff Patton and Peter Economy'	
 }
 
 - {	
-	url: '',
-	name: 'The User’s Journey',
-	author: ''	
+	url: 'https://www.amazon.com/Users-Journey-Storymapping-Products-People/dp/1933820314',
+	name: 'The User’s Journey: Storymapping Products that People Love',
+	author: 'Donna Lichaw'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.useronboard.com/The-Elements-of-User-Onboarding-Intro.pdf',
 	name: 'The Elements of User Onboarding',
-	author: ''	
+	author: 'Samuel Hullick'	
 }
 
 - {	
-	url: '',
-	name: 'Designing Products People Love',
-	author: ''	
+	url: 'https://www.amazon.com/Designing-Products-People-Love-Successful/dp/1491923679',
+	name: 'Designing Products People Love: How Great Designers Create Successful Products',
+	author: 'Scott Hurff'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Designing-Interfaces-Patterns-Effective-Interaction/dp/1449379702',
 	name: 'Designing Interfaces',
-	author: ''	
+	author: 'Jenifer Tidwell'	
 }
 
 - {	
-	url: '',
-	name: 'Communicating Design',
-	author: ''	
+	url: 'https://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463',
+	name: 'Communicating Design: Developing Web Site Documentation for Design and Planning',
+	author: 'Daniel M. Brown'	
 }
 
 - {	
-	url: '',
-	name: 'Outcomes Over Output',
-	author: ''	
+	url: 'https://www.amazon.com/Outcomes-Over-Output-customer-behavior/dp/1091173265',
+	name: 'Outcomes Over Output: Why Customer Behavior Is the Key Metric for Business Success',
+	author: 'Josh Seiden'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Practical-Design-Discovery-Dan-Brown/dp/1937557448',
 	name: 'Practical Design Discovery',
-	author: ''	
+	author: 'Dan Brown'	
 }
 
 - {	
-	url: '',
-	name: 'Designing the Conversation',
-	author: ''	
+	url: 'https://www.amazon.com/Designing-Conversation-Techniques-Successful-Facilitation/dp/0321886720',
+	name: 'Designing the Conversation: Techniques for Successful Facilitation',
+	author: 'Brad Nunnally and Russ Unger'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Designing-Social-Web-Joshua-Porter/dp/0321534921',
 	name: 'Designing for the Social Web',
-	author: ''	
+	author: 'Josh Dies and Joshua Porter'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Designing-Web-Navigation-Optimizing-Experience/dp/0596528108',
 	name: 'Designing Web Navigation',
-	author: ''	
+	author: 'James Kalbach'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Design-Systems-Smashing-eBooks-Kholmatova-ebook/dp/B076H49W1G',
 	name: 'Design System',
-	author: ''	
+	author: 'Alla Kholmatova'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Intercom-Onboarding-Traynor-ebook/dp/B01MXVC56I',
 	name: 'Intercom on Onboarding',
-	author: ''	
+	author: 'Des Traynor'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Grouped-Groups-Friends-Influence-Social/dp/0321804112',
 	name: 'Grouped',
-	author: ''	
+	author: 'Paul Adams'	
 }
 
 - {	
-	url: '',
-	name: 'Designing the Moment',
-	author: ''	
+	url: 'https://www.amazon.com/Designing-Moment-Interface-Design-Concepts/dp/0321535081',
+	name: 'Designing the Moment: Web Interface Design Concepts in Action',
+	author: 'Hoekman Jr Robert'	
 }
 
 - {	
-	url: '',
-	name: 'Prototyping',
-	author: ''	
+	url: 'https://www.amazon.com/Prototyping-Practitioners-Todd-Zaki-Warfel/dp/1933820217',
+	name: 'Prototyping: A Practitioner's Guide',
+	author: 'Todd Zaki Warfel'	
 }
 
 
@@ -632,21 +626,21 @@ pd:
 
 pm:
 - {	
-	url: '',
-	name: 'Shape Up',
-	author: ''	
+	url: 'https://basecamp.com/shapeup',
+	name: 'Shape Up: Stop Running in Circles and Ship Work that Matters',
+	author: 'Ryan Singer'	
 }
 
 - {	
-	url: '',
-	name: 'Sprint',
-	author: ''	
+	url: 'https://www.amazon.com/Sprint-Solve-Problems-Test-Ideas/dp/1442397683',
+	name: 'Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days',
+	author: 'Jake Knapp'	
 }
 
 - {	
-	url: '',
-	name: 'Intercom on product management',
-	author: ''	
+	url: 'https://www.amazon.com/Intercom-Product-Management-Traynor-ebook/dp/B00TGWKZRQ',
+	name: 'Intercom on Product Management',
+	author: 'Des Traynor'	
 }
 
 
@@ -654,56 +648,56 @@ pm:
 
 psy:
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Design-People-Learn-Voices-Matter/dp/0321768434',
 	name: 'Design for How People Learn',
-	author: ''	
+	author: 'Julie Dirksen'	
 }
 
 - {	
-	url: '',
-	name: 'How to Get People to Do Stuff',
-	author: ''	
+	url: 'https://www.amazon.com/How-Get-People-Stuff-persuasion/dp/0321884507',
+	name: 'How to Get People to Do Stuff: Master the Art and Science of Persuasion and Motivation',
+	author: 'Susan Weinschenk'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535',
 	name: '100 Things Every Designer Needs to Know About People',
-	author: ''	
+	author: 'Susan Weinschenk'	
 }
 
 - {	
-	url: '',
-	name: 'Psychology for Designers',
-	author: ''	
+	url: 'https://www.amazon.com/Psychology-Designers-psychology-design-process-ebook/dp/B06Y593QPW',
+	name: 'Psychology for Designers: How to apply psychology to web design and the design process',
+	author: 'Dave Ellender and Joe Leech'	
 }
 
 - {	
-	url: '',
-	name: 'Neuro Web Design',
-	author: ''	
+	url: 'https://www.amazon.com/Neuro-Web-Design-Makes-Click/dp/0321603605',
+	name: 'Neuro Web Design: What Makes Them Click?',
+	author: 'Susan Weinschenk'	
 }
 
 - {	
-	url: '',
-	name: 'Hooked',
-	author: ''	
+	url: 'https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788',
+	name: 'Hooked: How to Build Habit-Forming Products',
+	author: 'Nir Eyal'	
 }
 
 - {	
-	url: '',
-	name: 'Emotional Design',
-	author: ''	
+	url: 'https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367',
+	name: 'Emotional Design: Why We Love (or Hate) Everyday Things',
+	author: 'Don Norman'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555',
 	name: 'Thinking Fast and Slow',
-	author: ''	
+	author: 'Daniel Kahneman'	
 }
 
 - {	
-	url: '',
-	name: 'Mental Models',
+	url: 'https://www.amazon.com/Mental-Models-Aligning-Strategy-Behavior/dp/1933820063',
+	name: 'Mental Models: Aligning Design Strategy with Human Behavior',
 	author:  'Indi Young'	
 }
 
@@ -713,63 +707,63 @@ psy:
 
 typo:
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Type-Typography-Phil-Baines/dp/0823055280',
 	name: 'Type and Typography',
-	author: ''	
+	author: 'Phil Baines'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/New-Typography-Weimar-Now-Criticism/dp/0520250125',
 	name: 'The New Typography',
-	author: ''	
+	author: 'Jan Tschichold'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Typewise-Kit-Hinrichs/dp/0891343563',
 	name: 'TypeWise',
-	author: ''	
+	author: 'Kit Hinrichs'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695',
 	name: 'Thinking with Type',
-	author: ''	
+	author: 'Ellen Lupton'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881791326',
 	name: 'The Elements of Typographic Style',
-	author: ''	
+	author: 'Robert Bringhurst'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Web-Typography-Jason-Santa-Maria/dp/1937557065',
 	name: 'On Web Typography',
-	author: ''	
+	author: 'Jason Santa Maria'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Typography-29-Type-Directors-Club/dp/0061582778',
 	name: 'TDC Annual Typography 29',
-	author: ''	
+	author: 'Type Directors Club'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Typographic-Desk-Reference-Theodore-Rosendorf/dp/1584562315',
 	name: 'The Typographic Desk Reference',
-	author: ''	
+	author: 'Theodore Rosendorf'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Stop-Stealing-Sheep-Find-Works/dp/0201703394',
 	name: 'Stop Stealing Sheep and Find Out How Type Works￼',
-	author: ''	
+	author: 'Erik Spiekermann'	
 }
 
 - {	
-	url: '',
-	name: 'Typography Essentials',
-	author: ''	
+	url: 'https://www.amazon.com/Typography-Essentials-Design-Principles-Working/dp/1592537405',
+	name: 'Typography Essentials: 100 Design Principles for Working with Type',
+	author: 'Ina Saltz'	
 }
 
 
@@ -778,39 +772,39 @@ typo:
 
 usability:
 - {	
-	url: '',
-	name: 'Usable Usability',
-	author: ''	
+	url: 'https://www.amazon.com/Usable-Usability-Simple-Making-Better/dp/1118185471',
+	name: 'Usable Usability: Simple Steps for Making Stuff Better',
+	author: 'Eric Reiss'	
 }
 
 - {	
-	url: '',
-	name: 'Simple and Usable',
-	author: ''	
+	url: 'https://www.amazon.com/Simple-Usable-Mobile-Interaction-Design/dp/0321703545',
+	name: 'Simple and Usable Web, Mobile, and Interaction Design',
+	author: 'Giles Colborne'	
 }
 
 - {	
-	url: '',
-	name: 'Homepage Usability',
-	author: ''	
+	url: 'https://www.amazon.com/Homepage-Usability-50-Websites-Deconstructed/dp/073571102X',
+	name: 'Homepage Usability: 50 Websites Deconstructed',
+	author: 'Jakob Nielsen and Marie Tahir'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself/dp/0321657292',
 	name: 'Rocket Surgery Made Easy',
-	author: ''	
+	author: 'Steve Krug'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Mobile-Usability-Jakob-Nielsen/dp/0321884485',
 	name: 'Mobile Usability￼',
-	author: ''	
+	author: 'Jakob Nielsen and Raluca Budiu'	
 }
 
 - {	
-	url: '',
+	url: 'https://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758',
 	name: 'Don’t Make Me Think',
-	author: ''	
+	author: 'Steve Krug'	
 }
 
 
@@ -818,27 +812,27 @@ usability:
 
 ux:
 - {	
-	url: '',
-	name: 'Lean UX',
-	author: ''	
+	url: 'https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652',
+	name: 'Lean UX: Applying Lean Principles to Improve User Experience',
+	author: 'Jeff Gothelf and Josh Seiden'	
 }
 
 - {	
-	url: '',
-	name: 'The Elements of User Experience',
-	author: ''	
+	url: 'https://www.amazon.com/Elements-User-Experience-User-Centered-Design/dp/0321683684',
+	name: 'The Elements of User Experience: User-centered Design for the Web',
+	author: 'Jesse James Garrett'	
 }
 
 - {	
-	url: '',
-	name: 'Undercover User Experience Design',
-	author: ''	
+	url: 'https://www.amazon.com/Undercover-Experience-Design-Voices-Matter/dp/0321719905',
+	name: 'Undercover User Experience Design: Learn how to Do Great UX Work with Tiny Budgets, No Time, and Limited Support',
+	author: 'Box James and Cennydd Bowles'	
 }
 
 - {	
-	url: '',
-	name: 'Storytelling for User Experience',
-	author: ''	
+	url: 'https://www.amazon.com/Storytelling-User-Experience-Crafting-Stories/dp/1933820470',
+	name: 'Storytelling for User Experience: Crafting Stories for Better Design',
+	author: 'Kevin Brooks and Whitney Quesenbery'	
 }
 
 - {	
