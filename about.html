@@ -3,7 +3,7 @@ layout: default
 title: Amrinder Sandhu
 page-class: p-about
 page-heading: About
-page-description: I’m a digital product designer who is passionate about designing products people love. I work remotely from Ancaster, Canada and love walking, nature, rain, soccer, and DIY-ing.
+page-description: I’m a digital product designer who is passionate about designing products people love. I work remotely from Ancaster, Canada and love simplicity, walking, nature, rain, and DIY-ing.
 ---
 
 {% include header.html %}
@@ -13,13 +13,17 @@ page-description: I’m a digital product designer who is passionate about desig
       
     <section class="c-section l-grid l-grid--section">
       <section class="c-section__col">
-        <figure class="c-section__image">
+        <figure class="c-section__image c-section__image--alone">
           <img src="public/assets/i/photos/amrinder-3.jpeg" />
         </figure>
       </section>
       
       <section class="c-section__content">
-        <p>I&apos;ve been leading and contributing to product design, user experience and front-end development for 12 years now. Along with developing and implementing user-centred design vision, principles, strategy, processes and a design system to guide the development of products, I’ve collaborated cross-functionally with product, engineering, marketing, sales and customer support to build and maintain efficient process for user research and product development for delivering smooth and usable UI which has resulted in memorable UX.</p>
+        <p>I’ve been leading and contributing to product design, user experience and front-end development for 12 years now. Along with developing and implementing user-centred design vision, principles, strategy, and processes to guide the development of products, I’ve collaborated cross-functionally with product, engineering, marketing, sales and customer support to build and maintain efficient process for user research and product development for delivering smooth and usable UI which has resulted in memorable UX.</p>
+
+        <p>Whether I’m designing a small feature, conducting usability testing, building a design system, or writing a LinkedIn recommendation, I always start with thorough research and discovery. I never hesitate to ask questions, challenge conventions, ideas and processes, suggest best practices, tools and frameworks; whether it involves my own team or <a href="https://www.linkedin.com/in/lakshmanannarayan/">a CEO</a> <a href="https://www.linkedin.com/in/siamaktaghaddos/">of a</a> <a href="https://www.linkedin.com/in/deepigoyal/">company</a>.</p> 
+        
+        <p>Apart from the regular design work, I also assist and influence product strategy, user research, website content strategy, and user interface copy (which I believe is also UI). At work, my ultimate goal is to build delightful products that help people get better at their jobs.</p>
 
       </section>
     </section>
@@ -27,56 +31,26 @@ page-description: I’m a digital product designer who is passionate about desig
     <section class="c-section l-grid l-grid--section">
         <h2 class="c-section__heading">More about me</h2>
         
-        <section class="c-section__col">
-          <figure class="c-section__image">
+        <section class="c-section__col--1">
+          <figure class="c-section__image c-section__image--withdan">
             <img src="public/assets/i/photos/amrinder-4.jpeg" />
 
-            <figcaption class="c-section__caption">With Dan Mall at the Smashing Conference 2018 in Toronto.</figcaption>
+            <figcaption class="c-section__caption">With <a href="http://danmall.com/">Dan Mall</a> at the Smashing Conference 2018 in Toronto. It was the first time in 10 years of my design career that I personally met one of the designers I really admire. We also talked about <a href="http://jasonsantamaria.com">Jason Santa Maria</a> – the other brillant designer who inspired me during early days of my career.</figcaption>
           </figure>
         </section>
             
         
 
 
-
+        {% for list in site.data.about.me %}
         <section class="c-section__content">
-          <h3>Designing since 2003</h3>
-          <p>Amrinder designed his first website (about Arnold Schwarzenegger) in 2003 using Microsoft FrontPage. Before that he used to draw and paint brand logos to perfection. Later, Amrinder started playing with Photoshop to satisfy his curiosity and express his creativity. All these small exercises and experiments helped him later when he decided to start designing full time in 2008. </p>
+          <h3>{{ list.title }}</h3>
+          <p>{{ list.copy }}</p>
         </section>
+        {% endfor %}
 
 
-
-
-
-        <section class="c-section__content">
-          <h3>Engineer turned Designer</h3>
-          <p>Amrinder did a B.Tech in Computer Science and Engineering (2003-2007) before starting full-time freelancing in Feb, 2008. One thing that hasn’t changed during this transition from an Engineer to a Designer is his passion for understanding and solving problems. That Engineering side of his also helps him create a balance between making something that is usable and memorable, and aesthetically pleasing and delightful.</p>
-        </section>
-
-            
-        
-
-
-
-        <section class="c-section__content">
-          <h3>Google, Intel, Groupon</h3>
-          <p>Before joining Unmetric full-time in 2014, I have lead design at various startups. I’ve worked with <strong>Intel</strong>, <strong>Zomato</strong>, <strong>Grasshopper</strong>, <strong>CIBC</strong>, and <strong>Raja Sandhu</strong> over the years. I also got job offers from <strong>Google</strong>, <strong>Groupon</strong>, and <strong>Intel</strong> which I couldn’t accept because of relocation.</p>
-        </section>
-
-
-
-
-
-        <section class="c-section__content">
-          <h3>A Unicorn Designer</h3>
-          <p>Since Amrinder worked as a freelancer during the early years of his career (2008-2014), he got opportunities to design more than just websites and applications. He has worked on branding, designed websites and blogs, pitching decks, marketing and product newsletters, brand value posters, social calendars, social media ads, sales collateral, ebooks and video covers, and logos for Unmetric and over a half dozen clients across the world. However, he loves designing product experiences and interactions the most.</p>
-        </section>
-
-
-
-
-
-        <section class="c-section__content">
+        <!-- <section class="c-section__content">
           <h3>About this website</h3>
           <p>This website is online home of Amrinder where he shares his learnings, reading and work. Amrinder has used number 5 to design various parts of this website:</p>
 
@@ -89,8 +63,11 @@ page-description: I’m a digital product designer who is passionate about desig
               
             <li>It is using 5 basic colors, and 5 light and bright theme colors each.</li>
 
-            <!-- <li>It has 5 main sections (Home, Work, Books, About, and Contact).</li> -->
+             <li>It has 5 main sections (Home, Work, Books, About, and Contact).</li>
           </ul>
-        </section>
+        </section> -->
     </section>    
 </main>
+
+
+<!-- <footer><button>Look ma, no footer!</button></footer> -->
