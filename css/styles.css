@@ -697,10 +697,17 @@ a {
 
 .c-billboard__title {
   color: rgba(255, 255, 255, 0.25);
-  font-weight: 100;
+  font-weight: 900;
+  letter-spacing: -20px;
+  margin-left: -15px;
   position: absolute;
   text-transform: uppercase;
+  writing-mode: vertical-lr;
   z-index: 1; }
+  @media screen and (min-width: 1139px) {
+    .c-billboard__title {
+      writing-mode: horizontal-tb;
+      letter-spacing: -100px; } }
 
 .c-billboard__blurb {
   grid-column: 1/8;
@@ -942,8 +949,7 @@ a {
 
 .p-home .c-billboard__title {
   color: rgba(255, 255, 255, 0.15);
-  font-size: 120px;
-  margin-left: -10px; }
+  font-size: 120px; }
   @media screen and (min-width: 1139px) {
     .p-home .c-billboard__title {
       font-size: 420px;
@@ -965,8 +971,7 @@ a {
 
 .p-about .c-billboard__title {
   color: rgba(255, 255, 255, 0.15);
-  font-size: 120px;
-  margin-left: -10px; }
+  font-size: 120px; }
   @media screen and (min-width: 1139px) {
     .p-about .c-billboard__title {
       font-size: 450px;
@@ -988,8 +993,7 @@ a {
 
 .p-reading .c-billboard__title {
   color: rgba(255, 255, 255, 0.15);
-  font-size: 120px;
-  margin-left: -10px; }
+  font-size: 120px; }
   @media screen and (min-width: 1139px) {
     .p-reading .c-billboard__title {
       font-size: 450px;
@@ -1011,8 +1015,7 @@ a {
 
 .p-work .c-billboard__title {
   color: rgba(255, 255, 255, 0.15);
-  font-size: 120px;
-  margin-left: -10px; }
+  font-size: 130px; }
   @media screen and (min-width: 1139px) {
     .p-work .c-billboard__title {
       font-size: 450px;

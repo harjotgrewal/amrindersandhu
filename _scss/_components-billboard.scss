@@ -46,13 +46,17 @@
 
 .c-billboard__title {
     color: rgba(white, .25);
-    font-weight: 100;
+    font-weight: 900;
+    letter-spacing: -20px;
+    margin-left: -15px;
     position: absolute;
     text-transform: uppercase;
-    //grid-column: 1/8;
+    writing-mode: vertical-lr;
     z-index: 1;
 
     @include media-query(hd) {
+        writing-mode: horizontal-tb;
+        letter-spacing: -100px;
         //grid-column: 1/4;
         //padding-left: 125px;
    }

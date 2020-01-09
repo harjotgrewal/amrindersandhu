@@ -19,7 +19,6 @@
     .c-billboard__title {
         color: rgba(white, .5);//$theme-bg-light-1;
         font-size: 120px;
-        margin-left: -10px;
 
         @include media-query(hd) {
             font-size: 420px;
@@ -48,7 +47,6 @@
     .c-billboard__title {
         color: rgba(white, .25);//$theme-bg-light-1;
         font-size: 120px;
-        margin-left: -10px;
 
         @include media-query(hd) {
             font-size: 450px;
@@ -76,7 +74,6 @@
     .c-billboard__title {
         color: rgba(white, .25);//$theme-bg-light-1;
         font-size: 120px;
-        margin-left: -10px;
 
         @include media-query(hd) {
             font-size: 450px;
@@ -104,7 +101,6 @@
     .c-billboard__title {
         color: rgba(white, .25);//$theme-bg-light-1;
         font-size: 120px;
-        margin-left: -10px;
 
         @include media-query(hd) {
             font-size: 525px;
