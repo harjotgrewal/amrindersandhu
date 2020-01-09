@@ -737,7 +737,7 @@ a {
   padding-left: 50px; }
 
 .c-entry__link {
-  border-width: 0 0 0 6px;
+  border-bottom: 0;
   border-left: 6px double #c5c5c5;
   color: #858585;
   display: block;
@@ -745,7 +745,8 @@ a {
   padding: 0 25px; }
   .c-entry__link:hover {
     background: white;
-    border-style: solid; }
+    border-bottom: 0;
+    border-left: 6px double #c5c5c5; }
   @media screen and (min-width: 1139px) {
     .c-entry__link {
       padding: 15px 30px 25px 50px; } }
@@ -965,9 +966,6 @@ a {
   .c-project_list .c-project_info {
     grid-column: 8/-1;
     z-index: 2; }
-
-.p-home a {
-  border-color: #EF483F; }
 
 .p-home .c-name {
   color: #EF483F; }
