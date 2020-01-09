@@ -101,6 +101,10 @@ em {
     font-style: italic;
 }
 
+strong {
+    font-weight: 600;
+}
+
 
 .type-serif {
     font-family: ff-scala-web, serif;
@@ -190,7 +194,7 @@ em {
     a {
         border-color: $theme-bg-bright-3;
         color: $color-grey-darker;
-        font-weight: 500;
+        font-weight: 600;
 
         &:hover {
             border-width: 3px;

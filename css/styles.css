@@ -579,6 +579,9 @@ p {
 em {
   font-style: italic; }
 
+strong {
+  font-weight: 600; }
+
 .type-serif {
   font-family: ff-scala-web, serif;
   font-weight: 400;
@@ -644,7 +647,7 @@ em {
 .c-books_list a {
   border-color: #01CD7D;
   color: #050505;
-  font-weight: 500; }
+  font-weight: 600; }
   .c-books_list a:hover {
     border-width: 3px; }
 
@@ -1030,22 +1033,6 @@ a {
   -webkit-transform: translateX(100px);
           transform: translateX(100px); }
 
-.type-serif {
-  font-family: ff-scala-web, serif;
-  font-weight: 400;
-  font-style: normal; }
-
-.u-text-size-s {
-  font-size: 20px;
-  line-height: 1.5; }
-
-.u-text-style-5 {
-  color: #858585;
-  font-size: 20px;
-  letter-spacing: 5px;
-  line-height: 1.5;
-  margin-top: 15px;
-  text-transform: uppercase; }
-
-.u-break_line--hd {
-  display: block; }
+@media screen and (min-width: 1139px) {
+  .u-break_line--hd {
+    display: block; } }
