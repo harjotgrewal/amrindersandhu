@@ -69,6 +69,7 @@
     z-index: 2;
 
     @include media-query(hd) {
+        line-height: 1.2;
         text-shadow: 0 0 20px rgba(black, .15);
         grid-column: 3/10;
         font-size: $font-size-l;

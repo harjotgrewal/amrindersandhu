@@ -708,6 +708,7 @@ a {
   z-index: 2; }
   @media screen and (min-width: 1139px) {
     .c-billboard__blurb {
+      line-height: 1.2;
       text-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
       grid-column: 3/10;
       font-size: 45px;
