@@ -638,7 +638,8 @@ em {
     margin-top: 5px; }
 
 .c-books_list li {
-  color: #858585; }
+  color: #858585;
+  margin-top: 10px; }
 
 .c-books_list a {
   border-color: #01CD7D;
