@@ -47,6 +47,12 @@ business:
 }
 
 - {	
+	url: 'https://www.amazon.com/Insanely-Simple-Obsession-Drives-Success/dp/1591846218',
+	name: 'Insanely Simple: The Obsession that Drives Apple‘s Success',
+	author: 'Ken Segall'	
+}
+
+- {	
 	url: 'https://www.amazon.com/Extreme-Revenue-Growth-Startup-Industry/dp/0984183515',
 	name: 'Extreme Revenue Growth',
 	author: 'Victor Cheng'	
@@ -902,7 +908,7 @@ web:
 
 - {	
 	url: 'https://www.amazon.com/Smashing-Book-2-Matt-Ward/dp/B004M7GH68',
-	name: '￼The Smashing Book #2',
+	name: 'The Smashing Book #2',
 	author: 'Smashing Magazine'	
 }
 
@@ -1011,12 +1017,6 @@ misc:
 	url: 'https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697',
 	name: 'The Back of the Napkin',
 	author: 'Dan Roam'	
-}
-
-- {	
-	url: 'https://www.amazon.com/Insanely-Simple-Obsession-Drives-Success/dp/1591846218',
-	name: 'Insanely Simple: The Obsession that Drives Apple‘s Success',
-	author: 'Ken Segall'	
 }
 
 - {	
