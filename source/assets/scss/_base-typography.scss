@@ -121,13 +121,13 @@ em {
 .c-section__heading {
     color: $color-text-light;
     line-height: 1;
-    margin-top: 75px;
+    //margin-top: 75px;
     padding-left: 25px;
     position: relative;
     text-transform: uppercase;
 
     @include media-query(hd) {
-        margin-top: 150px;
+        //margin-top: 150px;
         //position: sticky;
         padding-left: 125px;
         //top: 50px;
