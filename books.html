@@ -110,42 +110,7 @@ page-description: I strongly believe in continuous learning. Whenever I start wo
 
 
         <section class="c-section__content">
-            <h3>Front-end Development</h3>            
-                
-                {% for book in site.data.books.frontend %}
-                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
-                    <li>
-                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a>
-                        <i class="u-break_line"></i>
-                        <span>by</span>
-                        <em>{{ book.author }}</em>
-                    </li>
-                    {% if forloop.last %}</ul>{% endif %}
-                {% endfor %}             
-        </section>
-
-
-
-
-        <section class="c-section__content">
-            <h3>Content Strategy</h3>            
-                
-                {% for book in site.data.books.content %}
-                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
-                    <li>
-                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a>
-                        <i class="u-break_line"></i>
-                        <span>by</span>
-                        <em>{{ book.author }}</em>
-                    </li>
-                    {% if forloop.last %}</ul>{% endif %}
-                {% endfor %}             
-        </section>
-
-
-
-        <section class="c-section__content">
-            <h3>Design Process</h3>            
+            <h3>Design Process &amp; Principles</h3>            
                 
                 {% for book in site.data.books.process %}
                     {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
@@ -162,23 +127,6 @@ page-description: I strongly believe in continuous learning. Whenever I start wo
 
 
 
-        <section class="c-section__content">
-            <h3>Data Visualization</h3>            
-                
-                {% for book in site.data.books.data %}
-                    {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
-                    <li>
-                        <a href="{{ book.url }}" target="_blank">{{ book.name }}</a>
-                        <i class="u-break_line"></i>
-                        <span>by</span>
-                        <em>{{ book.author }}</em>
-                    </li>
-                    {% if forloop.last %}</ul>{% endif %}
-                {% endfor %}             
-        </section>
-
-
-
 
         <section class="c-section__content">
             <h3>Front-end Development</h3>            
@@ -194,6 +142,8 @@ page-description: I strongly believe in continuous learning. Whenever I start wo
                     {% if forloop.last %}</ul>{% endif %}
                 {% endfor %}             
         </section>
+
+
 
 
 
@@ -211,6 +161,8 @@ page-description: I strongly believe in continuous learning. Whenever I start wo
                     {% if forloop.last %}</ul>{% endif %}
                 {% endfor %}             
         </section>
+
+
 
 
 
