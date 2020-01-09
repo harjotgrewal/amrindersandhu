@@ -191,13 +191,7 @@ strong {
     }
 
     a {
-        border-color: $theme-bg-bright-3;
-        color: $color-grey-darker;
         font-weight: 600;
-
-        &:hover {
-            border-width: 3px;
-        }
     }
 
     span {
@@ -213,5 +207,10 @@ strong {
 
 a {
     border-bottom: 1px solid;
+    color: $color-grey-darker;
     text-decoration: none;
+
+    &:hover {
+        border-width: 3px;
+    }
 }

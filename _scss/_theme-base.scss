@@ -4,6 +4,10 @@
 
 
 .p-home {
+    a {
+        border-color: $theme-bg-bright-1;
+    }
+
     .c-name {
         color: $theme-bg-bright-1;
     }
@@ -40,6 +44,10 @@
 
 
 .p-about {
+    a {
+        border-color: $theme-bg-bright-2;
+    }
+
     .c-name {
         color: $theme-bg-bright-2;
     }
@@ -75,6 +83,10 @@
 
 
 .p-reading {
+    a {
+        border-color: $theme-bg-bright-2;
+    }
+
     .c-name {
         color: $theme-bg-bright-3;
     }
@@ -110,6 +122,10 @@
 
 
 .p-work {
+    a {
+        border-color: $theme-bg-bright-4;
+    }
+
     .c-name {
         color: $theme-bg-bright-4;
     }

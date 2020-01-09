@@ -642,11 +642,7 @@ strong {
   margin-top: 10px; }
 
 .c-books_list a {
-  border-color: #01CD7D;
-  color: #050505;
   font-weight: 600; }
-  .c-books_list a:hover {
-    border-width: 3px; }
 
 .c-books_list span {
   color: #858585;
@@ -657,7 +653,10 @@ strong {
 
 a {
   border-bottom: 1px solid;
+  color: #050505;
   text-decoration: none; }
+  a:hover {
+    border-width: 3px; }
 
 .c-billboard {
   -ms-flex-align: center;
@@ -826,7 +825,8 @@ a {
 
 .c-main {
   display: grid;
-  grid-column: 1/-1; }
+  grid-column: 1/-1;
+  z-index: 1; }
 
 .c-nav {
   grid-column: 6/10;
@@ -910,14 +910,43 @@ a {
   @media screen and (min-width: 1139px) {
     .c-section__content {
       grid-column: 1/-1;
+      margin: 0;
       max-width: 100vw;
       grid-column: 6/-1; } }
 
-.c-section__col {
-  grid-column: 1/5; }
-  .c-section__col img {
-    object-fit: cover;
-    width: calc(100% + 25px); }
+@media screen and (min-width: 1139px) {
+  .c-section__col {
+    grid-column: 1/5; } }
+
+@media screen and (min-width: 1139px) {
+  .c-section__col--1 {
+    grid-column: 1/5;
+    margin: 100px 0 -350px 0; } }
+
+.c-section__image img {
+  max-width: calc(100% - 50px);
+  margin: 25px 0 0 25px; }
+
+@media screen and (min-width: 1139px) {
+  .c-section__image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); }
+    .c-section__image img {
+      grid-column: 1/-1;
+      max-width: none;
+      object-fit: cover;
+      width: calc(100% + 25px);
+      margin: 0; } }
+
+.c-section__caption {
+  color: #858585;
+  grid-column: 2/-1;
+  font-size: 16px;
+  font-style: italic;
+  margin: 10px 25px 25px; }
+  @media screen and (min-width: 1139px) {
+    .c-section__caption {
+      margin: 25px 0 0; } }
 
 .c-project_list {
   display: grid;
@@ -936,6 +965,9 @@ a {
   .c-project_list .c-project_info {
     grid-column: 8/-1;
     z-index: 2; }
+
+.p-home a {
+  border-color: #EF483F; }
 
 .p-home .c-name {
   color: #EF483F; }
@@ -959,6 +991,9 @@ a {
 .p-home .c-billboard__blurb {
   color: #E4FCF9; }
 
+.p-about a {
+  border-color: #B975FE; }
+
 .p-about .c-name {
   color: #B975FE; }
 
@@ -981,6 +1016,9 @@ a {
 .p-about .c-billboard__blurb {
   color: #F1FFDF; }
 
+.p-reading a {
+  border-color: #B975FE; }
+
 .p-reading .c-name {
   color: #01CD7D; }
 
@@ -1002,6 +1040,9 @@ a {
 
 .p-reading .c-billboard__blurb {
   color: #FFF0E3; }
+
+.p-work a {
+  border-color: #00D1FF; }
 
 .p-work .c-name {
   color: #00D1FF; }
