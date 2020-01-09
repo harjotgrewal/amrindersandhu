@@ -501,7 +501,7 @@ pd:
 
 - {	
 	url: 'https://www.amazon.com/User-Centered-Design-Developers-User-Friendly-Applications/dp/1449359809',
-	name: 'User-Centred Design: A Developer's Guide to Building User-Friendly Applications',
+	name: 'User-Centred Design: A Developer‘s Guide to Building User-Friendly Applications',
 	author: 'Travis Lowdermilk'	
 }
 
@@ -615,7 +615,7 @@ pd:
 
 - {	
 	url: 'https://www.amazon.com/Prototyping-Practitioners-Todd-Zaki-Warfel/dp/1933820217',
-	name: 'Prototyping: A Practitioner's Guide',
+	name: 'Prototyping: A Practitioner‘s Guide',
 	author: 'Todd Zaki Warfel'	
 }
 
@@ -1015,7 +1015,7 @@ misc:
 
 - {	
 	url: 'https://www.amazon.com/Insanely-Simple-Obsession-Drives-Success/dp/1591846218',
-	name: 'Insanely Simple: The Obsession That Drives Apple's Success',
+	name: 'Insanely Simple: The Obsession That Drives Apple‘s Success',
 	author: 'Ken Segall'	
 }
 
