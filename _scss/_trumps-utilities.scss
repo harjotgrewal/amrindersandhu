@@ -17,6 +17,11 @@
 
 
 // TYPOGRAPHY
+.u-break_line {
+    display: block;
+}
+
+
 .u-break_line--hd {
     @include media-query(hd) {
         display: block;

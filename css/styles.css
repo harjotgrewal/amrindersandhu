@@ -1033,6 +1033,9 @@ a {
   -webkit-transform: translateX(100px);
           transform: translateX(100px); }
 
+.u-break_line {
+  display: block; }
+
 @media screen and (min-width: 1139px) {
   .u-break_line--hd {
     display: block; } }
