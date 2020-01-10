@@ -38,15 +38,21 @@
 
 .p-home {
     a {
-        //border-color: $theme-bg-bright-1;
+        border-color: $theme-bg-bright-1;
     }
 
-    .c-name {
+    .c-name,
+    .c-menu_button {
         color: $theme-bg-bright-1;
     }
 
     .c-nav__link--home {
-        color: $color-grey-darker;
+        border-bottom-color: $color-grey-lighter;
+        color: $color-grey-light;
+
+        @include media-query(hd) {
+            color: $color-grey-darker;
+        }
     }
 
     &::before {
@@ -85,12 +91,18 @@
         border-color: $theme-bg-bright-2;
     }
 
-    .c-name {
+    .c-name,
+    .c-menu_button {
         color: $theme-bg-bright-2;
     }
 
     .c-nav__link--work {
-        color: $color-grey-darker;
+        border-bottom-color: $color-grey-lighter;
+        color: $color-grey-light;
+
+        @include media-query(hd) {
+            color: $color-grey-darker;
+        }
     }
 
     &::before {
@@ -132,12 +144,18 @@
         border-color: $theme-bg-bright-3;
     }
 
-    .c-name {
+    .c-name,
+    .c-menu_button {
         color: $theme-bg-bright-3;
     }
 
     .c-nav__link--books {
-        color: $color-grey-darker;
+        border-bottom-color: $color-grey-lighter;
+        color: $color-grey-light;
+
+        @include media-query(hd) {
+            color: $color-grey-darker;
+        }
     }
 
     .c-billboard {
@@ -175,12 +193,18 @@
         border-color: $theme-bg-bright-4;
     }
 
-    .c-name {
+    .c-name,
+    .c-menu_button {
         color: $theme-bg-bright-4;
     }
 
     .c-nav__link--about {
-        color: $color-grey-darker;
+        border-bottom-color: $color-grey-lighter;
+        color: $color-grey-light;
+
+        @include media-query(hd) {
+            color: $color-grey-darker;
+        }
     }
 
     .c-billboard {
@@ -219,12 +243,18 @@
         border-color: $theme-bg-bright-5;
     }
 
-    .c-name {
+    .c-name,
+    .c-menu_button {
         color: $theme-bg-bright-5;
     }
 
     .c-nav__link--contact {
-        color: $color-grey-darker;
+        border-bottom-color: $color-grey-lighter;
+        color: $color-grey-light;
+
+        @include media-query(hd) {
+            color: $color-grey-darker;
+        }
     }
 
     .c-billboard {

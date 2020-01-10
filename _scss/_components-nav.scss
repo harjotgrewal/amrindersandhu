@@ -3,11 +3,12 @@
 // -----------------------------------------------------------------------------
 
 .c-nav {
-    grid-column: 6/11;
+    margin: 0 0 25px 25px;
     z-index: 9;
 
-    @include media-query(palm) {
-        display: none;
+    @include media-query(hd) {
+        grid-column: 6/11;
+        margin: 0;
     }
 }
 
@@ -15,17 +16,19 @@
 
 
 .c-nav__list {
-    align-items: center;
-    column-gap: 25px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    height: 100%;
+    @include media-query(hd) {
+        align-items: center;
+        column-gap: 25px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        height: 100%;
+    }
 }
 
 
 
 
-.c-menu {
+.c-menu_button {
     display: none;
 
     @include media-query(palm) {
@@ -40,45 +43,93 @@
 
 
 .c-nav__link {
-    border: 0 none;
-    display: flex;
-    height: 100px;
+    color: $color-grey-darker;
+    display: inline-block;
     font-size: $font-size-s;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 1.2;
-    color: $color-text-light;
+    line-height: 1.5;
+    margin-bottom: 10px;
 
-    strong {
-        transition: .2s transform ease-in-out;
-        font-weight: 700;
-        transform: translateY(10px);
-    }
+    @include media-query(hd) {
+        border: 0 none;
+        
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+        line-height: 1.2;
+        
 
-    span {
-        transition: .2s opacity ease-in-out, .2s visibility ease-in-out;
-        color: $color-text-light;
-        display: block;
-        font-size: $font-size-xs;
-        opacity: 0;
-        visibility: hidden;
-    }
-
-    &:hover {
         strong {
-            color: $color-grey-dark;
-            transform: translateY(0);
-
+            transition: .2s transform ease-in-out;
+            font-weight: 700;
+            transform: translateY(10px);
         }
+
         span {
-            opacity: 1;
-            visibility: visible;
+            transition: .2s opacity ease-in-out, .2s visibility ease-in-out;
+            color: $color-text-light;
+            display: block;
+            font-size: $font-size-xs;
+            opacity: 0;
+            visibility: hidden;
         }
+
+        &:hover {
+            strong {
+                color: $color-grey-dark;
+                transform: translateY(0);
+
+            }
+            span {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        &.is-active {
+            strong {
+                color: $color-grey-darker;
+            }
+        }
+    }
+}
+
+
+
+
+
+.c-menu_button {
+    //background-color: red;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: $font-size-xs;
+    font-weight: bold;
+    line-height: 0.9;
+    margin-right: -20px;
+    padding: 10px;
+    text-align: center;
+    // display: grid;
+    // grid-template-columns: repeat(2, 20px);
+    // grid-template-rows: repeat(2, 20px);
+
+    span:nth-of-type(1) {
+        
     }
 
-    &.is-active {
-        strong {
-            color: $color-grey-darker;
-        }
+    span:nth-of-type(2) {
+        
     }
+
+    span:nth-of-type(3) {
+        
+    }
+
+    span:nth-of-type(4) {
+        
+    }
+}
+
+
+
+.c-menu_button--hide {
+    display: none;
 }

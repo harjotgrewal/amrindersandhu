@@ -23,7 +23,7 @@
 
     .c-entry__link {
         border-bottom: 0;
-        border-left: 6px double $color-grey-lighter;
+        border-left: 6px double $color-grey-lighter !important;
         color: $color-text-light;
         display: block;
         margin-top: 25px;
