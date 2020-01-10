@@ -30,6 +30,8 @@
 
 .c-menu_button {
     display: none;
+    background: none;
+    border: 0;
     -webkit-appearance: none !important;
 
     @include media-query(palm) {
