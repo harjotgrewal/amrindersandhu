@@ -4,15 +4,16 @@
 
 .c-nav {    
     z-index: 9;    
+    visibility: hidden;
 
     @include media-query(hd) {
         grid-column: 6/11;
         margin: 0;
+        visibility: visible;
     }
 
-    @include media-query(palm) {
-        transition: 0.5s opacity ease-in, 0.4s height ease-in-out;
-        visibility: hidden;
+    @include media-query(portable) {
+        transition: 0.5s opacity ease-in, 0.4s height ease-in-out;        
         height: 0;
         opacity: 0;
     }
@@ -29,7 +30,7 @@
 
 
 .c-nav__list {
-    @include media-query(hd) {
+    @include media-query(desk) {
         align-items: center;
         column-gap: 25px;
         display: grid;
@@ -53,7 +54,7 @@
         border: 1px dotted black;
     }
 
-    @include media-query(palm) {
+    @include media-query(portable) {
         display: block;
         justify-self: center;
         z-index: 9;
@@ -71,7 +72,7 @@
     line-height: 1.5;
     margin-bottom: 10px;
 
-    @include media-query(hd) {
+    @include media-query(desk) {
         border: 0 none;
         color: $color-grey-light;
         display: flex;
