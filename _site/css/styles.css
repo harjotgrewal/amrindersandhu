@@ -655,8 +655,9 @@ a {
   border-bottom: 1px solid;
   color: #050505;
   text-decoration: none; }
-  a:hover {
-    border-width: 3px; }
+  @media screen and (min-width: 1139px) {
+    a:hover {
+      border-width: 3px; } }
 
 .c-billboard {
   -ms-flex-align: center;
@@ -972,19 +973,34 @@ a {
     grid-column: 8/-1;
     z-index: 2; }
 
+.c-nav__link--home:active {
+  border-color: #EF483F; }
+
 .c-nav__link--home:hover strong {
   color: #EF483F; }
 
-.c-nav__link--work:hover strong {
+.c-nav__link--work:hover:active {
+  border-color: #B975FE; }
+
+.c-nav__link--work:hover:hover strong {
   color: #B975FE; }
 
-.c-nav__link--books:hover strong {
+.c-nav__link--books:hover:active {
+  border-color: #01CD7D; }
+
+.c-nav__link--books:hover:hover strong {
   color: #01CD7D; }
 
-.c-nav__link--about:hover strong {
+.c-nav__link--about:hover:active {
+  border-color: #00D1FF; }
+
+.c-nav__link--about:hover:hover strong {
   color: #00D1FF; }
 
-.c-nav__link--contact:hover strong {
+.c-nav__link--contact:hover:active {
+  border-color: #FF8A00; }
+
+.c-nav__link--contact:hover:hover strong {
   color: #FF8A00; }
 
 .p-home a {

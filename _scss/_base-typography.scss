@@ -210,7 +210,9 @@ a {
     color: $color-grey-darker;
     text-decoration: none;
 
-    &:hover {
-        border-width: 3px;
+    @include media-query(hd) {
+        &:hover {
+            border-width: 3px;
+        }
     }
 }

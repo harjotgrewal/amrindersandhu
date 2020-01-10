@@ -2,33 +2,63 @@
 // THEME COLORS
 // -----------------------------------------------------------------------------
 
-.c-nav__link--home:hover {
-    strong {
-        color: $theme-bg-bright-1;
+.c-nav__link--home {
+    &:active {
+        border-color: $theme-bg-bright-1;
+    }
+
+    &:hover {
+        strong {
+            color: $theme-bg-bright-1;
+        }
     }
 }
 
 .c-nav__link--work:hover {
-    strong {
-        color: $theme-bg-bright-2;
+    &:active {
+        border-color: $theme-bg-bright-2;
+    }
+
+    &:hover {
+        strong {
+            color: $theme-bg-bright-2;
+        }
     }
 }
 
 .c-nav__link--books:hover {
-    strong {
-        color: $theme-bg-bright-3;
+    &:active {
+        border-color: $theme-bg-bright-3;
+    }
+
+    &:hover {
+        strong {
+            color: $theme-bg-bright-3;
+        }
     }
 }
 
 .c-nav__link--about:hover {
-    strong {
-        color: $theme-bg-bright-4;
+    &:active {
+        border-color: $theme-bg-bright-4;
+    }
+
+    &:hover {
+        strong {
+            color: $theme-bg-bright-4;
+        }
     }
 }
 
 .c-nav__link--contact:hover {
-    strong {
-        color: $theme-bg-bright-5;
+    &:active {
+        border-color: $theme-bg-bright-5;
+    }
+
+    &:hover {
+        strong {
+            color: $theme-bg-bright-5;
+        }
     }
 }
 
