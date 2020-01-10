@@ -30,7 +30,7 @@
 
 .c-menu_button {
     display: none;
-    -webkit-appearance: none;
+    -webkit-appearance: none !important;
 
     @include media-query(palm) {
         display: block;
@@ -52,7 +52,6 @@
 
     @include media-query(hd) {
         border: 0 none;
-        
         display: flex;
         flex-direction: column;
         height: 100px;

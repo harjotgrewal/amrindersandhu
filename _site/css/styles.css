@@ -833,7 +833,7 @@ a {
 
 .c-menu_button {
   display: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none !important; }
   @media screen and (max-width: 44.9375em) {
     .c-menu_button {
       display: block;
