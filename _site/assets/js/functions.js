@@ -46,11 +46,3 @@ var tl = anime.timeline({
     backgroundColor: '#FF8A00',
     delay: anime.stagger(50)
   })
-
-  tl
-  .add({
-    targets: '.c-billboard__blurb',
-    left: '0%',
-    opacity: 1,
-    duration: 3000
-  }, '-1000')
