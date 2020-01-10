@@ -832,7 +832,8 @@ a {
     height: 100%; } }
 
 .c-menu_button {
-  display: none; }
+  display: none;
+  -webkit-appearance: none; }
   @media screen and (max-width: 44.9375em) {
     .c-menu_button {
       display: block;
