@@ -814,12 +814,22 @@ a {
   z-index: 1; }
 
 .c-nav {
-  margin: 0 0 25px 25px;
   z-index: 9; }
   @media screen and (min-width: 1139px) {
     .c-nav {
       grid-column: 6/11;
       margin: 0; } }
+  @media screen and (max-width: 44.9375em) {
+    .c-nav {
+      transition: 0.5s opacity ease-in, 0.4s height ease-in-out;
+      visibility: hidden;
+      height: 0;
+      opacity: 0; } }
+  .c-nav.is-visible {
+    visibility: visible;
+    height: 250px;
+    margin: 0 0 25px 25px;
+    opacity: 1; }
 
 @media screen and (min-width: 1139px) {
   .c-nav__list {
@@ -836,7 +846,11 @@ a {
   display: none;
   background: none;
   border: 0;
-  -webkit-appearance: none !important; }
+  -webkit-appearance: none !important;
+  outline: none;
+  border-radius: 4px; }
+  .c-menu_button:focus {
+    border: 1px dotted black; }
   @media screen and (max-width: 44.9375em) {
     .c-menu_button {
       display: block;

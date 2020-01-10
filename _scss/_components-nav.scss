@@ -2,13 +2,26 @@
 // NAVIGATION
 // -----------------------------------------------------------------------------
 
-.c-nav {
-    margin: 0 0 25px 25px;
-    z-index: 9;
+.c-nav {    
+    z-index: 9;    
 
     @include media-query(hd) {
         grid-column: 6/11;
         margin: 0;
+    }
+
+    @include media-query(palm) {
+        transition: 0.5s opacity ease-in, 0.4s height ease-in-out;
+        visibility: hidden;
+        height: 0;
+        opacity: 0;
+    }
+
+    &.is-visible {
+        visibility: visible;
+        height: 250px;
+        margin: 0 0 25px 25px;
+        opacity: 1;
     }
 }
 
@@ -33,6 +46,12 @@
     background: none;
     border: 0;
     -webkit-appearance: none !important;
+    outline: none;
+    border-radius: 4px;
+
+    &:focus {
+        border: 1px dotted black;
+    }
 
     @include media-query(palm) {
         display: block;

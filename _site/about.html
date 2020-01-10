@@ -17,13 +17,14 @@
 		<!-- <link rel="stylesheet" href="https://use.typekit.net/njh2cfh.css"/>	   -->
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     </head>
     <body>
           
 <header class="c-header"><strong class="c-name">Amrinder Sandhu</strong>
-  <button type="button" onclick="ShowHide()" class="c-menu_button c-menu_button--show"> <span>M</span><span>E</span><br/><span>N</span><span>U</span></button>
+  <button id="menuToggle" type="button" class="c-menu_button c-menu_button--show"> <span>M</span><span>E</span><br/><span>N</span><span>U</span></button>
   <!--button.c-menu_button.c-menu_button--hide(type="button") 
   span H
   span I
@@ -34,7 +35,7 @@
   
   
   -->
-  <nav class="c-nav">
+  <nav id="menuToggleMenu" class="c-nav">
     <ul class="c-nav__list">
       <li class="c-nav__item"><a href="/" class="c-nav__link c-nav__link--home"> <strong>Home </strong><span>and journal</span></a></li>
       <li class="c-nav__item"><a href="work.html" class="c-nav__link c-nav__link--work"> <strong>Work </strong><span>I’ve done</span></a></li>
@@ -59,7 +60,7 @@
         </figure>
       </section>
       
-      <section class="c-section__content">
+      <section class="c-section__content" data-aos="fade-up">
         <p>I’ve been leading and contributing to product design, user experience and front-end development for 12 years now. Along with developing and implementing user-centred design vision, principles, strategy, and processes to guide the development of products, I’ve collaborated cross-functionally with product, engineering, marketing, sales and customer support to build and maintain efficient process for user research and product development for delivering smooth and usable UI which has resulted in memorable UX.</p>
 
         <p>Whether I’m designing a small feature, conducting usability testing, building a design system, or writing a LinkedIn recommendation, I always start with thorough research and discovery. I never hesitate to ask questions, challenge conventions, ideas and processes, suggest best practices, tools and frameworks; whether it involves my own team or <a href="https://www.linkedin.com/in/lakshmanannarayan/">a CEO</a> <a href="https://www.linkedin.com/in/siamaktaghaddos/">of a</a> <a href="https://www.linkedin.com/in/deepigoyal/">company</a>.</p> 
@@ -70,7 +71,7 @@
     </section>
       
     <section class="c-section l-grid l-grid--section">
-        <h2 class="c-section__heading">More about me</h2>
+        <h2 class="c-section__heading" data-aos="flip-up">More about me</h2>
         
         <section class="c-section__col--1">
           <figure class="c-section__image c-section__image--withdan">
@@ -84,22 +85,22 @@
 
 
         
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
           <h3>Designing since 2003</h3>
           <p>In 2003, I designed my first website (about Arnold Schwarzenegger) using <a href="https://en.wikipedia.org/wiki/Microsoft_FrontPage">Microsoft FrontPage</a>. Before that I used to draw and paint brand logos to perfection. Later, I started playing with Photoshop to satisfy my curiosity and express my creativity. All these small exercises and experiments helped me later when I decided to start designing full-time in 2008.</p>
         </section>
         
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
           <h3>Engineer turned Designer</h3>
           <p>I did a B.Tech in Computer Science and Engineering (2003-2007) before starting full-time freelancing in Feb, 2008. One thing that hasn’t changed during this transition from an Engineer to a Designer is his passion for understanding and solving problems. That Engineering side of his also helps him create a balance between making something that is usable and memorable, and aesthetically pleasing and delightful.</p>
         </section>
         
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
           <h3>Google, Intel, Groupon</h3>
           <p>Before joining Unmetric full-time in 2014, I have lead design at various early-stage startups. I’ve worked with Intel, Zomato, Grasshopper, CIBC, and Raja Sandhu over the years. Google, Groupon, and Intel offered me jobs which I couldn’t accept because of relocation.</p>
         </section>
         
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
           <h3>A Unicorn Designer</h3>
           <p>As I’ve worked as a freelancer during the early years of my career (2008-2014), I got ample opportunities to design more than just apps. I have worked on branding, designed websites and blogs, pitching decks, marketing and product newsletters, brand value posters, social calendars, social media ads, sales collateral, ebooks and video covers, and logos for Unmetric and over a half dozen clients across the world. However, I love designing product experiences and interactions the most.</p>
         </section>
@@ -133,6 +134,11 @@
 
 
 <!-- <footer><button>Look ma, no footer!</button></footer> -->         
-
+	
+	<script src="assets/js/functions.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	AOS.init();
+	</script>	  
     </body>
 </html>

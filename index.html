@@ -13,12 +13,12 @@ page-description: Sat Shri Akaal! <br/> I’m a user experience and interface de
     
     
     <section class="c-section">
-        <h2 class="c-section__heading">Journal</h2>
+        <h2 class="c-section__heading" data-aos="flip-up">Journal</h2>
         
         <section class="c-section__content">
 
             {% for entry in site.data.entries.journal %}
-            <article class="c-entry">
+            <article class="c-entry" data-aos="fade-up">
                 <h3 class="c-entry__heading">{{ entry.title }}</h3>
                 <a href="{{ entry.url }}" target="_blank" class="c-entry__link">
                     <address class="c-entry__author">{{ entry.author }}</address>

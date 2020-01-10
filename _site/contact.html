@@ -17,13 +17,14 @@
 		<!-- <link rel="stylesheet" href="https://use.typekit.net/njh2cfh.css"/>	   -->
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     </head>
     <body>
           
 <header class="c-header"><strong class="c-name">Amrinder Sandhu</strong>
-  <button type="button" onclick="ShowHide()" class="c-menu_button c-menu_button--show"> <span>M</span><span>E</span><br/><span>N</span><span>U</span></button>
+  <button id="menuToggle" type="button" class="c-menu_button c-menu_button--show"> <span>M</span><span>E</span><br/><span>N</span><span>U</span></button>
   <!--button.c-menu_button.c-menu_button--hide(type="button") 
   span H
   span I
@@ -34,7 +35,7 @@
   
   
   -->
-  <nav class="c-nav">
+  <nav id="menuToggleMenu" class="c-nav">
     <ul class="c-nav__list">
       <li class="c-nav__item"><a href="/" class="c-nav__link c-nav__link--home"> <strong>Home </strong><span>and journal</span></a></li>
       <li class="c-nav__item"><a href="work.html" class="c-nav__link c-nav__link--work"> <strong>Work </strong><span>I’ve done</span></a></li>
@@ -62,6 +63,11 @@
 
     </section>    
 </main>         
-
+	
+	<script src="assets/js/functions.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	AOS.init();
+	</script>	  
     </body>
 </html>
