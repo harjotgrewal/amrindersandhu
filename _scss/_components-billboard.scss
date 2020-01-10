@@ -86,6 +86,7 @@
         font-size: $font-size-l;
         letter-spacing: -1px;
         position: absolute;
+        left: 40%;
    }
 
    @include media-query(portable) {
