@@ -2,6 +2,39 @@
 // THEME COLORS
 // -----------------------------------------------------------------------------
 
+.c-nav__link--home:hover {
+    strong {
+        color: $theme-bg-bright-1;
+    }
+}
+
+.c-nav__link--work:hover {
+    strong {
+        color: $theme-bg-bright-2;
+    }
+}
+
+.c-nav__link--books:hover {
+    strong {
+        color: $theme-bg-bright-3;
+    }
+}
+
+.c-nav__link--about:hover {
+    strong {
+        color: $theme-bg-bright-4;
+    }
+}
+
+.c-nav__link--contact:hover {
+    strong {
+        color: $theme-bg-bright-5;
+    }
+}
+
+
+
+
 
 .p-home {
     a {
@@ -10,6 +43,10 @@
 
     .c-name {
         color: $theme-bg-bright-1;
+    }
+
+    .c-nav__link--home {
+        color: $color-grey-darker;
     }
 
     &::before {
@@ -43,13 +80,17 @@
 
 
 
-.p-about {
+.p-work {
     a {
         border-color: $theme-bg-bright-2;
     }
 
     .c-name {
         color: $theme-bg-bright-2;
+    }
+
+    .c-nav__link--work {
+        color: $color-grey-darker;
     }
 
     &::before {
@@ -82,17 +123,21 @@
 
 
 
-.p-reading {
+.p-books {
+    &::before {
+        background-color: $theme-bg-light-3;
+    }
+
     a {
-        border-color: $theme-bg-bright-2;
+        border-color: $theme-bg-bright-3;
     }
 
     .c-name {
         color: $theme-bg-bright-3;
     }
 
-    &::before {
-        background-color: $theme-bg-light-3;
+    .c-nav__link--books {
+        color: $color-grey-darker;
     }
 
     .c-billboard {
@@ -121,7 +166,11 @@
 
 
 
-.p-work {
+.p-about {
+    &::before {
+        background-color: $theme-bg-light-4;
+    }
+
     a {
         border-color: $theme-bg-bright-4;
     }
@@ -130,8 +179,8 @@
         color: $theme-bg-bright-4;
     }
 
-    &::before {
-        background-color: $theme-bg-light-4;
+    .c-nav__link--about {
+        color: $color-grey-darker;
     }
 
     .c-billboard {
@@ -154,5 +203,49 @@
 
     .c-billboard__blurb {
         color: $theme-bg-light-4;
+    }
+}
+
+
+
+
+
+.p-contact {
+    &::before {
+        background-color: $theme-bg-light-5;
+    }
+
+    a {
+        border-color: $theme-bg-bright-5;
+    }
+
+    .c-name {
+        color: $theme-bg-bright-5;
+    }
+
+    .c-nav__link--contact {
+        color: $color-grey-darker;
+    }
+
+    .c-billboard {
+        background-color: $theme-bg-bright-5;
+
+        &::after {
+            border-bottom-color: $theme-bg-light-5;
+        }
+    }
+
+    .c-billboard__title {
+        color: rgba(white, .15);
+        font-size: 130px;
+
+        @include media-query(hd) {
+            font-size: 450px;
+            margin-left: -20px;
+        }
+    }
+
+    .c-billboard__blurb {
+        color: $theme-bg-light-5;
     }
 }
