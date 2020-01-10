@@ -1003,7 +1003,8 @@ a {
 .c-nav__link--contact:hover:hover strong {
   color: #FF8A00; }
 
-.p-home a {
+.p-home a,
+.p-home .c-nav__link--home:active {
   border-color: #EF483F; }
 
 .p-home .c-name,

@@ -67,7 +67,8 @@
 
 
 .p-home {
-    a {
+    a,
+    .c-nav__link--home:active {
         border-color: $theme-bg-bright-1;
     }
 
