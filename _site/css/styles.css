@@ -852,6 +852,7 @@ a {
   @media screen and (min-width: 1139px) {
     .c-nav__link {
       border: 0 none;
+      color: #858585;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-direction: column;
@@ -864,19 +865,21 @@ a {
         transition: .2s -webkit-transform ease-in-out;
         transition: .2s transform ease-in-out;
         font-weight: 700;
-        -webkit-transform: translateY(10px);
-                transform: translateY(10px); }
+        -webkit-transform: translateY(14px);
+                transform: translateY(14px); }
       .c-nav__link span {
         transition: .2s opacity ease-in-out, .2s visibility ease-in-out;
         color: #858585;
         display: block;
         font-size: 16px;
         opacity: 0;
+        -webkit-transform: translateY(5px);
+                transform: translateY(5px);
         visibility: hidden; }
       .c-nav__link:hover strong {
         color: #454545;
-        -webkit-transform: translateY(0);
-                transform: translateY(0); }
+        -webkit-transform: translateY(5px);
+                transform: translateY(5px); }
       .c-nav__link:hover span {
         opacity: 1;
         visibility: visible; }

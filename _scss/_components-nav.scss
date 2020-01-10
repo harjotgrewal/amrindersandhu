@@ -54,6 +54,7 @@
 
     @include media-query(hd) {
         border: 0 none;
+        color: $color-grey-light;
         display: flex;
         flex-direction: column;
         height: 100px;
@@ -64,7 +65,7 @@
         strong {
             transition: .2s transform ease-in-out;
             font-weight: 700;
-            transform: translateY(10px);
+            transform: translateY(14px);
         }
 
         span {
@@ -73,13 +74,14 @@
             display: block;
             font-size: $font-size-xs;
             opacity: 0;
+            transform: translateY(5px);
             visibility: hidden;
         }
 
         &:hover {
             strong {
                 color: $color-grey-dark;
-                transform: translateY(0);
+                transform: translateY(5px);
 
             }
             span {
