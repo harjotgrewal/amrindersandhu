@@ -82,11 +82,10 @@
     @include media-query(desk) {
         line-height: 1.2;
         text-shadow: 0 0 20px rgba(black, .15);
-        grid-column: 3/10;
+        grid-column: 3/11;
         font-size: $font-size-l;
         letter-spacing: -1px;
         position: absolute;
-        left: 40%;
    }
 
    @include media-query(portable) {

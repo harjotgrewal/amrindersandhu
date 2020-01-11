@@ -709,11 +709,10 @@ a {
     .c-billboard__blurb {
       line-height: 1.2;
       text-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-      grid-column: 3/10;
+      grid-column: 3/11;
       font-size: 45px;
       letter-spacing: -1px;
-      position: absolute;
-      left: 40%; } }
+      position: absolute; } }
   @media screen and (max-width: 63.9375em) {
     .c-billboard__blurb {
       margin-top: 0; } }
