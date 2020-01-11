@@ -67,6 +67,8 @@
 
 
 .p-home {
+    background-color: $theme-bg-light-1;
+
     a {
         border-color: $theme-bg-bright-1;
     }
@@ -83,10 +85,6 @@
         @include media-query(hd) {
             color: $color-grey-darker;
         }
-    }
-
-    &::before {
-        background-color: $theme-bg-light-1;
     }
 
     .c-billboard {
@@ -117,6 +115,8 @@
 
 
 .p-work {
+    background-color: $theme-bg-light-2;
+
     a {
         border-color: $theme-bg-bright-2;
     }
@@ -135,9 +135,6 @@
         }
     }
 
-    &::before {
-        background-color: $theme-bg-light-2;
-    }
 
     .c-billboard {
         background-color: $theme-bg-bright-2;
@@ -166,9 +163,7 @@
 
 
 .p-books {
-    &::before {
-        background-color: $theme-bg-light-3;
-    }
+    background-color: $theme-bg-light-3;
 
     a {
         border-color: $theme-bg-bright-3;
@@ -215,9 +210,7 @@
 
 
 .p-about {
-    &::before {
-        background-color: $theme-bg-light-4;
-    }
+    background-color: $theme-bg-light-4;
 
     a {
         border-color: $theme-bg-bright-4;
@@ -265,9 +258,7 @@
 
 
 .p-contact {
-    &::before {
-        background-color: $theme-bg-light-5;
-    }
+    background-color: $theme-bg-light-5;
 
     a {
         border-color: $theme-bg-bright-5;
