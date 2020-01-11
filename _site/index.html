@@ -17,13 +17,14 @@
 		<!-- <link rel="stylesheet" href="https://use.typekit.net/njh2cfh.css"/>	   -->
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     </head>
     <body>
           
 <header class="c-header"><strong class="c-name">Amrinder Sandhu</strong>
-  <button type="button" onclick="ShowHide()" class="c-menu_button c-menu_button--show"> <span>M</span><span>E</span><br/><span>N</span><span>U</span></button>
+  <button id="menuToggle" type="button" class="c-menu_button c-menu_button--show"> <span>M</span><span>E</span><br/><span>N</span><span>U</span></button>
   <!--button.c-menu_button.c-menu_button--hide(type="button") 
   span H
   span I
@@ -34,7 +35,7 @@
   
   
   -->
-  <nav class="c-nav">
+  <nav id="menuToggleMenu" class="c-nav">
     <ul class="c-nav__list">
       <li class="c-nav__item"><a href="/" class="c-nav__link c-nav__link--home"> <strong>Home </strong><span>and journal</span></a></li>
       <li class="c-nav__item"><a href="work.html" class="c-nav__link c-nav__link--work"> <strong>Work </strong><span>I’ve done</span></a></li>
@@ -47,6 +48,20 @@
 
 <main class="c-main l-grid">      
     <section class="c-billboard l-grid l-grid--billboard">
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>    
+    
+
     <h1 class="c-billboard__title">Hello!</h1>
 
     <p class="c-billboard__blurb">I’m a user experience and interface designer with 12 years of experience. Currently, I’m the head of design at Unmetric.</p>
@@ -54,12 +69,12 @@
     
     
     <section class="c-section">
-        <h2 class="c-section__heading">Journal</h2>
+        <h2 class="c-section__heading"  >Journal</h2>
         
         <section class="c-section__content">
 
             
-            <article class="c-entry">
+            <article class="c-entry" data-aos="fade-up">
                 <h3 class="c-entry__heading">Interesting approach for managing your commits.</h3>
                 <a href="https://hofmannsven.com/2019/commit-message-driven-development" target="_blank" class="c-entry__link">
                     <address class="c-entry__author">Sven Hofmann</address>
@@ -71,7 +86,7 @@
                 </a>
             </article>
             
-            <article class="c-entry">
+            <article class="c-entry" data-aos="fade-up">
                 <h3 class="c-entry__heading">How to increase focus to solve challenging problems by minimizing distractions.</h3>
                 <a href="https://www.smashingmagazine.com/2019/11/better-design-deep-thinking/" target="_blank" class="c-entry__link">
                     <address class="c-entry__author">Smashing Magazine</address>
@@ -83,7 +98,7 @@
                 </a>
             </article>
             
-            <article class="c-entry">
+            <article class="c-entry" data-aos="fade-up">
                 <h3 class="c-entry__heading">Some useful tips on how to impress your new boss early on.</h3>
                 <a href="https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/" target="_blank" target="_blank" class="c-entry__link">
                     <address class="c-entry__author">Know Your Team</address>
@@ -95,7 +110,7 @@
                 </a>
             </article>
             
-            <article class="c-entry">
+            <article class="c-entry" data-aos="fade-up">
                 <h3 class="c-entry__heading">7 interesting things that made Briana working at Stripe feel different.</h3>
                 <a href="https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/" target="_blank" class="c-entry__link">
                     <address class="c-entry__author">Twitter</address>
@@ -107,7 +122,7 @@
                 </a>
             </article>
             
-            <article class="c-entry">
+            <article class="c-entry" data-aos="fade-up">
                 <h3 class="c-entry__heading">Empathy isn’t about being nice but it can help increase revenue.</h3>
                 <a href="https://vimeo.com/343056801" target="_blank" class="c-entry__link">
                     <address class="c-entry__author">Vimeo • 99U</address>
@@ -124,6 +139,12 @@
       </section>
     
 </main>         
-
+		
+	<script src="assets/js/anime.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="assets/js/functions.js"></script>
+	<script>
+	AOS.init();
+	</script>	  
     </body>
 </html>

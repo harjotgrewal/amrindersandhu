@@ -17,13 +17,14 @@
 		<!-- <link rel="stylesheet" href="https://use.typekit.net/njh2cfh.css"/>	   -->
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     </head>
     <body>
           
 <header class="c-header"><strong class="c-name">Amrinder Sandhu</strong>
-  <button type="button" onclick="ShowHide()" class="c-menu_button c-menu_button--show"> <span>M</span><span>E</span><br/><span>N</span><span>U</span></button>
+  <button id="menuToggle" type="button" class="c-menu_button c-menu_button--show"> <span>M</span><span>E</span><br/><span>N</span><span>U</span></button>
   <!--button.c-menu_button.c-menu_button--hide(type="button") 
   span H
   span I
@@ -34,7 +35,7 @@
   
   
   -->
-  <nav class="c-nav">
+  <nav id="menuToggleMenu" class="c-nav">
     <ul class="c-nav__list">
       <li class="c-nav__item"><a href="/" class="c-nav__link c-nav__link--home"> <strong>Home </strong><span>and journal</span></a></li>
       <li class="c-nav__item"><a href="work.html" class="c-nav__link c-nav__link--work"> <strong>Work </strong><span>I’ve done</span></a></li>
@@ -47,6 +48,20 @@
 
 <main class="c-main l-grid">      
     <section class="c-billboard l-grid l-grid--billboard">
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>
+    <div class="c-billboard__anime"></div>    
+    
+
     <h1 class="c-billboard__title">Books</h1>
 
     <p class="c-billboard__blurb">I strongly believe in continuous learning. Whenever I start working on something new or need to understand something better, I’d pick a book on the subject <i class="u-break_line--hd"></i>and try to learn from the best.</p>
@@ -54,10 +69,10 @@
 
     <!-- JOURNAL ENTRIES-->
     <section class="c-section">
-        <h2 class="c-section__heading">Books</h2>
+        <h2 class="c-section__heading"  >Books</h2>
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Branding</h3>            
                 
                 
@@ -84,7 +99,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Business &amp; Strategy</h3>            
                 
                 
@@ -157,7 +172,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Colors</h3>            
                 
                 
@@ -193,7 +208,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Content Strategy</h3>            
                 
                 
@@ -238,7 +253,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Data Visualization</h3>            
                 
                 
@@ -302,7 +317,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Design Process &amp; Principles</h3>            
                 
                 
@@ -411,7 +426,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Front-end Development</h3>            
                 
                 
@@ -556,7 +571,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Graphic Design</h3>            
                 
                 
@@ -620,7 +635,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Information Architecture</h3>            
                 
                 
@@ -655,7 +670,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Interaction Design</h3>            
                 
                 
@@ -771,7 +786,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Productivity</h3>            
                 
                 
@@ -825,7 +840,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Content Strategy</h3>            
                 
                 
@@ -870,7 +885,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Product Design</h3>            
                 
                 
@@ -1069,7 +1084,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Product Management</h3>            
                 
                 
@@ -1105,7 +1120,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Psychology</h3>            
                 
                 
@@ -1195,7 +1210,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Typography</h3>            
                 
                 
@@ -1294,7 +1309,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Usability</h3>            
                 
                 
@@ -1358,7 +1373,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>User Experience</h3>            
                 
                 
@@ -1430,7 +1445,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>User Research</h3>            
                 
                 
@@ -1466,7 +1481,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Web and Mobile Design</h3>            
                 
                 
@@ -1637,7 +1652,7 @@
 
 
 
-        <section class="c-section__content">
+        <section class="c-section__content" data-aos="fade-up">
             <h3>Miscellaneous</h3>            
                 
                 
@@ -1682,6 +1697,12 @@
 
     
 </main>             
-
+		
+	<script src="assets/js/anime.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="assets/js/functions.js"></script>
+	<script>
+	AOS.init();
+	</script>	  
     </body>
 </html>
