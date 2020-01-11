@@ -3,11 +3,13 @@
 // -----------------------------------------------------------------------------
 
 .c-footer {
+    margin: 50px 0 50px 25px;
+
     @include media-query(desk) {
         display: grid;
         grid-template-columns: repeat(10, 100px);
         grid-column-gap: 25px;
-        margin-top: 100px;
+        margin: 100px 0 0;
         align-items: center;
 
         ul {
@@ -17,15 +19,25 @@
             grid-template-columns: repeat(4, 1fr);
             column-gap: 25px;
         }
+
+        span {
+            grid-column: 2/6;
+            grid-row: 1;
+        }
     }
 
-    span {
-        grid-column: 2/6;
-    }
+    
 
     span,
     a {
         color: $color-grey-light;
         font-size: $font-size-xs;
+    }
+
+    @include media-query(palm) {
+        span {
+            display: inline-block;
+            margin-top: 25px;   
+        }
     }
 }
