@@ -24,7 +24,6 @@
     font-size: $font-size-s;
     font-weight: 700;
     line-height: 1;
-    padding-left: 25px;
     position: relative;
     text-transform: uppercase;
 
@@ -35,11 +34,13 @@
     @include media-query(hd) {
         font-size: $font-size-s;
         grid-area: name;
-        padding-left: 125px;
+        left: 125px;
+   }
+
+   @include media-query(portable) {
+       left: 25px;
    }
 }
-
-
 
 
 

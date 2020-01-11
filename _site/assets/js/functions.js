@@ -6,6 +6,22 @@ function menuToggle() {
 document.getElementById('menuToggle').addEventListener('click', menuToggle);
 
 
+
+
+var svgText = anime({
+  targets: '.c-name path',
+  loop: false,
+  direction: 'forwards',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInExpo',
+  duration: 500,
+  delay: (el, i) => { return i * 100 }
+});
+
+
+
+
+
 var tl = anime.timeline({
     easing: 'easeOutExpo',
     duration: 70

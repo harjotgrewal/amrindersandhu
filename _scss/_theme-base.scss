@@ -78,6 +78,10 @@
         color: $theme-bg-bright-1;
     }
 
+    .c-name path {
+        stroke: $theme-bg-bright-1;
+    }
+
     .c-nav__link--home {
         border-bottom-color: $color-grey-lighter;
         color: $color-grey-light;
@@ -128,6 +132,10 @@
     .c-name a,
     .c-menu_button {
         color: $theme-bg-bright-2;
+    }
+
+    .c-name path {
+        stroke: $theme-bg-bright-2;
     }
 
     .c-nav__link--work {
@@ -182,6 +190,10 @@
         color: $theme-bg-bright-3;
     }
 
+    .c-name path {
+        stroke: $theme-bg-bright-3;
+    }
+
     .c-nav__link--books {
         border-bottom-color: $color-grey-lighter;
         color: $color-grey-light;
@@ -231,6 +243,10 @@
     .c-name a,
     .c-menu_button {
         color: $theme-bg-bright-4;
+    }
+
+    .c-name path {
+        stroke: $theme-bg-bright-4;
     }
 
     .c-nav__link--about {
@@ -283,6 +299,10 @@
     .c-name a,
     .c-menu_button {
         color: $theme-bg-bright-5;
+    }
+
+    .c-name path {
+        stroke: $theme-bg-bright-5;
     }
 
     .c-nav__link--contact {

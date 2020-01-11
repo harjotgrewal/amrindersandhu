@@ -864,7 +864,6 @@ a {
   font-size: 20px;
   font-weight: 700;
   line-height: 1;
-  padding-left: 25px;
   position: relative;
   text-transform: uppercase; }
   .c-name a {
@@ -873,7 +872,10 @@ a {
     .c-name {
       font-size: 20px;
       grid-area: name;
-      padding-left: 125px; } }
+      left: 125px; } }
+  @media screen and (max-width: 63.9375em) {
+    .c-name {
+      left: 25px; } }
 
 .c-menu {
   display: none; }
@@ -1103,6 +1105,8 @@ a {
   .p-home .c-name a,
   .p-home .c-menu_button {
     color: #EF483F; }
+  .p-home .c-name path {
+    stroke: #EF483F; }
   .p-home .c-nav__link--home {
     border-bottom-color: #c5c5c5;
     color: #858585; }
@@ -1132,6 +1136,8 @@ a {
   .p-work .c-name a,
   .p-work .c-menu_button {
     color: #B975FE; }
+  .p-work .c-name path {
+    stroke: #B975FE; }
   .p-work .c-nav__link--work {
     border-bottom-color: #c5c5c5;
     color: #858585; }
@@ -1161,6 +1167,8 @@ a {
   .p-books .c-name a,
   .p-books .c-menu_button {
     color: #01CD7D; }
+  .p-books .c-name path {
+    stroke: #01CD7D; }
   .p-books .c-nav__link--books {
     border-bottom-color: #c5c5c5;
     color: #858585; }
@@ -1190,6 +1198,8 @@ a {
   .p-about .c-name a,
   .p-about .c-menu_button {
     color: #00D1FF; }
+  .p-about .c-name path {
+    stroke: #00D1FF; }
   .p-about .c-nav__link--about {
     border-bottom-color: #c5c5c5;
     color: #858585; }
@@ -1219,6 +1229,8 @@ a {
   .p-contact .c-name a,
   .p-contact .c-menu_button {
     color: #FF8A00; }
+  .p-contact .c-name path {
+    stroke: #FF8A00; }
   .p-contact .c-nav__link--contact {
     border-bottom-color: #c5c5c5;
     color: #858585; }
