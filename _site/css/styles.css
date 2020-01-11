@@ -697,14 +697,38 @@ a {
   @media screen and (min-width: 1139px) {
     .c-billboard__title {
       writing-mode: horizontal-tb;
-      letter-spacing: -100px; } }
+      -webkit-animation: in 3s ease-out forwards;
+              animation: in 3s ease-out forwards;
+      -webkit-animation-delay: 0s;
+              animation-delay: 0s;
+      opacity: 0; } }
+
+@-webkit-keyframes in {
+  0% {
+    letter-spacing: 0px;
+    opacity: 0; }
+  100% {
+    letter-spacing: -75px;
+    opacity: 1; } }
+
+@keyframes in {
+  0% {
+    letter-spacing: 0px;
+    opacity: 0; }
+  100% {
+    letter-spacing: -75px;
+    opacity: 1; } }
 
 .c-billboard__blurb {
   font-size: 30px;
   font-weight: 700;
   color: #050505;
   line-height: 1.1;
-  z-index: 2; }
+  z-index: 2;
+  -webkit-animation: blurb 3s ease-out forwards;
+          animation: blurb 3s ease-out forwards;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
   @media screen and (min-width: 64em) {
     .c-billboard__blurb {
       line-height: 1.2;
@@ -717,13 +741,25 @@ a {
     .c-billboard__blurb {
       margin-top: 0; } }
 
+@-webkit-keyframes blurb {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes blurb {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 .c-billboard__link {
   grid-column: 1/8; }
 
 .c-billboard__anime {
   position: relative;
   width: 100%;
-  background-color: #858585;
+  background-color: white;
   transition: 1s background-color; }
   @media screen and (min-width: 64em) {
     .c-billboard__anime {
@@ -775,6 +811,32 @@ a {
     .c-entry__author {
       font-size: 20px;
       margin-top: 15px; } }
+
+@media screen and (min-width: 64em) {
+  .c-footer {
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    grid-column-gap: 25px;
+    margin-top: 100px;
+    -ms-flex-align: center;
+        align-items: center; }
+    .c-footer ul {
+      -ms-flex-align: center;
+          align-items: center;
+      display: grid;
+      grid-column: 6/-1;
+      grid-template-columns: repeat(4, 1fr);
+      -webkit-column-gap: 25px;
+         -moz-column-gap: 25px;
+              column-gap: 25px; } }
+
+.c-footer span {
+  grid-column: 2/6; }
+
+.c-footer span,
+.c-footer a {
+  color: #858585;
+  font-size: 16px; }
 
 .c-header {
   -ms-flex-align: center;

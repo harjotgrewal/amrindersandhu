@@ -65,10 +65,24 @@
 
     @include media-query(hd) {
         writing-mode: horizontal-tb;
-        letter-spacing: -100px;
+        animation: in 3s ease-out forwards ;
+        animation-delay: 0s;
+        opacity: 0;
         //grid-column: 1/4;
         //padding-left: 125px;
    }
+}
+
+
+@keyframes in {
+  0%{
+    letter-spacing: 0px;
+    opacity: 0;
+  }
+  100%{
+    letter-spacing: -75px;
+    opacity: 1;
+  }
 }
 
 
@@ -78,6 +92,8 @@
     color: $color-grey-darker;
     line-height: 1.1;    
     z-index: 2;
+    animation: blurb 3s ease-out forwards ;
+    animation-delay: 0s;
 
     @include media-query(desk) {
         line-height: 1.2;
@@ -85,13 +101,22 @@
         grid-column: 3/11;
         font-size: $font-size-l;
         letter-spacing: -1px;
-        position: absolute;
-   }
+        position: absolute;   
+    }
 
-   @include media-query(portable) {
+    @include media-query(portable) {
        margin-top: 0;
-   }
+    }
 }
+
+@keyframes blurb {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 
 
@@ -107,7 +132,7 @@
 .c-billboard__anime {    
     position: relative;    
     width: 100%;
-    background-color: $color-grey-light;
+    background-color: white;
     transition: 1s background-color;
 
     @include media-query(desk) {
