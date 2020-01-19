@@ -20,7 +20,7 @@
 
     &.is-visible {
         visibility: visible;
-        height: 250px;
+        height: 125px;
         margin: 0 0 25px 25px;
         opacity: 1;
     }
@@ -80,28 +80,29 @@
         height: 100px;
         justify-content: center;
         line-height: 1.2;
+        margin-bottom: 0;
         
 
         strong {
             transition: .2s transform ease-in-out;
             font-weight: 700;
-            transform: translateY(14px);
+            //transform: translateY(14px);
         }
 
-        span {
-            transition: .2s opacity ease-in-out, .2s visibility ease-in-out;
-            color: $color-text-light;
-            display: block;
-            font-size: $font-size-xs;
-            opacity: 0;
-            transform: translateY(5px);
-            visibility: hidden;
-        }
+        // span {
+        //     transition: .2s opacity ease-in-out, .2s visibility ease-in-out;
+        //     color: $color-text-light;
+        //     display: block;
+        //     font-size: $font-size-xs;
+        //     opacity: 0;
+        //     transform: translateY(5px);
+        //     visibility: hidden;
+        // }
 
         &:hover {
             strong {
                 color: $color-grey-dark;
-                transform: translateY(5px);
+                //transform: translateY(5px);
 
             }
             span {

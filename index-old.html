@@ -1,0 +1,40 @@
+---
+layout: default
+title: Amrinder Sandhu
+page-class: p-home
+page-heading: Hello!
+page-description: I’m a user experience and interface designer with 12 years of experience. Currently, I’m the head of design at Unmetric.
+---
+
+{% include header.html %}
+
+<main class="c-main l-grid">      
+    {% include billboard.html %}
+    
+    
+    <section class="c-section">
+        <h2 class="c-section__heading"  >Journal</h2>
+        
+        <section class="c-section__content">
+
+            {% for entry in site.data.entries.journal %}
+            <article class="c-entry" data-aos="fade-up">
+                <h3 class="c-entry__heading">{{ entry.title }}</h3>
+                <a href="{{ entry.url }}" target="_blank" class="c-entry__link">
+                    <address class="c-entry__author">{{ entry.author }}</address>
+                
+                    <section class="c-entry__content">
+                        <h4 class="c-entry__content__heading">{{ entry.content-title }}</h4>
+                        <p class="c-entry__content__blurb">{{ entry.content-copy }}</p>
+                    </section>
+                </a>
+            </article>
+            {% endfor %}
+                   
+        </section>
+      </section>
+    
+</main>
+
+
+{% include footer.html %}

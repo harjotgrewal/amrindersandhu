@@ -3,10 +3,10 @@
 // -----------------------------------------------------------------------------
 
 .c-entry {
-    margin-top: 50px;
+    margin-bottom: 50px;
     
     @include media-query(hd) {
-        margin-top: 100px;
+        margin-bottom: 100px;
     }
 }
 

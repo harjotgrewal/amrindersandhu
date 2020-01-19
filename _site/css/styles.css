@@ -560,13 +560,14 @@ p {
   margin-top: 15px; }
   @media screen and (min-width: 1139px) {
     p {
-      font-size: 20px; } }
+      font-size: 20px;
+      margin-top: 25px; } }
 
 em {
   font-style: italic; }
 
 strong {
-  font-weight: 600; }
+  font-weight: 700; }
 
 .type-serif {
   font-family: ff-scala-web, serif;
@@ -668,11 +669,12 @@ a {
     border-left: 50px solid transparent; }
   @media screen and (min-width: 64em) {
     .c-billboard {
-      height: 580px;
+      min-height: 480px;
       -webkit-column-gap: 0;
          -moz-column-gap: 0;
               column-gap: 0;
       grid-template-columns: repeat(12, auto);
+      margin-bottom: 100px;
       width: auto; }
       .c-billboard::after {
         border-bottom-width: 100px;
@@ -767,11 +769,14 @@ a {
     .c-billboard__anime {
       display: none; } }
 
+.c-billboard--alt {
+  margin: 125px 0 125px 125px; }
+
 .c-entry {
-  margin-top: 50px; }
+  margin-bottom: 50px; }
   @media screen and (min-width: 1139px) {
     .c-entry {
-      margin-top: 100px; } }
+      margin-bottom: 100px; } }
 
 .c-entry__blurb {
   border-left: 6px double #c5c5c5;
@@ -812,7 +817,7 @@ a {
       margin-top: 15px; } }
 
 .c-footer {
-  margin: 50px 0 50px 25px; }
+  margin: 50px 0 0 25px; }
   @media screen and (min-width: 64em) {
     .c-footer {
       display: grid;
@@ -905,7 +910,7 @@ a {
       opacity: 0; } }
   .c-nav.is-visible {
     visibility: visible;
-    height: 250px;
+    height: 125px;
     margin: 0 0 25px 25px;
     opacity: 1; }
 
@@ -952,26 +957,14 @@ a {
       height: 100px;
       -ms-flex-pack: center;
           justify-content: center;
-      line-height: 1.2; }
+      line-height: 1.2;
+      margin-bottom: 0; }
       .c-nav__link strong {
         transition: .2s -webkit-transform ease-in-out;
         transition: .2s transform ease-in-out;
-        font-weight: 700;
-        -webkit-transform: translateY(14px);
-                transform: translateY(14px); }
-      .c-nav__link span {
-        transition: .2s opacity ease-in-out, .2s visibility ease-in-out;
-        color: #858585;
-        display: block;
-        font-size: 16px;
-        opacity: 0;
-        -webkit-transform: translateY(5px);
-                transform: translateY(5px);
-        visibility: hidden; }
+        font-weight: 700; }
       .c-nav__link:hover strong {
-        color: #454545;
-        -webkit-transform: translateY(5px);
-                transform: translateY(5px); }
+        color: #454545; }
       .c-nav__link:hover span {
         opacity: 1;
         visibility: visible; }
@@ -993,7 +986,7 @@ a {
 .c-section {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 75px; }
+  margin-top: 25px; }
   @media screen and (min-width: 1139px) {
     .c-section {
       -webkit-column-gap: 25px;
@@ -1001,7 +994,7 @@ a {
               column-gap: 25px;
       grid-template-columns: repeat(10, 100px);
       grid-column: 1/-1;
-      margin-top: 125px; } }
+      margin-top: 0; } }
 
 .c-section__heading {
   grid-column: 1/-1; }
@@ -1027,18 +1020,20 @@ a {
 
 .c-section__image img {
   max-width: calc(100% - 50px);
-  margin: 25px 0 0 25px; }
+  margin: 25px 0 0 25px;
+  border-radius: 500px;
+  background-blend-mode: multiply; }
 
 @media screen and (min-width: 1139px) {
   .c-section__image {
     display: grid;
     grid-template-columns: repeat(4, 1fr); }
     .c-section__image img {
-      grid-column: 1/-1;
+      grid-column: 2/-1;
       max-width: none;
       object-fit: cover;
-      width: calc(100% + 25px);
-      margin: 0; } }
+      width: 100%;
+      margin-left: 0; } }
 
 .c-section__caption {
   color: #858585;
@@ -1086,20 +1081,16 @@ a {
 .c-nav__link--books:hover:hover strong {
   color: #01CD7D; }
 
-.c-nav__link--about:hover:active {
+.c-nav__link--journal:hover:active {
   border-color: #00D1FF; }
 
-.c-nav__link--about:hover:hover strong {
+.c-nav__link--journal:hover:hover strong {
   color: #00D1FF; }
-
-.c-nav__link--contact:hover:active {
-  border-color: #FF8A00; }
-
-.c-nav__link--contact:hover:hover strong {
-  color: #FF8A00; }
 
 .p-home {
   background-color: #E4FCF9; }
+  .p-home h2 {
+    color: #EF483F; }
   .p-home a {
     border-color: #EF483F; }
   .p-home .c-name a,
@@ -1191,65 +1182,36 @@ a {
   .p-books .c-billboard__anime {
     background-color: #FFF0E3; }
 
-.p-about {
+.p-journal {
   background-color: #FAF5E4; }
-  .p-about a {
+  .p-journal a {
     border-color: #00D1FF; }
-  .p-about .c-name a,
-  .p-about .c-menu_button {
+  .p-journal .c-name a,
+  .p-journal .c-menu_button {
     color: #00D1FF; }
-  .p-about .c-name path {
+  .p-journal .c-name path {
     stroke: #00D1FF; }
-  .p-about .c-nav__link--about {
+  .p-journal .c-nav__link--journal {
     border-bottom-color: #c5c5c5;
     color: #858585; }
     @media screen and (min-width: 1139px) {
-      .p-about .c-nav__link--about {
+      .p-journal .c-nav__link--journal {
         color: #050505; } }
-  .p-about .c-billboard {
+  .p-journal .c-billboard {
     background-color: #00D1FF; }
-    .p-about .c-billboard::after {
+    .p-journal .c-billboard::after {
       border-bottom-color: #FAF5E4; }
-  .p-about .c-billboard__title {
+  .p-journal .c-billboard__title {
     color: rgba(255, 255, 255, 0.15);
     font-size: 130px; }
     @media screen and (min-width: 1139px) {
-      .p-about .c-billboard__title {
+      .p-journal .c-billboard__title {
         font-size: 450px;
         margin-left: -20px; } }
-  .p-about .c-billboard__blurb {
+  .p-journal .c-billboard__blurb {
     color: #FAF5E4; }
-  .p-about .c-billboard__anime {
+  .p-journal .c-billboard__anime {
     background-color: #FAF5E4; }
-
-.p-contact {
-  background-color: #FFF1FA; }
-  .p-contact a {
-    border-color: #FF8A00; }
-  .p-contact .c-name a,
-  .p-contact .c-menu_button {
-    color: #FF8A00; }
-  .p-contact .c-name path {
-    stroke: #FF8A00; }
-  .p-contact .c-nav__link--contact {
-    border-bottom-color: #c5c5c5;
-    color: #858585; }
-    @media screen and (min-width: 1139px) {
-      .p-contact .c-nav__link--contact {
-        color: #050505; } }
-  .p-contact .c-billboard {
-    background-color: #FF8A00; }
-    .p-contact .c-billboard::after {
-      border-bottom-color: #FFF1FA; }
-  .p-contact .c-billboard__title {
-    color: rgba(255, 255, 255, 0.15);
-    font-size: 130px; }
-    @media screen and (min-width: 1139px) {
-      .p-contact .c-billboard__title {
-        font-size: 450px;
-        margin-left: -20px; } }
-  .p-contact .c-billboard__blurb {
-    color: #FFF1FA; }
 
 /* -------------------- *\
    #UTILITIES

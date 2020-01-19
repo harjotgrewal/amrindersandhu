@@ -27,10 +27,10 @@
     }
     
     @include media-query(desk) {
-        height: 580px;
+        min-height: 480px;
         column-gap: 0;
         grid-template-columns: repeat(12, auto);   
-        //margin-bottom: 100px;        
+        margin-bottom: 100px;        
         width: auto;
 
         &::after {
@@ -141,4 +141,11 @@
     @include media-query(palm) {
        display: none;
     }
+}
+
+
+
+
+.c-billboard--alt {
+    margin: 125px 0 125px 125px;
 }

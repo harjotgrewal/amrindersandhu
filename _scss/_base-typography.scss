@@ -93,6 +93,7 @@ p {
 
     @include media-query(hd) {
         font-size: $font-size-s;
+        margin-top: 25px;
     }
 }
 
@@ -102,7 +103,7 @@ em {
 }
 
 strong {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 

@@ -3,6 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .c-nav__link--home {
+
     &:active {
         border-color: $theme-bg-bright-1;
     }
@@ -38,7 +39,7 @@
     }
 }
 
-.c-nav__link--about:hover {
+.c-nav__link--journal:hover {
     &:active {
         border-color: $theme-bg-bright-4;
     }
@@ -50,17 +51,17 @@
     }
 }
 
-.c-nav__link--contact:hover {
-    &:active {
-        border-color: $theme-bg-bright-5;
-    }
+// .c-nav__link--contact:hover {
+//     &:active {
+//         border-color: $theme-bg-bright-5;
+//     }
 
-    &:hover {
-        strong {
-            color: $theme-bg-bright-5;
-        }
-    }
-}
+//     &:hover {
+//         strong {
+//             color: $theme-bg-bright-5;
+//         }
+//     }
+// }
 
 
 
@@ -68,6 +69,10 @@
 
 .p-home {
     background-color: $theme-bg-light-1;
+
+    h2 {
+        color: $theme-bg-bright-1;
+    }
 
     a {
         border-color: $theme-bg-bright-1;
@@ -233,7 +238,7 @@
 
 
 
-.p-about {
+.p-journal {
     background-color: $theme-bg-light-4;
 
     a {
@@ -249,7 +254,7 @@
         stroke: $theme-bg-bright-4;
     }
 
-    .c-nav__link--about {
+    .c-nav__link--journal {
         border-bottom-color: $color-grey-lighter;
         color: $color-grey-light;
 
@@ -289,50 +294,50 @@
 
 
 
-.p-contact {
-    background-color: $theme-bg-light-5;
+// .p-contact {
+//     background-color: $theme-bg-light-5;
 
-    a {
-        border-color: $theme-bg-bright-5;
-    }
+//     a {
+//         border-color: $theme-bg-bright-5;
+//     }
 
-    .c-name a,
-    .c-menu_button {
-        color: $theme-bg-bright-5;
-    }
+//     .c-name a,
+//     .c-menu_button {
+//         color: $theme-bg-bright-5;
+//     }
 
-    .c-name path {
-        stroke: $theme-bg-bright-5;
-    }
+//     .c-name path {
+//         stroke: $theme-bg-bright-5;
+//     }
 
-    .c-nav__link--contact {
-        border-bottom-color: $color-grey-lighter;
-        color: $color-grey-light;
+//     .c-nav__link--contact {
+//         border-bottom-color: $color-grey-lighter;
+//         color: $color-grey-light;
 
-        @include media-query(hd) {
-            color: $color-grey-darker;
-        }
-    }
+//         @include media-query(hd) {
+//             color: $color-grey-darker;
+//         }
+//     }
 
-    .c-billboard {
-        background-color: $theme-bg-bright-5;
+//     .c-billboard {
+//         background-color: $theme-bg-bright-5;
 
-        &::after {
-            border-bottom-color: $theme-bg-light-5;
-        }
-    }
+//         &::after {
+//             border-bottom-color: $theme-bg-light-5;
+//         }
+//     }
 
-    .c-billboard__title {
-        color: rgba(white, .15);
-        font-size: 130px;
+//     .c-billboard__title {
+//         color: rgba(white, .15);
+//         font-size: 130px;
 
-        @include media-query(hd) {
-            font-size: 450px;
-            margin-left: -20px;
-        }
-    }
+//         @include media-query(hd) {
+//             font-size: 450px;
+//             margin-left: -20px;
+//         }
+//     }
 
-    .c-billboard__blurb {
-        color: $theme-bg-light-5;
-    }
-}
+//     .c-billboard__blurb {
+//         color: $theme-bg-light-5;
+//     }
+// }

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Home and Journal of Amrinder Sandhu
+title: Amrinder Sandhu
 page-class: p-home
 page-heading: Hello!
-page-description: I’m a user experience and interface designer with 12 years of experience. Currently, I’m the head of design at Unmetric.
+page-description: Digital designer passionate about making simple, usable, and delightful products that people love.
 ---
 
 {% include header.html %}
@@ -11,26 +11,28 @@ page-description: I’m a user experience and interface designer with 12 years o
 <main class="c-main l-grid">      
     {% include billboard.html %}
     
-    
-    <section class="c-section">
-        <h2 class="c-section__heading"  >Journal</h2>
+    <!-- <section class="c-billboard--alt">
+        <h2>Digital designer passionate about making simple, usable, and delightful products that people love.</h2>
+    </section> -->
+
+
+    <section class="c-section l-grid l-grid--section">
+        <!-- <section class="c-section__col">
+          <figure class="c-section__image c-section__image--alone">
+            <img src="assets/i/photos/amrinder-11.jpg" />
+          </figure>
+        </section> -->
         
         <section class="c-section__content">
+            <p>Currently, I’m the head of design at Unmetric, where I designed all the products from scratch. While reinforcing design culture, a user-centered design vision, and UX principles, I also built the design system and front-end architecture.</p>
+            
+            <p>At Unmetric, I also collaborated cross-functionally to build and maintain an efficient process for successful user onboarding, effective user research, and outcome-focused product development. In addition, I introduced tools, frameworks, and processes to increase productivity, align teams, and improve communication.</p>
+            
+            <p>For the past 12 years, I lead design at various early-stage startups working on everything from designing core products, websites, logos, pitch decks, and front-end. My clients include <strong>Intel</strong>, <strong>Zomato</strong>, <strong>Grasshopper</strong>, <strong>CIBC</strong>, <strong>MyEd</strong>, <strong>ProProfs</strong>, and <strong>PCL</strong><//strong>. I got job offers from <strong>Google</strong><//strong>, <strong>Groupon</strong>, and <strong>Intel</strong> that I couldn’t accept because of relocation.</p>
 
-            {% for entry in site.data.entries.journal %}
-            <article class="c-entry" data-aos="fade-up">
-                <h3 class="c-entry__heading">{{ entry.title }}</h3>
-                <a href="{{ entry.url }}" target="_blank" class="c-entry__link">
-                    <address class="c-entry__author">{{ entry.author }}</address>
-                
-                    <section class="c-entry__content">
-                        <h4 class="c-entry__content__heading">{{ entry.content-title }}</h4>
-                        <p class="c-entry__content__blurb">{{ entry.content-copy }}</p>
-                    </section>
-                </a>
-            </article>
-            {% endfor %}
-                   
+            <p>In 2007, I graduated with a degree in Computer Science and Engineering. I’m based in Ancaster, Canada, but grew up in a small village (Mishriwala) in Punjab, India.</p>
+
+            <p>I love simplicity, nature, rain, mountains, walking, and reading design books.</p>
         </section>
       </section>
     

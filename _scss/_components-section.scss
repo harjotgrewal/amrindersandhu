@@ -6,13 +6,13 @@
 .c-section {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 75px;
+    margin-top: 25px;
     
     @include media-query(hd) {
         column-gap: 25px;
         grid-template-columns: repeat(10, 100px);   
         grid-column: 1/-1;
-        margin-top: 125px;
+        margin-top: 0;
     }
 }
 
@@ -64,6 +64,8 @@
     img {
         max-width: calc(100% - 50px);
         margin: 25px 0 0 25px;
+        border-radius: 500px;
+        background-blend-mode: multiply;
     }
     
 
@@ -72,11 +74,11 @@
         grid-template-columns: repeat(4, 1fr);
 
         img {
-            grid-column: 1/-1;
+            grid-column: 2/-1;
             max-width: none;
             object-fit: cover;
-            width: calc(100% + 25px);
-            margin: 0;
+            width: 100%;
+            margin-left: 0;
         }
     }
 }
