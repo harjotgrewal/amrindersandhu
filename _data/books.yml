@@ -506,6 +506,12 @@ pd:
 }
 
 - {	
+	url: 'https://www.amazon.ca/Writing-Effective-Cases-Alistair-Cockburn/dp/0201702258',
+	name: 'Writing Effective Use Cases',
+	author: 'Alistair Cockburn'	
+}
+
+- {	
 	url: 'https://www.amazon.com/User-Centered-Design-Developers-User-Friendly-Applications/dp/1449359809',
 	name: 'User-Centred Design',
 	author: 'Travis Lowdermilk'	
