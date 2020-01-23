@@ -1008,6 +1008,12 @@ web:
 
 misc:
 - {	
+	url: 'https://www.amazon.ca/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0307361179',
+	name: 'Creativity, Inc.',
+	author: 'Ed Catmull'	
+}
+
+- {	
 	url: 'https://www.amazon.com/Show-Tell-Everybody-Extraordinary-Presentations/dp/1591848024',
 	name: 'Show and Tell',
 	author: 'Dan Roam'	
