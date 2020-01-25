@@ -1,11 +1,22 @@
 
 journal:
+
+
+- {	title: 'I’ve been working remotely for 12 years now, and these tips are valuable.', 
+	url: 'https://weworkremotely.com/10-practices-that-will-ensure-you-succeed-at-remote-work',
+	author: 'We Work Remotely',
+	content-title: '10 Practices that will Ensure You Succeed at Remote Work',
+	content-copy: 'FYI’s co-founder, Marie Prokopets shares some new research on remote work they’ve gathered and a detailed breakdown of 10 practices to ensure remote work success.'
+}
+
+
 - {	title: 'Interesting approach for managing your commits.', 
 	url: 'https://hofmannsven.com/2019/commit-message-driven-development',
 	author: 'Sven Hofmann',
 	content-title: 'Commit Message Driven Development',
 	content-copy: 'In software development, we usually start with writing the code. But what if we’d start by writing out the commit message? Follow me through the concept of commit message driven development.'
 }
+
 
 - {	title: 'How to increase focus to solve challenging problems by minimizing distractions.',
 	url: 'https://www.smashingmagazine.com/2019/11/better-design-deep-thinking/',
@@ -14,6 +25,7 @@ journal:
 	content-copy: 'Task switching is a design killer. Find out why switching and interruptions are even more serious than you think and how biology makes it difficult to resist the temptation to just check your email every few minutes. Learn how to slay the distraction dragon with five practical tips for increasing focus as you tackle challenging design problems.'
 }
 
+
 - {	title: 'Some useful tips on how to impress your new boss early on.', 
 	url: 'https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/" target="_blank',
 	author: 'Know Your Team',
@@ -21,12 +33,14 @@ journal:
 	content-copy: 'Exceed expectations • Display excellent writing skills • Accept feedback willingly • Give feedback willingly • Be eager – but set expectations • Be a “manager of one” • Be empathetic • Small gestures make meaningful impact'
 }
 
+
 - {	title: '7 interesting things that made Briana working at Stripe feel different.', 
 	url: 'https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/',
 	author: 'Twitter',
 	content-title: 'Brianna @zebriez',
 	content-copy: 'I recently left Stripe after 4.5 formative and magical years. Some reflections on what made working at Stripe feel different than working other places:<br>1/Turpentine<br>2/Writing<br>3/Meticulousness<br>4/Principled decision-making<br>5/Ambition<br>6/Talking up<br>7/The API metaphor'
 }
+
 
 - {	title: 'Empathy isn’t about being nice but it can help increase revenue.', 
 	url: 'https://vimeo.com/343056801',
