@@ -2,11 +2,19 @@
 journal:
 
 
-- {	title: 'I’ve been working remotely for 12 years now, and these practices are must-do.', 
-	url: 'https://weworkremotely.com/10-practices-that-will-ensure-you-succeed-at-remote-work',
-	author: 'We Work Remotely',
-	content-title: '10 Practices that will Ensure You Succeed at Remote Work',
-	content-copy: 'FYI’s co-founder, Marie Prokopets shares some new research on remote work they’ve gathered and a detailed breakdown of 10 practices to ensure remote work success.'
+- {	title: 'Mindfulness also lowers levels of anxiety and depression.', 
+	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
+	author: 'BBC',
+	content-title: 'The Japanese skill copied by the world',
+	content-copy: 'Mindfulness has become trendy around the world in recent years – but in Japan, it’s been ingrained into the culture for centuries.'
+}
+
+
+- {	title: '3 simple but effictive lessons about keeping customers at the center of what you do.', 
+	url: 'https://hbr.org/2020/01/turn-your-customers-into-your-community',
+	author: 'Harvard Business Review',
+	content-title: 'Turn your Customers into your Community',
+	content-copy: 'For many organizations, cultivating a community will mean cultivating a new capacity. This is a democratic, not autocratic, route to building customer relationships. It requires trusting instead of controlling, and commitment instead of flightiness.'
 }
 
 
@@ -49,6 +57,21 @@ journal:
 	content-copy: 'Entrepreneur and author Michael Ventura has dedicated his career to exploring how empathy can make us better leaders, collaborators, and contributors to society. In his 99U talk, Michael explains that the practice of empathy “isn’t about being nice” — it’s about deep understanding, and learning to apply that understanding to incredibly effective ends.'
 }
 
+
+- {	title: 'I’ve been working remotely for 12 years now, and these practices are must-do.', 
+	url: 'https://weworkremotely.com/10-practices-that-will-ensure-you-succeed-at-remote-work',
+	author: 'We Work Remotely',
+	content-title: '10 Practices that will Ensure You Succeed at Remote Work',
+	content-copy: 'FYI’s co-founder, Marie Prokopets shares some new research on remote work they’ve gathered and a detailed breakdown of 10 practices to ensure remote work success.'
+}
+
+
+- {	title: 'So this is how Amazon innvotes at scale: relentlessly practising their principles.', 
+	url: 'https://chiefmartec.com/2019/07/want-innovate-like-amazon-heres-formula',
+	author: 'Chief Marketing Technologist',
+	content-title: 'Want to innovate like Amazon? Here’s their formula',
+	content-copy: 'You can’t escape Amazon in the digital economy. Now a trillion-dollar company, they have disrupted diverse sectors from retail to software development with a deftness and drive that’s admirable and alarming. They actually seem to be speeding up their rate of innovation as they scale, defying the Law of Large Companies that causes giants to get dragged down by their own girth. How do they manage that? A week ago at the MIT Platform Strategy Summit, Dirk Didascalou, vice president of IoT at Amazon Web Services (AWS), laid out their approach to innovating at scale.'
+}
 
 
 
