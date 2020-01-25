@@ -1045,6 +1045,13 @@ a {
     .c-section__caption {
       margin: 25px 0 0; } }
 
+.c-section--elsewhere {
+  margin-left: 25px; }
+  @media screen and (min-width: 1139px) {
+    .c-section--elsewhere {
+      grid-column: 2/5;
+      margin-left: 0; } }
+
 .c-project_list {
   display: grid;
   grid-column: 1/-1;

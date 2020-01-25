@@ -97,3 +97,14 @@
         margin: 25px 0 0;
     }
 }
+
+
+
+.c-section--elsewhere {
+    margin-left: 25px;
+
+    @include media-query(hd) {
+        grid-column: 2/5;
+        margin-left: 0;
+    }   
+}
