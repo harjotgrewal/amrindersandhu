@@ -2,6 +2,14 @@
 journal:
 
 
+- {	title: 'I always rely on a todo list. Now I know how this practice helps.', 
+	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
+	author: 'Fast Company',
+	content-title: 'Writing to-do lists helps your brain (whether or not you finish them)',
+	content-copy: 'Keeping a list of tasks you need to perform is like taking notes when you’re reading a book or listening to a lecture. When you take notes, you need to filter external information, summarize it in your head, and then write it down. Many studies have shown that note taking helps us distill the information we hear and remember it better than we would if we’d just heard or read it.'
+}
+
+
 - {	title: 'Mindfulness also lowers levels of anxiety and depression.', 
 	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
 	author: 'BBC',
@@ -74,5 +82,21 @@ journal:
 }
 
 
+- {	title: 'Different ways to communicate product changes and how to select them.', 
+	url: 'https://community.uservoice.com/blog/how-to-communicate-product-changes-to-your-users/',
+	author: 'UserVoice Blog',
+	content-title: 'How to communicate product changes to your users',
+	content-copy: 'When it comes to communicating new features and functionality, your main objectives are driving awareness and promoting adoption. That’s why you want to convey both the why and the how. When announcing something new, it can be tempting to start the story off with capabilities. But before you tap into your inner infomercial host, remember that users don’t really care about what a product can do. They care about what a product can do for them.'
+}
+
+
+
+
+
+
+
+
+
+# FROM AWAYBACK
 
 
