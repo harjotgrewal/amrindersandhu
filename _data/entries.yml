@@ -1,6 +1,13 @@
 
 journal:
 
+- {	title: 'Good design is understanding business and help it grow.', 
+	url: 'https://twitter.com/jmspool/status/961804803440562176?s=20',
+	author: 'Twitter',
+	content-title: 'Jared Spool @jmspool',
+	content-copy: 'There’s only 5 things execs care about: <br/> • Increasing revenues <br/> • Decreasing costs <br/> • Increasing new business/marketshare <br/> • Increasing revenue from existing customers <br/> • Increasing shareholder value <br/><br/> Design leaders know to frame their team’s efforts as helping these priorities.'
+}
+
 
 - {	title: 'I always rely on a todo list. Now I know it has other benefits.', 
 	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
