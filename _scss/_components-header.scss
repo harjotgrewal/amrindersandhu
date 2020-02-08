@@ -5,7 +5,7 @@
 .c-header { 
     align-items: center;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    //grid-template-columns: 3fr 1fr;
     grid-template-rows: 75px;
 
     @include media-query(hd) {

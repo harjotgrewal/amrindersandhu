@@ -852,7 +852,6 @@ a {
   -ms-flex-align: center;
       align-items: center;
   display: grid;
-  grid-template-columns: 3fr 1fr;
   grid-template-rows: 75px; }
   @media screen and (min-width: 1139px) {
     .c-header {
@@ -897,23 +896,11 @@ a {
   z-index: 1; }
 
 .c-nav {
-  z-index: 9;
-  visibility: hidden; }
+  z-index: 9; }
   @media screen and (min-width: 1139px) {
     .c-nav {
       grid-column: 6/11;
-      margin: 0;
-      visibility: visible; } }
-  @media screen and (max-width: 63.9375em) {
-    .c-nav {
-      transition: 0.5s opacity ease-in, 0.4s height ease-in-out;
-      height: 0;
-      opacity: 0; } }
-  .c-nav.is-visible {
-    visibility: visible;
-    height: 125px;
-    margin: 0 0 25px 25px;
-    opacity: 1; }
+      margin: 0; } }
 
 @media screen and (min-width: 64em) {
   .c-nav__list {
@@ -926,27 +913,24 @@ a {
     grid-template-columns: repeat(5, 1fr);
     height: 100%; } }
 
-.c-menu_button {
-  display: none;
-  background: none;
-  border: 0;
-  -webkit-appearance: none !important;
-  outline: none;
-  border-radius: 4px; }
-  .c-menu_button:focus {
-    border: 1px dotted black; }
-  @media screen and (max-width: 63.9375em) {
-    .c-menu_button {
-      display: block;
-      justify-self: center;
-      z-index: 9; } }
+@media screen and (max-width: 63.9375em) {
+  .c-nav__list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    margin-bottom: 25px; } }
 
 .c-nav__link {
   color: #050505;
   display: inline-block;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 10px; }
+  @media screen and (max-width: 63.9375em) {
+    .c-nav__link {
+      display: block;
+      margin-left: 25px; } }
   @media screen and (min-width: 64em) {
     .c-nav__link {
       border: 0 none;
@@ -955,6 +939,7 @@ a {
       display: flex;
       -ms-flex-direction: column;
           flex-direction: column;
+      font-size: 20px;
       height: 100px;
       -ms-flex-pack: center;
           justify-content: center;
@@ -971,18 +956,6 @@ a {
         visibility: visible; }
       .c-nav__link.is-active strong {
         color: #050505; } }
-
-.c-menu_button {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 0.9;
-  margin-right: -20px;
-  padding: 10px;
-  text-align: center; }
-
-.c-menu_button--hide {
-  display: none; }
 
 .c-section {
   display: grid;
