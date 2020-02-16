@@ -500,6 +500,12 @@ productivity:
 
 pd:
 - {	
+	url: 'https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/',
+	name: 'Inspired: How to Create Tech Products Customers Love',
+	author: 'Marty Cagan'	
+}
+
+- {	
 	url: 'https://www.amazon.com/Building-Reputation-Systems-Randy-Farmer/dp/059615979X',
 	name: 'Building Web Reputation Systems',
 	author: 'Bryce Glass <span>and</span> Randy Farmer'	
@@ -823,6 +829,13 @@ usability:
 
 
 ux:
+- {	
+	url: 'https://www.amazon.com/Articulating-Design-Decisions-Communicate-Stakeholders/dp/1491921560',
+	name: 'Articulating Design Decisions',
+	author: 'Tom Greever'	
+}
+
+
 - {	
 	url: 'https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652',
 	name: 'Lean UX: Applying Lean Principles to Improve User Experience',
