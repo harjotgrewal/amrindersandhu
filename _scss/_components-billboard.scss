@@ -15,28 +15,14 @@
     position: relative;    
     overflow: hidden;
     height: auto;
-
-    &::after {
-        content: "";
-        display: block;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        border-bottom: 50px solid white;
-        border-left: 50px solid transparent;
-    }
     
     @include media-query(desk) {
         min-height: 480px;
         column-gap: 0;
-        grid-template-columns: repeat(12, auto);   
+        grid-template-columns: repeat(10, 100px);   
+        grid-column-gap: 25px;
         margin-bottom: 100px;        
         width: auto;
-
-        &::after {
-            border-bottom-width: 100px;
-            border-left-width: 100px;
-        }
 
 
         .c-billboard__link {
@@ -46,7 +32,8 @@
     
     
     @include media-query(portable) {
-        grid-template-columns: repeat(12, auto);
+        //grid-template-columns: repeat(10, 100px);
+        //grid-column-gap: 25px;
         padding: 50px 25px;
     }
 }
@@ -98,7 +85,7 @@
     @include media-query(desk) {
         line-height: 1.2;
         text-shadow: 0 0 20px rgba(black, .15);
-        grid-column: 3/11;
+        grid-column: 2/9;
         font-size: $font-size-l;
         letter-spacing: -1px;
         position: absolute;   
