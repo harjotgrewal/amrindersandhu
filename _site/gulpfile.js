@@ -44,7 +44,7 @@ gulp.task('sass', function () {
     return gulp.src('_scss/styles.scss')
         .pipe(sass({
             includePaths: ['scss']
-        }))
+        }).on('error', sass.logError))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream:true}))
