@@ -558,7 +558,7 @@ h4 {
 p {
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 15px; }
+  margin-top: 25px; }
   @media screen and (min-width: 1139px) {
     p {
       font-size: 20px;
@@ -672,7 +672,7 @@ a {
         grid-column: 3/4; } }
   @media screen and (max-width: 63.9375em) {
     .c-billboard {
-      padding: 50px 0 50px 25px; } }
+      padding: 50px 0 25px 25px; } }
 
 .c-billboard__title {
   color: rgba(255, 255, 255, 0.5);

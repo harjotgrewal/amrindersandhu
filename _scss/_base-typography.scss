@@ -89,7 +89,7 @@ h4 {
 p {
     font-size: $font-size-xs;
     line-height: 1.5;
-    margin-top: 15px;
+    margin-top: 25px;
 
     @include media-query(hd) {
         font-size: $font-size-s;
