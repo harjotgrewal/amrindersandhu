@@ -78,35 +78,22 @@
         border-color: $theme-bg-bright-1;
     }
 
-    .c-name a,
-    .c-menu_button {
-        color: $theme-bg-bright-1;
-    }
-
     .c-name path {
         stroke: $theme-bg-bright-1;
     }
 
     .c-nav__link--home {
-        border-bottom-color: $color-grey-lighter;
-        color: $color-grey-light;
+        //border-bottom-color: $color-grey-lighter;
+        color: $theme-bg-bright-1;
 
-        @include media-query(hd) {
-            color: $color-grey-darker;
-        }
     }
 
     .c-billboard {
-        background-color: $theme-bg-bright-1;
-
-        &::after {
-            border-bottom-color: $theme-bg-light-1;
-        }
+        border-color: $theme-bg-bright-1;
     }
 
     .c-billboard__title {
-        color: rgba(white, .15);
-        font-size: 120px;
+        font-size: 300px;
 
         @include media-query(hd) {
             font-size: 420px;
@@ -115,11 +102,7 @@
     }
 
     .c-billboard__blurb {
-        color: $theme-bg-light-1;
-    }
-
-    .c-billboard__anime {
-        background-color: $theme-bg-light-1;
+        color: $theme-bg-bright-1;
     }
 }
 
@@ -190,35 +173,17 @@
         border-color: $theme-bg-bright-3;
     }
 
-    .c-name a,
-    .c-menu_button {
-        color: $theme-bg-bright-3;
-    }
-
     .c-name path {
         stroke: $theme-bg-bright-3;
     }
 
     .c-nav__link--books {
-        border-bottom-color: $color-grey-lighter;
-        color: $color-grey-light;
-
-        @include media-query(hd) {
-            color: $color-grey-darker;
-        }
+        color: $theme-bg-bright-3;
     }
 
-    .c-billboard {
-        background-color: $theme-bg-bright-3;
-
-        &::after {
-            border-bottom-color: $theme-bg-light-3;
-        }
-    }
 
     .c-billboard__title {
-        color: rgba(white, .15);//$theme-bg-light-1;
-        font-size: 120px;
+        font-size: 300px;
 
         @include media-query(hd) {
             font-size: 450px;
@@ -227,11 +192,7 @@
     }
 
     .c-billboard__blurb {
-        color: $theme-bg-light-3;
-    }
-
-    .c-billboard__anime {
-        background-color: $theme-bg-light-3;
+        color: $theme-bg-bright-3;
     }
 }
 
@@ -245,48 +206,25 @@
         border-color: $theme-bg-bright-4;
     }
 
-    .c-name a,
-    .c-menu_button {
-        color: $theme-bg-bright-4;
-    }
-
     .c-name path {
         stroke: $theme-bg-bright-4;
     }
 
     .c-nav__link--journal {
-        border-bottom-color: $color-grey-lighter;
-        color: $color-grey-light;
-
-        @include media-query(hd) {
-            color: $color-grey-darker;
-        }
-    }
-
-    .c-billboard {
-        background-color: $theme-bg-bright-4;
-
-        &::after {
-            border-bottom-color: $theme-bg-light-4;
-        }
+        color: $theme-bg-bright-4;
     }
 
     .c-billboard__title {
-        color: rgba(white, .15);
-        font-size: 130px;
+        font-size: 300px;
 
         @include media-query(hd) {
             font-size: 450px;
-            margin-left: -20px;
+            margin-left: -30px;
         }
     }
 
     .c-billboard__blurb {
-        color: $theme-bg-light-4;
-    }
-
-    .c-billboard__anime {
-        background-color: $theme-bg-light-4;
+        color: $theme-bg-bright-4;
     }
 }
 
@@ -299,11 +237,6 @@
 
 //     a {
 //         border-color: $theme-bg-bright-5;
-//     }
-
-//     .c-name a,
-//     .c-menu_button {
-//         color: $theme-bg-bright-5;
 //     }
 
 //     .c-name path {
