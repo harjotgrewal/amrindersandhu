@@ -839,7 +839,7 @@ a {
   -ms-flex-align: center;
       align-items: center;
   display: grid;
-  grid-template-rows: 75px; }
+  grid-template-rows: 125px; }
   @media screen and (min-width: 1139px) {
     .c-header {
       -webkit-column-gap: 25px;
@@ -853,16 +853,19 @@ a {
 .c-name {
   color: #c5c5c5;
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: normal;
   letter-spacing: -1px;
   line-height: 1;
-  position: relative; }
+  position: relative;
+  width: 200px; }
   .c-name a {
     border: 0; }
   @media screen and (min-width: 1139px) {
     .c-name {
-      grid-area: name; } }
+      font-size: 20px;
+      grid-area: name;
+      width: auto; } }
   @media screen and (max-width: 63.9375em) {
     .c-name {
       left: 25px; } }

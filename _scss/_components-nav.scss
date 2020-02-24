@@ -48,7 +48,6 @@
 
     @include media-query(desk) {
         border: 0 none;
-        //color: $color-grey-light;
         display: flex;
         flex-direction: column;
         font-size: $font-size-s;

@@ -5,8 +5,7 @@
 .c-header { 
     align-items: center;
     display: grid;
-    //grid-template-columns: 3fr 1fr;
-    grid-template-rows: 75px;
+    grid-template-rows: 125px;
 
     @include media-query(hd) {
         column-gap: 25px;
@@ -21,20 +20,21 @@
 .c-name {
     color: $color-text-lighter;
     display: inline-block;
-    font-size: $font-size-s;
+    font-size: $font-size-m;
     font-weight: normal;
     letter-spacing: -1px;
     line-height: 1;
     position: relative;
-    //text-transform: uppercase;
+    width: 200px;
 
     a {
         border: 0;
     }
 
     @include media-query(hd) {
-        //font-size: $font-size-s;
+        font-size: $font-size-s;
         grid-area: name;
+        width: auto;
    }
 
    @include media-query(portable) {
