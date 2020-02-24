@@ -24,9 +24,19 @@
     }
 
     @include media-query(portable) {
+        align-content: stretch;
         display: flex;
         flex-direction: row;
-        margin-bottom: 25px;
+        justify-content: stretch;
+        margin: 0 25px 0 0;
+    }
+}
+
+
+.c-nav__item {
+    @include media-query(portable) {
+        flex-grow: 1;
+        margin: 0 0 0 25px;
     }
 }
 
@@ -38,12 +48,11 @@
     color: $color-grey-darker;
     display: inline-block;
     font-size: $font-size-xs;
-    line-height: 1.5;
+    line-height: 2;
     margin-bottom: 10px;
 
     @include media-query(portable) {
         display: block;
-        margin-left: 25px;
     }
 
     @include media-query(desk) {

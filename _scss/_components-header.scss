@@ -41,16 +41,3 @@
        left: 25px;
    }
 }
-
-
-
-
-.c-menu {
-    display: none;
-
-    @include media-query(palm) {
-        display: block;
-        justify-self: center;
-        z-index: 9;
-    }
-}
