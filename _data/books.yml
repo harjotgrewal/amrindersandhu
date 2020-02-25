@@ -21,7 +21,7 @@ branding:
 	name: 'Why We Fail',
 	author:  'Victor Lombardi',	
 	src: 'why_we_fail.jpg',
-	category: 'business'
+	category: 'biz'
 }
 
 - {	
