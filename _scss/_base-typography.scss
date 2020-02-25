@@ -193,14 +193,24 @@ strong {
     align-content: space-between;
 
     li {
-        flex: 1 0 1;
+        flex: 1 0 auto;
         color: $color-grey-light;
         list-style: none;
-        margin: auto auto 150px;
-        width: 140px;
+        margin: auto 25px 150px 0;
+        width: 150px;
+
+        @include media-query(portable) { 
+            &:nth-child(2n+0) {
+                margin-right: 0;
+            }
+        }
 
         @include media-query(hd) {
-            width: 200px;
+            width: 225px;
+
+            &:nth-child(3n+0) {
+                margin-right: 0;
+            }
         }
     }
 }
@@ -210,28 +220,28 @@ strong {
     border: none;
     display: block;
     font-weight: 700;
-    width: 140px;
+    width: 150px;
 
     @include media-query(hd) {
-        width: 200px;
+        width: 225px;
     }
 }
 
 
 .c-book_cover {
-    width: 140px;
+    width: 150px;
 
     @include media-query(hd) {
-        width: 200px;
+        width: 225px;
     }
 }
 
 .c-book_meta {
     position: absolute;
-    width: 140px;
+    width: 150px;
 
     @include media-query(hd) {
-        width: 200px;
+        width: 225px;
     }
 }
 
