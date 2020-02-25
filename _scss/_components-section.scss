@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 25px;
+    z-index: 2;
     
     @include media-query(hd) {
         column-gap: 25px;
@@ -33,10 +34,9 @@
     z-index: 9;
 
     @include media-query(hd) {
-        grid-column: 1/-1;
         margin: 0;
         max-width: 100vw;
-        grid-column: 6/-1;  
+        grid-column: 5/-1;  
     }
 }
 
@@ -107,4 +107,23 @@
         grid-column: 1/5;
         margin-left: 0;
     }   
+}
+
+
+
+// FILTERS NAV
+
+.c-section__nav {
+    margin-top: 25px;
+}
+
+.c-section__nav_item {
+    margin-top: 10px;
+}
+
+
+.c-section__nav_link {
+    cursor: pointer;
+    font-size: $font-size-xs;
+    padding-top: 10px;
 }

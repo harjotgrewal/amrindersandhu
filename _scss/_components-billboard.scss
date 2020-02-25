@@ -12,7 +12,6 @@
     height: auto;
     position: relative;
     width: calc(100vw - 25px);
-    z-index: 9;
     
     @include media-query(desk) {
         min-height: 480px;
@@ -35,7 +34,7 @@
 
 
 .c-billboard__title {
-    color: rgba(white, .5);
+    color: rgba(white, .75);
     font-size: 300px;
     font-weight: 900;
     left: -25px;
@@ -44,13 +43,14 @@
     position: absolute;
     text-transform: uppercase;
     top: 0;
+    visibility: hidden;
     writing-mode: vertical-lr;
-    z-index: 1;
 
     @include media-query(hd) {
         animation: in 3s ease-out forwards ;
         animation-delay: 0s;
         opacity: 0;
+        visibility: visible;
    }
 }
 
@@ -79,7 +79,7 @@
 
     @include media-query(desk) {
         line-height: 1.2;
-        grid-column: 6/11;
+        grid-column: 5/11;
         font-size: $font-size-l;
         letter-spacing: -1px;
         position: absolute;   

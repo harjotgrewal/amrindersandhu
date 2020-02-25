@@ -6,7 +6,7 @@
     z-index: 9;    
 
     @include media-query(hd) {
-        grid-column: 6/11;
+        grid-column: 5/11;
         margin: 0;
     }
 }
