@@ -137,12 +137,6 @@ strong {
     z-index: 2;
 }
 
-.c-book__cover {
-    //border: 1px solid $color-grey-lighter;
-    box-shadow: 0 5px 20px rgba(black, .15);
-    width: 150px;
-}
-
 
 
 .c-section__heading {
@@ -195,10 +189,13 @@ strong {
     li {
         color: $color-grey-light;
         list-style: none;
-        margin: auto 50px 150px 0;
+        margin: auto 50px 200px 0;
         width: 150px;
 
         @include media-query(portable) { 
+            margin-bottom: 150px;
+            margin-right: 25px;
+
             &:nth-child(2n+0) {
                 margin-right: 0;
             }
@@ -222,7 +219,7 @@ strong {
     width: 150px;
 
     @include media-query(hd) {
-        width: 200px;
+        width: 150px;
     }
 }
 
@@ -240,13 +237,14 @@ strong {
     width: 150px;
 
     @include media-query(hd) {
-        width: 225px;
+        width: 150px;
     }
 }
 
 .c-book_title {
     font-size: $font-size-xs;
     white-space: normal;
+    line-height: 1.2;
 }
 
 
@@ -256,7 +254,7 @@ strong {
     font-size: $font-size-xs;
     font-weight: normal;
     line-height: 1.3;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 
