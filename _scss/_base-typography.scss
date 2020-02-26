@@ -195,7 +195,7 @@ strong {
     li {
         color: $color-grey-light;
         list-style: none;
-        margin: auto 25px 150px 0;
+        margin: auto 50px 150px 0;
         width: 150px;
 
         @include media-query(portable) { 
@@ -205,7 +205,7 @@ strong {
         }
 
         @include media-query(hd) {
-            width: 225px;
+            width: 200px;
 
             &:nth-child(3n+0) {
                 margin-right: 0;
@@ -222,7 +222,7 @@ strong {
     width: 150px;
 
     @include media-query(hd) {
-        width: 225px;
+        width: 200px;
     }
 }
 
@@ -231,7 +231,7 @@ strong {
     width: 150px;
 
     @include media-query(hd) {
-        width: 225px;
+        width: 150px;
     }
 }
 

@@ -81,7 +81,7 @@ branding:
 }
 
 - {	
-	url: 'https://www.amazon.com/Why-We-Fail-Learning-Experience/dp/1933820179',
+	url: 'https://www.amazon.com/COLOUR-INDEX-2-Jim-Krause/dp/0715328484',
 	name: 'Colour Index Two',
 	author:  'Jim Krause',	
 	src: 'color_index.jpg',
@@ -89,7 +89,7 @@ branding:
 }
 
 - {	
-	url: 'https://www.amazon.com/Why-We-Fail-Learning-Experience/dp/1933820179',
+	url: 'https://www.amazon.com/Designers-Guide-Color-Combinations-ebook/dp/B005DIAT2S',
 	name: 'The Designer’s Guide to Colour Combinations',
 	author:  'Leslie Cabarga',	
 	src: 'color_combinations.jpg',
@@ -835,444 +835,444 @@ branding:
 }
 
 
-# - {	
-# 	url: 'https://www.amazon.com/Neuro-Web-Design-Makes-Click/dp/0321603605',
-# 	name: 'Neuro Web Design: What Makes Them Click?',
-# 	author: 'Susan Weinschenk',	
-# 	src: 'neuro_web_design.jpg',
-# 	category: 'psy'		
-# }
+- {	
+	url: 'https://www.amazon.com/Neuro-Web-Design-Makes-Click/dp/0321603605',
+	name: 'Neuro Web Design: What Makes Them Click?',
+	author: 'Susan Weinschenk',	
+	src: 'neuro_web_design.jpg',
+	category: 'psy'		
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788',
-# 	name: 'Hooked: How to Build Habit-Forming Products',
-# 	author: 'Nir Eyal',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'psy'	
-# }
+- {	
+	url: 'https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788',
+	name: 'Hooked: How to Build Habit-Forming Products',
+	author: 'Nir Eyal',	
+	src: 'hooked.jpg',
+	category: 'psy'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367',
-# 	name: 'Emotional Design: Why We Love (or Hate) Everyday Things',
-# 	author: 'Don Norman',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'psy'	
-# }
+- {	
+	url: 'https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367',
+	name: 'Emotional Design: Why We Love (or Hate) Everyday Things',
+	author: 'Don Norman',	
+	src: 'emotional_design.jpg',
+	category: 'psy'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555',
-# 	name: 'Thinking Fast and Slow',
-# 	author: 'Daniel Kahneman',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'psy'	
-# }
+- {	
+	url: 'https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555',
+	name: 'Thinking Fast and Slow',
+	author: 'Daniel Kahneman',	
+	src: 'thinking_fast_and_slow.jpg',
+	category: 'psy'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Mental-Models-Aligning-Strategy-Behavior/dp/1933820063',
-# 	name: 'Mental Models: Aligning Design Strategy with Human Behavior',
-# 	author:  'Indi Young',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'psy'	
-# }
+- {	
+	url: 'https://www.amazon.com/Mental-Models-Aligning-Strategy-Behavior/dp/1933820063',
+	name: 'Mental Models: Aligning Design Strategy with Human Behavior',
+	author:  'Indi Young',	
+	src: 'mental-models.jpg',
+	category: 'psy'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Type-Typography-Phil-Baines/dp/0823055280',
-# 	name: 'Type and Typography',
-# 	author: 'Phil Baines',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'	
-# }
+- {	
+	url: 'https://www.amazon.com/Type-Typography-Phil-Baines/dp/0823055280',
+	name: 'Type and Typography',
+	author: 'Phil Baines',	
+	src: 'type_and_typography.jpg',
+	category: 'type'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/New-Typography-Weimar-Now-Criticism/dp/0520250125',
-# 	name: 'The New Typography',
-# 	author: 'Jan Tschichold',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'	
-# }
+- {	
+	url: 'https://www.amazon.com/New-Typography-Weimar-Now-Criticism/dp/0520250125',
+	name: 'The New Typography',
+	author: 'Jan Tschichold',	
+	src: 'the_new_typography.jpg',
+	category: 'type'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Typewise-Kit-Hinrichs/dp/0891343563',
-# 	name: 'TypeWise',
-# 	author: 'Kit Hinrichs',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'	
-# }
+- {	
+	url: 'https://www.amazon.com/Typewise-Kit-Hinrichs/dp/0891343563',
+	name: 'TypeWise',
+	author: 'Kit Hinrichs',	
+	src: 'typewise.jpg',
+	category: 'type'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695',
-# 	name: 'Thinking with Type',
-# 	author: 'Ellen Lupton',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'	
-# }
+- {	
+	url: 'https://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695',
+	name: 'Thinking with Type',
+	author: 'Ellen Lupton',	
+	src: 'thinking_with_type.jpg',
+	category: 'type'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881791326',
-# 	name: 'The Elements of Typographic Style',
-# 	author: 'Robert Bringhurst',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'	
-# }
+- {	
+	url: 'https://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881791326',
+	name: 'The Elements of Typographic Style',
+	author: 'Robert Bringhurst',	
+	src: 'elements_of_typographic_style.jpg',
+	category: 'type'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Web-Typography-Jason-Santa-Maria/dp/1937557065',
-# 	name: 'On Web Typography',
-# 	author: 'Jason Santa Maria',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'	
-# }
+- {	
+	url: 'https://www.amazon.com/Web-Typography-Jason-Santa-Maria/dp/1937557065',
+	name: 'On Web Typography',
+	author: 'Jason Santa Maria',	
+	src: 'on_web_typography.png',
+	category: 'type'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Typography-29-Type-Directors-Club/dp/0061582778',
-# 	name: 'TDC Annual Typography 29',
-# 	author: 'Type Directors Club',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'	
-# }
+- {	
+	url: 'https://www.amazon.com/Typography-29-Type-Directors-Club/dp/0061582778',
+	name: 'TDC Annual Typography 29',
+	author: 'Type Directors Club',	
+	src: 'tdc_annual.jpg',
+	category: 'type'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Typographic-Desk-Reference-Theodore-Rosendorf/dp/1584562315',
-# 	name: 'The Typographic Desk Reference',
-# 	author: 'Theodore Rosendorf',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'	
-# }
+- {	
+	url: 'https://www.amazon.com/Typographic-Desk-Reference-Theodore-Rosendorf/dp/1584562315',
+	name: 'The Typographic Desk Reference',
+	author: 'Theodore Rosendorf',	
+	src: 'tdr.jpg',
+	category: 'type'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Stop-Stealing-Sheep-Find-Works/dp/0201703394',
-# 	name: 'Stop Stealing Sheep and Find Out How Type Works￼',
-# 	author: 'Erik Spiekermann',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'	
-# }
+- {	
+	url: 'https://www.amazon.com/Stop-Stealing-Sheep-Find-Works/dp/0201703394',
+	name: 'Stop Stealing Sheep and Find Out How Type Works￼',
+	author: 'Erik Spiekermann',	
+	src: 'stop_stealing_sheep.jpg',
+	category: 'type'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Typography-Essentials-Design-Principles-Working/dp/1592537405',
-# 	name: 'Typography Essentials',
-# 	author: 'Ina Saltz',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'type'
-# }
+- {	
+	url: 'https://www.amazon.com/Typography-Essentials-Design-Principles-Working/dp/1592537405',
+	name: 'Typography Essentials',
+	author: 'Ina Saltz',	
+	src: 'typography_essentials.jpg',
+	category: 'type'
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Usable-Usability-Simple-Making-Better/dp/1118185471',
-# 	name: 'Usable Usability: Simple Steps for Making Stuff Better',
-# 	author: 'Eric Reiss',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'usability'	
-# }
+- {	
+	url: 'https://www.amazon.com/Usable-Usability-Simple-Making-Better/dp/1118185471',
+	name: 'Usable Usability: Simple Steps for Making Stuff Better',
+	author: 'Eric Reiss',	
+	src: 'usable_usability.jpg',
+	category: 'usability'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Simple-Usable-Mobile-Interaction-Design/dp/0321703545',
-# 	name: 'Simple and Usable Web, Mobile, and Interaction Design',
-# 	author: 'Giles Colborne',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'usability'	
-# }
+- {	
+	url: 'https://www.amazon.com/Simple-Usable-Mobile-Interaction-Design/dp/0321703545',
+	name: 'Simple and Usable Web, Mobile, and Interaction Design',
+	author: 'Giles Colborne',	
+	src: 'simple_and_usable.jpg',
+	category: 'usability'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Homepage-Usability-50-Websites-Deconstructed/dp/073571102X',
-# 	name: 'Homepage Usability: 50 Websites Deconstructed',
-# 	author: 'Jakob Nielsen <span>and</span> Marie Tahir',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'usability'	
-# }
+- {	
+	url: 'https://www.amazon.com/Homepage-Usability-50-Websites-Deconstructed/dp/073571102X',
+	name: 'Homepage Usability: 50 Websites Deconstructed',
+	author: 'Jakob Nielsen <span>and</span> Marie Tahir',	
+	src: 'homepage_usability.jpg',
+	category: 'usability'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself/dp/0321657292',
-# 	name: 'Rocket Surgery Made Easy',
-# 	author: 'Steve Krug',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'usability'	
-# }
+- {	
+	url: 'https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself/dp/0321657292',
+	name: 'Rocket Surgery Made Easy',
+	author: 'Steve Krug',	
+	src: 'rocket_surgery.jpg',
+	category: 'usability'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Mobile-Usability-Jakob-Nielsen/dp/0321884485',
-# 	name: 'Mobile Usability￼',
-# 	author: 'Jakob Nielsen <span>and</span> Raluca Budiu',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'usability'	
-# }
+- {	
+	url: 'https://www.amazon.com/Mobile-Usability-Jakob-Nielsen/dp/0321884485',
+	name: 'Mobile Usability￼',
+	author: 'Jakob Nielsen <span>and</span> Raluca Budiu',	
+	src: 'mobile_usability.jpg',
+	category: 'usability'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758',
-# 	name: 'Don’t Make Me Think',
-# 	author: 'Steve Krug',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'usability'	
-# }
+- {	
+	url: 'https://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758',
+	name: 'Don’t Make Me Think',
+	author: 'Steve Krug',	
+	src: 'dont_make_me_think.jpg',
+	category: 'usability'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Articulating-Design-Decisions-Communicate-Stakeholders/dp/1491921560',
-# 	name: 'Articulating Design Decisions',
-# 	author: 'Tom Greever',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ux'	
-# }
-
-
-# - {	
-# 	url: 'https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652',
-# 	name: 'Lean UX: Applying Lean Principles to Improve User Experience',
-# 	author: 'Jeff Gothelf <span>and</span> Josh Seiden',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ux'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Elements-User-Experience-User-Centered-Design/dp/0321683684',
-# 	name: 'The Elements of User Experience',
-# 	author: 'Jesse James Garrett',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ux'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Undercover-Experience-Design-Voices-Matter/dp/0321719905',
-# 	name: 'Undercover User Experience Design',
-# 	author: 'Box James <span>and</span> Cennydd Bowles',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ux'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Storytelling-User-Experience-Crafting-Stories/dp/1933820470',
-# 	name: 'Storytelling for User Experience',
-# 	author: 'Kevin Brooks <span>and</span> Whitney Quesenbery',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ux'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Sketching-User-Experiences-Interactive-Technologies/dp/0123740371',
-# 	name: 'Sketching User Experiences',
-# 	author: 'Bill Buxton',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ux'
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/User-Experience-Team-One-Research/dp/1933820187',
-# 	name: 'The User Experience Team of One',
-# 	author: 'Leah Buley',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ux'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Mapping-Experiences-Complete-Creating-Blueprints/dp/1491923539',
-# 	name: 'Mapping Experiences',
-# 	author: 'J. Kalbach',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ux'	
-# }
-
-# - {	
-# 	url: 'https://trvrs.co/book',
-# 	name: 'Interviewing for Research￼',
-# 	author: 'Andrew Travers',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ur'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Just-Enough-Research-Erika-Hall/dp/1937557103',
-# 	name: 'Just Enough Research',
-# 	author: 'Erika Hall',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ur'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Remote-Research-Real-Users-Time/dp/1933820772',
-# 	name: 'Remote Research: Real Users, Real Time, Real Research',
-# 	author: 'Nate Bolt <span>and</span> Tony Tulathimutte',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'ur'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Web-Form-Design-Filling-Blanks/dp/1933820241',
-# 	name: 'Web Form Design: Filling in the Blanks',
-# 	author: 'Luke Wroblewski',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Art-Direction-Web-Andy-Clarke-ebook/dp/B07R6RT2KV',
-# 	name: 'Art Direction for the Web',
-# 	author: 'Andy Clarke',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Redesign-Web-Smashing-Book-Books-ebook/dp/B0085K3TCI',
-# 	name: 'Redesign the Web',
-# 	author: 'Smashing Magazine',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'
-# }
-
-# - {	
-# 	url: 'https://www.amazon.com/Smashing-Book-2-Matt-Ward/dp/B004M7GH68',
-# 	name: 'The Smashing Book #2',
-# 	author: 'Smashing Magazine',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://www.amazon.com/Articulating-Design-Decisions-Communicate-Stakeholders/dp/1491921560',
+	name: 'Articulating Design Decisions',
+	author: 'Tom Greever',	
+	src: 'articulating_design_decisions.jpg',
+	category: 'ux'	
+}
 
 
-# - {	
-# 	url: 'https://www.amazon.com/Defensive-Design-Web-improve-messages/dp/073571410X',
-# 	name: 'Defensive Design for the Web',
-# 	author: 'Jason Fried and Matthew Linderman',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'		
-# }
+- {	
+	url: 'https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652',
+	name: 'Lean UX: Applying Lean Principles to Improve User Experience',
+	author: 'Jeff Gothelf <span>and</span> Josh Seiden',	
+	src: 'lean_ux.jpg',
+	category: 'ux'	
+}
 
-# - {	
-# 	url: 'https://books.apple.com/us/book/mobile-multi-device-design/id916423134?ls=1',
-# 	name: 'Mobile and Multi Device Design',
-# 	author: 'Luke Wroblewski',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
-# - {	
-# 	url: 'https://www.amazon.com/Mobile-Book-Smashing-Magazine-ebook/dp/B00AMM4QWY',
-# 	name: 'The Mobile Book',
-# 	author: 'Smashing Magazine',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://www.amazon.com/Elements-User-Experience-User-Centered-Design/dp/0321683684',
+	name: 'The Elements of User Experience',
+	author: 'Jesse James Garrett',	
+	src: 'elements_of_ux.jpg',
+	category: 'ux'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Smashing-Book-Perspectives-Design-Special-ebook/dp/B00GX9DW5W',
-# 	name: 'New Perspectives on Web Design',
-# 	author: 'Smashing Magazine',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://www.amazon.com/Undercover-Experience-Design-Voices-Matter/dp/0321719905',
+	name: 'Undercover User Experience Design',
+	author: 'Box James <span>and</span> Cennydd Bowles',	
+	src: 'undercover_ux.jpg',
+	category: 'ux'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Tapworthy-Designing-Great-iPhone-Apps/dp/1449381650',
-# 	name: 'Tapworthy: Designing Great IPhone Apps',
-# 	author: 'Josh Clark',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
-# - {	
-# 	url: 'https://www.amazon.com/Mobile-First-Luke-Wroblewski/dp/1937557022',
-# 	name: 'Mobile First',
-# 	author: 'Luke Wroblewski',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://www.amazon.com/Storytelling-User-Experience-Crafting-Stories/dp/1933820470',
+	name: 'Storytelling for User Experience',
+	author: 'Kevin Brooks <span>and</span> Whitney Quesenbery',	
+	src: 'storytelling_for_ux.jpg',
+	category: 'ux'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Search-Patterns-Discovery-Peter-Morville/dp/0596802277',
-# 	name: 'Search Patterns: Design for Discovery',
-# 	author: 'Jeffery Callender and Peter Morville',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://www.amazon.com/Sketching-User-Experiences-Interactive-Technologies/dp/0123740371',
+	name: 'Sketching User Experiences',
+	author: 'Bill Buxton',	
+	src: 'sketching_ux.jpg',
+	category: 'ux'
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Web-Anatomy-Interaction-Design-Frameworks-ebook/dp/B002ZY5FCW',
-# 	name: 'Web Anatomy: Interaction Design Frameworks That Work',
-# 	author: 'Hoekman Jr Robert <span>and</span> Jared Spool',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://www.amazon.com/User-Experience-Team-One-Research/dp/1933820187',
+	name: 'The User Experience Team of One',
+	author: 'Leah Buley',	
+	src: 'ux_team_of_one.jpg',
+	category: 'ux'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Responsive-Design-Brief-People-Websites/dp/098444257X',
-# 	name: 'Responsive Web Design',
-# 	author: 'Ethan Marcotte',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://www.amazon.com/Mapping-Experiences-Complete-Creating-Blueprints/dp/1491923539',
+	name: 'Mapping Experiences',
+	author: 'J. Kalbach',	
+	src: 'mapping_experiences.jpg',
+	category: 'ux'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Hardboiled-Web-Design-Andy-Clarke/dp/1907828001',
-# 	name: 'Hardboiled Web Design',
-# 	author: 'Andy Clarke',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
-# - {	
-# 	url: 'https://www.amazon.com/Practical-Guide-Designing-Simple-Steps/dp/0956174019',
-# 	name: 'The Practical Guide to Designing for the Web',
-# 	author: 'Mark Boulton',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://trvrs.co/book',
+	name: 'Interviewing for Research￼',
+	author: 'Andrew Travers',	
+	src: 'interviewing_for_research.jpg',
+	category: 'ur'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript/dp/1449319270',
-# 	name: 'Learning Web Design',
-# 	author: 'Jennifer Niederst Robbins',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://www.amazon.com/Just-Enough-Research-Erika-Hall/dp/1937557103',
+	name: 'Just Enough Research',
+	author: 'Erika Hall',	
+	src: 'just_enough_research.png',
+	category: 'ur'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Remote-Research-Real-Users-Time/dp/1933820772',
+	name: 'Remote Research: Real Users, Real Time, Real Research',
+	author: 'Nate Bolt <span>and</span> Tony Tulathimutte',	
+	src: 'remote_research.jpg',
+	category: 'ur'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Web-Form-Design-Filling-Blanks/dp/1933820241',
+	name: 'Web Form Design: Filling in the Blanks',
+	author: 'Luke Wroblewski',	
+	src: 'web_form_design.jpg',
+	category: 'web'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Art-Direction-Web-Andy-Clarke-ebook/dp/B07R6RT2KV',
+	name: 'Art Direction for the Web',
+	author: 'Andy Clarke',	
+	src: 'art_direction_for_the_web.jpg',
+	category: 'web'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Redesign-Web-Smashing-Book-Books-ebook/dp/B0085K3TCI',
+	name: 'Redesign the Web',
+	author: 'Smashing Magazine',	
+	src: 'redesign_the_web_3.jpg',
+	category: 'web'
+}
+
+- {	
+	url: 'https://www.amazon.com/Smashing-Book-2-Matt-Ward/dp/B004M7GH68',
+	name: 'The Smashing Book #2',
+	author: 'Smashing Magazine',	
+	src: 'smashing_book_2.jpg',
+	category: 'web'	
+}
 
 
-# - {	
-# 	url: 'https://www.amazon.com/Transcending-CSS-Fine-Art-Design/dp/0321410971',
-# 	name: 'Transcending CSS: The Fine Art of Web Design',
-# 	author: 'Andy Clarke',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://www.amazon.com/Defensive-Design-Web-improve-messages/dp/073571410X',
+	name: 'Defensive Design for the Web',
+	author: 'Jason Fried and Matthew Linderman',	
+	src: 'defensive_design_for_the_web.jpg',
+	category: 'web'		
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Web-Standards-Creativity-Innovations-Scripting/dp/1590598032',
-# 	name: 'Web Standards Creativity',
-# 	author: 'Andy Budd',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'web'	
-# }
+- {	
+	url: 'https://books.apple.com/us/book/mobile-multi-device-design/id916423134?ls=1',
+	name: 'Mobile and Multi Device Design',
+	author: 'Luke Wroblewski',	
+	src: 'mobile_and_multi_device_design.jpg',
+	category: 'web'	
+}
+- {	
+	url: 'https://www.amazon.com/Mobile-Book-Smashing-Magazine-ebook/dp/B00AMM4QWY',
+	name: 'The Mobile Book',
+	author: 'Smashing Magazine',	
+	src: 'mobile_book.jpg',
+	category: 'web'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.ca/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0307361179',
-# 	name: 'Creativity, Inc.',
-# 	author: 'Ed Catmull',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'misc'	
-# }
+- {	
+	url: 'https://www.amazon.com/Smashing-Book-Perspectives-Design-Special-ebook/dp/B00GX9DW5W',
+	name: 'New Perspectives on Web Design',
+	author: 'Smashing Magazine',	
+	src: 'new_perspective_on_web_design.jpg',
+	category: 'web'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Show-Tell-Everybody-Extraordinary-Presentations/dp/1591848024',
-# 	name: 'Show and Tell',
-# 	author: 'Dan Roam',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'misc'	
-# }
+- {	
+	url: 'https://www.amazon.com/Tapworthy-Designing-Great-iPhone-Apps/dp/1449381650',
+	name: 'Tapworthy: Designing Great IPhone Apps',
+	author: 'Josh Clark',	
+	src: 'tapworthy.jpg',
+	category: 'web'	
+}
+- {	
+	url: 'https://www.amazon.com/Mobile-First-Luke-Wroblewski/dp/1937557022',
+	name: 'Mobile First',
+	author: 'Luke Wroblewski',	
+	src: 'mobile_first.png',
+	category: 'web'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Understanding-Comics-Invisible-Scott-McCloud/dp/006097625X',
-# 	name: 'Understanding Comics: The Invisible Art',
-# 	author: 'Scott McCloud',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'misc'	
-# }
+- {	
+	url: 'https://www.amazon.com/Search-Patterns-Discovery-Peter-Morville/dp/0596802277',
+	name: 'Search Patterns: Design for Discovery',
+	author: 'Jeffery Callender and Peter Morville',	
+	src: 'search_patterns.jpg',
+	category: 'web'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697',
-# 	name: 'The Back of the Napkin',
-# 	author: 'Dan Roam',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'misc'	
-# }
+- {	
+	url: 'https://www.amazon.com/Web-Anatomy-Interaction-Design-Frameworks-ebook/dp/B002ZY5FCW',
+	name: 'Web Anatomy: Interaction Design Frameworks That Work',
+	author: 'Hoekman Jr Robert <span>and</span> Jared Spool',	
+	src: 'web_anatomy.jpg',
+	category: 'web'	
+}
 
-# - {	
-# 	url: 'https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675',
-# 	name: 'Lean Analytics: Use Data to Build a Better Startup Faster',
-# 	author: 'Alistair Croll <span>and</span> Benjamin Yoskovitz',	
-# 	src: 'why_we_fail.jpg',
-# 	category: 'misc'	
-# }
+- {	
+	url: 'https://www.amazon.com/Responsive-Design-Brief-People-Websites/dp/098444257X',
+	name: 'Responsive Web Design',
+	author: 'Ethan Marcotte',	
+	src: 'responsive_web_design.jpg',
+	category: 'web'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Hardboiled-Web-Design-Andy-Clarke/dp/1907828001',
+	name: 'Hardboiled Web Design',
+	author: 'Andy Clarke',	
+	src: 'hardboiled_web_design.png',
+	category: 'web'	
+}
+- {	
+	url: 'https://www.amazon.com/Practical-Guide-Designing-Simple-Steps/dp/0956174019',
+	name: 'The Practical Guide to Designing for the Web',
+	author: 'Mark Boulton',	
+	src: 'designing_for_the_web.jpg',
+	category: 'web'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript/dp/1449319270',
+	name: 'Learning Web Design',
+	author: 'Jennifer Niederst Robbins',	
+	src: 'learning_web_design.png',
+	category: 'web'	
+}
+
+
+- {	
+	url: 'https://www.amazon.com/Transcending-CSS-Fine-Art-Design/dp/0321410971',
+	name: 'Transcending CSS: The Fine Art of Web Design',
+	author: 'Andy Clarke',	
+	src: 'transcending_css.jpg',
+	category: 'web'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Web-Standards-Creativity-Innovations-Scripting/dp/1590598032',
+	name: 'Web Standards Creativity',
+	author: 'Andy Budd',	
+	src: 'web_standards_creativity.jpg',
+	category: 'web'	
+}
+
+- {	
+	url: 'https://www.amazon.ca/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0307361179',
+	name: 'Creativity, Inc.',
+	author: 'Ed Catmull',	
+	src: 'creativity_inc.jpg',
+	category: 'misc'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Show-Tell-Everybody-Extraordinary-Presentations/dp/1591848024',
+	name: 'Show and Tell',
+	author: 'Dan Roam',	
+	src: 'show_and_tell.jpg',
+	category: 'misc'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Understanding-Comics-Invisible-Scott-McCloud/dp/006097625X',
+	name: 'Understanding Comics: The Invisible Art',
+	author: 'Scott McCloud',	
+	src: 'understanding_comics.jpg',
+	category: 'misc'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697',
+	name: 'The Back of the Napkin',
+	author: 'Dan Roam',	
+	src: 'back_of_the_napkin.jpg',
+	category: 'misc'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675',
+	name: 'Lean Analytics: Use Data to Build a Better Startup Faster',
+	author: 'Alistair Croll <span>and</span> Benjamin Yoskovitz',	
+	src: 'lean_analytics.jpg',
+	category: 'misc'	
+}
 
 
