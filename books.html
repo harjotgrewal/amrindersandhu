@@ -12,7 +12,7 @@ page-description: Whenever I start working on something new or need to understan
 <main class="c-main l-grid">      
     {% include billboard.html %}
 
-    <!-- JOURNAL ENTRIES-->
+    <!-- BOOKS -->
     <section class="c-section">
         <!-- <section class="c-section__col">
             <h4>Filter by</h4>
@@ -107,7 +107,7 @@ page-description: Whenever I start working on something new or need to understan
                 {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
                 <li aria-labelledby="{{ book.category }}">
                     <a class="c-book_link" href="{{ book.url }}" target="_blank">
-                        <img class="c-book_cover"  src="assets/i/books/{{ book.src }}"/>
+                        <img class="c-book_cover" loading="lazy" src="assets/i/books/{{ book.src }}"/>
 
                         <div class="c-book_meta">
                             <h4 class="c-book_title">{{ book.name }}</h4>
