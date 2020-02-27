@@ -12,9 +12,21 @@ page-description: Whenever I start working on something new or need to understan
 <main class="c-main l-grid">      
     {% include billboard.html %}
 
+
     <!-- JOURNAL ENTRIES-->
-    <section class="c-section">
-        <section class="c-section__content" data-aos="fade-up">
+    <section class="c-section js-tabs">
+        <section class="c-section__aside">
+            <div role="tablist" aria-label="Reading">
+                <button class="js-all-tabs">All</button>
+                <button role="tab" aria-controls="branding">Branding</button>
+                <button role="tab" aria-controls="bs">Business Strategy</button>
+                <button role="tab" aria-controls="colors">Colors</button>
+                <button role="tab" aria-controls="cs">Content Strategy</button>
+                <button role="tab" aria-controls="dv">Data Visualization</button>
+                <button role="tab" aria-controls="dpp">Design Process &amp; Principles</button>
+            </div>
+        </section>
+        <section class="c-section__content is-active" data-aos="fade-up" tabindex="0" role="tabpanel" id="branding" aria-labelledby="branding">
             <h3>Branding</h3>            
                 
                 {% for book in site.data.books.branding %}
@@ -32,7 +44,7 @@ page-description: Whenever I start working on something new or need to understan
 
 
 
-        <section class="c-section__content" data-aos="fade-up">
+        <section class="c-section__content is-active" data-aos="fade-up" tabindex="0" role="tabpanel" id="bs" aria-labelledby="bs">
             <h3>Business &amp; Strategy</h3>            
                 
                 {% for book in site.data.books.business %}
@@ -51,7 +63,7 @@ page-description: Whenever I start working on something new or need to understan
 
 
 
-        <section class="c-section__content" data-aos="fade-up">
+        <section class="c-section__content is-active" data-aos="fade-up" tabindex="0" role="tabpanel" id="colors" aria-labelledby="colors">
             <h3>Colors</h3>            
                 
                 {% for book in site.data.books.colors %}
@@ -69,7 +81,7 @@ page-description: Whenever I start working on something new or need to understan
 
 
 
-        <section class="c-section__content" data-aos="fade-up">
+        <section class="c-section__content is-active" data-aos="fade-up" tabindex="0" role="tabpanel" id="cs" aria-labelledby="cs">
             <h3>Content Strategy</h3>            
                 
                 {% for book in site.data.books.content %}
@@ -87,7 +99,7 @@ page-description: Whenever I start working on something new or need to understan
 
 
 
-        <section class="c-section__content" data-aos="fade-up">
+        <section class="c-section__content is-active" data-aos="fade-up" tabindex="0" role="tabpanel" id="dv" aria-labelledby="dv">
             <h3>Data Visualization</h3>            
                 
                 {% for book in site.data.books.data %}
@@ -106,7 +118,7 @@ page-description: Whenever I start working on something new or need to understan
 
 
 
-        <section class="c-section__content" data-aos="fade-up">
+        <section class="c-section__content is-active" data-aos="fade-up" tabindex="0" role="tabpanel" id="dpp" aria-labelledby="dpp">
             <h3>Design Process &amp; Principles</h3>            
                 
                 {% for book in site.data.books.process %}
@@ -124,7 +136,7 @@ page-description: Whenever I start working on something new or need to understan
 
 
 
-
+<!--
         <section class="c-section__content" data-aos="fade-up">
             <h3>Front-end Development</h3>            
                 
@@ -392,7 +404,7 @@ page-description: Whenever I start working on something new or need to understan
                     </li>
                     {% if forloop.last %}</ul>{% endif %}
                 {% endfor %}             
-        </section>
+        </section> -->
     </section>    
 
     

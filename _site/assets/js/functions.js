@@ -3,7 +3,7 @@ function menuToggle() {
     element.classList.toggle("is-visible");
 }
 
-document.getElementById('menuToggle').addEventListener('click', menuToggle);
+document.getElementById('menuToggleMenu').addEventListener('click', menuToggle);
 
 
 
@@ -62,3 +62,37 @@ document.getElementById('menuToggle').addEventListener('click', menuToggle);
 //     backgroundColor: '#FF8A00',
 //     delay: anime.stagger(50)
 //   })
+
+(function() {
+const tabsWrapper = document.querySelector(".js-tabs");
+
+const tabControls = tabsWrapper.querySelectorAll("button[role=tab]");
+
+const tabAreas = tabsWrapper.querySelectorAll("section[role=tabpanel]")
+
+const allTabs = tabsWrapper.querySelector('button[class=js-all-tabs]');
+
+for(item of tabControls) {
+    item.addEventListener("click", event => {
+        let tabControl = event.target.getAttribute("aria-controls");
+
+        for(item of tabAreas) {
+            item.classList.remove('is-active');
+            item.classList.add('is-hidden');
+        }
+
+        let tabArea = document.getElementById(tabControl);
+
+        tabArea.classList.remove('is-hidden');
+
+        tabArea.classList.add('is-active');
+    });
+};
+
+allTabs.addEventListener("click", event => {
+    for(item of tabAreas) {
+        item.classList.add('is-active');
+        item.classList.remove('is-hidden');
+    }
+});
+})();
