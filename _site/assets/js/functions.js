@@ -64,35 +64,33 @@ document.getElementById('menuToggleMenu').addEventListener('click', menuToggle);
 //   })
 
 (function() {
-const tabsWrapper = document.querySelector(".js-tabs");
+const filterWrapper = document.querySelector(".js-filtersWrapper");
 
-const tabControls = tabsWrapper.querySelectorAll("button[role=tab]");
+const filterControls = filterWrapper.querySelectorAll(".js-filter");
 
-const tabAreas = tabsWrapper.querySelectorAll("section[role=tabpanel]")
+const filterContent = filterWrapper.querySelectorAll(".c-books_list_item")
 
-const allTabs = tabsWrapper.querySelector('button[class=js-all-tabs]');
+const allFilters = filterWrapper.querySelector('.js-all-items');
 
-for(item of tabControls) {
+for(item of filterControls) {
     item.addEventListener("click", event => {
-        let tabControl = event.target.getAttribute("aria-controls");
+        let filterControl = event.target.getAttribute("id");
 
-        for(item of tabAreas) {
-            item.classList.remove('is-active');
-            item.classList.add('is-hidden');
+        for(item of filterContent) {
+            item.setAttribute('hidden', 'hidden');
         }
 
-        let tabArea = document.getElementById(tabControl);
+        let filteredItems = filterWrapper.querySelectorAll(`[aria-labelledby="${filterControl}"]`);
 
-        tabArea.classList.remove('is-hidden');
-
-        tabArea.classList.add('is-active');
+        for(item of filteredItems) {
+            item.removeAttribute("hidden");
+        }
     });
 };
 
-allTabs.addEventListener("click", event => {
-    for(item of tabAreas) {
-        item.classList.add('is-active');
-        item.classList.remove('is-hidden');
+allFilters.addEventListener("click", event => {
+    for(item of filterContent) {
+        item.removeAttribute("hidden");
     }
 });
 })();

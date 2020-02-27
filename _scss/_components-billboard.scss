@@ -9,35 +9,17 @@
     display: grid;
     grid-auto-flow: row;
     grid-template-rows: auto auto auto;    
+    height: auto;
     position: relative;
     width: calc(100vw - 25px);
-    z-index: 9;
-    position: relative;    
-    overflow: hidden;
-    height: auto;
-
-    &::after {
-        content: "";
-        display: block;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        border-bottom: 50px solid white;
-        border-left: 50px solid transparent;
-    }
     
     @include media-query(desk) {
         min-height: 480px;
         column-gap: 0;
-        grid-template-columns: repeat(12, auto);   
+        grid-template-columns: repeat(10, 100px);   
+        grid-column-gap: 25px;
         margin-bottom: 100px;        
         width: auto;
-
-        &::after {
-            border-bottom-width: 100px;
-            border-left-width: 100px;
-        }
-
 
         .c-billboard__link {
             grid-column: 3/4;
@@ -46,30 +28,29 @@
     
     
     @include media-query(portable) {
-        grid-template-columns: repeat(12, auto);
-        padding: 50px 25px;
+        padding: 50px 0 25px 25px;
     }
 }
 
 
 .c-billboard__title {
-    position: absolute;
-    color: rgba(white, .25);
+    color: rgba(white, .75);
+    font-size: 300px;
     font-weight: 900;
+    left: -25px;
     letter-spacing: -20px;
     margin-left: -15px;
     position: absolute;
     text-transform: uppercase;
+    top: 0;
+    visibility: hidden;
     writing-mode: vertical-lr;
-    z-index: 1;
 
     @include media-query(hd) {
-        writing-mode: horizontal-tb;
         animation: in 3s ease-out forwards ;
         animation-delay: 0s;
         opacity: 0;
-        //grid-column: 1/4;
-        //padding-left: 125px;
+        visibility: visible;
    }
 }
 
@@ -87,18 +68,18 @@
 
 
 .c-billboard__blurb {    
-    font-size: $font-size-m;
-    font-weight: 700;
-    color: $color-grey-darker;
-    line-height: 1.1;    
-    z-index: 2;
     animation: blurb 3s ease-out forwards ;
     animation-delay: 0;
+    color: $color-grey-darker;
+    font-size: $font-size-m;
+    font-weight: 700;
+    line-height: 1.1;    
+    z-index: 2;
+
 
     @include media-query(desk) {
         line-height: 1.2;
-        text-shadow: 0 0 20px rgba(black, .15);
-        grid-column: 3/11;
+        grid-column: 5/11;
         font-size: $font-size-l;
         letter-spacing: -1px;
         position: absolute;   
