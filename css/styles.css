@@ -713,7 +713,7 @@ a {
         grid-column: 3/4; } }
   @media screen and (max-width: 63.9375em) {
     .c-billboard {
-      padding: 100px 0 75px 25px; } }
+      padding: 100px 0 100px 25px; } }
 
 .c-billboard__title {
   color: rgba(255, 255, 255, 0.75);
@@ -989,7 +989,7 @@ a {
 .c-section {
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   z-index: 2; }
   @media screen and (min-width: 1139px) {
     .c-section {
