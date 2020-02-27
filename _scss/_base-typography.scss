@@ -193,7 +193,6 @@ strong {
         width: 150px;
 
         @include media-query(portable) { 
-            margin-bottom: 150px;
             margin-right: 25px;
 
             &:nth-child(2n+0) {

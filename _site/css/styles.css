@@ -638,7 +638,6 @@ strong {
     width: 150px; }
     @media screen and (max-width: 63.9375em) {
       .c-books_list li {
-        margin-bottom: 150px;
         margin-right: 25px; }
         .c-books_list li:nth-child(2n+0) {
           margin-right: 0; } }
