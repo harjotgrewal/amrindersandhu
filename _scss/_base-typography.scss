@@ -44,14 +44,13 @@ h2 {
 
 
 h3 {
-    font-size: $font-size-m;
+    font-size: $font-size-s;
     font-weight: 700;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query(hd) {
-        font-size: $font-size-l;
-        letter-spacing: -2px;
+        font-size: $font-size-m;
     }
 }
 
@@ -63,7 +62,7 @@ h3 {
 
 
 h4 {
-    font-size: $font-size-s;
+    font-size: $font-size-xs;
     font-weight: 700;
     margin-top: 10px;
     line-height: 1.1;

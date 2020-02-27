@@ -3,16 +3,15 @@
 // -----------------------------------------------------------------------------
 
 .c-entry {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     
     @include media-query(hd) {
-        margin-bottom: 150px;
+        margin-bottom: 50px;
     }
 }
 
 
 .c-entry__content {
-    
     
     @include media-query(hd) {
         margin-top: 10px;
@@ -21,12 +20,12 @@
 
 
 .c-entry__heading {
-    font-size: $font-size-m;
-    letter-spacing: -1px;
-    line-height: 1.1;
+    font-size: $font-size-s;
+    line-height: 1.2;
     margin-bottom: 25px;
 
     @include media-query(hd) {
+        font-size: $font-size-m;
         margin-bottom: 10px;
     }
 
