@@ -112,7 +112,7 @@ page-description: Whenever I start working on something new or need to understan
 
 
         <section class="c-section__content" data-aos="fade-up">
-            {% for book in site.data.books.branding %}
+            {% for book in site.data.books %}
                 {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
                 <li class="c-books_list_item" aria-labelledby="{{ book.category }}">
                     <a class="c-book_link" href="{{ book.url }}" target="_blank">
