@@ -69,7 +69,8 @@ h4 {
     line-height: 1.1;
 
     @include media-query(hd) {
-        font-size: $font-size-m;
+        font-size: $font-size-s;
+        line-height: 1.3;
     }
 }
 
