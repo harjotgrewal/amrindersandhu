@@ -933,7 +933,7 @@ a {
        -moz-column-gap: 25px;
             column-gap: 25px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     height: 100%; } }
 
 @media screen and (max-width: 63.9375em) {
@@ -953,6 +953,10 @@ a {
     -ms-flex-positive: 1;
         flex-grow: 1;
     margin: 0 0 0 25px; } }
+
+@media screen and (min-width: 64em) {
+  .c-nav__item {
+    grid-column: span 2; } }
 
 .c-nav__link {
   color: #050505;
