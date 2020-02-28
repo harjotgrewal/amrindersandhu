@@ -1059,19 +1059,25 @@ a {
       grid-column: 1/5;
       margin-left: 0; } }
 
+.c-section__col--nav {
+  grid-column: 1/3; }
+  @media screen and (max-width: 63.9375em) {
+    .c-section__col--nav {
+      display: none; } }
+
 .c-section__nav {
-  margin-top: 25px;
   position: -webkit-sticky;
   position: sticky;
   top: 50px; }
 
-.c-section__nav_item {
-  margin-top: 10px; }
-
 .c-section__nav_link {
+  border: none;
   cursor: pointer;
+  display: inline-block;
   font-size: 16px;
   padding-top: 10px; }
+  .c-section__nav_link.is_active {
+    color: #01CD7D; }
 
 .c-project_list {
   display: grid;
