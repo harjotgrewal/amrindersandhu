@@ -1,6 +1,15 @@
 
 journal:
 
+- {	
+	title: '“The definition of success” certainly needs a redesign. It is hugely mistaken.', 
+	url: 'https://www.ideo.com/blog/24-more-things-we-want-to-redesign',
+	author: 'IDEO',
+	content-title: '24 more things we want to redesign',
+	content-copy: 'When was the last time you were annoyed by something small? Like the mean, angry noise a chip reader makes when it’s done with your card? Or the mess a pen makes when the cap pops off in your back pocket? Or how deeply, achingly, frustratingly hard it is to tie a water balloon?'
+}
+
+
 - {	title: 'Web development is both fun and frustrating because it is always changing, and fast.', 
 	url: 'https://css-tricks.com/why-javascript-is-eating-html/',
 	author: 'CSS-Tricks',
