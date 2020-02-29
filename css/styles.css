@@ -897,7 +897,6 @@ a {
   color: #c5c5c5;
   display: inline-block;
   font-size: 30px;
-  font-weight: normal;
   letter-spacing: -1px;
   line-height: 1;
   position: relative;
@@ -1130,7 +1129,8 @@ a {
   .p-home .c-name path {
     stroke: #EF483F; }
   .p-home .c-nav__link--home {
-    color: #EF483F; }
+    color: #EF483F;
+    font-weight: bold; }
   .p-home .c-billboard {
     border-color: #EF483F; }
   .p-home .c-billboard__title {
@@ -1180,7 +1180,8 @@ a {
   .p-books .c-name path {
     stroke: #01CD7D; }
   .p-books .c-nav__link--books {
-    color: #01CD7D; }
+    color: #01CD7D;
+    font-weight: bold; }
   .p-books .c-billboard__title {
     font-size: 300px; }
     @media screen and (min-width: 1139px) {
@@ -1197,7 +1198,8 @@ a {
   .p-journal .c-name path {
     stroke: #00D1FF; }
   .p-journal .c-nav__link--journal {
-    color: #00D1FF; }
+    color: #00D1FF;
+    font-weight: bold; }
   .p-journal .c-billboard__title {
     font-size: 300px; }
     @media screen and (min-width: 1139px) {

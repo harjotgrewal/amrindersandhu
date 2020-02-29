@@ -83,8 +83,8 @@
     }
 
     .c-nav__link--home {
-        //border-bottom-color: $color-grey-lighter;
         color: $theme-bg-bright-1;
+        font-weight: bold;
 
     }
 
@@ -179,6 +179,7 @@
 
     .c-nav__link--books {
         color: $theme-bg-bright-3;
+        font-weight: bold;
     }
 
 
@@ -212,6 +213,7 @@
 
     .c-nav__link--journal {
         color: $theme-bg-bright-4;
+        font-weight: bold;
     }
 
     .c-billboard__title {
