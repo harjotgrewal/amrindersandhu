@@ -34,4 +34,32 @@ page-description: To improve what I know and learn what I don’t know, I read b
         </section>
       </section>
     {% endfor %}
+
+
+
+
+
+    {% for entry in site.data.awayback.journal %}
+    <section class="c-section">
+        <section class="c-section__col c-section__col--1to4">
+            <h3 class="c-entry__heading">{{ entry.title }}</h3>
+        </section>
+
+        <section class="c-section__content">
+            <article class="c-entry" data-aos="fade-up">
+                
+                <a href="{{ entry.url }}" target="_blank" class="c-entry__link">
+                    <!-- <address class="c-entry__author">{{ entry.author }}</address> -->
+                
+                    <section class="c-entry__content">
+                        <h4 class="c-entry__content__heading">{{ entry.content-title }}</h4>
+                        <p class="c-entry__content__blurb">{{ entry.content-copy }}</p>
+                    </section>
+                </a>
+            </article>
+            
+                   
+        </section>
+      </section>
+    {% endfor %}
 </main>
