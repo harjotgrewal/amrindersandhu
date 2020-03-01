@@ -4,138 +4,156 @@ journal:
 - {	
 	title: '“The definition of success” certainly needs a redesign. It is hugely mistaken.', 
 	url: 'https://www.ideo.com/blog/24-more-things-we-want-to-redesign',
-	author: 'IDEO',
 	content-title: '24 more things we want to redesign',
 	content-copy: 'When was the last time you were annoyed by something small? Like the mean, angry noise a chip reader makes when it’s done with your card? Or the mess a pen makes when the cap pops off in your back pocket? Or how deeply, achingly, frustratingly hard it is to tie a water balloon?'
 }
 
 
-- {	title: 'Web development is both fun and frustrating because it is always changing, and fast.', 
+- {	
+	title: 'Web development is both fun and frustrating because it is always changing, and fast.', 
 	url: 'https://css-tricks.com/why-javascript-is-eating-html/',
-	author: 'CSS-Tricks',
 	content-title: 'Why JavaScript is eating HTML',
 	content-copy: 'Web development is always changing. One trend in particular has become very popular lately, and it fundamentally goes against the conventional wisdom about how a web page should be made. It is exciting for some but frustrating for others, and the reasons for both are difficult to explain.'
 }
 
 
-- {	title: 'Code alone can’t solve every problem. It’s okay to do things that don’t scale.', 
+- {	
+	title: 'Code alone can’t solve every problem. It’s okay to do things that don’t scale.', 
 	url: 'https://firstround.com/review/How-design-thinking-transformed-Airbnb-from-failing-startup-to-billion-dollar-business/',
-	author: 'First Round Review',
 	content-title: 'How Design Thinking transformed Airbnb from a failing startup to a billion dollar business',
 	content-copy: 'While Airbnb is data driven, they don’t let data push them around. Instead of developing reactively to metrics, the team often starts with a creative hypothesis, implements a change, reviews how it impacts the business and then repeats that process. <br/> <br/>Individual team members at Airbnb make small bets on new features, and then measure if there’s a meaningful return on the bet. If there’s a payoff, they send more pirates in that direction. This structure encourages employees to take measured, productive risks on behalf of the company that can lead to the development of major new features. It allows Airbnb to move quickly and continually find new opportunities.'
 }
 
 
-- {	title: 'Good design is understanding business and help it grow.', 
+- {	
+	title: 'Good design is understanding business and help it grow.', 
 	url: 'https://twitter.com/jmspool/status/961804803440562176?s=20',
-	author: 'Twitter',
 	content-title: 'Jared Spool @jmspool',
 	content-copy: 'There’s only 5 things execs care about: <br/> • Increasing revenues <br/> • Decreasing costs <br/> • Increasing new business/marketshare <br/> • Increasing revenue from existing customers <br/> • Increasing shareholder value <br/><br/> Design leaders know to frame their team’s efforts as helping these priorities.'
 }
 
 
-- {	title: 'I always rely on a todo list. Now I know it has other benefits.', 
+- {	
+	title: 'I always rely on a todo list. Now I know it has other benefits.', 
 	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
-	author: 'Fast Company',
 	content-title: 'Writing to-do lists helps your brain (whether or not you finish them)',
 	content-copy: 'Keeping a list of tasks you need to perform is like taking notes when you’re reading a book or listening to a lecture. When you take notes, you need to filter external information, summarize it in your head, and then write it down. Many studies have shown that note taking helps us distill the information we hear and remember it better than we would if we’d just heard or read it.'
 }
 
 
-- {	title: 'Mindfulness also lowers levels of anxiety and depression.', 
+- {	
+	title: 'Mindfulness also lowers levels of anxiety and depression.', 
 	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
-	author: 'BBC',
 	content-title: 'The Japanese skill copied by the world',
 	content-copy: 'Mindfulness has become trendy around the world in recent years – but in Japan, it’s been ingrained into the culture for centuries.'
 }
 
 
-- {	title: '3 simple but effictive lessons about keeping customers at the center of what you do.', 
+- {	
+	title: '3 simple but effictive lessons about keeping customers at the center of what you do.', 
 	url: 'https://hbr.org/2020/01/turn-your-customers-into-your-community',
-	author: 'Harvard Business Review',
 	content-title: 'Turn your Customers into your Community',
 	content-copy: 'For many organizations, cultivating a community will mean cultivating a new capacity. This is a democratic, not autocratic, route to building customer relationships. It requires trusting instead of controlling, and commitment instead of flightiness.'
 }
 
 
-- {	title: 'Interesting approach for managing your commits.', 
+- {	
+	title: 'Interesting approach for managing your commits.', 
 	url: 'https://hofmannsven.com/2019/commit-message-driven-development',
-	author: 'Sven Hofmann',
 	content-title: 'Commit Message Driven Development',
 	content-copy: 'In software development, we usually start with writing the code. But what if we’d start by writing out the commit message? Follow me through the concept of commit message driven development.'
 }
 
 
-- {	title: 'How to increase focus to solve challenging problems by minimizing distractions.',
+- {	
+	title: 'How to increase focus to solve challenging problems by minimizing distractions.',
 	url: 'https://www.smashingmagazine.com/2019/11/better-design-deep-thinking/',
-	author: 'Smashing Magazine',
 	content-title: 'Better Design With Deep Thinking',
 	content-copy: 'Task switching is a design killer. Find out why switching and interruptions are even more serious than you think and how biology makes it difficult to resist the temptation to just check your email every few minutes. Learn how to slay the distraction dragon with five practical tips for increasing focus as you tackle challenging design problems.'
 }
 
 
-- {	title: 'Some useful tips on how to impress your new boss early on.', 
+- {	
+	title: 'Some useful tips on how to impress your new boss early on.', 
 	url: 'https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/" target="_blank',
-	author: 'Know Your Team',
 	content-title: 'How to impress your new boss in your first 30 days',
 	content-copy: 'Exceed expectations • Display excellent writing skills • Accept feedback willingly • Give feedback willingly • Be eager – but set expectations • Be a “manager of one” • Be empathetic • Small gestures make meaningful impact'
 }
 
 
-- {	title: '7 interesting things that made Briana working at Stripe feel different.', 
+- {	
+	title: '7 interesting things that made Briana working at Stripe feel different.', 
 	url: 'https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/',
-	author: 'Twitter',
 	content-title: 'Brianna @zebriez',
 	content-copy: 'I recently left Stripe after 4.5 formative and magical years. Some reflections on what made working at Stripe feel different than working other places:<br>1/Turpentine<br>2/Writing<br>3/Meticulousness<br>4/Principled decision-making<br>5/Ambition<br>6/Talking up<br>7/The API metaphor'
 }
 
 
-- {	title: 'Empathy isn’t about being nice but it can help increase revenue.', 
+- {	
+	title: 'Empathy isn’t about being nice but it can help increase revenue.', 
 	url: 'https://vimeo.com/343056801',
-	author: 'Vimeo • 99U',
 	content-title: 'Michael Ventura: Empathy is your Best Creative Tool',
 	content-copy: 'Entrepreneur and author Michael Ventura has dedicated his career to exploring how empathy can make us better leaders, collaborators, and contributors to society. In his 99U talk, Michael explains that the practice of empathy “isn’t about being nice” — it’s about deep understanding, and learning to apply that understanding to incredibly effective ends.'
 }
 
 
-- {	title: 'I’ve been working remotely for 12 years now, and these practices are must-do.', 
+- {	
+	title: 'I’ve been working remotely for 12 years now, and these practices are must-do.', 
 	url: 'https://weworkremotely.com/10-practices-that-will-ensure-you-succeed-at-remote-work',
-	author: 'We Work Remotely',
 	content-title: '10 Practices that will Ensure You Succeed at Remote Work',
 	content-copy: 'FYI’s co-founder, Marie Prokopets shares some new research on remote work they’ve gathered and a detailed breakdown of 10 practices to ensure remote work success.'
 }
 
 
-- {	title: 'So this is how Amazon innvotes at scale: relentlessly practising their principles.', 
+- {	
+	title: 'So this is how Amazon innvotes at scale: relentlessly practising their principles.', 
 	url: 'https://chiefmartec.com/2019/07/want-innovate-like-amazon-heres-formula',
-	author: 'Chief Marketing Technologist',
 	content-title: 'Want to innovate like Amazon? Here’s their formula',
 	content-copy: 'You can’t escape Amazon in the digital economy. Now a trillion-dollar company, they have disrupted diverse sectors from retail to software development with a deftness and drive that’s admirable and alarming. They actually seem to be speeding up their rate of innovation as they scale, defying the Law of Large Companies that causes giants to get dragged down by their own girth. How do they manage that? A week ago at the MIT Platform Strategy Summit, Dirk Didascalou, vice president of IoT at Amazon Web Services (AWS), laid out their approach to innovating at scale.'
 }
 
 
-- {	title: 'Different ways to communicate product changes and how to select them.', 
+- {	
+	title: 'Different ways to communicate product changes and how to select them.', 
 	url: 'https://community.uservoice.com/blog/how-to-communicate-product-changes-to-your-users/',
-	author: 'UserVoice Blog',
 	content-title: 'How to communicate product changes to your users',
 	content-copy: 'When it comes to communicating new features and functionality, your main objectives are driving awareness and promoting adoption. That’s why you want to convey both the why and the how. When announcing something new, it can be tempting to start the story off with capabilities. But before you tap into your inner infomercial host, remember that users don’t really care about what a product can do. They care about what a product can do for them.'
 }
 
 
-- {	title: 'Output is a means to an end: Outcome.', 
+- {	
+	title: 'Output is a means to an end: Outcome.', 
 	url: 'https://www.intercom.com/blog/podcasts/josh-seiden-on-why-product-teams-should-focus-on-outcome-vs-output/',
-	author: 'Josh Seiden on Inside Intercom Podcast',
 	content-title: 'Why product teams should focus on outcomes over output',
 	content-copy: 'Deciding what your engineers should do next can be a lot like climbing a ladder. On the lowest rung is a problem to be solved. At the top is an impact on the business, a change in the bottom line. Instead of trying to jump straight from the theoretical business impact to a directive for your R&D teams, it’s essential to stop for a moment and consider: “What is the desired outcome? If we implement a new feature, how will customer behavior change in a meaningful way?”'
 }
 
 
+- {	
+	title: 'So much goes into designing great search experience.', 
+	url: 'https://www.smashingmagazine.com/2019/06/better-search-ux-microcopy/',
+	content-title: 'Better search UX through microcopy',
+	content-copy: 'Writing a good search experience comes down to thoughtfulness. As designers, we’ve probably used and created hundreds of different web search experiences, so we breeze through the process. But when we consider every small step of the process (every microinteraction and every edge case), the minor changes we make can have a major impact on the experience. Next time you find yourself reaching for a visual solution to a search problem, consider using your words instead.'
+}
+
+
+- {	
+	title: 'Focus is the key, as it helps you move faster.', 
+	url: 'https://producthabits.com/my-billion-dollar-mistake/',
+	content-title: 'My billion dollar mistake',
+	content-copy: 'At my last company, KISSmetrics, I made a mistake that I truly believe lost me a billion dollar opportunity. It’s not something I’m proud of, and it’s one of the main reasons I’m now obsessed with building products the right way. I wrote the painful details of exactly what happened so you don’t have to make the same mistakes I did.'
+}
+
+
+- {	
+	title: 'Don’t give customers what they ask for. Help them become more productive.', 
+	url: 'https://itunes.apple.com/us/story/id1435835881',
+	content-title: 'Where respect is due',
+	content-copy: 'We’ve always had the utmost respect for the user. Every internal decision about look and function answers the question “What does the customer need?” and “How can we help them become more productive?” (Not “How can we give them what they are asking for?” because that isn’t the right question to answer.).'
+}
 
 
 
 
-
-
-# FROM AWAYBACK
 
 

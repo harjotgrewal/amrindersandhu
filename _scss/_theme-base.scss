@@ -81,6 +81,12 @@
         border-color: $theme-bg-bright-1;
     }
 
+    p,
+    strong,
+    a {
+        color: darken($theme-bg-light-1, 80);
+    }
+
     .c-name path {
         stroke: $theme-bg-bright-1;
     }
@@ -170,10 +176,6 @@
     .c-billboard__blurb {
         color: $theme-bg-light-2;
     }
-
-    .c-billboard__anime {
-        background-color: $theme-bg-light-2;
-    }
 }
 
 
@@ -218,6 +220,14 @@
             margin-right: 65px;
         }
     }
+
+    .c-book_title {
+        color: darken($theme-bg-light-3, 75);
+    }
+
+    .c-book_author {
+        color: rgba(black, .5);
+    }
 }
 
 
@@ -253,6 +263,16 @@
         @include media-query(portable) {
             margin-right: 85px;
         }
+    }
+
+    .c-entry__heading {
+        color: darken($theme-bg-light-4, 70);
+    }
+
+    .c-entry__link {
+        color: rgba(black, .5);
+        //color: darken($theme-bg-bright-4, 30);
+        //color: darken($theme-bg-light-4, 65);
     }
 }
 

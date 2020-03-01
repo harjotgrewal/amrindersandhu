@@ -1142,6 +1142,10 @@ a {
     color: #EF483F; }
   .p-home a {
     border-color: #EF483F; }
+  .p-home p,
+  .p-home strong,
+  .p-home a {
+    color: #07413a; }
   .p-home .c-name path {
     stroke: #EF483F; }
   @media screen and (max-width: 63.9375em) {
@@ -1191,8 +1195,6 @@ a {
         margin-left: -20px; } }
   .p-work .c-billboard__blurb {
     color: #F1FFDF; }
-  .p-work .c-billboard__anime {
-    background-color: #F1FFDF; }
 
 .p-books {
   background-color: #FFF0E3; }
@@ -1216,6 +1218,10 @@ a {
     @media screen and (max-width: 63.9375em) {
       .p-books .c-billboard__blurb {
         margin-right: 65px; } }
+  .p-books .c-book_title {
+    color: #642e00; }
+  .p-books .c-book_author {
+    color: rgba(0, 0, 0, 0.5); }
 
 .p-journal {
   background-color: #FAF5E4; }
@@ -1236,6 +1242,10 @@ a {
     @media screen and (max-width: 63.9375em) {
       .p-journal .c-billboard__blurb {
         margin-right: 85px; } }
+  .p-journal .c-entry__heading {
+    color: #665313; }
+  .p-journal .c-entry__link {
+    color: rgba(0, 0, 0, 0.5); }
 
 /* -------------------- *\
    #UTILITIES
