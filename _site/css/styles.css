@@ -909,7 +909,7 @@ a {
       top: 35px;
       right: 25px;
       background: url("/assets/i/photos/amrinder-11.jpg") no-repeat center;
-      background-color: #00D1FF;
+      background-color: #FAF5E4;
       background-size: 100px 100px;
       border: 5px solid white;
       height: 100px;
@@ -1146,7 +1146,7 @@ a {
     stroke: #EF483F; }
   @media screen and (max-width: 63.9375em) {
     .p-home .c-avatar {
-      background-color: #EF483F; } }
+      background-color: #E4FCF9; } }
   .p-home .c-nav__link--home {
     color: #EF483F; }
   .p-home .c-billboard {
@@ -1202,7 +1202,7 @@ a {
     stroke: #01CD7D; }
   @media screen and (max-width: 63.9375em) {
     .p-books .c-avatar {
-      background-color: #01CD7D; } }
+      background-color: #FFF0E3; } }
   .p-books .c-nav__link--books {
     color: #01CD7D; }
   .p-books .c-billboard__title {

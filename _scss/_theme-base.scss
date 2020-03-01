@@ -88,7 +88,7 @@
     .c-avatar {
         
         @include media-query(portable) {
-            background-color: $theme-bg-bright-1;
+            background-color: $theme-bg-light-1;
         }
     }
 
@@ -193,7 +193,7 @@
     .c-avatar {
         
         @include media-query(portable) {
-            background-color: $theme-bg-bright-3;
+            background-color: $theme-bg-light-3;
         }
     }
 
