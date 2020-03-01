@@ -15,6 +15,7 @@
     }
 }
 
+
 .c-nav__link--work:hover {
     &:active {
         border-color: $theme-bg-bright-2;
@@ -27,6 +28,7 @@
     }
 }
 
+
 .c-nav__link--books:hover {
     &:active {
         border-color: $theme-bg-bright-3;
@@ -38,6 +40,7 @@
         }
     }
 }
+
 
 .c-nav__link--journal:hover {
     &:active {
@@ -82,8 +85,14 @@
         stroke: $theme-bg-bright-1;
     }
 
+    .c-avatar {
+        
+        @include media-query(portable) {
+            background-color: $theme-bg-bright-1;
+        }
+    }
+
     .c-nav__link--home {
-        //border-bottom-color: $color-grey-lighter;
         color: $theme-bg-bright-1;
 
     }
@@ -103,6 +112,10 @@
 
     .c-billboard__blurb {
         color: $theme-bg-bright-1;
+
+        @include media-query(portable) {
+            margin-right: 50px;
+        }
     }
 }
 
@@ -177,6 +190,13 @@
         stroke: $theme-bg-bright-3;
     }
 
+    .c-avatar {
+        
+        @include media-query(portable) {
+            background-color: $theme-bg-bright-3;
+        }
+    }
+
     .c-nav__link--books {
         color: $theme-bg-bright-3;
     }
@@ -193,6 +213,10 @@
 
     .c-billboard__blurb {
         color: $theme-bg-bright-3;
+
+        @include media-query(portable) {
+            margin-right: 55px;
+        }
     }
 }
 
@@ -225,6 +249,10 @@
 
     .c-billboard__blurb {
         color: $theme-bg-bright-4;
+
+        @include media-query(portable) {
+            margin-right: 75px;
+        }
     }
 }
 

@@ -30,7 +30,7 @@
     }
 
     @include media-query(portable) {
-        padding: 0 25px;
+        padding: 0 125px 0 25px;
     }
 }
 
@@ -89,6 +89,10 @@
         border-bottom: 1px solid $color-grey-lighter;
         display: inline;
         line-height: 1.3;
+
+        & + p {
+            margin-top: 25px;
+        }
     }
 
 

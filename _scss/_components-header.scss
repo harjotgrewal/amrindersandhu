@@ -43,3 +43,26 @@
        left: 25px;
    }
 }
+
+
+.c-avatar {
+    display: none;
+
+    @include media-query(portable) {
+        display: block;
+        position: absolute;
+        top: 35px;
+        right: 25px;
+        background: url('/assets/i/photos/amrinder-11.jpg') no-repeat;
+        background-color: $theme-bg-bright-4;
+        background-size: 100px 100px;
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        background-blend-mode: luminosity;
+
+        img {
+            display: none;
+        }
+    }
+}

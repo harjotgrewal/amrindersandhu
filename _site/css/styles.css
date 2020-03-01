@@ -531,7 +531,7 @@ h3 {
 
 h4 {
   font-size: 16px;
-  margin-top: 10px;
+  margin-bottom: 10px;
   line-height: 1.1; }
   @media screen and (min-width: 1139px) {
     h4 {
@@ -541,12 +541,11 @@ h4 {
 p {
   font-size: 16px;
   line-height: 25px;
-  margin-top: 25px; }
+  margin-bottom: 25px; }
   @media screen and (min-width: 1139px) {
     p {
       font-size: 20px;
-      line-height: 30px;
-      margin-top: 25px; } }
+      line-height: 30px; } }
 
 em {
   font-style: italic; }
@@ -641,6 +640,7 @@ strong {
       width: 150px; } }
 
 .c-book_cover {
+  margin-bottom: 15px;
   width: 150px; }
   @media screen and (min-width: 1139px) {
     .c-book_cover {
@@ -656,15 +656,15 @@ strong {
 .c-book_title {
   font-size: 16px;
   white-space: normal;
-  line-height: 1.2; }
+  line-height: 1.2;
+  margin-bottom: 5px; }
 
 .c-book_author {
   color: #858585;
   display: inline-block;
   font-size: 16px;
   font-weight: normal;
-  line-height: 1.3;
-  margin-top: 5px; }
+  line-height: 1.3; }
 
 a {
   border-bottom: 1px solid;
@@ -698,7 +698,7 @@ a {
         grid-column: 3/4; } }
   @media screen and (max-width: 63.9375em) {
     .c-billboard {
-      padding: 100px 0 100px 25px; } }
+      padding: 100px 0 75px 25px; } }
 
 .c-billboard__title {
   color: rgba(255, 255, 255, 0.75);
@@ -796,7 +796,7 @@ a {
       margin-bottom: 10px; } }
   @media screen and (max-width: 63.9375em) {
     .c-entry__heading {
-      padding: 0 25px; } }
+      padding: 0 125px 0 25px; } }
 
 @media screen and (min-width: 1139px) {
   .c-section__col--1to4 {
@@ -829,6 +829,8 @@ a {
   border-bottom: 1px solid #c5c5c5;
   display: inline;
   line-height: 1.3; }
+  .c-entry__content__heading + p {
+    margin-top: 25px; }
 
 .c-footer {
   margin: 50px 0 0 25px; }
@@ -897,6 +899,24 @@ a {
   @media screen and (max-width: 63.9375em) {
     .c-name {
       left: 25px; } }
+
+.c-avatar {
+  display: none; }
+  @media screen and (max-width: 63.9375em) {
+    .c-avatar {
+      display: block;
+      position: absolute;
+      top: 35px;
+      right: 25px;
+      background: url("/assets/i/photos/amrinder-11.jpg") no-repeat;
+      background-color: #00D1FF;
+      background-size: 100px 100px;
+      height: 100px;
+      width: 100px;
+      border-radius: 100px;
+      background-blend-mode: luminosity; }
+      .c-avatar img {
+        display: none; } }
 
 .c-main {
   display: grid;
@@ -1123,6 +1143,9 @@ a {
     border-color: #EF483F; }
   .p-home .c-name path {
     stroke: #EF483F; }
+  @media screen and (max-width: 63.9375em) {
+    .p-home .c-avatar {
+      background-color: #EF483F; } }
   .p-home .c-nav__link--home {
     color: #EF483F; }
   .p-home .c-billboard {
@@ -1135,6 +1158,9 @@ a {
         margin-left: -30px; } }
   .p-home .c-billboard__blurb {
     color: #EF483F; }
+    @media screen and (max-width: 63.9375em) {
+      .p-home .c-billboard__blurb {
+        margin-right: 50px; } }
 
 .p-work {
   background-color: #F1FFDF; }
@@ -1173,6 +1199,9 @@ a {
     border-color: #01CD7D; }
   .p-books .c-name path {
     stroke: #01CD7D; }
+  @media screen and (max-width: 63.9375em) {
+    .p-books .c-avatar {
+      background-color: #01CD7D; } }
   .p-books .c-nav__link--books {
     color: #01CD7D; }
   .p-books .c-billboard__title {
@@ -1183,6 +1212,9 @@ a {
         margin-left: -30px; } }
   .p-books .c-billboard__blurb {
     color: #01CD7D; }
+    @media screen and (max-width: 63.9375em) {
+      .p-books .c-billboard__blurb {
+        margin-right: 55px; } }
 
 .p-journal {
   background-color: #FAF5E4; }
@@ -1200,6 +1232,9 @@ a {
         margin-left: -30px; } }
   .p-journal .c-billboard__blurb {
     color: #00D1FF; }
+    @media screen and (max-width: 63.9375em) {
+      .p-journal .c-billboard__blurb {
+        margin-right: 75px; } }
 
 /* -------------------- *\
    #UTILITIES
