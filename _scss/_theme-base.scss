@@ -16,7 +16,7 @@
 }
 
 
-.c-nav__link--work:hover {
+.c-nav__link--portfolio:hover {
     &:active {
         border-color: $theme-bg-bright-2;
     }
@@ -129,8 +129,12 @@
 
 
 
-.p-work {
+.p-portfolio {
     background-color: $theme-bg-light-2;
+
+    h2 {
+        color: $theme-bg-bright-2;
+    }
 
     a {
         border-color: $theme-bg-bright-2;
@@ -139,48 +143,44 @@
     p,
     strong,
     a {
-        color: darken($theme-bg-light-2, 80);
-    }
-
-    .c-name a,
-    .c-menu_button {
-        color: $theme-bg-bright-2;
+        color: darken($theme-bg-light-2, 70);
     }
 
     .c-name path {
         stroke: $theme-bg-bright-2;
     }
 
-    .c-nav__link--work {
-        border-bottom-color: $color-grey-lighter;
-        color: $color-grey-light;
-
-        @include media-query(hd) {
-            color: $color-grey-darker;
+    .c-avatar {
+        
+        @include media-query(portable) {
+            background-color: $theme-bg-light-2;
         }
     }
 
+    .c-nav__link--portfolio {
+        color: $theme-bg-bright-2;
+
+    }
 
     .c-billboard {
-        background-color: $theme-bg-bright-2;
-
-        &::after {
-            border-bottom-color: $theme-bg-light-2;
-        }
+        border-color: $theme-bg-bright-2;
     }
 
     .c-billboard__title {
-        color: rgba(white, .15);//$theme-bg-light-1;
-        font-size: 120px;
+        font-size: 300px;
 
         @include media-query(hd) {
-            font-size: 450px;
-            margin-left: -20px;
+            font-size: 420px;
+            margin-left: -30px;
         }
     }
 
     .c-billboard__blurb {
-        color: $theme-bg-light-2;
+        color: $theme-bg-bright-2;
+
+        @include media-query(portable) {
+            margin-right: 75px;
+        }
     }
 }
 

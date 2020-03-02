@@ -513,13 +513,12 @@ h1 {
       letter-spacing: -3px; } }
 
 h2 {
-  font-size: 45px;
+  font-size: 30px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (min-width: 1139px) {
     h2 {
-      font-size: 67.5px;
-      letter-spacing: -2px; } }
+      font-size: 30px; } }
 
 h3 {
   font-size: 20px;
@@ -1119,11 +1118,11 @@ a {
 .c-nav__link--home:hover strong {
   color: #EF483F; }
 
-.c-nav__link--work:hover:active {
-  border-color: #B975FE; }
+.c-nav__link--portfolio:hover:active {
+  border-color: #5856D6; }
 
-.c-nav__link--work:hover:hover strong {
-  color: #B975FE; }
+.c-nav__link--portfolio:hover:hover strong {
+  color: #5856D6; }
 
 .c-nav__link--books:hover:active {
   border-color: #01CD7D; }
@@ -1168,38 +1167,36 @@ a {
       .p-home .c-billboard__blurb {
         margin-right: 75px; } }
 
-.p-work {
-  background-color: #F1FFDF; }
-  .p-work a {
-    border-color: #B975FE; }
-  .p-work p,
-  .p-work strong,
-  .p-work a {
-    color: #274600; }
-  .p-work .c-name a,
-  .p-work .c-menu_button {
-    color: #B975FE; }
-  .p-work .c-name path {
-    stroke: #B975FE; }
-  .p-work .c-nav__link--work {
-    border-bottom-color: #c5c5c5;
-    color: #858585; }
+.p-portfolio {
+  background-color: #F6F6FA; }
+  .p-portfolio h2 {
+    color: #5856D6; }
+  .p-portfolio a {
+    border-color: #5856D6; }
+  .p-portfolio p,
+  .p-portfolio strong,
+  .p-portfolio a {
+    color: #323259; }
+  .p-portfolio .c-name path {
+    stroke: #5856D6; }
+  @media screen and (max-width: 63.9375em) {
+    .p-portfolio .c-avatar {
+      background-color: #F6F6FA; } }
+  .p-portfolio .c-nav__link--portfolio {
+    color: #5856D6; }
+  .p-portfolio .c-billboard {
+    border-color: #5856D6; }
+  .p-portfolio .c-billboard__title {
+    font-size: 300px; }
     @media screen and (min-width: 1139px) {
-      .p-work .c-nav__link--work {
-        color: #050505; } }
-  .p-work .c-billboard {
-    background-color: #B975FE; }
-    .p-work .c-billboard::after {
-      border-bottom-color: #F1FFDF; }
-  .p-work .c-billboard__title {
-    color: rgba(255, 255, 255, 0.15);
-    font-size: 120px; }
-    @media screen and (min-width: 1139px) {
-      .p-work .c-billboard__title {
-        font-size: 450px;
-        margin-left: -20px; } }
-  .p-work .c-billboard__blurb {
-    color: #F1FFDF; }
+      .p-portfolio .c-billboard__title {
+        font-size: 420px;
+        margin-left: -30px; } }
+  .p-portfolio .c-billboard__blurb {
+    color: #5856D6; }
+    @media screen and (max-width: 63.9375em) {
+      .p-portfolio .c-billboard__blurb {
+        margin-right: 75px; } }
 
 .p-books {
   background-color: #FFF0E3; }
