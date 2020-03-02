@@ -136,6 +136,12 @@
         border-color: $theme-bg-bright-2;
     }
 
+    p,
+    strong,
+    a {
+        color: darken($theme-bg-light-2, 80);
+    }
+
     .c-name a,
     .c-menu_button {
         color: $theme-bg-bright-2;
@@ -186,6 +192,12 @@
 
     a {
         border-color: $theme-bg-bright-3;
+    }
+
+    p,
+    strong,
+    a {
+        color: darken($theme-bg-light-1, 75);
     }
 
     .c-name path {
@@ -240,6 +252,12 @@
         border-color: $theme-bg-bright-4;
     }
 
+    p,
+    strong,
+    a {
+        color: darken($theme-bg-light-4, 75);
+    }
+
     .c-name path {
         stroke: $theme-bg-bright-4;
     }
@@ -266,7 +284,7 @@
     }
 
     .c-entry__heading {
-        color: darken($theme-bg-light-4, 70);
+        color: darken($theme-bg-light-4, 75);
     }
 
     .c-entry__link {

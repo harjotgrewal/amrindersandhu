@@ -1171,6 +1171,10 @@ a {
   background-color: #F1FFDF; }
   .p-work a {
     border-color: #B975FE; }
+  .p-work p,
+  .p-work strong,
+  .p-work a {
+    color: #274600; }
   .p-work .c-name a,
   .p-work .c-menu_button {
     color: #B975FE; }
@@ -1200,6 +1204,10 @@ a {
   background-color: #FFF0E3; }
   .p-books a {
     border-color: #01CD7D; }
+  .p-books p,
+  .p-books strong,
+  .p-books a {
+    color: #0a584e; }
   .p-books .c-name path {
     stroke: #01CD7D; }
   @media screen and (max-width: 63.9375em) {
@@ -1227,6 +1235,10 @@ a {
   background-color: #FAF5E4; }
   .p-journal a {
     border-color: #00D1FF; }
+  .p-journal p,
+  .p-journal strong,
+  .p-journal a {
+    color: #51420f; }
   .p-journal .c-name path {
     stroke: #00D1FF; }
   .p-journal .c-nav__link--journal {
@@ -1243,7 +1255,7 @@ a {
       .p-journal .c-billboard__blurb {
         margin-right: 85px; } }
   .p-journal .c-entry__heading {
-    color: #665313; }
+    color: #51420f; }
   .p-journal .c-entry__link {
     color: rgba(0, 0, 0, 0.5); }
 
