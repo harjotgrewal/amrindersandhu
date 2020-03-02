@@ -881,16 +881,15 @@ a {
       margin-top: 0; } }
 
 .c-name {
+  border: 0;
   color: #c5c5c5;
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: normal;
   letter-spacing: -1px;
   line-height: 1;
   position: relative;
-  width: 200px; }
-  .c-name a {
-    border: 0; }
+  width: 150px; }
   @media screen and (min-width: 1139px) {
     .c-name {
       font-size: 20px;
@@ -898,7 +897,9 @@ a {
       width: auto; } }
   @media screen and (max-width: 63.9375em) {
     .c-name {
-      left: 25px; } }
+      left: 25px; }
+      .c-name span + span {
+        font-size: 30px; } }
 
 .c-avatar {
   display: none; }
