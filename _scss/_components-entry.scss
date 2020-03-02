@@ -20,7 +20,7 @@
 
 
 .c-entry__heading {
-    font-size: $font-size-s;
+    font-size: 25px;
     line-height: 1.2;
     margin-bottom: 25px;
 
@@ -30,7 +30,7 @@
     }
 
     @include media-query(portable) {
-        padding: 0 125px 0 25px;
+        padding: 0 100px 0 25px;
     }
 }
 

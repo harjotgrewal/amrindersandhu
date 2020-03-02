@@ -13,7 +13,7 @@ $font-size-xl: 67.5px;
 $font-size-l: 45px;
 $font-size-m: 30px;
 $font-size-s: 20px;
-$font-size-xs: 16px;
+$font-size-xs: 18px;
 
  
 
@@ -70,7 +70,7 @@ h4 {
 
 
 p {
-    font-size: 18px;
+    font-size: $font-size-xs;
     line-height: 28px;
     margin-bottom: 25px;
 
@@ -81,9 +81,9 @@ p {
 }
 
 
-// main p {
-//     hyphens: auto;
-// }
+main p {
+    hyphens: auto;
+}
 
 
 em {
