@@ -287,7 +287,8 @@
         color: darken($theme-bg-light-4, 75);
     }
 
-    .c-entry__link {
+    .c-entry__link,
+    .c-entry__link p {
         color: rgba(black, .5);
         //color: darken($theme-bg-bright-4, 30);
         //color: darken($theme-bg-light-4, 65);

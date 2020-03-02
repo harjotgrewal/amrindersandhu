@@ -1256,7 +1256,8 @@ a {
         margin-right: 85px; } }
   .p-journal .c-entry__heading {
     color: #51420f; }
-  .p-journal .c-entry__link {
+  .p-journal .c-entry__link,
+  .p-journal .c-entry__link p {
     color: rgba(0, 0, 0, 0.5); }
 
 /* -------------------- *\
