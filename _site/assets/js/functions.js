@@ -1,9 +1,9 @@
-function menuToggle() {
-    var element = document.getElementById("menuToggleMenu");
-    element.classList.toggle("is-visible");
-}
+// function menuToggle() {
+//     var element = document.getElementById("menuToggleMenu");
+//     element.classList.toggle("is-visible");
+// }
 
-document.getElementById('menuToggleMenu').addEventListener('click', menuToggle);
+// document.getElementById('menuToggleMenu').addEventListener('click', menuToggle);
 
 
 
