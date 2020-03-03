@@ -58,12 +58,11 @@ h3 {
 h4 {
     font-size: $font-size-xs;
     margin-bottom: 10px;
-    line-height: 1.2;
+    line-height: 1.4;
     text-transform: uppercase;
 
     @include media-query(hd) {
         font-size: $font-size-s;
-        line-height: 1.3;
     }
 }
 
