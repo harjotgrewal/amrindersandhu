@@ -13,13 +13,15 @@ $font-size-xl: 67.5px;
 $font-size-l: 45px;
 $font-size-m: 30px;
 $font-size-s: 20px;
-$font-size-xs: 18px;
+$font-size-xs: 16px;
 
- 
+$as-font-weight: 600; 
+
+
 
 h1 {
-    font-size: $font-size-l;
-    font-weight: 600;
+    font-size: $font-size-m;
+    font-weight: $as-font-weight;
     letter-spacing: -1px;
     line-height: 1.1;
 
@@ -30,8 +32,8 @@ h1 {
 
 
 h2 {
-    font-size: $font-size-m;
-    font-weight: 600;
+    font-size: $font-size-s;
+    font-weight: $as-font-weight;
     letter-spacing: -1px;
     line-height: 1.2;
 
@@ -42,10 +44,9 @@ h2 {
 
 
 h3 {
-    font-size: $font-size-s;
-    font-weight: 600;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-size: $font-size-xs;
+    font-weight: $as-font-weight;
+    line-height: 1.3;
 
     @include media-query(hd) {
         font-size: $font-size-s;
@@ -56,9 +57,9 @@ h3 {
 
 h4 {
     font-size: $font-size-xs;
+    font-weight: $as-font-weight;
     margin-bottom: 10px;
     line-height: 1.4;
-    font-weight: 600;
 
     @include media-query(hd) {
         font-size: $font-size-xs;

@@ -503,7 +503,7 @@ body {
  * Scale generated using https://www.modularscale.com/
 */
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 600;
   letter-spacing: -1px;
   line-height: 1.1; }
@@ -512,7 +512,7 @@ h1 {
       font-size: 45px; } }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: -1px;
   line-height: 1.2; }
@@ -521,25 +521,24 @@ h2 {
       font-size: 30px; } }
 
 h3 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
-  letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 1.3; }
   @media screen and (min-width: 1139px) {
     h3 {
       font-size: 20px; } }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
   margin-bottom: 10px;
-  line-height: 1.4;
-  font-weight: 600; }
+  line-height: 1.4; }
   @media screen and (min-width: 1139px) {
     h4 {
-      font-size: 18px; } }
+      font-size: 16px; } }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
   margin-bottom: 25px; }
   @media screen and (min-width: 1139px) {
@@ -560,7 +559,7 @@ strong {
   font-weight: 600; }
 
 small {
-  font-size: 18px; }
+  font-size: 16px; }
 
 .type-serif {
   font-family: ff-scala-web, serif;
@@ -601,7 +600,7 @@ small {
   max-width: calc(100% - 175px) !important; }
 
 .o-list--bullet {
-  font-size: 18px;
+  font-size: 16px;
   list-style-type: disc;
   list-style-position: outside;
   margin-top: 10px;
@@ -849,7 +848,7 @@ a {
   .c-footer span,
   .c-footer a {
     color: #858585;
-    font-size: 18px; }
+    font-size: 16px; }
   @media screen and (max-width: 44.9375em) {
     .c-footer span {
       display: inline-block;
@@ -960,7 +959,7 @@ a {
 .c-nav__link {
   color: #050505;
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 2;
   margin-bottom: 10px; }
   @media screen and (max-width: 63.9375em) {
@@ -1053,7 +1052,7 @@ a {
 .c-section__caption {
   color: #858585;
   grid-column: 2/-1;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
   margin: 10px 25px 25px; }
   @media screen and (min-width: 1139px) {
@@ -1082,7 +1081,7 @@ a {
   border: none;
   cursor: pointer;
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 10px; }
   .c-section__nav_link.is_active {
     color: #01CD7D; }
