@@ -1,9 +1,9 @@
-function menuToggle() {
-    var element = document.getElementById("menuToggleMenu");
-    element.classList.toggle("is-visible");
-}
+// function menuToggle() {
+//     var element = document.getElementById("menuToggleMenu");
+//     element.classList.toggle("is-visible");
+// }
 
-document.getElementById('menuToggle').addEventListener('click', menuToggle);
+// document.getElementById('menuToggleMenu').addEventListener('click', menuToggle);
 
 
 
@@ -62,3 +62,45 @@ document.getElementById('menuToggle').addEventListener('click', menuToggle);
 //     backgroundColor: '#FF8A00',
 //     delay: anime.stagger(50)
 //   })
+
+const filterWrapper = document.querySelector(".js-filtersWrapper");
+
+const filterControls = filterWrapper.querySelectorAll(".js-filter");
+
+const filterContent = filterWrapper.querySelectorAll(".c-books_list_item")
+
+const allFilters = filterWrapper.querySelector('.js-all-items');
+
+const parentList = filterWrapper.querySelector('.c-books_list');
+
+filterControls.forEach(element => {
+    element.addEventListener("click", event => {
+        let filterbyID = event.target.getAttribute("id");
+        showItems(filterbyID);
+    });
+    
+});
+
+
+
+function showItems(filterbyID) {
+    let paras = [...filterContent];
+    for (let para of Array.from(paras)) {
+        para.remove();
+    }
+    for (let para of Array.from(paras)) {
+        if(para.getAttribute("aria-labelledby") == (filterbyID)) {
+            parentList.appendChild(para);
+        }
+    }
+    parentList.scrollIntoView({ behavior:"smooth" });
+}
+
+allFilters.addEventListener("click", showAllItems);
+
+function showAllItems() {
+    let paras = [...filterContent];
+    for (let para of Array.from(paras)) {
+        parentList.appendChild(para);
+    }
+}

@@ -13,90 +13,97 @@ page-description: Whenever I start working on something new or need to understan
     {% include billboard.html %}
 
     <!-- BOOKS -->
-    <section class="c-section">
-        <!-- <section class="c-section__col c-section__col--nav">
+    <section class="c-section js-filtersWrapper">
+        <section class="c-section__col c-section__col--nav">
             <h4>Filter by</h4>
 
             <ul class="c-section__nav">
+
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Branding</a>
+                    <a class="c-section__nav_link js-all-items">All</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Business &amp; Strategy</a>
+                    <a class="c-section__nav_link js-filter" id="branding">Branding</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Colors</a>
+                    <a class="c-section__nav_link js-filter" id="biz">Business &amp; Strategy</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link is_active">Content Strategy</a>
+                    <a class="c-section__nav_link js-filter" id="colors">Colors</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Data Visualization</a>
+                    <a class="c-section__nav_link js-filter" id="content">Content Strategy</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Design Process &amp; Principles</a>
+                    <a class="c-section__nav_link js-filter" id="data">Data Visualization</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Front-end Development</a>
+                    <a class="c-section__nav_link js-filter" id="process">Design Process &amp; Principles</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Graphic Design</a>
+                    <a class="c-section__nav_link js-filter" id="frontend">Front-end Development</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Information Architecture</a>
+                    <a class="c-section__nav_link js-filter" id="graphics">Graphic Design</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Interaction Design</a>
+                    <a class="c-section__nav_link js-filter" id="ia">Information Architecture</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Productivity</a>
+                    <a class="c-section__nav_link js-filter" id="id">Interaction Design</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Product Design</a>
+                    <a class="c-section__nav_link js-filter" id="productivity">Productivity</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Product Management</a>
+                    <a class="c-section__nav_link js-filter" id="pd">Product Design</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Psychology</a>
+                    <a class="c-section__nav_link js-filter" id="pm">Product Management</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Typography</a>
+                    <a class="c-section__nav_link js-filter" id="psy">Psychology</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Usability</a>
+                    <a class="c-section__nav_link js-filter" id="type">Typography</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">User Experience</a>
+                    <a class="c-section__nav_link js-filter" id="usability">Usability</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Web and Mobile Design</a>
+                    <a class="c-section__nav_link js-filter" id="ux">User Experience</a>
                 </li>
 
                 <li class="c-section__nav_item">
-                    <a class="c-section__nav_link">Miscellaneous</a>
+                    <a class="c-section__nav_link js-filter" id="ur">User Research</a>
                 </li>
-            </ul>
 
-            
-        </section> -->
+                <li class="c-section__nav_item">
+                    <a class="c-section__nav_link js-filter" id="web">Web and Mobile Design</a>
+                </li>
+
+                <li class="c-section__nav_item">
+                    <a class="c-section__nav_link js-filter" id="misc">Miscellaneous</a>
+                </li>
+            </ul> 
+        </section>
 
 
 
@@ -105,7 +112,7 @@ page-description: Whenever I start working on something new or need to understan
         <section class="c-section__content" data-aos="fade-up">
             {% for book in site.data.books %}
                 {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
-                <li aria-labelledby="{{ book.category }}">
+                <li class="c-books_list_item" aria-labelledby="{{ book.category }}">
                     <a class="c-book_link" href="{{ book.url }}" target="_blank">
                         <img class="c-book_cover" loading="lazy" src="assets/i/books/{{ book.src }}"/>
 

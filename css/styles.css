@@ -1268,3 +1268,9 @@ a {
 @media screen and (min-width: 1139px) {
   .u-break_line--hd {
     display: block; } }
+
+.is-hidden {
+  display: none; }
+
+.is-active {
+  display: block; }
