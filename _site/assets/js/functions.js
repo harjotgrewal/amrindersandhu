@@ -85,8 +85,15 @@ filterControls.forEach(element => {
 
 function showItems(filterbyID) {
     let paras = [...filterContent];
+    allFilters.classList.remove('is_active');
     for (let para of Array.from(paras)) {
         para.remove();
+    }
+    for (let entry of Array.from(filterControls)) {
+        entry.classList.remove('is_active');
+        if(entry.getAttribute('id') == filterbyID) {
+            entry.classList.add('is_active');
+        }
     }
     for (let para of Array.from(paras)) {
         if(para.getAttribute("aria-labelledby") == (filterbyID)) {
@@ -99,8 +106,12 @@ function showItems(filterbyID) {
 allFilters.addEventListener("click", showAllItems);
 
 function showAllItems() {
+    for (let entry of Array.from(filterControls)) {
+        entry.classList.remove('is_active');
+    }
     let paras = [...filterContent];
     for (let para of Array.from(paras)) {
         parentList.appendChild(para);
     }
+    allFilters.classList.add('is_active');
 }
