@@ -134,21 +134,22 @@
 
 .c-section__nav {
     position: sticky;
-    top: 50px;
-}
-
-.c-section__nav_item {
-    //margin-top: 10px;
+    top: 35px;
 }
 
 
 .c-section__nav_link {
-    border: none;
-    //color: $color-grey-light;
     cursor: pointer;
     display: inline-block;
     font-size: $font-size-xs;
     padding-top: 10px;
+    line-height: 25px;
+
+    &:hover {
+        border-bottom-color: transparent;
+        border-bottom-width: 1px;
+        color: $theme-bg-bright-3;
+    }
 
     &.is_active {
         color: $theme-bg-bright-3;

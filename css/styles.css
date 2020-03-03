@@ -523,7 +523,8 @@ h2 {
 h3 {
   font-size: 16px;
   font-weight: 600;
-  line-height: 1.3; }
+  line-height: 1.3;
+  margin-bottom: 25px; }
   @media screen and (min-width: 1139px) {
     h3 {
       font-size: 20px; } }
@@ -559,7 +560,8 @@ strong {
   font-weight: 600; }
 
 small {
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 25px; }
 
 .type-serif {
   font-family: ff-scala-web, serif;
@@ -1075,14 +1077,18 @@ a {
 .c-section__nav {
   position: -webkit-sticky;
   position: sticky;
-  top: 50px; }
+  top: 35px; }
 
 .c-section__nav_link {
-  border: none;
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  line-height: 25px; }
+  .c-section__nav_link:hover {
+    border-bottom-color: transparent;
+    border-bottom-width: 1px;
+    color: #01CD7D; }
   .c-section__nav_link.is_active {
     color: #01CD7D; }
 
