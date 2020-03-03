@@ -14,7 +14,7 @@ page-description: Whenever I start working on something new or need to understan
 
     <!-- BOOKS -->
     <section class="c-section js-filtersWrapper">
-        <section class="c-section__col">
+        <section class="c-section__col c-section__col--nav">
             <h4>Filter by</h4>
 
             <ul class="c-section__nav">
@@ -102,9 +102,7 @@ page-description: Whenever I start working on something new or need to understan
                 <li class="c-section__nav_item">
                     <a class="c-section__nav_link js-filter" id="misc">Miscellaneous</a>
                 </li>
-            </ul>
-
-            
+            </ul> 
         </section>
 
 
@@ -121,7 +119,7 @@ page-description: Whenever I start working on something new or need to understan
                         <div class="c-book_meta">
                             <h4 class="c-book_title">{{ book.name }}</h4>
                         
-                            <span class="c-book_author" >{{ book.author }}</span>
+                            <small class="c-book_author" >{{ book.author }}</small>
                         </div>
                     </a>
                 </li>

@@ -6,14 +6,14 @@
 .c-section {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 25px;
+    margin-bottom: 50px;
     z-index: 2;
     
     @include media-query(hd) {
         column-gap: 25px;
         grid-template-columns: repeat(10, 100px);   
         grid-column: 1/-1;
-        margin-top: 0;
+        margin-bottom: 100px;
     }
 }
 
@@ -67,6 +67,16 @@
         border-radius: 500px;
         background-blend-mode: multiply;
     }
+
+    @include media-query(portable) {
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        
+        img {
+            max-width: 100px;
+        }
+    }
     
 
     @include media-query(hd) {
@@ -74,11 +84,12 @@
         grid-template-columns: repeat(4, 1fr);
 
         img {
-            grid-column: 2/-1;
+            grid-column: 1/4;
             max-width: none;
             object-fit: cover;
             width: 100%;
             margin-left: 0;
+            display: none;
         }
     }
 }
@@ -113,19 +124,33 @@
 
 // FILTERS NAV
 
+.c-section__col--nav {
+    grid-column: 1/3;
+
+    @include media-query(portable) {
+        display: none; // HIDE ON MOBILE
+    }
+}
+
 .c-section__nav {
-    margin-top: 25px;
     position: sticky;
     top: 50px;
 }
 
 .c-section__nav_item {
-    margin-top: 10px;
+    //margin-top: 10px;
 }
 
 
 .c-section__nav_link {
+    border: none;
+    //color: $color-grey-light;
     cursor: pointer;
+    display: inline-block;
     font-size: $font-size-xs;
     padding-top: 10px;
+
+    &.is_active {
+        color: $theme-bg-bright-3;
+    }
 }

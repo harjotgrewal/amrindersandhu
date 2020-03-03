@@ -59,9 +59,6 @@
 
 
 .p-reading {
-    &::before {
-        background-color: $theme-bg-light-3;
-    }
 
     .c-billboard {
         background-color: $theme-bg-bright-3;
@@ -85,10 +82,7 @@
 
 
 
-.p-work {
-    &::before {
-        background-color: $theme-bg-light-4;
-    }
+.p-portfolio {
 
     .c-billboard {
         background-color: $theme-bg-bright-4;

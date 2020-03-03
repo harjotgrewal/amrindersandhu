@@ -5,7 +5,7 @@
 .c-header { 
     align-items: center;
     display: grid;
-    grid-template-rows: 125px;
+    grid-template-rows: 150px;
     margin-top: 10px;
 
     @include media-query(hd) {
@@ -20,18 +20,15 @@
 
 
 .c-name {
+    border: 0;
     color: $color-text-lighter;
     display: inline-block;
-    font-size: $font-size-m;
+    font-size: 25px;
     font-weight: normal;
     letter-spacing: -1px;
     line-height: 1;
     position: relative;
-    width: 200px;
-
-    a {
-        border: 0;
-    }
+    width: 150px;
 
     @include media-query(hd) {
         font-size: $font-size-s;
@@ -41,5 +38,33 @@
 
    @include media-query(portable) {
        left: 25px;
+
+       span + span {
+           font-size: $font-size-m;
+       }
    }
+}
+
+
+.c-avatar {
+    display: none;
+
+    @include media-query(portable) {
+        display: block;
+        position: absolute;
+        top: 35px;
+        right: 25px;
+        background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
+        background-color: $theme-bg-light-4;
+        background-size: 100px 100px;
+        border: 5px solid white;
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        background-blend-mode: luminosity;
+
+        img {
+            display: none;
+        }
+    }
 }

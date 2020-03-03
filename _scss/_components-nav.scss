@@ -19,7 +19,7 @@
         align-items: center;
         column-gap: 25px;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         height: 100%;
     }
 
@@ -37,6 +37,10 @@
     @include media-query(portable) {
         flex-grow: 1;
         margin: 0 0 0 25px;
+    }
+
+    @include media-query(desk) {
+        grid-column: span 2;
     }
 }
 
