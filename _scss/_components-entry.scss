@@ -20,17 +20,14 @@
 
 
 .c-entry__heading {
-    
-    
     margin-bottom: 25px;
 
     @include media-query(hd) {
-        
         margin-bottom: 10px;
     }
 
     @include media-query(portable) {
-        padding: 0 100px 0 25px;
+        padding: 0 25px 0 25px;
     }
 }
 
@@ -91,6 +88,6 @@
         max-width: 500px;
 
         & + p {
-            margin-top: 25px;
+            margin-top: 15px;
         }
     }
