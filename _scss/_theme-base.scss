@@ -120,7 +120,7 @@
         color: $theme-bg-bright-1;
 
         @include media-query(portable) {
-            margin-right: 75px;
+            margin-right: 5px;
         }
     }
 }
@@ -229,7 +229,7 @@
         color: $theme-bg-bright-3;
 
         @include media-query(portable) {
-            margin-right: 65px;
+            margin-right: 20px;
         }
     }
 
@@ -279,7 +279,7 @@
         color: $theme-bg-bright-4;
 
         @include media-query(portable) {
-            margin-right: 85px;
+            margin-right: 21px;
         }
     }
 

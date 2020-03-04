@@ -14,7 +14,7 @@
 .c-entry__content {
     
     @include media-query(hd) {
-        margin-top: 10px;
+        margin-top: 4px;
     }
 }
 
@@ -94,16 +94,3 @@
             margin-top: 25px;
         }
     }
-
-
-        // .c-entry__author {
-        //     color: $color-text-light;
-        //     font-size: $font-size-xs;
-        //     line-height: 1.5;
-        //     text-transform: uppercase;
-
-        //     @include media-query(hd) {
-        //         font-size: $font-size-s;
-        //         margin-top: 15px;
-        //     }
-        // }

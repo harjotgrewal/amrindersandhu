@@ -481,7 +481,7 @@ a {
 body {
   color: #050505;
   display: grid;
-  font: 62.5% franklin-gothic-urw, -apple-system, BlinkMacSystemFont, sans-serif;
+  font: 62.5% I0nter, -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
   margin-bottom: 50px;
   grid-template-columns: 1fr;
@@ -498,21 +498,32 @@ body {
       margin: 0 auto 100px;
       max-width: 1250px; } }
 
-/*
- * Using 5 sizes based on perfect fifth scale (2:3) using 20px as base size. 
- * Scale generated using https://www.modularscale.com/
-*/
+body,
+p,
+ul,
+table {
+  font-size: 17px;
+  line-height: 25px; }
+  @media screen and (min-width: 1139px) {
+    body,
+    p,
+    ul,
+    table {
+      font-size: 20px;
+      line-height: 30px; } }
+
 h1 {
   font-size: 30px;
   font-weight: 600;
   letter-spacing: -1px;
-  line-height: 1.1; }
+  line-height: 35px; }
   @media screen and (min-width: 1139px) {
     h1 {
-      font-size: 45px; } }
+      font-size: 45px;
+      line-height: 55px; } }
 
 h2 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   letter-spacing: -1px;
   line-height: 1.2; }
@@ -521,31 +532,26 @@ h2 {
       font-size: 30px; } }
 
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
+  letter-spacing: -1px;
   line-height: 1.3;
   margin-bottom: 25px; }
   @media screen and (min-width: 1139px) {
     h3 {
-      font-size: 20px; } }
+      font-size: 25px; } }
 
 h4 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
   margin-bottom: 10px;
   line-height: 1.4; }
   @media screen and (min-width: 1139px) {
     h4 {
-      font-size: 16px; } }
+      font-size: 20px; } }
 
 p {
-  font-size: 16px;
-  line-height: 25px;
   margin-bottom: 25px; }
-  @media screen and (min-width: 1139px) {
-    p {
-      font-size: 20px;
-      line-height: 30px; } }
 
 main p {
   -webkit-hyphens: auto;
@@ -560,22 +566,11 @@ strong {
   font-weight: 600; }
 
 small {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 25px; }
-
-.type-serif {
-  font-family: ff-scala-web, serif;
-  font-weight: 400;
-  font-style: normal; }
-
-.u-mar-left--more {
-  -webkit-transform: translateX(600px);
-          transform: translateX(600px);
-  width: 650px; }
-
-.u-mar-left--less {
-  -webkit-transform: translateX(100px);
-          transform: translateX(100px); }
+  @media screen and (min-width: 1139px) {
+    small {
+      font-size: 17px; } }
 
 .c-wrapper {
   position: relative;
@@ -587,8 +582,6 @@ small {
   z-index: 2; }
 
 .c-section__heading {
-  color: #858585;
-  line-height: 1;
   padding-left: 25px;
   position: relative;
   text-transform: uppercase; }
@@ -602,14 +595,12 @@ small {
   max-width: calc(100% - 175px) !important; }
 
 .o-list--bullet {
-  font-size: 16px;
   list-style-type: disc;
   list-style-position: outside;
   margin-top: 10px;
   margin-left: 25px; }
   @media screen and (min-width: 1139px) {
     .o-list--bullet {
-      font-size: 20px;
       margin-top: 25px; } }
   .o-list--bullet li {
     margin-top: 5px; }
@@ -707,9 +698,9 @@ a {
   color: rgba(255, 255, 255, 0.75);
   font-size: 300px;
   font-weight: 900;
-  left: -125px;
+  left: -25px;
   letter-spacing: -20px;
-  margin-left: -15px;
+  line-height: 1;
   position: absolute;
   text-transform: uppercase;
   top: 0;
@@ -780,7 +771,7 @@ a {
 
 @media screen and (min-width: 1139px) {
   .c-entry__content {
-    margin-top: 10px; } }
+    margin-top: 4px; } }
 
 .c-entry__heading {
   margin-bottom: 25px; }
@@ -849,8 +840,7 @@ a {
         grid-row: 1; } }
   .c-footer span,
   .c-footer a {
-    color: #858585;
-    font-size: 16px; }
+    color: #858585; }
   @media screen and (max-width: 44.9375em) {
     .c-footer span {
       display: inline-block;
@@ -875,24 +865,24 @@ a {
 
 .c-name {
   border: 0;
-  color: #c5c5c5;
   display: inline-block;
-  font-size: 25px;
   font-weight: normal;
-  letter-spacing: -1px;
-  line-height: 1;
+  line-height: 1 !important;
   position: relative;
-  width: 150px; }
+  width: 120px; }
   @media screen and (min-width: 1139px) {
     .c-name {
-      font-size: 20px;
       grid-area: name;
       width: auto; } }
   @media screen and (max-width: 63.9375em) {
     .c-name {
       left: 25px; }
+      .c-name span {
+        font-size: 25px;
+        letter-spacing: -1px; }
       .c-name span + span {
-        font-size: 30px; } }
+        font-size: 30px;
+        margin-left: -1px; } }
 
 .c-avatar {
   display: none; }
@@ -961,7 +951,6 @@ a {
 .c-nav__link {
   color: #050505;
   display: inline-block;
-  font-size: 16px;
   line-height: 2;
   margin-bottom: 10px; }
   @media screen and (max-width: 63.9375em) {
@@ -974,7 +963,6 @@ a {
       display: flex;
       -ms-flex-direction: column;
           flex-direction: column;
-      font-size: 20px;
       height: 100px;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1054,7 +1042,7 @@ a {
 .c-section__caption {
   color: #858585;
   grid-column: 2/-1;
-  font-size: 16px;
+  font-size: 15px;
   font-style: italic;
   margin: 10px 25px 25px; }
   @media screen and (min-width: 1139px) {
@@ -1082,9 +1070,9 @@ a {
 .c-section__nav_link {
   cursor: pointer;
   display: inline-block;
-  font-size: 16px;
-  padding-top: 10px;
-  line-height: 25px; }
+  font-size: 17px;
+  line-height: 25px;
+  padding-top: 10px; }
   .c-section__nav_link:hover {
     border-bottom-color: transparent;
     border-bottom-width: 1px;
@@ -1163,7 +1151,7 @@ a {
     color: #EF483F; }
     @media screen and (max-width: 63.9375em) {
       .p-home .c-billboard__blurb {
-        margin-right: 75px; } }
+        margin-right: 5px; } }
 
 .p-portfolio {
   background-color: #F6F6FA; }
@@ -1221,7 +1209,7 @@ a {
     color: #01CD7D; }
     @media screen and (max-width: 63.9375em) {
       .p-books .c-billboard__blurb {
-        margin-right: 65px; } }
+        margin-right: 20px; } }
   .p-books .c-book_title {
     color: #642e00; }
   .p-books .c-book_author {
@@ -1249,7 +1237,7 @@ a {
     color: #00D1FF; }
     @media screen and (max-width: 63.9375em) {
       .p-journal .c-billboard__blurb {
-        margin-right: 85px; } }
+        margin-right: 21px; } }
   .p-journal .c-entry__heading {
     color: #51420f; }
   .p-journal .c-entry__link,

@@ -51,7 +51,6 @@
 .c-nav__link {
     color: $color-grey-darker;
     display: inline-block;
-    font-size: $font-size-xs;
     line-height: 2;
     margin-bottom: 10px;
 
@@ -63,7 +62,6 @@
         border: 0 none;
         display: flex;
         flex-direction: column;
-        font-size: $font-size-s;
         height: 100px;
         justify-content: center;
         line-height: 1.2;

@@ -21,7 +21,7 @@
 .c-name {
     color: $color-text-lighter;
     display: inline-block;
-    font-size: $font-size-s;
+    font-size: $as-font-size-s;
     font-weight: 500;
     line-height: 1;
     padding-left: 25px;
@@ -29,7 +29,7 @@
     text-transform: uppercase;
 
     @include media-query(hd) {
-        font-size: $font-size-m;
+        font-size: $as-font-size-m;
         grid-area: name;
         padding-left: 125px;
    }

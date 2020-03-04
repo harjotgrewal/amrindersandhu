@@ -51,13 +51,13 @@
 
         .c-entry__author {
             color: $color-text-light;
-            font-size: $font-size-xs;
+            font-size: $as-font-size-xs;
             letter-spacing: 5px;;
             line-height: 1.5;
             text-transform: uppercase;
 
             @include media-query(hd) {
-                font-size: $font-size-s;
+                font-size: $as-font-size-s;
                 margin-top: 15px;
             }
         }

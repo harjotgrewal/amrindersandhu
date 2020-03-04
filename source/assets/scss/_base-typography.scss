@@ -8,50 +8,50 @@
  * Scale generated using https://www.modularscale.com/
 */ 
  
-$font-size-xxl: 101.25px;
-$font-size-xl: 67.5px;
-$font-size-l: 45px;
-$font-size-m: 30px;
-$font-size-s: 20px;
-$font-size-xs: 16px;
+$as-font-size-xxl: 101.25px;
+$as-font-size-xl: 67.5px;
+$as-font-size-l: 45px;
+$as-font-size-m: 30px;
+$as-font-size-s: 20px;
+$as-font-size-xs: 16px;
 
  
 
 h1 {
-    font-size: $font-size-xl;
+    font-size: $as-font-size-xl;
     font-weight: 700;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query(hd) {
-        font-size: $font-size-xxl;
+        font-size: $as-font-size-xxl;
         letter-spacing: -3px;
     }
 }
 
 
 h2 {
-    font-size: $font-size-l;
+    font-size: $as-font-size-l;
     font-weight: 700;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query(hd) {
-        font-size: $font-size-xl;
+        font-size: $as-font-size-xl;
         letter-spacing: -2px;
     }
 }
 
 
 h3 {
-    font-size: $font-size-m;
+    font-size: $as-font-size-m;
     font-weight: 700;
     letter-spacing: -1px;
     line-height: 1;
     margin-top: 25px;
 
     @include media-query(hd) {
-        font-size: $font-size-l;
+        font-size: $as-font-size-l;
         letter-spacing: -2px;
         margin-top: 50px;
     }
@@ -59,24 +59,24 @@ h3 {
 
 
 h4 {
-    font-size: $font-size-s;
+    font-size: $as-font-size-s;
     font-weight: 700;
     margin-top: 10px;
     line-height: 1.1;
 
     @include media-query(hd) {
-        font-size: $font-size-m;
+        font-size: $as-font-size-m;
     }
 }
 
 
 p {
-    font-size: $font-size-xs;
+    font-size: $as-font-size-xs;
     line-height: 1.5;
     margin-top: 15px;
 
     @include media-query(hd) {
-        font-size: $font-size-s;
+        font-size: $as-font-size-s;
     }
 }
 
@@ -142,14 +142,14 @@ em {
 
 
 .o-list--bullet {
-    font-size: $font-size-xs;
+    font-size: $as-font-size-xs;
     list-style-type: disc;
     list-style-position: outside;
     margin-top: 10px;
     margin-left: 25px;
 
     @include media-query(hd) {
-        font-size: $font-size-s;
+        font-size: $as-font-size-s;
         margin-top: 25px;
     }
 

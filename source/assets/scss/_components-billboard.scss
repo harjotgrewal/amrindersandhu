@@ -60,7 +60,7 @@
 
 .c-billboard__blurb {
     grid-column: 1/8;
-    font-size: $font-size-m;
+    font-size: $as-font-size-m;
     font-weight: 700;
     color: $color-grey-darker;
     line-height: 1.1;
@@ -69,7 +69,7 @@
 
     @include media-query(hd) {
         grid-column: 2/10;
-        font-size: $font-size-xl;
+        font-size: $as-font-size-xl;
         letter-spacing: -1px;
    }
 }

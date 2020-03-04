@@ -3,80 +3,93 @@
 // -----------------------------------------------------------------------------
 
 
-/*
- * Using 5 sizes based on perfect fifth scale (2:3) using 20px as base size. 
- * Scale generated using https://www.modularscale.com/
-*/ 
- 
-$font-size-xxl: 101.25px;
-$font-size-xl: 67.5px;
-$font-size-l: 45px;
-$font-size-m: 30px;
-$font-size-s: 20px;
-$font-size-xs: 16px;
+$as-font-size-xxl: 45px;
+$as-font-size-xl: 30px;
+$as-font-size-l: 25px;
+$as-font-size-m: 20px;
+$as-font-size-s: 17px;
+$as-font-size-xs: 15px;
 
-$as-font-weight: 600; 
 
+$as-font-weight-bold: 600; 
+
+
+
+
+
+
+
+body,
+p,
+ul,
+table {
+    font-size: $as-font-size-s;
+    line-height: 25px;
+
+    @include media-query(hd) {
+        font-size: $as-font-size-m;
+        line-height: 30px;
+    }
+}
 
 
 h1 {
-    font-size: $font-size-m;
-    font-weight: $as-font-weight;
+    font-size: $as-font-size-xl;
+    font-weight: $as-font-weight-bold;
     letter-spacing: -1px;
-    line-height: 1.1;
+    line-height: 35px;
 
     @include media-query(hd) {
-        font-size: $font-size-l;
+        font-size: $as-font-size-xxl;
+        line-height: 55px;
     }
 }
 
 
 h2 {
-    font-size: $font-size-s;
-    font-weight: $as-font-weight;
+    font-size: $as-font-size-l;
+    font-weight: $as-font-weight-bold;
     letter-spacing: -1px;
     line-height: 1.2;
 
     @include media-query(hd) {
-        font-size: $font-size-m;
+        font-size: $as-font-size-xl;
     }
 }
 
 
 h3 {
-    font-size: $font-size-xs;
-    font-weight: $as-font-weight;
+    font-size: $as-font-size-m;
+    font-weight: $as-font-weight-bold;
+    letter-spacing: -1px;
     line-height: 1.3;
     margin-bottom: 25px;
 
     @include media-query(hd) {
-        font-size: $font-size-s;
+        font-size: $as-font-size-l;
     }
 }
 
 
 
 h4 {
-    font-size: $font-size-xs;
-    font-weight: $as-font-weight;
+    font-size: $as-font-size-s;
+    font-weight: $as-font-weight-bold;
     margin-bottom: 10px;
     line-height: 1.4;
 
     @include media-query(hd) {
-        font-size: $font-size-xs;
+        font-size: $as-font-size-m;
     }
 }
 
 
 
 p {
-    font-size: $font-size-xs;
-    line-height: 25px;
     margin-bottom: 25px;
 
     @include media-query(hd) {
-        font-size: $font-size-s;
-        line-height: 30px;
+        
     }
 }
 
@@ -91,31 +104,20 @@ em {
 }
 
 strong {
-    font-weight: 600;
+    font-weight: $as-font-weight-bold;
 }
 
 small {
-    font-size: 16px;
+    font-size: $as-font-size-xs;
     line-height: 25px;
+
+    @include media-query(hd) {
+        font-size: $as-font-size-s;
+    }
 }
 
 
-.type-serif {
-    font-family: ff-scala-web, serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
-
-.u-mar-left--more {
-    transform: translateX(600px);
-    width: 650px;
-}
-
-
-.u-mar-left--less {
-    transform: translateX(100px);
-}
 
  
 
@@ -133,9 +135,6 @@ small {
 
 
 .c-section__heading {
-    color: $color-text-light;
-    line-height: 1;
-    //margin-top: 75px;
     padding-left: 25px;
     position: relative;
     text-transform: uppercase;
@@ -155,14 +154,12 @@ small {
 
 
 .o-list--bullet {
-    font-size: $font-size-xs;
     list-style-type: disc;
     list-style-position: outside;
     margin-top: 10px;
     margin-left: 25px;
 
     @include media-query(hd) {
-        font-size: $font-size-s;
         margin-top: 25px;
     }
 

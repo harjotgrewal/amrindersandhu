@@ -100,7 +100,7 @@
 .c-section__caption {
     color: $color-grey-light;
     grid-column: 2/-1;
-    font-size: $font-size-xs;
+    font-size: $as-font-size-xs;
     font-style: italic;
     margin: 10px 25px 25px;
 
@@ -138,12 +138,16 @@
 }
 
 
+
+
+
+// USED FOR BOOKS FILTERS
 .c-section__nav_link {
     cursor: pointer;
     display: inline-block;
-    font-size: $font-size-xs;
-    padding-top: 10px;
+    font-size: $as-font-size-s;
     line-height: 25px;
+    padding-top: 10px;
 
     &:hover {
         border-bottom-color: transparent;

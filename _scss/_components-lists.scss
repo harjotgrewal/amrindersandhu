@@ -12,14 +12,12 @@
 
 // STYLE VARIANTS
 .c-list--bullet {
-    font-size: $font-size-xs;
     list-style-type: disc;
     list-style-position: outside;
     margin-top: 10px;
     margin-left: 25px;
 
     @include media-query(hd) {
-        font-size: $font-size-s;
         margin-top: 25px;
     }
 }

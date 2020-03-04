@@ -31,7 +31,6 @@
     span,
     a {
         color: $color-grey-light;
-        font-size: $font-size-xs;
     }
 
     @include media-query(palm) {
