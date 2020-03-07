@@ -105,18 +105,15 @@ p {
 }
 
 
-main p {
-    hyphens: auto;
-}
-
-
 em {
     font-style: italic;
 }
 
+
 strong {
     font-weight: $as-font-weight-bold;
 }
+
 
 small {
     font-size: $as-font-size-xs;
@@ -129,39 +126,21 @@ small {
 }
 
 
-
-
- 
-
-
-.c-wrapper {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(5, 150px);
-    grid-column-gap: 75px;
-    grid-row-gap: 75px;
-    width: 1250px;
-    z-index: 2;
-}
-
-
-
-.c-section__heading {
-    padding-left: 25px;
-    position: relative;
-    text-transform: uppercase;
+a {
+    border-bottom: 1px solid;
+    color: $color-grey-darker;
+    text-decoration: none;
 
     @include media-query(hd) {
-        //margin-top: 100px;
-        position: sticky;
-        padding-left: 125px;
-   }
+        &:hover {
+            border-width: 3px;
+        }
+    }
 }
 
 
-
-.c-entry__embed .twitter-tweet-rendered {
-    max-width: calc(100% - 175px) !important;
+main p {
+    hyphens: auto;
 }
 
 
@@ -177,104 +156,5 @@ small {
 
     li {
         margin-top: 5px;
-    }
-}
-
-
-.c-books_list {
-    align-items: baseline;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    align-content: space-between;
-
-    li {
-        color: $color-grey-light;
-        list-style: none;
-        margin: auto 50px 200px 0;
-        width: 150px;
-
-        @include media-query(portable) { 
-            margin-right: 25px;
-
-            &:nth-child(2n+0) {
-                margin-right: 0;
-            }
-        }
-
-        @include media-query(hd) {
-            width: 200px;
-
-            &:nth-child(3n+0) {
-                margin-right: 0;
-            }
-        } 
-    }
-}
-
-
-
-.c-book_link {
-    border: none;
-    display: block;
-    width: 150px;
-
-    @include media-query(hd) {
-        width: 150px;
-    }
-}
-
-
-.c-book_cover {
-    margin-bottom: 15px;
-    width: 150px;
-
-    @include media-query(hd) {
-        width: 150px;
-    }
-}
-
-.c-book_meta {
-    position: absolute;
-    width: 150px;
-
-    @include media-query(hd) {
-        width: 150px;
-    }
-}
-
-.c-book_title {
-    font-size: $as-font-size-xs;
-    line-height: 20px;
-    white-space: normal;
-
-    @include media-query(hd) {
-        font-size: $as-font-size-s;
-        line-height: 22px;
-    }
-}
-
-
-.c-book_author {
-    color: $color-grey-light;
-    display: inline-block;
-    line-height: 20px;
-
-    @include media-query(hd) {
-        line-height: 22px;
-    }
-}
-
-
-
-a {
-    border-bottom: 1px solid;
-    color: $color-grey-darker;
-    text-decoration: none;
-
-    @include media-query(hd) {
-        &:hover {
-            border-width: 3px;
-        }
     }
 }

@@ -1,0 +1,88 @@
+// -----------------------------------------------------------------------------
+// BOOKS/LIBRARY
+// -----------------------------------------------------------------------------
+
+
+.c-books_list {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    align-content: space-between;
+
+    li {
+        color: $color-grey-light;
+        list-style: none;
+        margin: auto 50px 200px 0;
+        width: 150px;
+
+        @include media-query(portable) { 
+            margin-right: 25px;
+
+            &:nth-child(2n+0) {
+                margin-right: 0;
+            }
+        }
+
+        @include media-query(hd) {
+            width: 200px;
+
+            &:nth-child(3n+0) {
+                margin-right: 0;
+            }
+        } 
+    }
+}
+
+
+
+.c-book_link {
+    border: none;
+    display: block;
+    width: 150px;
+
+    @include media-query(hd) {
+        width: 150px;
+    }
+}
+
+
+.c-book_cover {
+    margin-bottom: 15px;
+    width: 150px;
+
+    @include media-query(hd) {
+        width: 150px;
+    }
+}
+
+.c-book_meta {
+    position: absolute;
+    width: 150px;
+
+    @include media-query(hd) {
+        width: 150px;
+    }
+}
+
+.c-book_title {
+    font-size: $as-font-size-xs;
+    line-height: 20px;
+    white-space: normal;
+
+    @include media-query(hd) {
+        font-size: $as-font-size-s;
+        line-height: 22px;
+    }
+}
+
+
+.c-book_author {
+    color: $color-grey-light;
+    display: inline-block;
+    line-height: 20px;
+
+    @include media-query(hd) {
+        line-height: 22px;
+    }
+}
