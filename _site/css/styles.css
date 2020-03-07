@@ -918,11 +918,11 @@ main p {
   grid-column: 1/-1; }
 
 .c-section__content {
-  margin: 0 25px;
+  margin: 0 25px 50px;
   z-index: 9; }
   @media screen and (min-width: 1139px) {
     .c-section__content {
-      margin: 0;
+      margin: 10px 0 50px;
       max-width: 100vw;
       grid-column: 5/-1; } }
 
