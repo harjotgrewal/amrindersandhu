@@ -904,7 +904,7 @@ main p {
 .c-section {
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 50px;
+  margin: 0 25px 50px;
   z-index: 2; }
   @media screen and (min-width: 1139px) {
     .c-section {
@@ -913,13 +913,13 @@ main p {
               column-gap: 25px;
       grid-template-columns: repeat(10, 100px);
       grid-column: 1/-1;
-      margin-bottom: 100px; } }
+      margin: 0 0 100px; } }
 
 .c-section__heading {
   grid-column: 1/-1; }
 
 .c-section__content {
-  margin: 0 25px 50px;
+  margin: 0 0 50px;
   z-index: 9; }
   @media screen and (min-width: 1139px) {
     .c-section__content {
@@ -1166,7 +1166,7 @@ main p {
     color: #5856D6; }
     @media screen and (max-width: 63.9375em) {
       .p-portfolio .c-billboard__blurb {
-        margin-right: 75px; } }
+        margin-right: 25px; } }
 
 .p-books {
   background-color: #FFF0E3; }

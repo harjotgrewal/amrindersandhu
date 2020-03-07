@@ -171,7 +171,7 @@
         color: $theme-bg-bright-2;
 
         @include media-query(portable) {
-            margin-right: 75px;
+            margin-right: 25px;
         }
     }
 }

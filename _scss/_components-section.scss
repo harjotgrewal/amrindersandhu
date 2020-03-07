@@ -6,14 +6,14 @@
 .c-section {
     display: grid;
     grid-template-columns: 1fr;
-    margin-bottom: 50px;
+    margin: 0 25px 50px;
     z-index: 2;
     
     @include media-query(hd) {
         column-gap: 25px;
         grid-template-columns: repeat(10, 100px);   
         grid-column: 1/-1;
-        margin-bottom: 100px;
+        margin: 0 0 100px;
     }
 }
 
@@ -30,7 +30,7 @@
 
 
 .c-section__content {
-    margin: 0 25px 50px;
+    margin: 0 0 50px;
     z-index: 9;
 
     @include media-query(hd) {
