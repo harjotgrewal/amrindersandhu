@@ -497,14 +497,15 @@ p,
 ul,
 table {
   font-size: 16px;
-  line-height: 24px; }
+  line-height: 24px;
+  font-weight: 300; }
   @media screen and (min-width: 1139px) {
     body,
     p,
     ul,
     table {
       font-size: 20px;
-      line-height: 30px; } }
+      line-height: 32px; } }
 
 h1 {
   font-size: 35px;

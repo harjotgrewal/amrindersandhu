@@ -14,7 +14,7 @@ $as-font-size-xs: 14px;
 $as-line-height-xxl: 50px;
 $as-line-height-xl: 40px;
 $as-line-height-l: 28px;
-$as-line-height-m: 30px;
+$as-line-height-m: 32px;
 $as-line-height-s: 24px;
 $as-line-height-xs: 21px;
 
@@ -32,6 +32,7 @@ ul,
 table {
     font-size: $as-font-size-s;
     line-height: $as-line-height-s;
+    font-weight: 300;
 
     @include media-query(hd) {
         font-size: $as-font-size-m;
