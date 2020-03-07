@@ -112,11 +112,9 @@
 
 
 .c-section--elsewhere {
-    margin-left: 25px;
 
     @include media-query(hd) {
         grid-column: 1/5;
-        margin-left: 0;
     }   
 }
 
