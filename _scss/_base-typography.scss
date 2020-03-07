@@ -71,13 +71,14 @@ h2 {
 h3 {
     font-size: $as-font-size-m;
     font-weight: $as-font-weight-bold;
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
     line-height: $as-line-height-s;
     margin-bottom: 25px;
 
     @include media-query(hd) {
         font-size: $as-font-size-l;
         line-height: $as-line-height-l;
+        letter-spacing: -1px;
     }
 }
 
