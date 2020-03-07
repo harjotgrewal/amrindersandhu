@@ -507,10 +507,10 @@ table {
       line-height: 30px; } }
 
 h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
   letter-spacing: -1px;
-  line-height: 35px; }
+  line-height: 40px; }
   @media screen and (min-width: 1139px) {
     h1 {
       font-size: 45px;
@@ -524,8 +524,8 @@ h2 {
   margin-bottom: 25px; }
   @media screen and (min-width: 1139px) {
     h2 {
-      font-size: 30px;
-      line-height: 35px; } }
+      font-size: 35px;
+      line-height: 40px; } }
 
 h3 {
   font-size: 20px;
@@ -1111,8 +1111,6 @@ main p {
 
 .p-home {
   background-color: #E4FCF9; }
-  .p-home h2 {
-    color: #EF483F; }
   .p-home a {
     border-color: #EF483F; }
   .p-home p,
@@ -1142,8 +1140,6 @@ main p {
 
 .p-portfolio {
   background-color: #F6F6FA; }
-  .p-portfolio h2 {
-    color: #5856D6; }
   .p-portfolio a {
     border-color: #5856D6; }
   .p-portfolio p,
