@@ -19,18 +19,6 @@
 }
 
 
-.c-entry__heading {
-    margin-bottom: 25px;
-
-    @include media-query(hd) {
-        margin-bottom: 10px;
-    }
-
-    @include media-query(portable) {
-        padding: 0 25px 0 25px;
-    }
-}
-
 .c-section__col--1to4 {
     @include media-query(hd) {
         grid-column: 1/4 !important;
@@ -38,14 +26,8 @@
 }
 
 .c-entry__blurb {
-    //border-left: 6px double $color-grey-lighter;
     display: block;
-    // margin-top: 10px;
-    // padding-left: 50px;
 }
-
-
-
 
 
     .c-entry__link {

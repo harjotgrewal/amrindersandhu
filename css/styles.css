@@ -696,15 +696,6 @@ main p {
   .c-entry__content {
     margin-top: 4px; } }
 
-.c-entry__heading {
-  margin-bottom: 25px; }
-  @media screen and (min-width: 1139px) {
-    .c-entry__heading {
-      margin-bottom: 10px; } }
-  @media screen and (max-width: 63.9375em) {
-    .c-entry__heading {
-      padding: 0 25px 0 25px; } }
-
 @media screen and (min-width: 1139px) {
   .c-section__col--1to4 {
     grid-column: 1/4 !important; } }
@@ -789,7 +780,7 @@ main p {
 .c-name {
   border: 0;
   display: inline-block;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1 !important;
   position: relative;
   width: 120px; }
@@ -1219,7 +1210,7 @@ main p {
     @media screen and (max-width: 63.9375em) {
       .p-journal .c-billboard__blurb {
         margin-right: 21px; } }
-  .p-journal .c-entry__heading {
+  .p-journal h2 {
     color: #51420f; }
   .p-journal .c-entry__link,
   .p-journal .c-entry__link p {
