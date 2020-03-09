@@ -114,20 +114,57 @@ page-description: Whenever I work on something new or need to understand somethi
 
 
         <section class="c-section__content" data-aos="fade-up">
-            {% for book in site.data.books %}
-                {% if forloop.first %}<ul class="o-list--bullet c-books_list">{% endif %}
-                <li class="c-books_list_item" aria-labelledby="{{ book.category }}">
-                    <a class="c-book_link" href="{{ book.url }}" target="_blank">
-                        <img class="c-book_cover" loading="lazy" src="assets/i/books/{{ book.src }}"/>
+            <h3>Favorites</h3>
+            {% for book in site.data.books.favs %}
+                {% if forloop.first %}
+                    <ul class="o-list--bullet c-books_list c-books_list--favs">{% endif %}
+                        <li class="c-books_list_item" aria-labelledby="{{ book.category }}">
+                            <a class="c-book_link" href="{{ book.url }}" target="_blank">
+                                <img class="c-book_cover" loading="lazy" src="assets/i/books/{{ book.src }}"/>
 
-                        <div class="c-book_meta">
-                            <h4 class="c-book_title">{{ book.name }}</h4>
+                                <div class="c-book_meta">
+                                    <h4 class="c-book_title">{{ book.name }}</h4>
+
+                                    <small class="c-book_info" >
+                                        {{ book.author }}
+
+                                        <span class="u-sep">&bull;</span>
+
+                                        Read in {{ book.read }}
+                                    </small>
+
+                                    <p class="c-book_comment">{{ book.desc }}</p>
+                                </div>
+                            </a>
+                        </li>
                         
-                            <small class="c-book_author" >{{ book.author }}</small>
-                        </div>
-                    </a>
-                </li>
-                {% if forloop.last %}</ul>{% endif %}
+                        {% if forloop.last %}
+                    </ul>
+                {% endif %}
+            {% endfor %} 
+
+
+
+            <h3>Other interesting books</h3>
+            <br/>
+            {% for book in site.data.books.all %}
+                {% if forloop.first %}
+                    <ul class="o-list--bullet c-books_list">{% endif %}
+                        <li class="c-books_list_item" aria-labelledby="{{ book.category }}">
+                            <a class="c-book_link" href="{{ book.url }}" target="_blank">
+                                <img class="c-book_cover" loading="lazy" src="assets/i/books/{{ book.src }}"/>
+
+                                <div class="c-book_meta">
+                                    <h4 class="c-book_title">{{ book.name }}</h4>
+                                
+                                    <small class="c-book_info" >{{ book.author }}</small>
+                                </div>
+                            </a>
+                        </li>
+
+                        {% if forloop.last %}
+                    </ul>
+                {% endif %}
             {% endfor %}              
         </section>
 

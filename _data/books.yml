@@ -1,9 +1,13 @@
+favs:
+
 - {	
 	url: 'https://www.amazon.com/Make-Time-Focus-Matters-Every/dp/0525572422',
 	name: 'Make Time',
 	author: 'Jake Knapp <span>and</span> John Zeratsky',	
 	src: 'make_time.jpg',
-	category: 'productivity'	
+	category: 'productivity',
+	desc: 'Full of simple tips that can help you get more from your day by killing distractions to improve focus. Very easy to read.',	
+	read: 'Feb 2020'
 }
 
 
@@ -12,9 +16,55 @@
 	name: 'Articulating Design Decisions',
 	author: 'Tom Greever',	
 	src: 'articulating_design_decisions.jpg',
-	category: 'process'	
+	category: 'process',
+	desc: 'Essential read if you doing hands-on design work and have to convince stakeholders about your design choices. This book will help you expertly explain your design decisions.',	
+	read: 'March 2020'
 }
 
+
+- {	
+	url: 'https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909',
+	name: 'User Story Mapping',
+	author: 'Jeff Patton <span>and</span> Peter Economy',	
+	src: 'user_story_mapping.jpg',
+	category: 'pd',
+	desc: 'Must read for every product designer serious about building the right product in a right way. Wish I had read it years ago, better late than never.',	
+	read: 'January 2020'	
+}
+
+
+- {	
+	url: 'https://www.amazon.com/Art-Direction-Web-Andy-Clarke-ebook/dp/B07R6RT2KV',
+	name: 'Art Direction for the Web',
+	author: 'Andy Clarke',	
+	src: 'art_direction_for_the_web.jpg',
+	category: 'web',
+	desc: 'Websites mostly look all the same these days. Andy clearly explains “Art Direction” and how it can help you design memorable websites. He’s also one of my favorite designers since I started in 2007.',	
+	read: 'December 2019'	
+}
+
+
+- {	
+	url: 'https://www.amazon.com/Designing-Brand-Identity-Essential-Branding/dp/1118099206',
+	name: 'Designing Brand Identity',
+	author: 'Alina Wheeler',
+	src: 'designing_brand_identity.jpg',
+	category: 'branding',
+	desc: 'Read this one last year (2019) while revising our brand identity. As a T-shaped designer, I must say, without this book I’d be lost in figuring out the branding process and deliverables.',	
+	read: 'November 2018'	
+}
+
+
+
+
+
+
+
+
+
+
+
+all:
 
 - {	
 	url: 'https://www.amazon.ca/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0307361179',
@@ -48,15 +98,6 @@
 	author: 'Alistair Cockburn',	
 	src: 'writing_effective_use_cases.jpg',
 	category: 'pd'	
-}
-
-
-- {	
-	url: 'https://www.amazon.com/Art-Direction-Web-Andy-Clarke-ebook/dp/B07R6RT2KV',
-	name: 'Art Direction for the Web',
-	author: 'Andy Clarke',	
-	src: 'art_direction_for_the_web.jpg',
-	category: 'web'	
 }
 
 
@@ -145,15 +186,6 @@
 	name: 'Design Systems',
 	author: 'Alla Kholmatova',	
 	src: 'design_systems.jpg',
-	category: 'pd'	
-}
-
-
-- {	
-	url: 'https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909',
-	name: 'User Story Mapping',
-	author: 'Jeff Patton <span>and</span> Peter Economy',	
-	src: 'user_story_mapping.jpg',
 	category: 'pd'	
 }
 
@@ -1235,14 +1267,6 @@
 	author: 'Hoekman Jr Robert <span>and</span> Jared Spool',	
 	src: 'web_anatomy.jpg',
 	category: 'web'	
-}
-
-- {	
-	url: 'https://www.amazon.com/Designing-Brand-Identity-Essential-Branding/dp/1118099206',
-	name: 'Designing Brand Identity',
-	author: 'Alina Wheeler',
-	src: 'designing_brand_identity.jpg',
-	category: 'branding'	
 }
 
 - {	

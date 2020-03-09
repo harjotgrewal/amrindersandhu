@@ -1060,6 +1060,62 @@ main p {
         .c-books_list li:nth-child(3n+0) {
           margin-right: 0; } }
 
+.c-books_list--favs {
+  margin-bottom: 25px; }
+  @media screen and (min-width: 1139px) {
+    .c-books_list--favs {
+      margin-bottom: 100px; } }
+  .c-books_list--favs li {
+    color: #858585;
+    list-style: none;
+    margin: 0 50px 50px 0;
+    width: 100%; }
+    @media screen and (max-width: 63.9375em) {
+      .c-books_list--favs li {
+        margin-right: 0; } }
+    @media screen and (min-width: 1139px) {
+      .c-books_list--favs li {
+        width: 100%; } }
+  .c-books_list--favs .c-book_link {
+    display: -ms-flexbox;
+    display: flex;
+    width: auto; }
+    @media screen and (min-width: 1139px) {
+      .c-books_list--favs .c-book_link {
+        width: auto; } }
+  .c-books_list--favs .c-book_cover {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    height: auto;
+    width: 150px; }
+    @media screen and (min-width: 1139px) {
+      .c-books_list--favs .c-book_cover {
+        margin-right: 50px;
+        width: 200px; } }
+  .c-books_list--favs .c-book_meta {
+    position: relative;
+    width: auto; }
+    @media screen and (min-width: 1139px) {
+      .c-books_list--favs .c-book_meta {
+        width: auto; } }
+  .c-books_list--favs .c-book_title {
+    font-size: 16px;
+    line-height: 20px;
+    white-space: normal; }
+    @media screen and (min-width: 1139px) {
+      .c-books_list--favs .c-book_title {
+        font-size: 20px; } }
+  .c-books_list--favs .c-book_author {
+    color: #858585;
+    display: inline-block;
+    line-height: 20px; }
+    @media screen and (min-width: 1139px) {
+      .c-books_list--favs .c-book_author {
+        line-height: 32px;
+        margin-bottom: 15px; } }
+
 .c-book_link {
   border: none;
   display: block;
@@ -1080,6 +1136,8 @@ main p {
   width: 150px; }
   @media screen and (min-width: 1139px) {
     .c-book_meta {
+      -ms-flex-item-align: center;
+          align-self: center;
       width: 150px; } }
 
 .c-book_title {
@@ -1091,12 +1149,13 @@ main p {
       font-size: 16px;
       line-height: 22px; } }
 
-.c-book_author {
+.c-book_info {
   color: #858585;
   display: inline-block;
-  line-height: 20px; }
+  line-height: 20px;
+  margin-bottom: 10px; }
   @media screen and (min-width: 1139px) {
-    .c-book_author {
+    .c-book_info {
       line-height: 22px; } }
 
 .c-nav__link--home:active {
@@ -1265,3 +1324,10 @@ main p {
 
 .is-active {
   display: block; }
+
+.u-sep {
+  color: rgba(0, 0, 0, 0.15);
+  margin: 0 3px; }
+  @media screen and (min-width: 1139px) {
+    .u-sep {
+      margin: 0 5px; } }

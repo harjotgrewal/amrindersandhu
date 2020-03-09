@@ -35,3 +35,13 @@
 .is-active {
     display: block;
 }
+
+
+.u-sep {
+    color: rgba(black, .15);
+    margin: 0 3px;
+
+    @include media-query(hd) {
+        margin: 0 5px;
+    }
+}

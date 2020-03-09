@@ -35,6 +35,87 @@
 }
 
 
+// FAVORITE BOOKS 
+.c-books_list--favs {
+    margin-bottom: 25px;
+
+    @include media-query(hd) {
+        margin-bottom: 100px;
+    }
+
+    li {
+        color: $color-grey-light;
+        list-style: none;
+        margin: 0 50px 50px 0;
+        width: 100%;
+
+        @include media-query(portable) { 
+            margin-right: 0;
+        }
+
+        @include media-query(hd) {
+            width: 100%;
+        } 
+    }
+
+    .c-book_link {
+        display: flex;
+        width: auto;
+    
+        @include media-query(hd) {
+            width: auto;
+        }
+    }
+
+    .c-book_cover {
+        align-self: flex-start;
+        margin-right: 25px;
+        margin-bottom: 15px;
+        height: auto;
+        width: 150px;
+    
+        @include media-query(hd) {
+            margin-right: 50px;
+            width: 200px;
+        }
+    }
+
+    .c-book_meta {
+        position: relative;
+        width: auto;
+    
+        @include media-query(hd) {
+            width: auto;
+        }
+    }
+
+
+    .c-book_title {
+        font-size: $as-font-size-s;
+        line-height: 20px;
+        white-space: normal;
+    
+        @include media-query(hd) {
+            font-size: $as-font-size-m;
+        }
+    }
+    
+    
+    .c-book_author {
+        color: $color-grey-light;
+        display: inline-block;
+        line-height: 20px;
+    
+        @include media-query(hd) {
+            line-height: 32px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+
+
+
 
 .c-book_link {
     border: none;
@@ -56,11 +137,13 @@
     }
 }
 
+
 .c-book_meta {
     position: absolute;
     width: 150px;
 
     @include media-query(hd) {
+        align-self: center;
         width: 150px;
     }
 }
@@ -77,10 +160,11 @@
 }
 
 
-.c-book_author {
+.c-book_info {
     color: $color-grey-light;
     display: inline-block;
     line-height: 20px;
+    margin-bottom: 10px;
 
     @include media-query(hd) {
         line-height: 22px;
