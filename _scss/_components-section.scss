@@ -30,11 +30,10 @@
 
 
 .c-section__content {
-    margin: 0 0 50px;
+    margin-bottom: 50px;
     z-index: 9;
 
     @include media-query(hd) {
-        margin: 10px 0 50px;
         max-width: 100vw;
         grid-column: 5/-1;  
     }
