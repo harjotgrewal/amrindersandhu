@@ -28,7 +28,7 @@ favs:
 	author: 'Jeff Patton <span>and</span> Peter Economy',	
 	src: 'user_story_mapping.jpg',
 	category: 'pd',
-	desc: 'Must read for every product designer serious about building the right product in a right way. Wish I had read it years ago, better late than never.',	
+	desc: 'Must read for every product designer serious about building the right product in a right way. Wish I had read it years ago, but better late than never.',	
 	read: 'January 2020'	
 }
 
@@ -50,7 +50,7 @@ favs:
 	author: 'Alina Wheeler',
 	src: 'designing_brand_identity.jpg',
 	category: 'branding',
-	desc: 'Read this one last year (2019) while revising our brand identity. As a T-shaped designer, I must say, without this book I’d be lost in figuring out the branding process and deliverables.',	
+	desc: 'Read this one last year (2019) while revising Unmetric’s brand identity. As a T-shaped designer, I must say, without this book I’d be lost in figuring out the branding process and deliverables.',	
 	read: 'November 2018'	
 }
 
