@@ -574,22 +574,42 @@ a {
     a:hover {
       border-width: 3px; } }
 
+blockquote {
+  border-left: 5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 25px 50px;
+  margin-bottom: 50px; }
+  blockquote p {
+    color: rgba(0, 0, 0, 0.75);
+    font-style: italic; }
+  blockquote footer {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px; }
+
 main p {
   -webkit-hyphens: auto;
      -moz-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto; }
 
+.o-list--ordered,
 .o-list--bullet {
-  list-style-type: disc;
   list-style-position: outside;
-  margin-top: 10px;
-  margin-left: 25px; }
+  margin: 10px 0 25px 25px; }
   @media screen and (min-width: 1139px) {
+    .o-list--ordered,
     .o-list--bullet {
-      margin-top: 25px; } }
+      margin-top: 25px;
+      margin-bottom: 50px; } }
+  .o-list--ordered li,
   .o-list--bullet li {
     margin-top: 5px; }
+
+.o-list--ordered {
+  list-style-type: decimal; }
+
+.o-list--bullet {
+  list-style-type: disc; }
 
 .c-billboard {
   -ms-flex-align: center;
@@ -991,23 +1011,28 @@ main p {
   .c-section__nav_link.is_active {
     color: #01CD7D; }
 
-.c-project_list {
-  display: grid;
-  grid-column: 1/-1;
-  grid-template-columns: repeat(10, 100px);
-  -webkit-column-gap: 25px;
-     -moz-column-gap: 25px;
-          column-gap: 25px;
-  grid-template-rows: auto;
-  margin-top: 150px; }
-  .c-project_list .c-project_cover {
-    grid-column: 1/7;
-    height: 450px;
-    width: 100%;
-    z-index: 2; }
-  .c-project_list .c-project_info {
-    grid-column: 8/-1;
-    z-index: 2; }
+.c-projects__wrap {
+  display: none; }
+  @media screen and (min-width: 1139px) {
+    .c-projects__wrap {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+
+@media screen and (min-width: 1139px) {
+  .c-project {
+    margin-bottom: 50px;
+    width: 350px; }
+    .c-project figure {
+      background-color: grey;
+      height: 225px;
+      width: 325px;
+      margin-bottom: 15px; } }
 
 .c-books_list {
   -ms-flex-align: baseline;

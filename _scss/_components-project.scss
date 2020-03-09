@@ -3,23 +3,29 @@
 // -----------------------------------------------------------------------------
 
 
-.c-project_list {
-    display: grid;
-    grid-column: 1/-1;
-    grid-template-columns: repeat(10, 100px);
-    column-gap: 25px;
-    grid-template-rows: auto;
-    margin-top: 150px;
+.c-projects__wrap {
+    display: none;
 
-    .c-project_cover {
-        grid-column: 1/7;
-        height: 450px;
-        width: 100%;
-        z-index: 2;
+    @include media-query(hd) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
+}
 
-    .c-project_info {
-        grid-column: 8/-1;
-        z-index: 2;
+
+.c-project {
+
+    @include media-query(hd) {
+        margin-bottom: 50px;
+        width: 350px;
+
+        figure {
+            background-color: grey;
+            height: 225px;
+            width: 325px;
+            margin-bottom: 15px;
+        }
     }
 }

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="p-cs">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Case Study – DatePicker</title>
+		<meta name="robots" content="index, follow"/>
+		<meta name="title" content="Amrinder Sandhu"/>
+		<meta name="DC.title" content="Amrinder Sandhu"/>
+		<meta name="author" content="Amrinder Sandhu"/>
+		<meta name="description" content="Amrinder Singh Sandhu is a UX/UI designer from Ancaster, Canada. He designs web and mobile apps."/>
+		<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+		<link rel="manifest" href="/site.webmanifest"/>		
+		<!--link(rel="stylesheet" href="https://use.typekit.net/cjk1juq.css")-->
+		<!-- <link rel="stylesheet" href="https://use.typekit.net/njh2cfh.css"/>	   -->
+
+        <!-- Custom CSS -->
+		<link rel="stylesheet" href="/css/styles.css">		
+
+    </head>
+    <body>
+          
+<header class="c-header"> <a href="/" class="c-name"> <span>Amrinder </span><span>Sandhu</span></a>
+  <nav class="c-nav">
+    <ul class="c-nav__list">
+      <li class="c-nav__item"><a href="/" class="c-nav__link c-nav__link--home">About</a></li>
+      <!--li.c-nav__item
+      a.c-nav__link.c-nav__link--work(href="work.html") Work
+      
+      
+      -->
+      <li class="c-nav__item"><a href="journal.html" class="c-nav__link c-nav__link--journal">Journal</a></li>
+      <li class="c-nav__item"><a href="books.html" class="c-nav__link c-nav__link--books">Reading</a></li>
+      <!--li.c-nav__item
+      a.c-nav__link.c-nav__link--contact(href="contact.html") 
+          strong Contact 
+          span information
+      
+      
+      -->
+    </ul>
+  </nav>
+  <figure class="c-avatar"><img src="assets/i/photos/amrinder-11.jpg"/></figure>
+</header>
+
+<main class="c-main l-grid">      
+    <section class="c-billboard l-grid l-grid--billboard">    
+    <span class="c-billboard__title">DatePicker</span>
+
+    <h1 class="c-billboard__blurb">Redesigning the most used UI component using the most sophisticated design tool – data.</h1>
+</section>
+      
+
+
+
+    
+    <section class="c-section">
+        <section class="c-section__col c-section__col--1to4">
+            <h2>Problem</h2>
+        </section>
+
+
+        <section class="c-section__content">
+            <p>Vaib has pinged me for the third time “Can we fix the date-picker?”. I have been postponing it for a few months as the existing date-picker was working fine but there was definitely a room for improvement. (Is there anything, expect things not designed by humans, where this is not the case?) Here’s what she wrote:</p> 
+            
+            <blockquote>
+                <p>“Amrinder having a huge problem with the date picker and the “custom” time period. Having to click through the months when I want to do a whole year or more is too many clicks. Also when using the picker, having the start date same and changing the end date is near impossible. Any chance we can go back to the old way where we could manually input year if we needed?”</p>
+                <footer>&mdash; Vaib on Slack </footer>
+            </blockquote>
+
+            <p>We got busy and she reached out again…</p>
+
+
+            <blockquote>
+                <p>“Our clients at MBooth requested the ability to “Type in the date” rather than just the clicker system as when they're going further than a few months, it's very tedious to keep clicking. Yesterday I did a 3 year analysis for a Unilever team and it was PAINFUL to keep resetting the date format (also had a few session expiry issues that caused me to refresh and reset the date many times). Can we please add the ability to write the date also @Amrinder?”</p>
+                <footer>&mdash; Vaib on Slack again (after 18 months)</footer>
+            </blockquote>
+
+            <p>I promised to look into it next week, let her know if I have any further questions, and keep her posted on the progress.</p>
+        </section>
+    </section>
+
+
+
+
+
+    <section class="c-section">
+        <section class="c-section__col c-section__col--1to4">
+            <h2>Process</h2>
+        </section>
+
+
+        <section class="c-section__content">
+            <h3>Research</h3>
+
+            <p>This was not a feature request, it didn’t come from R&D team or our CEO or sales or marketing. This came from one of our smartest account manager (she has been with Unmetric for over 5 years now). I started digging deeper and send DMs to a few other AMs and asked if they received any comments/feedback on the date-picker. They said yes.</p> 
+
+            <p>The existing date-picker doesn’t allow you to type dates and edit selected dates. One can only click her way to select a date range. We have 1-click selections for last 7 days, last week, last month, and last 30 days but to select three weeks, two quarters, and one or more years users have to click on the calendar’s previous/next navigation buttons to get where they want and make a selection. We believed it was simple, intuitive, and error free way of selecting a date range</p>
+
+
+            <p>Slack call with Vaib…</p>
+
+            <p>After they confirmed I decided to look at the usage data. One of our front-end developer who mostly worked with me agree to participate in the research. She reached out to our data guy and collected date-picker usage data for last XX months.</p> 
+
+            <iframe src="/assets/pdfs/datepicker-analysis.pdf" width="100%" height="100%"></iframe>
+
+            <p>We posted our research on Slack and showed rest of the team (to encourage them) how data can help us learn more about the problem and thus assist in designing a better solution. </p> 
+            
+        </section>
+    </section>
+
+
+
+
+
+    <section class="c-section">
+        <section class="c-section__col c-section__col--1to4">
+            <h2>Solution</h2>
+        </section>
+
+
+        <section class="c-section__content">
+            <h3>Ideation</h3>
+
+            <p>Using these insights we decided to break the date-picker in three parts:</p>
+
+            <ol class="o-list--ordered">
+                <li>A drop-down with list of most commonly used options</li>
+                <li>An extended drop-down, where first tab is the regular date-selector with editable inputs</li>
+                <li>Second tab with ability to quickly and easily select months, quarters, and years</li>
+            </ol>
+
+
+            <h3>Implementation</h3>
+            <p>Once I created the rough sketches with these three sections, we showed it to our dev lead to get his input on efforts and time it would take to ship it. He suggested we break it down to two releases as the second tab which was a unique UI, something the JS library they were exploring didn’t support. We agreed after he convinced us to take it up in the next release.</p>
+
+            <img src="/assets/i/sshots/cs-dp-old.png" alt="DatePicker Old Design"/>
+            <img src="/assets/i/sshots/cs-dp-new-v2.png" alt="DatePicker V2"/>
+        </section>
+    </section>
+
+
+
+
+
+    <section class="c-section">
+        <section class="c-section__col c-section__col--1to4">
+            <h2>What I learned and loved</h2>
+        </section>
+
+
+        <section class="c-section__content">
+            <h3>Learnings</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, facere. Quaerat nobis enim ipsam reiciendis, praesentium inventore porro animi? Qui perferendis aut porro totam aliquid neque minus quis officiis cum!</p>
+
+            <ul class="o-list--bullet">
+                <li>Use data more often and dig deeper to pull insights</li>
+                <li>Encourage AMs to keep sharing user problems/requests unless an action is taken</li>
+                <li>People are willing to step up if given opportunity (front-end developer doing data analysis)</li>
+            </ul>
+
+
+            <h3>What I loved about this project</h3>
+
+            <ul class="o-list--bullet">
+                <li>It helped improve the user experience</li>
+                <li>We dipped our hands into data this deep for the first time</li>
+                <li>We were able to pull insights from usage data and use them to design a solution</li>
+                <li>I get to explore different solutions and create a simple but different solution</li>
+            </ul>
+        </section>
+    </section>
+</main>         
+			
+	<script src="assets/js/functions.js"></script>	  
+    </body>
+</html>

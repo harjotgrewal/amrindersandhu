@@ -141,22 +141,51 @@ a {
 }
 
 
+blockquote {
+    border-left: 5px solid rgba(black, .1);
+    border-radius: 5px;
+    padding: 25px 50px;
+    margin-bottom: 50px;
+
+    p {
+        color: rgba(black, .75);
+        font-style: italic;
+    }
+
+    footer {
+        color: rgba(black, .5);
+        font-size: $as-font-size-s;
+    }
+}
+
+
 main p {
     hyphens: auto;
 }
 
 
+.o-list--ordered,
 .o-list--bullet {
-    list-style-type: disc;
     list-style-position: outside;
-    margin-top: 10px;
-    margin-left: 25px;
+    margin: 10px 0 25px 25px;
 
     @include media-query(hd) {
         margin-top: 25px;
+        margin-bottom: 50px;
     }
 
     li {
         margin-top: 5px;
     }
 }
+
+
+.o-list--ordered {
+    list-style-type: decimal;
+}
+
+
+.o-list--bullet {
+    list-style-type: disc;
+}
+
