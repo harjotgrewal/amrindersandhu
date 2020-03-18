@@ -638,6 +638,19 @@ main p {
       -ms-hyphens: auto;
           hyphens: auto; }
 
+main img {
+  max-width: 100%; }
+
+figcaption {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 24px; }
+  figcaption a {
+    color: rgba(0, 0, 0, 0.5); }
+  figcaption .as-icon g,
+  figcaption .as-icon polygon {
+    fill: rgba(0, 0, 0, 0.35); }
+
 .o-list--ordered,
 .o-list--bullet {
   list-style-position: outside;

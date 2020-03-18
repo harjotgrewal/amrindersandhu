@@ -159,8 +159,32 @@ blockquote {
 }
 
 
-main p {
-    hyphens: auto;
+main {
+    p {
+        hyphens: auto;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+
+figcaption {
+    color: rgba(black, .5);
+    font-size: $as-font-size-s;
+    line-height: $as-line-height-s;
+
+    a {
+        color: rgba(black, .5); 
+    }
+
+    .as-icon {
+        g,
+        polygon {
+            fill: rgba(black, .35);
+        }
+    }
 }
 
 
