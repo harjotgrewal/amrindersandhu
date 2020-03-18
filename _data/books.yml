@@ -2,7 +2,7 @@ favs:
 
 - {	
 	url: 'https://www.amazon.com/Make-Time-Focus-Matters-Every/dp/0525572422',
-	name: 'Make Time',
+	name: 'Make Time &#42;',
 	author: 'Jake Knapp <span>and</span> John Zeratsky',	
 	src: 'make_time.jpg',
 	category: 'productivity',
@@ -13,7 +13,7 @@ favs:
 
 - {	
 	url: 'https://www.amazon.com/Articulating-Design-Decisions-Communicate-Stakeholders/dp/1491921560',
-	name: 'Articulating Design Decisions',
+	name: 'Articulating Design Decisions &#42;',
 	author: 'Tom Greever',	
 	src: 'articulating_design_decisions.jpg',
 	category: 'process',
@@ -24,7 +24,7 @@ favs:
 
 - {	
 	url: 'https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909',
-	name: 'User Story Mapping',
+	name: 'User Story Mapping &#42;',
 	author: 'Jeff Patton <span>and</span> Peter Economy',	
 	src: 'user_story_mapping.jpg',
 	category: 'pd',
@@ -35,7 +35,7 @@ favs:
 
 - {	
 	url: 'https://www.amazon.com/Art-Direction-Web-Andy-Clarke-ebook/dp/B07R6RT2KV',
-	name: 'Art Direction for the Web',
+	name: 'Art Direction for the Web &#42;',
 	author: 'Andy Clarke',	
 	src: 'art_direction_for_the_web.jpg',
 	category: 'web',
@@ -46,7 +46,7 @@ favs:
 
 - {	
 	url: 'https://www.amazon.com/Designing-Brand-Identity-Essential-Branding/dp/1118099206',
-	name: 'Designing Brand Identity',
+	name: 'Designing Brand Identity &#42;',
 	author: 'Alina Wheeler',
 	src: 'designing_brand_identity.jpg',
 	category: 'branding',
