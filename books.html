@@ -9,7 +9,7 @@ page-description: Whenever I work on something new or need to understand somethi
 
 {% include header.html %}
 
-<main class="c-main l-grid">      
+<main class="c-main">      
     {% include billboard.html %}
 
     <!-- BOOKS -->
@@ -100,6 +100,13 @@ page-description: Whenever I work on something new or need to understand somethi
 
                 <li class="c-section__nav_item">
                     <br/>
+                </li>
+
+                <li class="c-section__nav_item">
+                    <a class="c-section__nav_link js-filter" id="favs">Favorites &#42;</a>
+                </li>
+
+                <li class="c-section__nav_item">
                     <br/>
                 </li>
 
@@ -114,7 +121,6 @@ page-description: Whenever I work on something new or need to understand somethi
 
 
         <section class="c-section__content" data-aos="fade-up">
-            <h3>Favorites</h3>
             {% for book in site.data.books.favs %}
                 {% if forloop.first %}
                     <ul class="o-list--bullet c-books_list c-books_list--favs">{% endif %}
@@ -145,8 +151,6 @@ page-description: Whenever I work on something new or need to understand somethi
 
 
 
-            <h3>Other interesting books</h3>
-            <br/>
             {% for book in site.data.books.all %}
                 {% if forloop.first %}
                     <ul class="o-list--bullet c-books_list">{% endif %}
