@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// #PHOTOS
+// -----------------------------------------------------------------------------
+
+
+.c-photo {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+        display: flex;
+    }
+
+    figcaption {
+        backdrop-filter: blur(20px);
+        color: rgba(white, .85);
+        font-weight: 400;
+        padding: 3px 12px;
+        position: absolute;
+        text-align: center;
+        transform: translateY(50px);
+        transition: .2s transform ease;
+    }
+
+    &:hover {
+        figcaption {
+            transform: translateY(-9px);
+        }
+    }
+}
