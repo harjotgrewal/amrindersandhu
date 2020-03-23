@@ -103,7 +103,6 @@
     
         @include media-query(hd) {
             font-size: $as-font-size-m;
-            letter-spacing: -1px;
         }
     }
     

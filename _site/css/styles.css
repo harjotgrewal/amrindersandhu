@@ -633,60 +633,59 @@ body,
 p,
 ul,
 table {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 21px;
   font-weight: 300; }
   @media screen and (min-width: 1139px) {
     body,
     p,
     ul,
     table {
-      font-size: 20px;
-      line-height: 32px; } }
+      font-size: 18px;
+      line-height: 30px; } }
 
 h1 {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 600;
   letter-spacing: -1px;
-  line-height: 35px; }
+  line-height: 32px; }
   @media screen and (min-width: 1139px) {
     h1 {
-      font-size: 40px;
-      line-height: 50px; } }
+      font-size: 36px;
+      line-height: 45px; } }
 
 h2 {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 600;
   letter-spacing: -1px;
-  line-height: 32px;
+  line-height: 30px;
   margin-bottom: 15px; }
   @media screen and (min-width: 1139px) {
     h2 {
-      font-size: 30px;
-      line-height: 35px;
+      font-size: 27px;
+      line-height: 32px;
       margin-bottom: 30px; } }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 30px;
   margin-bottom: 15px; }
   @media screen and (min-width: 1139px) {
     h3 {
-      font-size: 20px;
-      line-height: 32px;
-      letter-spacing: -1px;
-      margin-bottom: 30px; } }
+      font-size: 21px;
+      line-height: 30px;
+      margin-bottom: 30px;
+      letter-spacing: -1px; } }
 
 h4 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 20px;
   margin-bottom: 10px; }
   @media screen and (min-width: 1139px) {
     h4 {
-      font-size: 20px;
-      letter-spacing: -1px;
+      font-size: 18px;
       line-height: 30px; } }
 
 p {
@@ -704,12 +703,12 @@ b {
   font-weight: 600; }
 
 small {
-  font-size: 14px;
-  line-height: 21px; }
+  font-size: 13px;
+  line-height: 18px; }
   @media screen and (min-width: 1139px) {
     small {
-      font-size: 16px;
-      line-height: 24px; } }
+      font-size: 15px;
+      line-height: 21px; } }
 
 a {
   border-bottom: 1px solid;
@@ -733,17 +732,17 @@ blockquote:not(.c-caption) {
     font-style: italic; }
   blockquote:not(.c-caption) footer {
     color: rgba(0, 0, 0, 0.5);
-    font-size: 14px; }
+    font-size: 13px; }
     @media screen and (min-width: 1139px) {
       blockquote:not(.c-caption) footer {
-        font-size: 16px; } }
+        font-size: 15px; } }
 
 blockquote.c-caption p {
   -webkit-hyphens: none;
      -moz-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
-  font-size: 14px;
+  font-size: 15px;
   font-style: italic;
   line-height: 21px; }
 
@@ -762,11 +761,6 @@ main p {
      -moz-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto; }
-  main p:last-child {
-    margin-bottom: 30px; }
-    @media screen and (min-width: 1139px) {
-      main p:last-child {
-        margin-bottom: 60px; } }
   main p + h3 {
     margin-top: 30px; }
     @media screen and (min-width: 1139px) {
@@ -785,7 +779,7 @@ main video {
 figcaption,
 .c-caption {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 21px; }
   figcaption a,
   .c-caption a {
@@ -808,13 +802,13 @@ ul li, ol li {
 
 .o-list--ordered,
 .o-list--bullet {
-  font-size: 16px;
+  font-size: 15px;
   list-style-position: outside;
   margin: 0 0 30px 30px; }
   @media screen and (min-width: 1139px) {
     .o-list--ordered,
     .o-list--bullet {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 45px; } }
 
 .o-list--ordered {
@@ -925,7 +919,7 @@ ul li, ol li {
       margin-bottom: 50px; } }
 
 .c-entry__comment {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   margin-top: 21px; }
   @media screen and (min-width: 1139px) {
@@ -974,13 +968,13 @@ ul li, ol li {
   .c-footer small,
   .c-footer a {
     color: #858585;
-    font-size: 14px; }
+    font-size: 13px; }
 
 .c-name {
   border: none;
   display: inline-block;
   font-weight: 600;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   line-height: 1 !important;
   margin: 60px 30px 30px 204px; }
   @media screen and (min-width: 1139px) {
@@ -1014,7 +1008,7 @@ ul li, ol li {
         width: 110px;
         top: -5px; } }
   .c-name span + span {
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: -1px;
     margin-left: -1px; }
   @media screen and (max-width: 63.9375em) {
@@ -1068,7 +1062,6 @@ ul li, ol li {
   @media screen and (min-width: 1139px) {
     .c-nav__link {
       border: 0 none;
-      letter-spacing: -0.5px;
       line-height: 3;
       margin-bottom: 0;
       text-align: center; }
@@ -1138,7 +1131,7 @@ ul li, ol li {
 .c-section__caption {
   color: #858585;
   grid-column: 2/-1;
-  font-size: 14px;
+  font-size: 13px;
   font-style: italic;
   margin: 10px 30px 30px; }
   @media screen and (min-width: 1139px) {
@@ -1161,7 +1154,7 @@ ul li, ol li {
 .c-section__nav_link {
   cursor: pointer;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 30px;
   padding-top: 6px; }
   .c-section__nav_link:hover {
@@ -1264,13 +1257,12 @@ ul li, ol li {
       .c-books_list--favs .c-book_meta {
         width: auto; } }
   .c-books_list--favs .c-book_title {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 20px;
     white-space: normal; }
     @media screen and (min-width: 1139px) {
       .c-books_list--favs .c-book_title {
-        font-size: 20px;
-        letter-spacing: -1px; } }
+        font-size: 18px; } }
   .c-books_list--favs .c-book_author {
     color: #858585;
     display: inline-block;
@@ -1301,12 +1293,12 @@ ul li, ol li {
       width: 150px; } }
 
 .c-book_title {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   white-space: normal; }
   @media screen and (min-width: 1139px) {
     .c-book_title {
-      font-size: 16px;
+      font-size: 15px;
       letter-spacing: 0; } }
 
 .c-book_info {
@@ -1357,7 +1349,7 @@ ul li, ol li {
   position: relative; }
   .c-testimonial blockquote span {
     font-family: Georgia, serif;
-    font-size: 30px;
+    font-size: 21px;
     position: absolute; }
     .c-testimonial blockquote span:first-child {
       left: -15px; }
@@ -1442,6 +1434,9 @@ ul li, ol li {
 
 .u-space_left {
   margin-left: 30px; }
+
+.u-space_below--none {
+  margin-bottom: 0 !important; }
 
 .u-space_below {
   margin-bottom: 30px; }

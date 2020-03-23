@@ -4,18 +4,20 @@
 
 
 
-$as-font-size-xl: 40px;
-$as-font-size-l: 30px;
-$as-font-size-m: 20px;
-$as-font-size-s: 16px;
-$as-font-size-xs: 14px;
+$as-font-size-xxl: 36px;
+$as-font-size-xl: 27px;
+$as-font-size-l: 21px;
+$as-font-size-m: 18px;
+$as-font-size-s: 15px;
+$as-font-size-xs: 13px;
 
 
-$as-line-height-xl: 50px;
-$as-line-height-l: 35px;
-$as-line-height-m: 32px;
-$as-line-height-s: 24px;
-$as-line-height-xs: 21px;
+$as-line-height-xxl: 45px;
+$as-line-height-xl: 32px;
+$as-line-height-l: 30px;
+$as-line-height-m: 30px;
+$as-line-height-s: 21px;
+$as-line-height-xs: 18px;
 
 $as-font-weight-bold: 600; 
 
@@ -41,22 +43,36 @@ table {
 
 
 h1 {
-    font-size: $as-font-size-l;
+    font-size: $as-font-size-xl;
     font-weight: $as-font-weight-bold;
     letter-spacing: -1px;
-    line-height: $as-line-height-l;
+    line-height: $as-line-height-xl;
 
     @include media-query(hd) {
-        font-size: $as-font-size-xl;
-        line-height: $as-line-height-xl;
+        font-size: $as-font-size-xxl;
+        line-height: $as-line-height-xxl;
     }
 }
 
 
 h2 {
-    font-size: $as-font-size-m;
+    font-size: $as-font-size-l;
     font-weight: $as-font-weight-bold;
     letter-spacing: -1px;
+    line-height: $as-line-height-l;
+    margin-bottom: 15px;
+
+    @include media-query(hd) {
+        font-size: $as-font-size-xl;
+        line-height: $as-line-height-xl;
+        margin-bottom: 30px;
+    }
+}
+
+
+h3 {
+    font-size: $as-font-size-m;
+    font-weight: $as-font-weight-bold;
     line-height: $as-line-height-m;
     margin-bottom: 15px;
 
@@ -64,21 +80,7 @@ h2 {
         font-size: $as-font-size-l;
         line-height: $as-line-height-l;
         margin-bottom: 30px;
-    }
-}
-
-
-h3 {
-    font-size: $as-font-size-s;
-    font-weight: $as-font-weight-bold;
-    line-height: $as-line-height-s;
-    margin-bottom: 15px;
-
-    @include media-query(hd) {
-        font-size: $as-font-size-m;
-        line-height: $as-line-height-m;
         letter-spacing: -1px;
-        margin-bottom: 30px;
     }
 }
 
@@ -92,7 +94,6 @@ h4 {
 
     @include media-query(hd) {
         font-size: $as-font-size-m;
-        letter-spacing: -1px;
         line-height: 30px;
     }
 }
@@ -174,9 +175,9 @@ blockquote {
 
     &.c-caption p {
         hyphens: none;
-        font-size: $as-font-size-xs;
+        font-size: $as-font-size-s;
         font-style: italic;
-        line-height: $as-line-height-xs;
+        line-height: $as-line-height-s;
     }
 }
 
@@ -198,10 +199,10 @@ main {
         hyphens: auto;
 
         &:last-child {
-            margin-bottom: 30px;
+            //margin-bottom: 30px;
 
             @include media-query(hd) {
-                margin-bottom: 60px;
+            //    margin-bottom: 60px;
             }
         }
 
@@ -228,8 +229,8 @@ main {
 figcaption,
 .c-caption {
     color: rgba(black, .5);
-    font-size: $as-font-size-xs;
-    line-height: $as-line-height-xs;
+    font-size: $as-font-size-s;
+    line-height: $as-line-height-s;
 
     a {
         color: rgba(black, .5); 
