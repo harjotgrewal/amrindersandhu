@@ -11,7 +11,7 @@
     }
 
     small {
-        color: rgba(black, .5);
+        color: rgba(black, .75);
         display: block;
         line-height: 1.5;
     }
@@ -32,3 +32,14 @@
         }
     }
 }
+
+
+    .c-testimonial__author {
+        @include media-query(palm) {
+            display: flex;
+
+            small {
+                margin: 15px 0 0 15px;
+            }
+        }
+    }

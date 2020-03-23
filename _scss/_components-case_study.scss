@@ -16,21 +16,41 @@
     }
 
     p {
-        padding-right: 55px;
+        hyphens: none;
+        padding-right: 20px;
     }
 
     img {
         box-shadow: none;
+    }
+
+    @include media-query(hd) {
+
+        p {
+            padding-right: 55px;
+        }
+
     }
 }
 
 
 .c-case_study__info {
     display: flex;
-    margin: 30px 30px 5px;
+    margin: 15px 20px 9px 24px;
 
     svg {
-        height: 90px;
-        width: 90px;
+        height: 84px;
+        width: 84px;
+        margin-top: -6px;
+    }
+
+    @include media-query(hd) {
+        margin: 24px 30px 5px;
+
+        svg {
+            height: 90px;
+            margin-top: 0;
+            width: 90px;
+        }
     }
 }

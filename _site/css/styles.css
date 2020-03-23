@@ -633,8 +633,8 @@ body,
 p,
 ul,
 table {
-  font-size: 15px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 300; }
   @media screen and (min-width: 1139px) {
     body,
@@ -679,7 +679,7 @@ h3 {
       letter-spacing: -1px; } }
 
 h4 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 20px;
   margin-bottom: 10px; }
@@ -703,12 +703,12 @@ b {
   font-weight: 600; }
 
 small {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 18px; }
   @media screen and (min-width: 1139px) {
     small {
-      font-size: 15px;
-      line-height: 21px; } }
+      font-size: 16px;
+      line-height: 24px; } }
 
 a {
   border-bottom: 1px solid;
@@ -732,19 +732,19 @@ blockquote:not(.c-caption) {
     font-style: italic; }
   blockquote:not(.c-caption) footer {
     color: rgba(0, 0, 0, 0.5);
-    font-size: 13px; }
+    font-size: 14px; }
     @media screen and (min-width: 1139px) {
       blockquote:not(.c-caption) footer {
-        font-size: 15px; } }
+        font-size: 16px; } }
 
 blockquote.c-caption p {
   -webkit-hyphens: none;
      -moz-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
-  font-size: 15px;
+  font-size: 16px;
   font-style: italic;
-  line-height: 21px; }
+  line-height: 24px; }
 
 hr {
   border-width: 1px 0 0;
@@ -779,8 +779,8 @@ main video {
 figcaption,
 .c-caption {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 15px;
-  line-height: 21px; }
+  font-size: 16px;
+  line-height: 24px; }
   figcaption a,
   .c-caption a {
     color: rgba(0, 0, 0, 0.5); }
@@ -802,7 +802,7 @@ ul li, ol li {
 
 .o-list--ordered,
 .o-list--bullet {
-  font-size: 15px;
+  font-size: 16px;
   list-style-position: outside;
   margin: 0 0 30px 30px; }
   @media screen and (min-width: 1139px) {
@@ -919,7 +919,7 @@ ul li, ol li {
       margin-bottom: 50px; } }
 
 .c-entry__comment {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.7;
   margin-top: 21px; }
   @media screen and (min-width: 1139px) {
@@ -968,7 +968,7 @@ ul li, ol li {
   .c-footer small,
   .c-footer a {
     color: #858585;
-    font-size: 13px; }
+    font-size: 14px; }
 
 .c-name {
   border: none;
@@ -1131,7 +1131,7 @@ ul li, ol li {
 .c-section__caption {
   color: #858585;
   grid-column: 2/-1;
-  font-size: 13px;
+  font-size: 14px;
   font-style: italic;
   margin: 10px 30px 30px; }
   @media screen and (min-width: 1139px) {
@@ -1154,7 +1154,7 @@ ul li, ol li {
 .c-section__nav_link {
   cursor: pointer;
   display: inline-block;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
   padding-top: 6px; }
   .c-section__nav_link:hover {
@@ -1257,7 +1257,7 @@ ul li, ol li {
       .c-books_list--favs .c-book_meta {
         width: auto; } }
   .c-books_list--favs .c-book_title {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     white-space: normal; }
     @media screen and (min-width: 1139px) {
@@ -1293,12 +1293,12 @@ ul li, ol li {
       width: 150px; } }
 
 .c-book_title {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   white-space: normal; }
   @media screen and (min-width: 1139px) {
     .c-book_title {
-      font-size: 15px;
+      font-size: 16px;
       letter-spacing: 0; } }
 
 .c-book_info {
@@ -1319,18 +1319,34 @@ ul li, ol li {
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
 
 .c-case_study p {
-  padding-right: 55px; }
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+  padding-right: 20px; }
 
 .c-case_study img {
   box-shadow: none; }
 
+@media screen and (min-width: 1139px) {
+  .c-case_study p {
+    padding-right: 55px; } }
+
 .c-case_study__info {
   display: -ms-flexbox;
   display: flex;
-  margin: 30px 30px 5px; }
+  margin: 15px 20px 9px 24px; }
   .c-case_study__info svg {
-    height: 90px;
-    width: 90px; }
+    height: 84px;
+    width: 84px;
+    margin-top: -6px; }
+  @media screen and (min-width: 1139px) {
+    .c-case_study__info {
+      margin: 24px 30px 5px; }
+      .c-case_study__info svg {
+        height: 90px;
+        margin-top: 0;
+        width: 90px; } }
 
 .c-testimonial img {
   border-radius: 90px;
@@ -1339,7 +1355,7 @@ ul li, ol li {
   width: 90px; }
 
 .c-testimonial small {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.75);
   display: block;
   line-height: 1.5; }
 
@@ -1353,6 +1369,13 @@ ul li, ol li {
     position: absolute; }
     .c-testimonial blockquote span:first-child {
       left: -15px; }
+
+@media screen and (max-width: 44.9375em) {
+  .c-testimonial__author {
+    display: -ms-flexbox;
+    display: flex; }
+    .c-testimonial__author small {
+      margin: 15px 0 0 15px; } }
 
 .p-home .c-nav__link--home,
 .p-journal .c-nav__link--journal,
