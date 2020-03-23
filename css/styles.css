@@ -473,7 +473,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-color: #f1f9f9;
+  background-color: #f0efef;
   color: #050505;
   font: 62.5% I0nter, -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
@@ -988,7 +988,7 @@ ul li, ol li {
       width: 90px; } }
   .c-name:after {
     background: url("/assets/i/photos/amrinder-11.jpg") no-repeat center;
-    background-color: #f1f9f9;
+    background-color: #f0efef;
     background-size: 90px 90px;
     border: 5px solid white;
     content: "";
@@ -1385,18 +1385,18 @@ ul li, ol li {
   font-weight: 600; }
 
 .p-home {
-  background-color: #f1f9f9; }
+  background-color: #f0efef; }
   .p-home a {
     border-color: #161616; }
   .p-home p,
   .p-home strong,
   .p-home a {
-    color: #193939; }
+    color: #252222; }
   .p-home .c-name path {
     stroke: #161616; }
   @media screen and (max-width: 63.9375em) {
     .p-home .c-avatar {
-      background-color: #f1f9f9; } }
+      background-color: #f0efef; } }
   .p-home h1,
   .p-home .c-nav__link--home {
     color: #161616; }
