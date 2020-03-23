@@ -17,7 +17,7 @@
 
     p {
         hyphens: none;
-        padding-right: 20px;
+        padding-right: 15px;
     }
 
     img {
@@ -25,9 +25,8 @@
     }
 
     @include media-query(hd) {
-
         p {
-            padding-right: 55px;
+            padding-right: 72px;
         }
 
     }

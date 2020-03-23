@@ -1323,14 +1323,14 @@ ul li, ol li {
      -moz-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
-  padding-right: 20px; }
+  padding-right: 15px; }
 
 .c-case_study img {
   box-shadow: none; }
 
 @media screen and (min-width: 1139px) {
   .c-case_study p {
-    padding-right: 55px; } }
+    padding-right: 72px; } }
 
 .c-case_study__info {
   display: -ms-flexbox;
