@@ -1372,8 +1372,8 @@ ul li, ol li {
 
 @media screen and (max-width: 44.9375em) {
   .c-testimonial__author {
-    display: -ms-flexbox;
-    display: flex; }
+    display: grid;
+    grid-template-columns: 99px 2fr; }
     .c-testimonial__author small {
       margin: 15px 0 0 15px; } }
 

@@ -36,7 +36,8 @@
 
     .c-testimonial__author {
         @include media-query(palm) {
-            display: flex;
+            display: grid;
+            grid-template-columns: 99px 2fr;
 
             small {
                 margin: 15px 0 0 15px;
