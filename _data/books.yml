@@ -18,7 +18,7 @@ favs:
 	src: 'articulating_design_decisions.jpg',
 	category: 'process',
 	desc: 'Essential read if you doing hands-on design work and have to convince stakeholders about your design choices. This book will help you expertly explain your design decisions.',	
-	read: 'March 2020'
+	read: 'Mar 2020'
 }
 
 
@@ -29,7 +29,7 @@ favs:
 	src: 'user_story_mapping.jpg',
 	category: 'pd',
 	desc: 'Must read for every product designer serious about building the right product in a right way. Wish I had read it years ago, but better late than never.',	
-	read: 'January 2020'	
+	read: 'Jan 2020'	
 }
 
 
@@ -40,7 +40,7 @@ favs:
 	src: 'art_direction_for_the_web.jpg',
 	category: 'web',
 	desc: 'Websites mostly look all the same these days. Andy clearly explains “Art Direction” and how it can help you design memorable websites. He’s also one of my favorite designers since I started in 2007.',	
-	read: 'December 2019'	
+	read: 'Dec 2019'	
 }
 
 
@@ -51,7 +51,7 @@ favs:
 	src: 'designing_brand_identity.jpg',
 	category: 'branding',
 	desc: 'Read this one last year (2019) while revising Unmetric’s brand identity. As a T-shaped designer, I must say, without this book I’d be lost in figuring out the branding process and deliverables.',	
-	read: 'November 2018'	
+	read: 'Nov 2018'	
 }
 
 
