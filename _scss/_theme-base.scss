@@ -2,57 +2,63 @@
 // THEME COLORS
 // -----------------------------------------------------------------------------
 
-.c-nav__link--home {
+// .c-nav__link--home {
 
-    &:active {
-        border-color: $theme-bg-bright-1;
-    }
+//     &:active {
+//         border-color: $theme-bg-bright-1;
+//     }
+// }
 
-    &:hover {
-        strong {
-            color: $theme-bg-bright-1;
-        }
-    }
+
+// .c-nav__link--portfolio:hover {
+//     &:active {
+//         border-color: $theme-bg-bright-2;
+//     }
+
+//     &:hover {
+//         strong {
+//             color: $theme-bg-bright-2;
+//         }
+//     }
+// }
+
+
+// .c-nav__link--books:hover {
+//     &:active {
+//         border-color: $theme-bg-bright-3;
+//     }
+
+//     &:hover {
+//         strong {
+//             color: $theme-bg-bright-3;
+//         }
+//     }
+// }
+
+
+// .c-nav__link--journal:hover {
+//     &:active {
+//         border-color: $theme-bg-bright-4;
+//     }
+
+//     &:hover {
+//         strong {
+//             color: $theme-bg-bright-4;
+//         }
+//     }
+// }
+
+
+
+
+.p-home .c-nav__link--home,
+.p-journal .c-nav__link--journal,
+.p-library .c-nav__link--library,
+.p-about .c-nav__link--about {
+        font-weight: 600;
 }
 
 
-.c-nav__link--portfolio:hover {
-    &:active {
-        border-color: $theme-bg-bright-2;
-    }
-
-    &:hover {
-        strong {
-            color: $theme-bg-bright-2;
-        }
-    }
-}
-
-
-.c-nav__link--books:hover {
-    &:active {
-        border-color: $theme-bg-bright-3;
-    }
-
-    &:hover {
-        strong {
-            color: $theme-bg-bright-3;
-        }
-    }
-}
-
-
-.c-nav__link--journal:hover {
-    &:active {
-        border-color: $theme-bg-bright-4;
-    }
-
-    &:hover {
-        strong {
-            color: $theme-bg-bright-4;
-        }
-    }
-}
 
 // .c-nav__link--contact:hover {
 //     &:active {
@@ -94,13 +100,9 @@
         }
     }
 
+    h1,
     .c-nav__link--home {
         color: $theme-bg-bright-1;
-
-    }
-
-    .c-billboard {
-        border-color: $theme-bg-bright-1;
     }
 
     .c-billboard__title {
@@ -125,171 +127,229 @@
 
 
 
-.p-portfolio {
-    background-color: $theme-bg-light-2;
+// .p-portfolio {
+//     background-color: $theme-bg-light-2;
 
-    a {
-        border-color: $theme-bg-bright-2;
-    }
+//     a {
+//         border-color: $theme-bg-bright-2;
+//     }
 
-    p,
-    strong,
-    a {
-        color: darken($theme-bg-light-2, 70);
-    }
+//     p,
+//     strong,
+//     a {
+//         color: darken($theme-bg-light-2, 70);
+//     }
 
-    .c-name path {
-        stroke: $theme-bg-bright-2;
-    }
+//     .c-name path {
+//         stroke: $theme-bg-bright-2;
+//     }
 
-    .c-avatar {
+//     .c-avatar {
         
-        @include media-query(portable) {
-            background-color: $theme-bg-light-2;
-        }
-    }
+//         @include media-query(portable) {
+//             background-color: $theme-bg-light-2;
+//         }
+//     }
 
-    .c-nav__link--portfolio {
-        color: $theme-bg-bright-2;
+//     h1,
+//     .c-nav__link--portfolio {
+//         color: $theme-bg-bright-2;
 
-    }
+//     }
 
-    .c-billboard {
-        border-color: $theme-bg-bright-2;
-    }
+//     .c-billboard {
+//         border-color: $theme-bg-bright-2;
+//     }
 
-    .c-billboard__title {
-        font-size: 300px;
+//     .c-billboard__title {
+//         font-size: 300px;
 
-        @include media-query(hd) {
-            font-size: 420px;
-            margin-left: -30px;
-        }
-    }
+//         @include media-query(hd) {
+//             font-size: 420px;
+//             margin-left: -30px;
+//         }
+//     }
 
-    .c-billboard__blurb {
-        color: $theme-bg-bright-2;
+//     .c-billboard__blurb {
+//         color: $theme-bg-bright-2;
 
-        @include media-query(portable) {
-            margin-right: 25px;
-        }
-    }
-}
-
-
+//         @include media-query(portable) {
+//             margin-right: 30px;
+//         }
+//     }
+// }
 
 
-.p-books {
-    background-color: $theme-bg-light-3;
 
-    a {
-        border-color: $theme-bg-bright-3;
-    }
 
-    p,
-    strong,
-    a {
-        color: darken($theme-bg-light-1, 75);
-    }
+// .p-books {
+//     background-color: $theme-bg-light-3;
 
-    .c-name path {
-        stroke: $theme-bg-bright-3;
-    }
+//     a {
+//         border-color: $theme-bg-bright-3;
+//     }
 
-    .c-avatar {
+//     p,
+//     strong,
+//     a {
+//         color: darken($theme-bg-light-1, 75);
+//     }
+
+//     .c-name path {
+//         stroke: $theme-bg-bright-3;
+//     }
+
+//     .c-avatar {
         
-        @include media-query(portable) {
-            background-color: $theme-bg-light-3;
-        }
-    }
+//         @include media-query(portable) {
+//             background-color: $theme-bg-light-3;
+//         }
+//     }
 
-    .c-nav__link--books {
-        color: $theme-bg-bright-3;
-    }
-
-
-    .c-billboard__title {
-        font-size: 300px;
-
-        @include media-query(hd) {
-            font-size: 450px;
-            margin-left: -30px;
-        }
-    }
-
-    .c-billboard__blurb {
-        color: $theme-bg-bright-3;
-
-        @include media-query(portable) {
-            margin-right: 20px;
-        }
-    }
-
-    .c-book_title {
-        color: darken($theme-bg-light-3, 75);
-    }
-
-    .c-book_author {
-        color: rgba(black, .5);
-    }
-}
+//     h1,
+//     .c-nav__link--books {
+//         color: $theme-bg-bright-3;
+//     }
 
 
+//     .c-billboard__title {
+//         font-size: 300px;
 
+//         @include media-query(hd) {
+//             font-size: 450px;
+//             margin-left: -30px;
+//         }
+//     }
 
-.p-journal {
-    background-color: $theme-bg-light-4;
+//     .c-billboard__blurb {
+//         color: $theme-bg-bright-3;
 
-    a {
-        border-color: $theme-bg-bright-4;
-    }
+//         @include media-query(portable) {
+//             margin-right: 20px;
+//         }
+//     }
 
-    p,
-    strong,
-    a {
-        color: darken($theme-bg-light-4, 75);
-    }
+//     .c-book_title {
+//         color: darken($theme-bg-light-3, 75);
+//     }
 
-    .c-name path {
-        stroke: $theme-bg-bright-4;
-    }
-
-    .c-nav__link--journal {
-        color: $theme-bg-bright-4;
-    }
-
-    .c-billboard__title {
-        font-size: 300px;
-
-        @include media-query(hd) {
-            font-size: 450px;
-            margin-left: -30px;
-        }
-    }
-
-    .c-billboard__blurb {
-        color: $theme-bg-bright-4;
-
-        @include media-query(portable) {
-            margin-right: 21px;
-        }
-    }
-
-    h2 {
-        color: darken($theme-bg-light-4, 75);
-    }
-
-    .c-entry__link,
-    .c-entry__link p {
-        color: rgba(black, .5);
-        //color: darken($theme-bg-bright-4, 30);
-        //color: darken($theme-bg-light-4, 65);
-    }
-}
+//     .c-book_author {
+//         color: rgba(black, .5);
+//     }
+// }
 
 
 
 
+
+
+// .p-journal {
+//     background-color: $theme-bg-light-4;
+
+//     a {
+//         border-color: $theme-bg-bright-4;
+//     }
+
+//     p,
+//     strong,
+//     a {
+//         color: darken($theme-bg-light-4, 75);
+//     }
+
+//     .c-name path {
+//         stroke: $theme-bg-bright-4;
+//     }
+
+//     .c-nav__link--journal {
+//         color: $theme-bg-bright-4;
+//     }
+
+//     .c-billboard__title {
+//         font-size: 300px;
+
+//         @include media-query(hd) {
+//             font-size: 450px;
+//             margin-left: -30px;
+//         }
+//     }
+
+//     h1,
+//     .c-billboard__blurb {
+//         color: $theme-bg-bright-4;
+
+//         @include media-query(portable) {
+//             margin-right: 21px;
+//         }
+//     }
+
+//     h2 {
+//         color: darken($theme-bg-light-4, 75);
+//     }
+
+//     .c-entry__link,
+//     .c-entry__link p {
+//         color: rgba(black, .5);
+//         //color: darken($theme-bg-bright-4, 30);
+//         //color: darken($theme-bg-light-4, 65);
+//     }
+// }
+
+
+
+
+
+// .p-cs {
+//     background-color: #f6f6f6;
+
+//     background-color: $theme-bg-light-5;
+
+//     a {
+//         border-color: $theme-bg-bright-5;
+//     }
+
+//     p,
+//     strong,
+//     a {
+//         color: darken($theme-bg-light-5, 75);
+//     }
+
+//     .c-name path {
+//         stroke: $theme-bg-bright-5;
+//     }
+
+//     .c-nav__link--journal {
+//         color: $theme-bg-bright-5;
+//     }
+
+//     .c-billboard__title {
+//         font-size: 300px;
+
+//         @include media-query(hd) {
+//             font-size: 450px;
+//             margin-left: -30px;
+//         }
+//     }
+
+//     h1,
+//     .c-billboard__blurb {
+//         color: $theme-bg-bright-5;
+
+//         @include media-query(portable) {
+//             margin-right: 21px;
+//         }
+//     }
+
+//     h2 {
+//         color: darken($theme-bg-light-5, 75);
+//     }
+
+//     .c-entry__link,
+//     .c-entry__link p {
+//         color: rgba(black, .5);
+//         //color: darken($theme-bg-bright-4, 30);
+//         //color: darken($theme-bg-light-4, 65);
+//     }
+// }
 
 // .p-contact {
 //     background-color: $theme-bg-light-5;

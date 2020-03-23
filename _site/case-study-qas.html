@@ -25,153 +25,423 @@
 <header class="c-header"> <a href="/" class="c-name"> <span>Amrinder </span><span>Sandhu</span></a>
   <nav class="c-nav">
     <ul class="c-nav__list">
-      <li class="c-nav__item"><a href="/" class="c-nav__link c-nav__link--home">About</a></li>
-      <!--li.c-nav__item
-      a.c-nav__link.c-nav__link--work(href="work.html") Work
-      
-      
-      -->
+      <li class="c-nav__item"><a href="/" class="c-nav__link c-nav__link--home">Work</a></li>
       <li class="c-nav__item"><a href="journal.html" class="c-nav__link c-nav__link--journal">Journal</a></li>
-      <li class="c-nav__item"><a href="books.html" class="c-nav__link c-nav__link--books">Reading</a></li>
-      <!--li.c-nav__item
-      a.c-nav__link.c-nav__link--contact(href="contact.html") 
-          strong Contact 
-          span information
-      
-      
-      -->
+      <li class="c-nav__item"><a href="library.html" class="c-nav__link c-nav__link--library">Library</a></li>
+      <li class="c-nav__item"><a href="about.html" class="c-nav__link c-nav__link--about">About</a></li>
     </ul>
   </nav>
-  <figure class="c-avatar"><img src="assets/i/photos/amrinder-11.jpg"/></figure>
 </header>
 
 <main class="c-main">      
-    <section class="c-billboard">    
-    <span class="c-billboard__title">CaseStudy</span>
+    <!-- INTRO SECTION -->      
+    <section>
+        <h1 class="l-span_3-8 u-space_below--more">Saving months of extra work with open collaboration and transparent communication.</h1>
 
-    <h1 class="c-billboard__blurb">How I avoided months of extra work and balanced innovation with collaboration and communication</h1>
-</section>
+        <p class="l-span_3-9">Leading a team remotely and collaborating with different departments from a distant place and timezone has its challenges. One has to build rapport and understanding to make things work from afar. Over time, I have introduced various tools (like Slack) and processes (like weekly checkups) to keep things on track. This case study is one of many examples showcasing the benefits we have been reaping from the open and transparent culture at Unmetric.</p>
+        </div> 
+    </section>
       
 
 
     
-    <section class="c-section">
-        <section class="c-section__col c-section__col--1to4">
-            <h2>Problem</h2>
-        </section>
+    <!-- ROLE -->
+    <section>
+        <h2 class="l-span_2">Role</h2>
 
+        <ul class="l-span_6 o-list--bullet">
+            <li>Research</li>
 
-        <section class="c-section__content">
-            <p>Vaib has pinged me for the third time “Can we fix the date-picker?”. I have been postponing it for a few months as the existing date-picker was working fine but there was definitely a room for improvement. (Is there anything, expect things not designed by humans, where this is not the case?) Here’s what she wrote:</p> 
-            
-            <blockquote>
-                <p>“Amrinder having a huge problem with the date picker and the “custom” time period. Having to click through the months when I want to do a whole year or more is too many clicks. Also when using the picker, having the start date same and changing the end date is near impossible. Any chance we can go back to the old way where we could manually input year if we needed?”</p>
-                <footer>&mdash; Vaib on Slack </footer>
-            </blockquote>
+            <li>UI/UX Design</li>
 
-            <p>We got busy and she reached out again…</p>
-
-
-            <blockquote>
-                <p>“Our clients at MBooth requested the ability to “Type in the date” rather than just the clicker system as when they're going further than a few months, it's very tedious to keep clicking. Yesterday I did a 3 year analysis for a Unilever team and it was PAINFUL to keep resetting the date format (also had a few session expiry issues that caused me to refresh and reset the date many times). Can we please add the ability to write the date also @Amrinder?”</p>
-                <footer>&mdash; Vaib on Slack again (after 18 months)</footer>
-            </blockquote>
-
-            <p>I promised to look into it next week, let her know if I have any further questions, and keep her posted on the progress.</p>
-        </section>
+            <li>Project Management</li>
+        </ul>
     </section>
 
 
 
 
 
-    <section class="c-section">
-        <section class="c-section__col c-section__col--1to4">
-            <h2>Process</h2>
-        </section>
+    <!-- PROBLEM -->
+    <section>
+        <h2 class="l-span_2">Problem</h2>
 
 
-        <section class="c-section__content">
-            <h3>Research</h3>
+        <div class="l-span_6">
+            <p>In Unmetric’s flagship product – Analyze (the social media benchmarking tool) – the two main tasks performed by 100% of the users are: </p> 
 
-            <p>This was not a feature request, it didn’t come from R&D team or our CEO or sales or marketing. This came from one of our smartest account manager (she has been with Unmetric for over 5 years now). I started digging deeper and send DMs to a few other AMs and asked if they received any comments/feedback on the date-picker. They said yes.</p> 
+            <ul class="o-list--ordered">
+                <li>Analyzing your own profiles, competitors, or any of the 100K profiles</li>
 
-            <p>The existing date-picker doesn’t allow you to type dates and edit selected dates. One can only click her way to select a date range. We have 1-click selections for last 7 days, last week, last month, and last 30 days but to select three weeks, two quarters, and one or more years users have to click on the calendar’s previous/next navigation buttons to get where they want and make a selection. We believed it was simple, intuitive, and error free way of selecting a date range</p>
-
-
-            <p>Slack call with Vaib…</p>
-
-            <p>After they confirmed I decided to look at the usage data. One of our front-end developer who mostly worked with me agree to participate in the research. She reached out to our data guy and collected date-picker usage data for last XX months.</p> 
-
-            <iframe src="/assets/pdfs/datepicker-analysis.pdf" width="100%" height="100%"></iframe>
-
-            <p>We posted our research on Slack and showed rest of the team (to encourage them) how data can help us learn more about the problem and thus assist in designing a better solution. </p> 
-            
-        </section>
-    </section>
-
-
-
-
-
-    <section class="c-section">
-        <section class="c-section__col c-section__col--1to4">
-            <h2>Solution</h2>
-        </section>
-
-
-        <section class="c-section__content">
-            <h3>Ideation</h3>
-
-            <p>Using these insights we decided to break the date-picker in three parts:</p>
-
-            <ol class="o-list--ordered">
-                <li>A drop-down with list of most commonly used options</li>
-                <li>An extended drop-down, where first tab is the regular date-selector with editable inputs</li>
-                <li>Second tab with ability to quickly and easily select months, quarters, and years</li>
-            </ol>
-
-
-            <h3>Implementation</h3>
-            <p>Once I created the rough sketches with these three sections, we showed it to our dev lead to get his input on efforts and time it would take to ship it. He suggested we break it down to two releases as the second tab which was a unique UI, something the JS library they were exploring didn’t support. We agreed after he convinced us to take it up in the next release.</p>
-
-            <img src="/assets/i/sshots/cs-dp-old.png" alt="DatePicker Old Design"/>
-            <img src="/assets/i/sshots/cs-dp-new-v2.png" alt="DatePicker V2"/>
-        </section>
-    </section>
-
-
-
-
-
-    <section class="c-section">
-        <section class="c-section__col c-section__col--1to4">
-            <h2>What I learned and loved</h2>
-        </section>
-
-
-        <section class="c-section__content">
-            <h3>Learnings</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, facere. Quaerat nobis enim ipsam reiciendis, praesentium inventore porro animi? Qui perferendis aut porro totam aliquid neque minus quis officiis cum!</p>
-
-            <ul class="o-list--bullet">
-                <li>Use data more often and dig deeper to pull insights</li>
-                <li>Encourage AMs to keep sharing user problems/requests unless an action is taken</li>
-                <li>People are willing to step up if given opportunity (front-end developer doing data analysis)</li>
+                <li>Comparing Groups (a set of social profiles)</li>
             </ul>
 
+            <p>In the older solution, we made it easy to discover and use these two features. However, the recent feedback revealed that the users find it hard to navigate and search for a brand if they have added a large number of profiles.</p> 
 
-            <h3>What I loved about this project</h3>
+            <p>I talked to our customer support team asking if they have heard any other feedback related to these primary tasks and section of Analyze. They told some users are usign Command + F to search a profile they are looking for. What a solution!</p>
+                
+            <p>The Analyze homepage, Focus and Compare landing pages have been same for years now. In the last few years, we signed up big brands, like, Unilever, Coca-Cola, GM, Pepsi, Ford, Accenture, Edelman, etc. and they needed to analyze large number of profiles and groups.</p> 
+                
+            <p>After some brainstorming, I narrowed down the problems as:</p>
 
-            <ul class="o-list--bullet">
-                <li>It helped improve the user experience</li>
-                <li>We dipped our hands into data this deep for the first time</li>
-                <li>We were able to pull insights from usage data and use them to design a solution</li>
-                <li>I get to explore different solutions and create a simple but different solution</li>
+            <ul class="o-list--ordered">
+                <li>Profiles were sorted by added date and not alphabetically</li>
+
+                <li>Groups were sorted by creation date and not alphabetically </li>
+
+                <li>Connected pages are hidden</li>
+
+                <li>Not easy to switch/discover other social networks</li>
+
+                <li>Homepage remained same when networks were switched</li>
             </ul>
-        </section>
+        </div>
+
+
+        <div class="l-grid_of_8 c-sshot--wrapped">
+            <figure class="l-grid_of_8">
+                <img class="l-span_6 u-space_below" src="/assets/i/sshots/cs-qas-focus_old.png" alt="Old Focus home design"/>
+
+                <figcaption class="l-span_2 l-grid_flip_order u-space_below--more">
+                    <a href="https://www.dropbox.com/s/ei1ius3q1g6fvc3/Screen%20Shot%202020-03-21%20at%208.06.12%20PM.png?dl=0" target="_blank">From Google Analytics</a> I found that ~65% of our users could only see 15 profiles at a time. Also, these are sorted by date they were added by the users, and not alphabetically. <br/><br/>This made it hard for users to find profiles they need to analyze, especially when they have 50 or more (74% of total active users).<br/><br/> Connected page is clearly visible here but account managers reported that users are not connecting pages as they don’t find this section.
+                </figcaption>
+            </figure>
+
+
+            <div class="l-grid_of_8">
+                <video class="l-span_6" autoplay loop>
+                    <source src="/assets/videos/cs-qas-old_hp.mov" type="video/mp4">
+                </video> 
+
+                <p class="c-caption l-span_2 u-align--bottom u-space_above">This is the old homepage design. See how the networks are hidden under the dropdown (problem #4). <br/> <br/>Also, notice how the content remains the same even when networks are switched (problem #5). Some of these links would just take users to the dedicated sections under a selected network.</p>
+            </div>
+        </div>
     </section>
-</main>         
+
+
+
+
+
+    <!-- PROCESS -->
+    <section>
+        <h2 class="l-span_2">Process</h2>
+
+
+        <div class="l-span_6">
+            <h3>Let’s take a step back</h3>
+
+            <p>I shared these issues with our Head of Product who agreed. However, I wanted to take a step back and see how many users might be facing any of these issues. Also,  what percentage of total active users have added more than 25, 50, and 100 profiles. And, what’s the average number of groups an active user has created. </p>
+        </div>
+
+
+        <div class="l-grid_of_8">
+            <div class="l-span_4">
+                <h3>No Mixpanel, no problem</h3>
+
+                <p>There was no Mixpanel dashboard configured to see this particular data set, so we pulled data from the database. I sent the data points I needed to our dev lead, and he got back after 11 hours as we are in different timezones.</p>
+
+                <p>I wasn’t happy with our progress on data analysis, so I decided to pull the data myself. I collaborated with another developer to setup Sequel Pro and a few SQL queries to pull that data.</p> 
+            </div>
+
+            <img class="l-span_4 l-grid_flip_order" src="/assets/i/sshots/cs-qas-data.png" alt="Profiles and Groups added by users"/>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- SOLUTION -->
+    <section>
+        <h2 class="l-span_2">Solutions</h2>
+
+        <div class="l-span_6">
+            <h3>Alphabetical sorting to fix problems #1 and #2</h3>
+
+            <p>Data analysis reflected that most of our users (70-80%) might be facing issues to look for profiles and groups easily. There could be a bunch of approaches but I decided to go with a solution which required least effort: alphabetically sorted profiles and groups (by default) and the added ability to search for profiles.</p>
+
+            <p>I had a chat with our dev lead and discussed these changes. A simple solution like this was an easy win and it was realeased in a couple of weeks.</p>
+        </div>
+
+        <figure class="l-grid_of_8 c-sshot--wrapped">
+            <img class="l-span_6" src="/assets/i/sshots/cs-qas-focus_v1.png" alt="Homepage V1"/>
+
+            <figcaption class="l-span_2">Changing the profiles sort order from “date added” to “alphabetical”. We did the same for Groups. We should have fixed this a long ago.</figcaption>
+        </figure>
+
+
+        <div class="l-span_3-9">
+            <div class="l-grid_of_6">
+                <h3 class="l-span_full">Solution for problem #3</h3>
+
+                <img class="l-span_2 u-space_below" src="/assets/i/sshots/cs-qas-sol_3.png" alt="Idea to move connected profiles to the sidebar nav"/>
+
+                <div class="l-span_4">
+                    <p>Another frequent feature request was to move Connected/Owned Profiles to a dedicated more visible section. This came from our accounts team as they believed that this is a very important feature to make users stick and get most out of our platform. And having it buried under Analyze section is not helping.</p>
+
+                    <p>My plan was to move it to the main navigation in the sidebar so people can see it from anywhere. This will make it more discoverable and accessible.</p>
+                </div>
+            </div>
+        
+            <h3>A designer’s endless pursuit for improvement</h3>
+
+            <p>Even though the main issues were fixed, I was not happy with our homepage. The most visited section of the app was unthoughful and plain dumb. Nobody ever complained about it though.</p>
+
+            <p>No complaints doesn’t mean it’s perfect. Users didn’t say anything as it was not causing any issues.  But as a designer, it’s my responsibility to improve areas and experiences that sometimes seem small and unimportant.</p>
+        
+
+            <figure class="l-grid_of_6 c-sshot--wrapped">
+                <img src="/assets/i/photos/sketch-homepage-1.png" alt="Homepage early sketch"/>
+                
+
+                <figcaption class="l-span_2"><a class="l-span_4" href="https://www.dropbox.com/s/v032oog13trbnsc/Early%20homepage%20sketch.png?dl=0" target="_blank">An early sketch of homepage</a> outlining important actions and navigation changes. This exercise helped me clearly think through the structure of our huge app and come up with 5 sections we should have on Analyze homepage (listed below).</figcaption>
+            </figure>
+
+            
+            <p>I started brainstorming to see how I can fix the homepage. Moving the most important actions which were somewhat deeper in the app came to my mind right away. After some sketching and scribbling I came up with a rough solution that included:</p>
+
+            <ul class="o-list--ordered">
+                <li>Change networks drop-down to tabs and put on the homepage</li>
+
+                <li>Move profiles, groups and connected accounts under network tabs</li>
+
+                <li>Add ability to search profiles and groups across networks</li>
+
+                <li>Ability to star profiles and groups so they are pinned on top</li>
+
+                <li>Sort by recently accessed, date added/created (default), and alphabetically</li>
+            </ul>
+        </div>
+
+
+        <figure class="l-grid_of_8 c-sshot--wrapped">
+            <img class="l-span_6" src="/assets/i/sshots/cs-qas-hp_new_v1.png" alt="Homepage mockup V1"/>
+
+            <figcaption class="l-span_2">A quick homepage mockup I presented to our CEO with Networks as tabs, Profiles and Groups moved to homepage, plus search and sort features.</figcaption>
+        </figure>
+
+
+        <div class="l-span_3-9">
+            <h3>Feedback always help</h3>
+
+            <p>I have worked with our CEO for almost 8 years now and he is the smartest person I know, even when it comes to product and UX. I don’t seek solutions from him (that’s what he me hired for) but I always like to bounce my ideas off him.</p>
+
+            <p>Our CEO asked me why we are making these changes, and how will they help. After he was convinced with my answers, he suggested to get rid of “sort” and “star” functionalities as multiple users from the same organizations use the same login. I didn’t know this fact but after he told me his suggestion made absolute sense.</p>
+        </div>
+
+
+        <figure class="l-grid_of_8 c-sshot--wrapped">
+            <img class="l-span_6" src="/assets/i/sshots/cs-qas-hp_new_v2.png" alt="Homepage mockup V2"/>
+
+            <figcaption class="l-span_2 l-grid_flip_order">Revised homepage design after discussion with our CEO. Sort and star functionality is gone.</figcaption>
+        </figure>
+
+
+        <div class="l-span_3-9">
+            <h3>Something important was cooking simultaneously</h3>
+
+            <p>When the homepage design was almost complete and I was ready to hand it over to our front-end developer, I got a message from our data science lead. He provided some info on an upcoming feature: Outliers. We setup a meeting to discuss it in detail. I asked him a few question upfront so as to understand more and what ideas he had.</p>
+
+            <p>During the meeting he told me that his team has been working on this feature for some time now, and ready for next phase. This feature would allow users to detect anomolies and help users stay on top of their competitors and social in general.</p>
+
+            <p>He suggested that we add a dedicated section for Outliers in the main navigation somewhere as it a unique feature among competitors. This placement would give this feature more importance and visibility in our platform. </p>
+
+            <p>I agreed but suggested that instead of adding another section (we already had over 10 icons in the main sidebar) why not put it on homepage? That will make it even more discoverable and prominent. </p>
+
+            <p>They liked the idea but mentioned that Outliers won’t be available all the time for all the users. I promised to think more about this scenario and revert back.</p>
+        </div>
+
+
+        <div class="l-grid_of_8 c-sshot--wrapped">
+            <figure class="l-span_4 u-space_below">
+                <a href="https://www.dropbox.com/s/a8sm94ngj0rdtlt/sketch%20-%20outlier%20filters%20and%20homepage%20onboarding.png?dl=0" target="_blank">
+                    <img src="/assets/i/photos/sketch-outlier_hp_onboarding.png" alt="Outliers filters and homepage sketches"/>
+
+                    <figcaption class="is-below">Brainstorming Outlier filters for the new app homepage and user onboarding for QAS </figcaption>
+                </a>
+            </figure>
+
+
+            <figure class="l-span_4 u-space_below">
+                <a href="https://www.dropbox.com/s/ckzqi17p8sc8fhh/sketch-analyze-old-structure.png?dl=0" target="_blank">
+                    <img src="/assets/i/photos/sketch-sections_nav.png" alt="Existing app nav structure"/>
+
+                    <figcaption class="is-below">Thinking through the Analyze app structure and sections to get an estimate on scope and changes.</figcaption>
+                </a>
+            </figure>
+
+
+            <figure class="l-span_4">
+                <a href="https://www.dropbox.com/s/qnpp8k5izsqk69r/sketch-qas-2.png?dl=0" target="_blank">
+                    <img src="/assets/i/photos/sketch-qas-1.png" alt="Early QAS sketches"/>
+
+                    <figcaption class="is-below">Initial sketches of what became the QAS for Profiles</figcaption>
+                </a>
+            </figure>
+
+
+            <figure class="l-span_4 u-space_above--mob">
+                <a href="https://www.dropbox.com/s/qnpp8k5izsqk69r/sketch-qas-2.png?dl=0" target="_blank">
+                    <img src="/assets/i/photos/sketch-qas-2.png" alt="Early QAS sketches"/>
+
+                    <figcaption class="is-below">Sketches of QAS for Compare module</figcaption>
+                </a>
+            </figure>
+        </div>
+
+
+        <div class="l-span_3-9">
+            <h3>Collaboration and communication saved us, again</h3>
+
+            <p>On one hand I almost finished the homepage with network tabs, profiles and groups, on the other hand I had an idea of putting Outliers on homepage. Things were getting complicated but one thing I knew for sure, was, we can’t merge these two solutions together. </p>
+
+            <p>I was happy that our data science lead reached out to me early and directly, otherwise we might have launched the homepage with profiles and groups. And later it would have been super hard to change the homepage again because a) we  just did it and users will hate this frequent change, b) months of development efforts would go to waste.</p>
+        </div>
+
+
+        <div class="l-span_3-9">
+            <h3>All dashboard should be feeds</h3>
+
+            <p>Our CEO and I always agreed on <a href="https://anildash.com/2013/01/08/all_dashboards_should_be_feeds/">all dashboards should be feeds</a> argument. This was our chance to make Analyze dashboard/homepage a feed of content insights, i.e. Outliers. And later on we can add more types of insights that we were showing inside the main sections. Currently, users had to go to these sections and tabs and see those insights for themselves. Pulling them out on homepage and letting users customize what’s useful for them would defintely be a game changer. </p>
+
+            <p>I suggested to put content feed with Outliers as a second tab (as both are content streams) on homepage while moving profiles and groups in the sidebar as a mega menu. All of us agreed on this solution.   </p>
+        </div>
+
+        <figure class="l-grid_of_8 c-sshot--wrapped">
+            <img class="l-span_full" src="/assets/i/sshots/cs-qas-hp_new_final.png" alt="Homepage mockup V1"/>
+
+            <figcaption class="l-span_4 is-below">Homepage V3: <br/>The final version with Feed and Outliers.</figcaption>
+        </figure>
+
+
+        <div class="l-span_3-9">
+            <h3>Super easy way to access profiles and groups</h3>
+
+            <p>After puting Outliers and Feed on homepage, I went on to find the best possible place to access Profiles and Groups. With one click users can access any of their Profiles or Groups. All the networks are now clearly visible. One can quickly search for a profile without jumping between networks. I also added links to quickly add/create and manage Profiles and Groups.</p>
+        </div>
+
+
+        <div class="l-grid_of_8 c-sshot--wrapped">
+            <video class="l-span_6" autoplay loop>
+                <source src="/assets/videos/cs-qas-new.mov" type="video/mp4">
+            </video> 
+
+            <p class="c-caption l-span_2">Introducing QAS (quick access sidebar) – a super easy way to access Profiles and Groups from anywhere inside the Analyze app. New homepage with Feed and Outliers is in the background.</p>
+        </div>
+
+
+        <div class="l-span_3-8">
+            <blockquote>
+                <p>I love how the QAS is shaping up and believe it will translate into a great user experience and fewer clicks to insights and data.</p>
+
+                <footer>– Our CEO on Slack, after seeing the final version of the QAS</footer>
+            </blockquote>
+        </div>
+        
+
+        <div class="l-span_3-9">
+            <h3>Let’s run usability tests</h3>
+
+            <p>Our head of customer research ran a few interal usability tests based on the scenarios I provided, and the results were all good. Finally, we found usable solutions that the whole team liked. We shipped these changes in three separate release as to make it easier for the users to adapt.</p>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- CONCLUSION -->
+    <section>
+        <h2 class="l-span_2">Conclusion</h2>
+
+        <p class="l-span_6">Being the only designer on a huge product like Analyze has more pros than cons. It helps you save time and effort, and one can say “no” more often as you don’t have bandwidth. And being the only POC on design defintely helps avoid rework as it would have happened in this case.</p>
+    </section>
+
+
+
+    <hr class="u-space_below--most"/>
+
+
+
+
+    
+    <!-- MORE -->
+    <section>
+        <h2>More Case Studies</h2>
+
+
+        <div class="c-case_study l-span_5-9 u-space_below">
+            <a href="/case-study-datepicker.html">
+                <img src="/assets/i/sshots/cs-dp-cover.png" alt=""/>
+                
+
+                <div class="c-case_study__info">
+                    <p>Redesigning the most used UI component using the most sophisticated design tool – data.</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
+                            <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
+                        </g>
+                    </svg>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="c-case_study l-span_4">
+            <a href="/case-study-branding.html">
+                <img src="/assets/i/sshots/cs-br-cover.png" alt=""/>
+                
+
+                <div class="c-case_study__info">
+                    <p>Positioning Unmetric as a leader in social media analytics space and a premium brand.</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
+                            <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
+                        </g>
+                    </svg>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+</main>
+
+
+
+
+
+
+<footer class="c-footer">
+  <!--ul
+  //li 
+      a(href="#") contact@amrindersandhu.com
+  
+  
+  li 
+      a(href="https://twitter.com/anaami") Twitter
+  
+  
+  li 
+      a(href="https://www.linkedin.com/in/amrindersandhu/") LinkedIn
+  
+  
+  li 
+      a(href="https://github.com/amrindersandhu") GitHub
+  
+  
+  li 
+      a(href="https://dribbble.com/amrinder") Dribbble
+  
+  
+  
+  --><small>&copy; 2008-2020 
+    <!--br-->
+    <!--| Amrinder Sandhu--></small>
+</footer>         
 			
 	<script src="assets/js/functions.js"></script>	  
     </body>

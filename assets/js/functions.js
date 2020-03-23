@@ -67,24 +67,33 @@ const filterWrapper = document.querySelector(".js-filtersWrapper");
 
 const filterControls = filterWrapper.querySelectorAll(".js-filter");
 
-const filterContent = filterWrapper.querySelectorAll(".c-books_list_item")
+const filterContentFavs = filterWrapper.querySelectorAll(".c-books_list_item--fav")
+
+const filterContentAll = filterWrapper.querySelectorAll(".c-books_list_item--all")
 
 const allFilters = filterWrapper.querySelector('.js-all-items');
 
-const parentList = filterWrapper.querySelector('.c-books_list');
+const favFilters = filterWrapper.querySelector('.js-fav-items');
+
+const parentListAll = filterWrapper.querySelector('.c-books_list--all');
+
+const parentListFavs = filterWrapper.querySelector('.c-books_list--favs');
 
 filterControls.forEach(element => {
     element.addEventListener("click", event => {
         let filterbyID = event.target.getAttribute("id");
-        showItems(filterbyID);
+        showItemsAll(filterbyID);
+        showItemsFavs(filterbyID);
     });
     
 });
 
 
 
-function showItems(filterbyID) {
-    let paras = [...filterContent];
+function showItemsAll(filterbyID) {
+    let paras = [...filterContentAll];
+    console.log(paras);
+    favFilters.classList.remove('is_active');
     allFilters.classList.remove('is_active');
     for (let para of Array.from(paras)) {
         para.remove();
@@ -97,10 +106,32 @@ function showItems(filterbyID) {
     }
     for (let para of Array.from(paras)) {
         if(para.getAttribute("aria-labelledby") == (filterbyID)) {
-            parentList.appendChild(para);
+            parentListAll.appendChild(para);
         }
     }
-    parentList.scrollIntoView({ behavior:"smooth" });
+    parentListFavs.scrollIntoView({ behavior:"smooth" });
+}
+
+
+function showItemsFavs(filterbyID) {
+    let paras = [...filterContentFavs];
+    allFilters.classList.remove('is_active');
+    favFilters.classList.remove('is_active');
+    for (let para of Array.from(paras)) {
+        para.remove();
+    }
+    for (let entry of Array.from(filterControls)) {
+        entry.classList.remove('is_active');
+        if(entry.getAttribute('id') == filterbyID) {
+            entry.classList.add('is_active');
+        }
+    }
+    for (let para of Array.from(paras)) {
+        if(para.getAttribute("aria-labelledby") == (filterbyID)) {
+            parentListFavs.appendChild(para);
+        }
+    }
+    parentListFavs.scrollIntoView({ behavior:"smooth" });
 }
 
 allFilters.addEventListener("click", showAllItems);
@@ -109,9 +140,39 @@ function showAllItems() {
     for (let entry of Array.from(filterControls)) {
         entry.classList.remove('is_active');
     }
-    let paras = [...filterContent];
-    for (let para of Array.from(paras)) {
-        parentList.appendChild(para);
+    let favs = [...filterContentFavs];
+    for (let fav of Array.from(favs)) {
+        parentListFavs.appendChild(fav);
     }
+    let paras = [...filterContentAll];
+    for (let para of Array.from(paras)) {
+        parentListAll.appendChild(para);
+    }
+    favFilters.classList.remove('is_active');
+
     allFilters.classList.add('is_active');
 }
+
+
+favFilters.addEventListener("click", showFavItems);
+
+
+function showFavItems() {
+    for (let entry of Array.from(filterControls)) {
+        entry.classList.remove('is_active');
+    }
+    let favs = [...filterContentFavs];
+    for (let fav of Array.from(favs)) {
+        parentListFavs.appendChild(fav);
+    }
+    let paras = [...filterContentAll];
+    for (let para of Array.from(paras)) {
+        para.remove();
+    }
+    allFilters.classList.remove('is_active');
+
+    favFilters.classList.add('is_active');
+}
+
+
+

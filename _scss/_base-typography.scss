@@ -3,17 +3,16 @@
 // -----------------------------------------------------------------------------
 
 
-$as-font-size-xxl: 45px;
-$as-font-size-xl: 35px;
-$as-font-size-l: 25px;
+
+$as-font-size-xl: 40px;
+$as-font-size-l: 30px;
 $as-font-size-m: 20px;
 $as-font-size-s: 16px;
 $as-font-size-xs: 14px;
 
 
-$as-line-height-xxl: 50px;
-$as-line-height-xl: 40px;
-$as-line-height-l: 28px;
+$as-line-height-xl: 50px;
+$as-line-height-l: 35px;
 $as-line-height-m: 32px;
 $as-line-height-s: 24px;
 $as-line-height-xs: 21px;
@@ -42,24 +41,10 @@ table {
 
 
 h1 {
-    font-size: $as-font-size-xl;
-    font-weight: $as-font-weight-bold;
-    letter-spacing: -1px;
-    line-height: $as-line-height-xl;
-
-    @include media-query(hd) {
-        font-size: $as-font-size-xxl;
-        line-height: $as-line-height-xxl;
-    }
-}
-
-
-h2 {
     font-size: $as-font-size-l;
     font-weight: $as-font-weight-bold;
     letter-spacing: -1px;
     line-height: $as-line-height-l;
-    margin-bottom: 25px;
 
     @include media-query(hd) {
         font-size: $as-font-size-xl;
@@ -68,17 +53,32 @@ h2 {
 }
 
 
-h3 {
+h2 {
     font-size: $as-font-size-m;
     font-weight: $as-font-weight-bold;
-    letter-spacing: -0.5px;
-    line-height: $as-line-height-s;
-    margin-bottom: 25px;
+    letter-spacing: -1px;
+    line-height: $as-line-height-m;
+    margin-bottom: 15px;
 
     @include media-query(hd) {
         font-size: $as-font-size-l;
         line-height: $as-line-height-l;
+        margin-bottom: 30px;
+    }
+}
+
+
+h3 {
+    font-size: $as-font-size-s;
+    font-weight: $as-font-weight-bold;
+    line-height: $as-line-height-s;
+    margin-bottom: 15px;
+
+    @include media-query(hd) {
+        font-size: $as-font-size-m;
+        line-height: $as-line-height-m;
         letter-spacing: -1px;
+        margin-bottom: 30px;
     }
 }
 
@@ -92,27 +92,30 @@ h4 {
 
     @include media-query(hd) {
         font-size: $as-font-size-m;
-        line-height: 25px;
+        letter-spacing: -1px;
+        line-height: 30px;
     }
 }
 
 
 
 p {
-    margin-bottom: 25px;
+    margin-bottom: 21px;
 
     @include media-query(hd) {
-        
+        margin-bottom: 30px;
     }
 }
 
 
-em {
+em,
+i {
     font-style: italic;
 }
 
 
-strong {
+strong,
+b {
     font-weight: $as-font-weight-bold;
 }
 
@@ -142,64 +145,130 @@ a {
 
 
 blockquote {
-    border-left: 5px solid rgba(black, .1);
-    border-radius: 5px;
-    padding: 25px 50px;
-    margin-bottom: 50px;
 
-    p {
-        color: rgba(black, .75);
+    &:not(.c-caption) {
+        border-left: 5px solid rgba(black, .1);
+        border-radius: 5px;
+        padding: 15px 30px;
+        margin-bottom: 30px;
+
+        @include media-query(hd) {
+            padding: 30px 60px;
+            margin-bottom: 60px;
+        }
+
+        p {
+            color: rgba(black, .75);
+            font-style: italic;
+        }
+
+        footer {
+            color: rgba(black, .5);
+            font-size: $as-font-size-xs;
+
+            @include media-query(hd) {
+                font-size: $as-font-size-s;
+            }
+        }
+    } 
+
+    &.c-caption p {
+        hyphens: none;
+        font-size: $as-font-size-xs;
         font-style: italic;
-    }
-
-    footer {
-        color: rgba(black, .5);
-        font-size: $as-font-size-s;
+        line-height: $as-line-height-xs;
     }
 }
 
 
+hr {
+    border-width: 1px 0 0;
+    border-color: rgba(black, .15);
+    border-style: solid;
+    margin: 0;
+}
+
+
 main {
-    p {
-        hyphens: auto;
+    h2 {
+        transform: translateY(-5px);
     }
 
-    img {
+    p {
+        hyphens: auto;
+
+        &:last-child {
+            margin-bottom: 30px;
+
+            @include media-query(hd) {
+                margin-bottom: 60px;
+            }
+        }
+
+        + h3 {
+            margin-top: 30px;
+
+            @include media-query(hd) {
+                margin-top: 60px;
+            }
+        }
+
+        .no-hypens {
+            hyphens: none;
+        }
+    }
+
+    img,
+    video {
         max-width: 100%;
     }
 }
 
 
-figcaption {
+figcaption,
+.c-caption {
     color: rgba(black, .5);
-    font-size: $as-font-size-s;
-    line-height: $as-line-height-s;
+    font-size: $as-font-size-xs;
+    line-height: $as-line-height-xs;
 
     a {
         color: rgba(black, .5); 
     }
 
     .as-icon {
+        position: relative;
+        top: 2px;
+
         g,
         polygon {
             fill: rgba(black, .35);
         }
+    }
+
+    &.is-below {
+        margin-top: 15px;
+    }
+}
+
+
+
+ul, ol {
+
+    li {
+        margin-bottom: 5px;
     }
 }
 
 
 .o-list--ordered,
 .o-list--bullet {
+    font-size: $as-font-size-s;
     list-style-position: outside;
-    margin: 10px 0 25px 25px;
+    margin: 0 0 30px 30px;
 
     @include media-query(hd) {
-        margin-top: 25px;
-        margin-bottom: 50px;
-    }
-
-    li {
-        margin-top: 5px;
+        font-size: $as-font-size-m;
+        margin-bottom: 45px;
     }
 }
 

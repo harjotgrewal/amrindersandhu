@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .c-entry {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     
     @include media-query(hd) {
         margin-bottom: 50px;
@@ -11,11 +11,19 @@
 }
 
 
-.c-entry__content {
-    
+.c-entry_comment {
+    font-size: $as-font-size-m;
+    line-height: 1.4;
+
     @include media-query(hd) {
-        margin-top: 10px;
+        margin-top: 3px;
+        padding-left: 30px;
     }
+}
+
+
+.c-entry__content {
+
 }
 
 
@@ -46,17 +54,11 @@
                 color: $color-text-base;
             }
         }
-
-        @include media-query(hd) {
-            p {
-                margin-top: 25px !important;
-            }
-        }
     }
 
 
     .c-entry__embed {
-        margin-top: 25px;
+        margin-top: 30px;
 
         @include media-query(hd) {
             margin: 50px 0 0 55px;

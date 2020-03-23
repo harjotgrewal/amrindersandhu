@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// #TESTIMONIALS
+// -----------------------------------------------------------------------------
+
+.c-testimonial {
+    img {
+        border-radius: 90px;
+        display: block;
+        margin-bottom: 15px;
+        width: 90px;
+    }
+
+    small {
+        color: rgba(black, .5);
+        display: block;
+        line-height: 1.5;
+    }
+
+    blockquote {
+        border: none;
+        padding: 0;
+        position: relative;
+
+        span {
+            font-family: Georgia, serif;
+            font-size: $as-font-size-l;
+            position: absolute;
+
+            &:first-child {
+                left: -15px;
+            }
+        }
+    }
+}

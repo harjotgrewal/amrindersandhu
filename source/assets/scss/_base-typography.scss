@@ -48,7 +48,7 @@ h3 {
     font-weight: 700;
     letter-spacing: -1px;
     line-height: 1;
-    margin-top: 25px;
+    margin-top: 30px;
 
     @include media-query(hd) {
         font-size: $as-font-size-l;
@@ -85,15 +85,34 @@ em {
     font-style: italic;
 }
 
+ul, ol {
 
-.u-mar-left--more {
-    transform: translateX(600px);
-    width: 650px;
+    li {
+        margin-bottom: 5px;
+    }
 }
 
 
-.u-mar-left--less {
-    transform: translateX(100px);
+.o-list--ordered,
+.o-list--bullet {
+    font-size: $as-font-size-xs;
+    list-style-position: outside;
+    margin: 0 0 30px 30px;
+
+    @include media-query(hd) {
+        font-size: $as-font-size-s;
+        margin-bottom: 45px;
+    }
+}
+
+
+.o-list--ordered {
+    list-style-type: decimal;
+}
+
+
+.o-list--bullet {
+    list-style-type: disc;
 }
 
  
@@ -122,7 +141,7 @@ em {
     color: $color-text-light;
     line-height: 1;
     //margin-top: 75px;
-    padding-left: 25px;
+    padding-left: 30px;
     position: relative;
     text-transform: uppercase;
 
@@ -134,29 +153,6 @@ em {
    }
 }
 
-
-
-.c-entry__embed .twitter-tweet-rendered {
-    max-width: calc(100% - 175px) !important;
-}
-
-
-.o-list--bullet {
-    font-size: $as-font-size-xs;
-    list-style-type: disc;
-    list-style-position: outside;
-    margin-top: 10px;
-    margin-left: 25px;
-
-    @include media-query(hd) {
-        font-size: $as-font-size-s;
-        margin-top: 25px;
-    }
-
-    li {
-        margin-top: 5px;
-    }
-}
 
 
 .c-books_list {

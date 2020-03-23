@@ -9,7 +9,7 @@
     grid-template-rows: 75px;
 
     @include media-query(hd) {
-        column-gap: 25px;
+        column-gap: 30px;
         grid-template-areas: "name name name name . nav nav nav nav ham";
         grid-template-columns: repeat(10, 100px);   
         grid-template-rows: 100px;
@@ -24,7 +24,7 @@
     font-size: $as-font-size-s;
     font-weight: 500;
     line-height: 1;
-    padding-left: 25px;
+    padding-left: 30px;
     position: relative;
     text-transform: uppercase;
 

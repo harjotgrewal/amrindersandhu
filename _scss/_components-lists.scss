@@ -15,9 +15,9 @@
     list-style-type: disc;
     list-style-position: outside;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 30px;
 
     @include media-query(hd) {
-        margin-top: 25px;
+        margin-top: 30px;
     }
 }

@@ -6,11 +6,11 @@
 .c-section {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0 25px 50px;
+    margin: 0 30px 50px;
     z-index: 2;
     
     @include media-query(hd) {
-        column-gap: 25px;
+        column-gap: 30px;
         grid-template-columns: repeat(10, 100px);   
         grid-column: 1/-1;
         margin: 0 0 100px;
@@ -62,7 +62,7 @@
 .c-section__image {
     img {
         max-width: calc(100% - 50px);
-        margin: 25px 0 0 25px;
+        margin: 30px 0 0 30px;
         border-radius: 500px;
         background-blend-mode: multiply;
     }
@@ -70,7 +70,7 @@
     @include media-query(portable) {
         position: absolute;
         top: 10px;
-        right: 25px;
+        right: 30px;
         
         img {
             max-width: 100px;
@@ -101,10 +101,10 @@
     grid-column: 2/-1;
     font-size: $as-font-size-xs;
     font-style: italic;
-    margin: 10px 25px 25px;
+    margin: 10px 30px 30px;
 
     @include media-query(hd) {
-        margin: 25px 0 0;
+        margin: 30px 0 0;
     }
 }
 
@@ -122,7 +122,6 @@
 // FILTERS NAV
 
 .c-section__col--nav {
-    grid-column: 1/3;
 
     @include media-query(portable) {
         display: none; // HIDE ON MOBILE
@@ -143,7 +142,7 @@
     cursor: pointer;
     display: inline-block;
     font-size: $as-font-size-s;
-    line-height: 25px;
+    line-height: 30px;
     padding-top: 10px;
 
     &:hover {

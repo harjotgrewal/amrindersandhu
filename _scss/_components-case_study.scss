@@ -1,0 +1,36 @@
+// -----------------------------------------------------------------------------
+// #CASE-STUDY – HOMEPAGE
+// -----------------------------------------------------------------------------
+
+.c-case_study {
+
+    a {
+        background-color: white;
+        border: none;
+        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
+        display: block;
+
+        &:hover {
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); 
+        }
+    }
+
+    p {
+        padding-right: 55px;
+    }
+
+    img {
+        box-shadow: none;
+    }
+}
+
+
+.c-case_study__info {
+    display: flex;
+    margin: 30px 30px 5px;
+
+    svg {
+        height: 90px;
+        width: 90px;
+    }
+}

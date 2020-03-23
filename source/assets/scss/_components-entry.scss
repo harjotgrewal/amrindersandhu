@@ -26,8 +26,8 @@
         border-left: 6px double $color-grey-lighter;
         color: $color-text-light;
         display: block;
-        margin-top: 25px;
-        padding: 0 25px;
+        margin-top: 30px;
+        padding: 0 30px;
 
         &:hover {
             background: white;
@@ -35,13 +35,13 @@
         }
 
         @include media-query(hd) {
-            padding: 15px 30px 25px 50px;      
+            padding: 15px 30px 30px 50px;      
         }
     }
 
 
     .c-entry__embed {
-        margin-top: 25px;
+        margin-top: 30px;
 
         @include media-query(hd) {
             margin: 50px 0 0 55px;

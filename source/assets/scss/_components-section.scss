@@ -8,7 +8,7 @@
     grid-template-columns: 1fr;
     
     @include media-query(hd) {
-        column-gap: 25px;
+        column-gap: 30px;
         grid-template-columns: repeat(10, 100px);   
         grid-column: 1/-1;
     }
@@ -27,7 +27,7 @@
 
 
 .c-section__content {
-    margin: 0 25px;   
+    margin: 0 30px;   
     z-index: 9;
 
     @include media-query(hd) {

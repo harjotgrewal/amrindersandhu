@@ -11,14 +11,14 @@
     grid-template-rows: auto auto auto;    
     height: auto;
     position: relative;
-    width: calc(100vw - 25px);
+    width: calc(100vw - 30px);
     
     @include media-query(desk) {
         min-height: 550px;
         column-gap: 0;
         grid-template-columns: repeat(10, 100px);   
-        grid-column-gap: 25px;
-        margin-bottom: 25px;        
+        grid-column-gap: 30px;
+        margin-bottom: 30px;        
         width: auto;
 
         .c-billboard__link {
@@ -28,7 +28,7 @@
     
     
     @include media-query(portable) {
-        padding: 100px 0 75px 25px;
+        padding: 100px 0 75px 30px;
     }
 }
 

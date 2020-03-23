@@ -3,33 +3,32 @@ layout: default
 title: Amrinder Sandhu
 page-class: p-journal
 page-heading: Learn
-page-description: To improve what I know and learn what I don’t know, I read blogs and articles. Here’s what I find useful.
+page-description: To improve what I know and learn what I don’t, I read blogs and articles. Here’s what I find useful.
 ---
 
 {% include header.html %}
 
-<main class="c-main">      
+<main>      
     {% include billboard.html %}
     
     {% for entry in site.data.entries.journal %}
-    <section class="c-section">
-        <section class="c-section__col c-section__col--1to4">
-            <h2 class="c-entry__heading">{{ entry.title }}</h2>
-        </section>
+    <section>
+        <div class="l-span_3">
+            <p class="c-entry_comment">{{ entry.title }}</p>
+        </div>
 
-        <section class="c-section__content">
-            <article class="c-entry" data-aos="fade-up">
+        <div class="l-span_5-9">
+            <article class="l-span_full c-entry" data-aos="fade-up">
                 
                 <a href="{{ entry.url }}" target="_blank" class="c-entry__link">
-                    <section class="c-entry__content">
-                        <h3 class="c-entry__content__heading">{{ entry.content-title }}</h3>
+                    <div class="c-entry__content">
+                        <h2 class="c-entry__content__heading">{{ entry.content-title }}</h2>
+
                         <p class="c-entry__content__blurb">{{ entry.content-copy }}</p>
-                    </section>
+                    </div>
                 </a>
             </article>
-            
-                   
-        </section>
+        </div>
       </section>
     {% endfor %}
 
@@ -38,24 +37,29 @@ page-description: To improve what I know and learn what I don’t know, I read b
 
 
     {% for entry in site.data.awayback.journal %}
-    <section class="c-section">
-        <section class="c-section__col c-section__col--1to4">
-            <h2 class="c-entry__heading">{{ entry.title }}</h2>
-        </section>
+    <section>
+        <div class="l-span_4">
+            <p class="c-entry_comment">{{ entry.title }}</p>
+        </div>
 
-        <section class="c-section__content">
+        <div class="l-span_4">
             <article class="c-entry" data-aos="fade-up">
                 
                 <a href="{{ entry.url }}" target="_blank" class="c-entry__link">
-                    <section class="c-entry__content">
+                    <div class="c-entry__content">
                         <h3 class="c-entry__content__heading">{{ entry.content-title }}</h3>
+                      
                         <p class="c-entry__content__blurb">{{ entry.content-copy }}</p>
-                    </section>
+                    </div>
                 </a>
-            </article>
-            
-                   
-        </section>
+            </article>      
+        </div>
       </section>
     {% endfor %}
 </main>
+
+
+
+
+
+{% include footer.html %}
