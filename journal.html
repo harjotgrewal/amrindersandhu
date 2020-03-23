@@ -11,25 +11,22 @@ page-description: To improve what I know and learn what I don’t, I read blogs 
 <main>      
     {% include billboard.html %}
     
+
+
+
     {% for entry in site.data.entries.journal %}
     <section>
-        <div class="l-span_3">
-            <p class="c-entry_comment">{{ entry.title }}</p>
-        </div>
+        <article class="c-entry l-grid_of_8">
 
-        <div class="l-span_5-9">
-            <article class="l-span_full c-entry" data-aos="fade-up">
-                
-                <a href="{{ entry.url }}" target="_blank" class="c-entry__link">
-                    <div class="c-entry__content">
-                        <h2 class="c-entry__content__heading">{{ entry.content-title }}</h2>
+            <a class="c-entry__link l-span_3-9" href="{{ entry.url }}" target="_blank">
+                <h2 class="c-entry__heading">{{ entry.content-title }}</h2>
+            </a>
 
-                        <p class="c-entry__content__blurb">{{ entry.content-copy }}</p>
-                    </div>
-                </a>
-            </article>
-        </div>
-      </section>
+            <p class="c-entry__comment l-span_2">{{ entry.title }}</p>
+
+            <p class="c-entry__blurb l-span_6">{{ entry.content-copy }}</p>
+        </article>
+    </section>
     {% endfor %}
 
 
@@ -38,23 +35,17 @@ page-description: To improve what I know and learn what I don’t, I read blogs 
 
     {% for entry in site.data.awayback.journal %}
     <section>
-        <div class="l-span_4">
-            <p class="c-entry_comment">{{ entry.title }}</p>
-        </div>
+        <article class="c-entry l-grid_of_8">
 
-        <div class="l-span_4">
-            <article class="c-entry" data-aos="fade-up">
-                
-                <a href="{{ entry.url }}" target="_blank" class="c-entry__link">
-                    <div class="c-entry__content">
-                        <h3 class="c-entry__content__heading">{{ entry.content-title }}</h3>
-                      
-                        <p class="c-entry__content__blurb">{{ entry.content-copy }}</p>
-                    </div>
-                </a>
-            </article>      
-        </div>
-      </section>
+            <a class="c-entry__link l-span_3-9" href="{{ entry.url }}" target="_blank">
+                <h2 class="c-entry__heading">{{ entry.content-title }}</h2>
+            </a>
+
+            <p class="c-entry__comment l-span_2">{{ entry.title }}</p>
+
+            <p class="c-entry__blurb l-span_6">{{ entry.content-copy }}</p>
+        </article>
+    </section>
     {% endfor %}
 </main>
 

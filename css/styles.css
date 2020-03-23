@@ -539,6 +539,10 @@ iframe {
     grid-template-columns: repeat(6, 90px); } }
 
 @media screen and (min-width: 1139px) {
+  .l-span_3-7 {
+    grid-column: 3/7; } }
+
+@media screen and (min-width: 1139px) {
   .l-span_3-8 {
     grid-column: 3/8; } }
 
@@ -920,28 +924,27 @@ ul li, ol li {
     .c-entry {
       margin-bottom: 50px; } }
 
-.c-entry_comment {
-  font-size: 20px;
-  line-height: 1.4; }
+.c-entry__comment {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 21px; }
   @media screen and (min-width: 1139px) {
-    .c-entry_comment {
-      margin-top: 3px;
-      padding-left: 30px; } }
-
-@media screen and (min-width: 1139px) {
-  .c-section__col--1to4 {
-    grid-column: 1/4 !important; } }
+    .c-entry__comment {
+      margin-top: 33px;
+      padding-right: 15px; } }
 
 .c-entry__blurb {
+  color: rgba(0, 0, 0, 0.5);
   display: block; }
+  @media screen and (min-width: 1139px) {
+    .c-entry__blurb {
+      margin-top: 30px; } }
 
 .c-entry__link {
   border-bottom: 0;
-  color: #858585;
   display: block; }
-  .c-entry__link:hover .c-entry__content__heading {
+  .c-entry__link:hover .c-entry__heading {
     border-color: #00D1FF;
-    border-width: 2px;
     color: #050505; }
   .c-entry__link:hover p {
     color: #050505; }
@@ -952,11 +955,10 @@ ul li, ol li {
     .c-entry__embed {
       margin: 50px 0 0 55px; } }
 
-.c-entry__content__heading {
+.c-entry__heading {
   border-bottom: 1px solid #c5c5c5;
-  display: inline;
-  max-width: 500px; }
-  .c-entry__content__heading + p {
+  display: inline; }
+  .c-entry__heading + p {
     margin-top: 15px; }
 
 .c-footer {
@@ -1066,6 +1068,7 @@ ul li, ol li {
   @media screen and (min-width: 1139px) {
     .c-nav__link {
       border: 0 none;
+      letter-spacing: -0.5px;
       line-height: 3;
       margin-bottom: 0;
       text-align: center; }
@@ -1160,7 +1163,7 @@ ul li, ol li {
   display: inline-block;
   font-size: 16px;
   line-height: 30px;
-  padding-top: 10px; }
+  padding-top: 6px; }
   .c-section__nav_link:hover {
     border-bottom-color: transparent;
     border-bottom-width: 1px;
@@ -1363,6 +1366,7 @@ ul li, ol li {
 .p-journal .c-nav__link--journal,
 .p-library .c-nav__link--library,
 .p-about .c-nav__link--about {
+  color: #050505;
   font-weight: 600; }
 
 .p-home {

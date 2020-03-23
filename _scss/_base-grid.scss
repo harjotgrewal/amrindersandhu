@@ -30,6 +30,14 @@
 }
 
 
+.l-span_3-7 {
+
+    @include media-query(hd) {
+        grid-column: 3/7;
+    }
+}
+
+
 .l-span_3-8 {
     @include media-query(hd) {
         grid-column: 3/8;
