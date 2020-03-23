@@ -89,7 +89,7 @@ figure {
 }
 
 
-iframe {
+.c-dp_analysis {
 	height: 240px;
 	width: 85vw;
 
@@ -101,4 +101,10 @@ iframe {
 
 
 
+.c-dp_prototype {
 
+	@include media-query(hd) {	
+		width: 690px;
+		height: 525px;
+	}
+}

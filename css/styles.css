@@ -515,13 +515,18 @@ main {
   figure video + .c-caption {
     margin-top: 15px; } }
 
-iframe {
+.c-dp_analysis {
   height: 240px;
   width: 85vw; }
   @media screen and (min-width: 1139px) {
-    iframe {
+    .c-dp_analysis {
       width: 690px;
       height: 480px; } }
+
+@media screen and (min-width: 1139px) {
+  .c-dp_prototype {
+    width: 690px;
+    height: 525px; } }
 
 .l-grid_of_6,
 .l-grid_of_8 {
