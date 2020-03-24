@@ -1170,32 +1170,35 @@ ul li, ol li {
     color: #01CD7D; }
 
 .c-photo {
-  -ms-flex-align: end;
-      align-items: flex-end;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
   margin-bottom: 30px;
-  overflow: hidden;
   position: relative; }
   .c-photo img {
     display: -ms-flexbox;
     display: flex; }
   .c-photo figcaption {
-    backdrop-filter: blur(20px);
-    color: rgba(255, 255, 255, 0.85);
     font-weight: 400;
-    padding: 3px 12px;
-    position: absolute;
-    text-align: center;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
-    transition: .2s -webkit-transform ease;
-    transition: .2s transform ease; }
-  .c-photo:hover figcaption {
-    -webkit-transform: translateY(-9px);
-            transform: translateY(-9px); }
+    text-align: center; }
+  @media screen and (min-width: 1139px) {
+    .c-photo {
+      -ms-flex-align: end;
+          align-items: flex-end;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      overflow: hidden; }
+      .c-photo figcaption {
+        backdrop-filter: blur(20px);
+        color: rgba(255, 255, 255, 0.85);
+        padding: 3px 12px;
+        position: absolute;
+        -webkit-transform: translateY(50px);
+                transform: translateY(50px);
+        transition: .2s -webkit-transform ease;
+        transition: .2s transform ease; }
+      .c-photo:hover figcaption {
+        -webkit-transform: translateY(-9px);
+                transform: translateY(-9px); } }
 
 .c-projects__wrap {
   display: none; }
