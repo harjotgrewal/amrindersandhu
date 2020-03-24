@@ -122,6 +122,17 @@
 }
 
 
+// MOBILE ONLY STYLES
+
+.u-mob-space_above {
+    
+
+    @include media-query(palm) {
+        margin-top: 30px;
+    }
+}
+
+
 .u-space_above--mob {
 
     @include media-query(palm) {
@@ -167,5 +178,7 @@
 
 
 .u-txt-align--right {
-    text-align: right;
+    @include media-query(hd) {
+        text-align: right;
+    }
 }

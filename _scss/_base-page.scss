@@ -102,9 +102,32 @@ figure {
 
 
 .c-dp_prototype {
+	width: 100%;
 
 	@include media-query(hd) {	
 		width: 690px;
 		height: 525px;
+	}
+}
+
+
+.c-integ_icon_prototype {
+	height: 165px;
+	width: 100%;
+
+	@include media-query(hd) {	
+		width: 690px;
+		height: 720px;
+	}
+}
+
+
+.c-integ_flow_prototype {
+	height: 240px;
+	width: 100%;
+	
+	@include media-query(hd) {	
+		width: 930px;
+		height: 1000px;
 	}
 }
