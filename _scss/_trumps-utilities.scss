@@ -59,6 +59,13 @@
 }
 
 
+.u-flex--space_between {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
 
 .u-pad_right--30 {
     padding-right: 30px;
@@ -152,8 +159,13 @@
 }
 
 
-
 .u-cols--two {
     column-count: 2;
     column-gap: 30px;
+}
+
+
+
+.u-txt-align--right {
+    text-align: right;
 }

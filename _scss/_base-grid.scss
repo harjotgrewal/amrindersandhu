@@ -4,8 +4,8 @@
 
 
 
-
-
+.l-grid_of_2,
+.l-grid_of_4,
 .l-grid_of_6,
 .l-grid_of_8 {
     display: grid;
@@ -26,6 +26,22 @@
 
     @include media-query(hd) {
         grid-template-columns: repeat(6, 90px);
+    }    
+}
+
+
+.l-grid_of_4 {
+
+    @include media-query(hd) {
+        grid-template-columns: repeat(4, 90px);
+    }    
+}
+
+
+.l-grid_of_2 {
+
+    @include media-query(hd) {
+        grid-template-columns: repeat(2, 90px);
     }    
 }
 

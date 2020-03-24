@@ -184,7 +184,7 @@ blockquote {
 
 hr {
     border-width: 1px 0 0;
-    border-color: rgba(black, .15);
+    border-color: rgba(black, .1);
     border-style: solid;
     margin: 0;
 }
@@ -265,7 +265,7 @@ ul, ol {
 .o-list--bullet {
     font-size: $as-font-size-s;
     list-style-position: outside;
-    margin: 0 0 30px 30px;
+    margin: 0 0 30px 22px;
 
     @include media-query(hd) {
         font-size: $as-font-size-m;
@@ -280,6 +280,18 @@ ul, ol {
 
 
 .o-list--bullet {
-    list-style-type: disc;
+    position: relative;
+
+    li {
+        list-style-type: none;
+    }
+
+    li:before {
+        color: rgba(black, .5);
+        content: "•";
+        padding-right: 15px;
+        vertical-align: baseline;
+        margin-left: -23px;
+    }
 }
 

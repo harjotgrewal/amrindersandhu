@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* -------------------- *\
    #TOOLS-RESPONSIVE
 \* -------------------- */
@@ -487,8 +488,8 @@ body {
   header {
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     position: fixed;
-    top: 0;
-    bottom: 0;
+    top: 3vw;
+    bottom: 3vw;
     left: 0;
     width: 20%; } }
 
@@ -528,6 +529,8 @@ main {
     width: 690px;
     height: 525px; } }
 
+.l-grid_of_2,
+.l-grid_of_4,
 .l-grid_of_6,
 .l-grid_of_8 {
   display: grid;
@@ -542,6 +545,14 @@ main {
 @media screen and (min-width: 1139px) {
   .l-grid_of_6 {
     grid-template-columns: repeat(6, 90px); } }
+
+@media screen and (min-width: 1139px) {
+  .l-grid_of_4 {
+    grid-template-columns: repeat(4, 90px); } }
+
+@media screen and (min-width: 1139px) {
+  .l-grid_of_2 {
+    grid-template-columns: repeat(2, 90px); } }
 
 @media screen and (min-width: 1139px) {
   .l-span_3-7 {
@@ -753,7 +764,7 @@ blockquote.c-caption p {
 
 hr {
   border-width: 1px 0 0;
-  border-color: rgba(0, 0, 0, 0.15);
+  border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
   margin: 0; }
 
@@ -809,7 +820,7 @@ ul li, ol li {
 .o-list--bullet {
   font-size: 16px;
   list-style-position: outside;
-  margin: 0 0 30px 30px; }
+  margin: 0 0 30px 22px; }
   @media screen and (min-width: 1139px) {
     .o-list--ordered,
     .o-list--bullet {
@@ -820,7 +831,15 @@ ul li, ol li {
   list-style-type: decimal; }
 
 .o-list--bullet {
-  list-style-type: disc; }
+  position: relative; }
+  .o-list--bullet li {
+    list-style-type: none; }
+  .o-list--bullet li:before {
+    color: rgba(0, 0, 0, 0.5);
+    content: "•";
+    padding-right: 15px;
+    vertical-align: baseline;
+    margin-left: -23px; }
 
 .c-billboard {
   -ms-flex-align: center;
@@ -964,8 +983,9 @@ ul li, ol li {
   margin: 0 30px 30px; }
   @media screen and (min-width: 1139px) {
     .c-footer {
-      bottom: 30px;
+      bottom: 3vw;
       left: 0;
+      line-height: 1;
       margin: 0;
       position: fixed;
       width: 20%;
@@ -989,7 +1009,7 @@ ul li, ol li {
       padding-top: 120px;
       position: absolute;
       text-align: center;
-      top: 60px;
+      top: 0;
       width: 90px; } }
   .c-name:after {
     background: url("/assets/i/photos/amrinder-11.jpg") no-repeat center;
@@ -1046,7 +1066,7 @@ ul li, ol li {
   z-index: 9; }
   @media screen and (min-width: 1139px) {
     .c-nav {
-      margin: 20vw auto 0;
+      margin: 10vw auto 0;
       width: 100px; } }
 
 @media screen and (max-width: 44.9375em) {
@@ -1488,6 +1508,14 @@ ul li, ol li {
       align-self: end;
   margin-bottom: 3px; }
 
+.u-flex--space_between {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: end;
+      align-items: flex-end; }
+
 .u-pad_right--30 {
   padding-right: 30px; }
 
@@ -1540,3 +1568,6 @@ ul li, ol li {
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
           column-gap: 30px; }
+
+.u-txt-align--right {
+  text-align: right; }
