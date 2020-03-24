@@ -34,22 +34,25 @@
 
 
 .c-case_study__info {
-    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 5fr 36px;
     margin: 15px 20px 9px 24px;
 
     svg {
-        height: 84px;
-        width: 84px;
-        margin-top: -6px;
+        height: 36px;
+        width: 36px;
+        margin-top: -20px;
     }
 
     @include media-query(hd) {
+        grid-template-columns: 5fr 48px;
         margin: 24px 30px 5px;
 
         svg {
-            height: 90px;
-            margin-top: 0;
-            width: 90px;
+            height: 48px;
+            margin-top: -27px;
+            width: 48px;
         }
     }
 }
