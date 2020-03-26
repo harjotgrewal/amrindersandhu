@@ -198,20 +198,8 @@ main {
     p {
         hyphens: auto;
 
-        &:last-child {
-            //margin-bottom: 30px;
-
-            @include media-query(hd) {
-            //    margin-bottom: 60px;
-            }
-        }
-
         + h3 {
             margin-top: 30px;
-
-            @include media-query(hd) {
-                margin-top: 60px;
-            }
         }
 
         .no-hypens {
@@ -229,8 +217,8 @@ main {
 figcaption,
 .c-caption {
     color: rgba(black, .5);
-    font-size: $as-font-size-s;
-    line-height: $as-line-height-s;
+    font-size: $as-font-size-xs;
+    line-height: $as-line-height-xs;
 
     a {
         color: rgba(black, .5); 
@@ -248,6 +236,11 @@ figcaption,
 
     &.is-below {
         margin-top: 15px;
+    }
+
+    @include media-query(hd) {
+        font-size: $as-font-size-s;
+        line-height: $as-line-height-s;
     }
 }
 

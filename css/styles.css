@@ -460,6 +460,7 @@ table {
  * Set up a decent box model on the root element
 */
 html {
+  background-color: #f0efef;
   box-sizing: border-box; }
 
 /**
@@ -474,7 +475,6 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-color: #f0efef;
   color: #050505;
   font: 62.5% I0nter, -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
@@ -596,6 +596,10 @@ main {
 @media screen and (min-width: 1139px) {
   .l-span_5-9 {
     grid-column: 5/-1; } }
+
+@media screen and (min-width: 1139px) {
+  .l-span_6-9 {
+    grid-column: 6/-1; } }
 
 @media screen and (min-width: 1139px) {
   .l-grid_flip_order {
@@ -824,9 +828,6 @@ main p {
           hyphens: auto; }
   main p + h3 {
     margin-top: 30px; }
-    @media screen and (min-width: 1139px) {
-      main p + h3 {
-        margin-top: 60px; } }
   main p .no-hypens {
     -webkit-hyphens: none;
        -moz-hyphens: none;
@@ -840,8 +841,8 @@ main video {
 figcaption,
 .c-caption {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 16px;
-  line-height: 24px; }
+  font-size: 14px;
+  line-height: 18px; }
   figcaption a,
   .c-caption a {
     color: rgba(0, 0, 0, 0.5); }
@@ -857,6 +858,11 @@ figcaption,
   figcaption.is-below,
   .c-caption.is-below {
     margin-top: 15px; }
+  @media screen and (min-width: 1139px) {
+    figcaption,
+    .c-caption {
+      font-size: 16px;
+      line-height: 24px; } }
 
 ul li, ol li {
   margin-bottom: 5px; }
@@ -1111,7 +1117,7 @@ ul li, ol li {
   z-index: 9; }
   @media screen and (min-width: 1139px) {
     .c-nav {
-      margin: 16vw auto 0;
+      margin: 17vw auto 0;
       width: 100px; } }
 
 @media screen and (max-width: 44.9375em) {
@@ -1481,6 +1487,10 @@ ul li, ol li {
     .c-testimonial__author small {
       margin: 15px 0 0 15px; } }
 
+@media screen and (min-width: 1139px) {
+  .th-white {
+    background-color: white; } }
+
 .p-home .c-nav__link--home,
 .p-journal .c-nav__link--journal,
 .p-library .c-nav__link--library,
@@ -1567,6 +1577,10 @@ ul li, ol li {
 .u-pad_right--30 {
   padding-right: 30px; }
 
+@media screen and (min-width: 1139px) {
+  .u-space_left--120 {
+    margin-left: 120px; } }
+
 .u-space_left {
   margin-left: 30px; }
 
@@ -1588,9 +1602,14 @@ ul li, ol li {
 .u-space_above {
   margin-top: 30px; }
 
-@media screen and (max-width: 44.9375em) {
-  .u-mob-space_above {
+@media screen and (min-width: 45em) {
+  .u-space_above--lap {
     margin-top: 30px; } }
+
+@media screen and (min-width: 1139px) {
+  .u-align_content--start {
+    -ms-flex-line-pack: start;
+        align-content: start; } }
 
 @media screen and (max-width: 44.9375em) {
   .u-space_above--mob {

@@ -2,6 +2,14 @@
 // THEME COLORS
 // -----------------------------------------------------------------------------
 
+
+
+.th-white {
+
+    @include media-query(hd) {
+        background-color: white;
+    }
+}
 // .c-nav__link--home {
 
 //     &:active {

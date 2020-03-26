@@ -6,6 +6,7 @@
  * Set up a decent box model on the root element
 */
 html {
+	background-color: $theme-bg-light-1;
     box-sizing: border-box;
 }
   
@@ -24,7 +25,6 @@ html {
 
 
 body {
-	background-color: $theme-bg-light-1;
 	color: $color-grey-darker; 
 	font: 62.5% I0nter, -apple-system, BlinkMacSystemFont, sans-serif; 
 	line-height: 1.5;

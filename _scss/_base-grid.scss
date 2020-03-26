@@ -93,6 +93,14 @@
 }
 
 
+.l-span_6-9 {
+    
+    @include media-query(hd) {
+        grid-column: 6/-1;
+    }
+}
+
+
 .l-grid_flip_order {
     
     @include media-query(hd) {
