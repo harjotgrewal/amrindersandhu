@@ -9,9 +9,14 @@
         border: none;
         box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
         display: block;
+        padding: 21px 0 0 21px;
 
         &:hover {
             box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); 
+        }
+
+        @include media-query(hd) {
+            padding: 45px 0 0 45px;
         }
     }
 
@@ -48,15 +53,9 @@
                 animation: blinkingText 3s infinite;
 
                 @include media-query(hd) {
-                    right: -45px;
-                    transform: translateY(100%);
+                    right: -15px;
+                    transform: translateY(90%);
                 }
-            }
-        }
-
-        &:hover {
-            &::after {
-                
             }
         }
     }
@@ -84,10 +83,10 @@
     align-items: center;
     display: grid;
     grid-template-columns: 5fr 36px;
-    margin: 20px 20px 0;
+    margin-right: 21px;
 
     p {
-        padding-right: 20px;
+        padding-right: 15px;
     }
 
     svg {
@@ -99,7 +98,6 @@
 
     @include media-query(hd) {
         grid-template-columns: 5fr 48px;
-        margin: 30px 30px 0;
 
         svg {
             height: 48px;
@@ -113,13 +111,46 @@
 
 
 .c-media--prj {
+    a {
+        @include media-query(hd) {
+            padding: 30px 0 0 30px;
+        }
+    }
+
     .c-media__info {
-        margin-top: 0;
-        padding-top: 30px;
 
         p {
             margin-bottom: 27px;
-            padding-right: 40px;
+            padding-right: 45px;
+        }
+
+        
+        @include media-query(hd) {
+            grid-template-columns: 5fr 36px;
+    
+            svg {
+                height: 36px;
+                margin-top: -27px;
+                width: 36px;
+            }
+        }
+    }
+
+    
+
+    &.is-coming_soon {
+        p {
+            &:after {
+                right: -30px;
+                transform: translateY(60%);
+                top: 0;
+                width: 90px;
+
+                @include media-query(hd) {
+                    right: -30px;
+                    transform: translateY(90%);
+                }
+            }
         }
     }
 }
