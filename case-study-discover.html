@@ -1,37 +1,12 @@
-<!DOCTYPE html>
-<html class="p-pr">
-    <head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<title>Project – Discover</title>
-		<meta name="robots" content="index, follow"/>
-		<meta name="title" content="Amrinder Sandhu"/>
-		<meta name="DC.title" content="Amrinder Sandhu"/>
-		<meta name="author" content="Amrinder Sandhu"/>
-		<meta name="description" content="Amrinder Singh Sandhu is a UX/UI designer from Ancaster, Canada. He designs web and mobile apps."/>
-		<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-		<link rel="manifest" href="/site.webmanifest"/>		
-		<!--link(rel="stylesheet" href="https://use.typekit.net/cjk1juq.css")-->
-		<!-- <link rel="stylesheet" href="https://use.typekit.net/njh2cfh.css"/>	   -->
+---
+layout: default
+title: Project – Discover
+page-class: p-pr
+page-heading: 
+page-description: Redesigning the most used UI component using the most sophisticated design tool – data.
+---
 
-        <!-- Custom CSS -->
-		<link rel="stylesheet" href="/css/styles.css">		
-
-    </head>
-    <body>
-          
-<header class="c-header"> <a href="/" class="c-name"> <span>Amrinder </span><span>Sandhu</span></a>
-  <nav class="c-nav">
-    <ul class="c-nav__list">
-      <li class="c-nav__item"><a href="/" class="c-nav__link c-nav__link--home">Work</a></li>
-      <li class="c-nav__item"><a href="journal.html" class="c-nav__link c-nav__link--journal">Journal</a></li>
-      <li class="c-nav__item"><a href="library.html" class="c-nav__link c-nav__link--library">Library</a></li>
-      <li class="c-nav__item"><a href="about.html" class="c-nav__link c-nav__link--about">About</a></li>
-    </ul>
-  </nav>
-</header>
+{% include header.html %}
 
 <main class="c-main">      
     <section class="u-space_below--most">
@@ -123,7 +98,8 @@
 
 
         <figure class="c-sshot--wrapped l-grid_of_8">
-            <img class="l-span_6" src="/assets/i/sshots/proj-dis-wf-key-overview.png"/>    
+            <img class="l-span_6
+            " src="/assets/i/sshots/proj-dis-wf-key-overview.png"/>    
 
             <figcaption class="l-span_2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde ratione, eveniet aut, dolores consequuntur nihil modi eaque ut adipisci quos, cum est laborum quae vel sint laboriosam quia architecto!</figcaption>
         </figure>
@@ -195,43 +171,4 @@
 
 
 
-
-<footer class="c-footer">
-  <!--ul
-  //li 
-      a(href="#") contact@amrindersandhu.com
-  
-  
-  li 
-      a(href="https://twitter.com/anaami") Twitter
-  
-  
-  li 
-      a(href="https://www.linkedin.com/in/amrindersandhu/") LinkedIn
-  
-  
-  li 
-      a(href="https://github.com/amrindersandhu") GitHub
-  
-  
-  li 
-      a(href="https://dribbble.com/amrinder") Dribbble
-  
-  
-  
-  --><small>&copy; 2008-2020 <br/>Amrinder Sandhu</small>
-</footer>         
-			
-	<script src="assets/js/functions.js"></script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4197248-4"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-4197248-4');
-	</script>
-	  
-    </body>
-</html>
+{% include footer.html %}
