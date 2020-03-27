@@ -44,7 +44,7 @@
             position: relative;
 
             &:after {
-                content: "COMING SOON";
+                content: "WORKING ON IT";
                 display: block;
                 font-size: $as-font-size-xs;
                 line-height: 1.2;
@@ -53,7 +53,7 @@
                 text-align: right;
                 transform: translateY(60%);
                 top: 0;
-                width: 90px;
+                width: 70px;
                 animation: blinkingText 3s infinite;
 
                 @include media-query(hd) {
