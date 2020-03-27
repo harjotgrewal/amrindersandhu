@@ -1582,34 +1582,6 @@ ul li, ol li {
   color: #050505;
   font-weight: 600; }
 
-.p-home {
-  background-color: #f0efef; }
-  .p-home a {
-    border-color: #161616; }
-  .p-home p,
-  .p-home strong,
-  .p-home a {
-    color: #252222; }
-  .p-home .c-name path {
-    stroke: #161616; }
-  @media screen and (max-width: 63.9375em) {
-    .p-home .c-avatar {
-      background-color: #f0efef; } }
-  .p-home h1,
-  .p-home .c-nav__link--home {
-    color: #161616; }
-  .p-home .c-billboard__title {
-    font-size: 300px; }
-    @media screen and (min-width: 1139px) {
-      .p-home .c-billboard__title {
-        font-size: 420px;
-        margin-left: -30px; } }
-  .p-home .c-billboard__blurb {
-    color: #161616; }
-    @media screen and (max-width: 63.9375em) {
-      .p-home .c-billboard__blurb {
-        margin-right: 5px; } }
-
 /* -------------------- *\
    #UTILITIES
 \* -------------------- */

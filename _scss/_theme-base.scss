@@ -85,52 +85,52 @@
 
 
 
-.p-home {
-    background-color: $theme-bg-light-1;
+// .p-home {
+//     background-color: $theme-bg-light-1;
 
-    a {
-        border-color: $theme-bg-bright-1;
-    }
+//     a {
+//         border-color: $theme-bg-bright-1;
+//     }
 
-    p,
-    strong,
-    a {
-        color: darken($theme-bg-light-1, 80);
-    }
+//     p,
+//     strong,
+//     a {
+//         color: darken($theme-bg-light-1, 80);
+//     }
 
-    .c-name path {
-        stroke: $theme-bg-bright-1;
-    }
+//     .c-name path {
+//         stroke: $theme-bg-bright-1;
+//     }
 
-    .c-avatar {
+//     .c-avatar {
         
-        @include media-query(portable) {
-            background-color: $theme-bg-light-1;
-        }
-    }
+//         @include media-query(portable) {
+//             background-color: $theme-bg-light-1;
+//         }
+//     }
 
-    h1,
-    .c-nav__link--home {
-        color: $theme-bg-bright-1;
-    }
+//     h1,
+//     .c-nav__link--home {
+//         color: $theme-bg-bright-1;
+//     }
 
-    .c-billboard__title {
-        font-size: 300px;
+//     .c-billboard__title {
+//         font-size: 300px;
 
-        @include media-query(hd) {
-            font-size: 420px;
-            margin-left: -30px;
-        }
-    }
+//         @include media-query(hd) {
+//             font-size: 420px;
+//             margin-left: -30px;
+//         }
+//     }
 
-    .c-billboard__blurb {
-        color: $theme-bg-bright-1;
+//     .c-billboard__blurb {
+//         color: $theme-bg-bright-1;
 
-        @include media-query(portable) {
-            margin-right: 5px;
-        }
-    }
-}
+//         @include media-query(portable) {
+//             margin-right: 5px;
+//         }
+//     }
+// }
 
 
 
