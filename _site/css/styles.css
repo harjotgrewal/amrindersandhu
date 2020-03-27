@@ -1433,7 +1433,7 @@ ul li, ol li {
      -moz-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
-  padding-right: 15px; }
+  padding-right: 10px; }
 
 .c-media img {
   display: -ms-flexbox;
@@ -1540,10 +1540,9 @@ ul li, ol li {
   -webkit-transform: translateY(60%);
           transform: translateY(60%);
   top: 0;
-  width: 90px; }
+  width: 70px; }
   @media screen and (min-width: 1139px) {
     .c-media--prj.is-coming_soon p:after {
-      right: -30px;
       -webkit-transform: translateY(90%);
               transform: translateY(90%); } }
 

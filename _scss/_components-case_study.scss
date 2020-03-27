@@ -22,7 +22,7 @@
 
     p {
         hyphens: none;
-        padding-right: 15px;
+        padding-right: 10px;
     }
 
     img {
@@ -155,10 +155,9 @@
                 right: -30px;
                 transform: translateY(60%);
                 top: 0;
-                width: 90px;
+                width: 70px;
 
                 @include media-query(hd) {
-                    right: -30px;
                     transform: translateY(90%);
                 }
             }
