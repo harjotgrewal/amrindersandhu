@@ -1432,8 +1432,7 @@ ul li, ol li {
   -webkit-hyphens: none;
      -moz-hyphens: none;
       -ms-hyphens: none;
-          hyphens: none;
-  padding-right: 10px; }
+          hyphens: none; }
 
 .c-media img {
   display: -ms-flexbox;
