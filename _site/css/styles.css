@@ -1440,6 +1440,9 @@ ul li, ol li {
   display: flex;
   box-shadow: none; }
 
+.c-media.is-coming_soon a {
+  cursor: progress; }
+
 .c-media.is-coming_soon svg {
   display: none; }
 
@@ -1509,6 +1512,8 @@ ul li, ol li {
   @media screen and (min-width: 1139px) {
     .c-media__info {
       grid-template-columns: 5fr 48px; }
+      .c-media__info p {
+        padding-right: 55px; }
       .c-media__info svg {
         height: 48px;
         margin-top: -27px;

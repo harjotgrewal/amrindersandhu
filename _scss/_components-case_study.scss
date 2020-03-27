@@ -31,6 +31,10 @@
     }
 
     &.is-coming_soon {
+        a {
+            cursor: progress;
+        }
+
         svg {
             display: none;
         }
@@ -99,6 +103,11 @@
     @include media-query(hd) {
         grid-template-columns: 5fr 48px;
 
+
+        p {
+            padding-right: 55px;
+        }
+
         svg {
             height: 48px;
             margin-top: -27px;
@@ -124,7 +133,7 @@
             padding-right: 45px;
         }
 
-        
+
         @include media-query(hd) {
             grid-template-columns: 5fr 36px;
     
@@ -139,6 +148,8 @@
     
 
     &.is-coming_soon {
+        
+
         p {
             &:after {
                 right: -30px;
