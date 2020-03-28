@@ -18,6 +18,7 @@
     font-weight: 600;
     line-height: 1 !important;
     margin: 60px 30px 30px 204px;
+    text-transform: uppercase;
 
     @include media-query(hd) {
         left: 50%;
