@@ -1,0 +1,77 @@
+# CASE STUDIES
+
+case-study:
+- {	
+	link: '/case-study-qas.html',
+	title: 'Saving months of extra work <br/>with transparent communication <br/>and open collaboration.',
+	page-title: 'Case Study – Quick Access Sidebar and Outliers',
+	src: '/assets/i/sshots/cs-qas-cover.png',
+	status: 'active'
+}
+
+
+- {	
+	link: '/case-study-datepicker.html',
+	title: 'Redesigning the most used <br/>UI component using the most <br/>sophisticated design tool – data.',
+	page-title: 'Case Study – DatePicker',
+	src: '/assets/i/sshots/cover-datepicker.png',
+	status: 'active'
+}
+
+
+- {	
+	link: '/case-study-branding.html',
+	title: 'Positioning Unmetric as a leader <br/>in social media analytics space<br/>and a premium brand.',
+	page-title: 'Case Study – Branding',
+	src: '/assets/i/sshots/cs-br-cover.png',
+	status: 'active'
+}
+
+
+- {	
+	class: 'is-coming_soon',
+	link: 'javascript:void(0)',
+	title: 'Designing the world’s <br/>largest branded content <br/>catalog: Discover.',
+	page-title: 'Project – Discover',
+	src: '/assets/i/sshots/cover-discover.png',
+	status: 'inactive'
+}
+
+
+
+
+
+
+# PROJECTS
+
+project:
+- {	
+	class: 'l-span_3',
+	link: '/proj-integration.html',
+	title: 'Unmetric Falcon <br/>Integration <br/>Phase 1',
+	img: '/assets/i/sshots/cover-proj-integ.png'
+}
+
+
+- {	
+	class: 'l-span_3',
+	link: '/proj-website.html',
+	title: 'Unmetric Website, <br/>Blog and Email<br/>Newsletters',
+	img: '/assets/i/sshots/cover-web.png'
+}
+
+
+- {	
+	class: 'l-span_3-6',
+	link: '/proj-unds.html',
+	title: 'Unmetric <br/>Design <br/>System',
+	img: '/assets/i/sshots/cover-unds.png'
+}
+
+
+- {	
+	class: 'l-span_3 is-coming_soon',
+	link: 'javascript:void(0)',
+	title: 'Relpost – Handpicked related posts for Web Designers (Side Project)',
+	img: '/assets/i/sshots/cover-relpost.png'
+}

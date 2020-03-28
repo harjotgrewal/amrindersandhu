@@ -5,7 +5,7 @@ journal:
 	url: 'https://youtu.be/KRVhtMxQWRs',
 	author: 'TED Educatoin',
 	content-title: 'Animation basics: The art of timing and spacing',
-	content-copy: 'Expert timing and spacing is what separates a slide show from a truly amazing animation. TED-Ed demonstrates, by manipulating various bouncing balls, how the smallest adjustments from frame to frame can make all the difference.'
+	content-copy: '<p>Expert timing and spacing is what separates a slide show from a truly amazing animation. TED-Ed demonstrates, by manipulating various bouncing balls, how the smallest adjustments from frame to frame can make all the difference.</p>'
 }
 
 
@@ -14,7 +14,7 @@ journal:
 	url: 'http://ia.net/blog/putting-thought-into-things/',
 	author: 'iA',
 	content-title: 'Putting thought into things',
-	content-copy: 'We avoid the pain of thinking like a medical examination. We’d like to believe we’re too smart to think. Thinking is stressful. While stereotypes click together sweetly, thinking comes in bitter flavors. We recur to clichés rather than reflection, because they make us wise without listening, bright without reasoning, and smart without taking the risk of being imprecise, boring, annoying, wrong. And just like McFood they’re easily bought and quickly swallowed, zero intellectual calories. Just as instinctively as we avoid listening, reflecting, and using our imagination to achieve clarity in writing, we avoid thought when we design websites.'
+	content-copy: '<p>We avoid the pain of thinking like a medical examination. We’d like to believe we’re too smart to think. Thinking is stressful. While stereotypes click together sweetly, thinking comes in bitter flavors. We recur to clichés rather than reflection, because they make us wise without listening, bright without reasoning, and smart without taking the risk of being imprecise, boring, annoying, wrong. And just like McFood they’re easily bought and quickly swallowed, zero intellectual calories. Just as instinctively as we avoid listening, reflecting, and using our imagination to achieve clarity in writing, we avoid thought when we design websites.</p>'
 }
 
 
@@ -23,7 +23,7 @@ journal:
 	url: 'http://99u.com/articles/24713/the-most-underrated-skill-for-creatives-empathy',
 	author: '99U',
 	content-title: 'The most underrated skill for creatives? Empathy.',
-	content-copy: 'If you spend time observing and talking with people who use your product or service, fantastic creative ideas start to appear. Also, features you once thought were critical become irrelevant as your audience tells you what their true emotions are behind the decisions they make. None of this happens in front of a whiteboard in the comfort of your office.'
+	content-copy: '<p>If you spend time observing and talking with people who use your product or service, fantastic creative ideas start to appear. Also, features you once thought were critical become irrelevant as your audience tells you what their true emotions are behind the decisions they make. None of this happens in front of a whiteboard in the comfort of your office.</p>'
 }
 
 
@@ -32,7 +32,7 @@ journal:
 	url: 'http://www.fastcodesign.com/3025274/move-over-product-design-ux-is-the-future',
 	author: 'Fast Co Design',
 	content-title: 'Move over Product Design, UX is the Future',
-	content-copy: 'Experience innovation will be a crucial components for companies seeking to remain relevant and retain customer loyalty. Today’s enlightened leaders are achieving success by crafting the entire customer experience–shaping, innovating, branding, and measuring it.'
+	content-copy: '<p>Experience innovation will be a crucial components for companies seeking to remain relevant and retain customer loyalty. Today’s enlightened leaders are achieving success by crafting the entire customer experience–shaping, innovating, branding, and measuring it.</p>'
 }
 
 
@@ -41,7 +41,7 @@ journal:
 	url: 'https://www.intercom.com/blog/using-job-stories-design-features-ui-ux/',
 	author: 'Intercom Blog',
 	content-title: 'Designing features using Job Stories',
-	content-copy: 'Designing successful products means observing how real people solve problems now, exploring the context of the situation they are in, and then understanding causality, anxieties and, motivations. If the team digs deep and learns about a customer’s Job To Be Done, they can then more effectively craft solutions. '
+	content-copy: '<p>Designing successful products means observing how real people solve problems now, exploring the context of the situation they are in, and then understanding causality, anxieties and, motivations. If the team digs deep and learns about a customer’s Job To Be Done, they can then more effectively craft solutions.</p>'
 }
 
 
@@ -50,7 +50,7 @@ journal:
 	url: 'https://www.intercom.com/blog/making-things-people-want/',
 	author: 'Intercom Blog',
 	content-title: 'Making things people want',
-	content-copy: 'The problems people encounter in their lives rarely change from generation to generation. The products they hire to solve these problems change all the time. A strong understanding of the outcome customers want, and how they currently get it, is essential for you to succeed in product development.'
+	content-copy: '<p>The problems people encounter in their lives rarely change from generation to generation. The products they hire to solve these problems change all the time. A strong understanding of the outcome customers want, and how they currently get it, is essential for you to succeed in product development.</p>'
 }
 
 
@@ -59,7 +59,7 @@ journal:
 	url: 'http://blog.typekit.com/2013/10/09/on-weights-styles/',
 	author: 'TypeKit Blog',
 	content-title: 'On Weights & Styles',
-	content-copy: 'When designing a full set of headlines like this, it’s a great idea to start with the smallest headline and work your way up like we did today. While you’re at it, make sure you design how bolds and italics look in a paragraph, as well as lists, blockquotes, and all the common styles that will show up in a page. We call this a “General Styles” page. You can include tables, images, captions, and even form elements. Planning ahead for the styles you might need in the future helps you build a more complete typographic system and avoid any surprises.'
+	content-copy: '<p>When designing a full set of headlines like this, it’s a great idea to start with the smallest headline and work your way up like we did today. While you’re at it, make sure you design how bolds and italics look in a paragraph, as well as lists, blockquotes, and all the common styles that will show up in a page. We call this a “General Styles” page. You can include tables, images, captions, and even form elements. Planning ahead for the styles you might need in the future helps you build a more complete typographic system and avoid any surprises.</p>'
 }
 
 
@@ -68,7 +68,7 @@ journal:
 	url: 'http://blog.typekit.com/2013/10/09/on-weights-styles/',
 	author: 'TypeKit Blog',
 	content-title: 'The forgotten side of quality',
-	content-copy: 'When designing a full set of headlines like this, it’s a great idea to start with the smallest headline and work your way up like we did today. While you’re at it, make sure you design how bolds and italics look in a paragraph, as well as lists, blockquotes, and all the common styles that will show up in a page. We call this a “General Styles” page. You can include tables, images, captions, and even form elements. Planning ahead for the styles you might need in the future helps you build a more complete typographic system and avoid any surprises.'
+	content-copy: '<ol class="o-list--ordered"><li>In a small group, brainstorm the major features of your product.</li><li>Independently for each feature write your "grade" for the quality of the feature. Answer the following questions: Do you like the feature?; Do you like using it?; and Is it a valuable part of the product? Let your answers help you grade the feature with an A, B, C, or D, or fail it with an F.</li><li>When done, discuss your grades with those in your group. Agree on a grade that best represents the group’s opinion of the quality of that feature.</li></ol>'
 }
 
 

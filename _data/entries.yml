@@ -5,7 +5,7 @@ journal:
 	title: 'The “definition of success” certainly needs a redesign. It is hugely mistaken.', 
 	url: 'https://www.ideo.com/blog/24-more-things-we-want-to-redesign',
 	content-title: '24 more things we want to redesign',
-	content-copy: 'When was the last time you were annoyed by something small? Like the mean, angry noise a chip reader makes when it’s done with your card? Or the mess a pen makes when the cap pops off in your back pocket? Or how deeply, achingly, frustratingly hard it is to tie a water balloon?'
+	content-copy: '<p>When was the last time you were annoyed by something small? Like the mean, angry noise a chip reader makes when it’s done with your card? Or the mess a pen makes when the cap pops off in your back pocket? Or how deeply, achingly, frustratingly hard it is to tie a water balloon?</p>'
 }
 
 
@@ -13,7 +13,7 @@ journal:
 	title: 'Web development is both fun and frustrating because it is always changing, and fast.', 
 	url: 'https://css-tricks.com/why-javascript-is-eating-html/',
 	content-title: 'Why JavaScript is eating HTML',
-	content-copy: 'Web development is always changing. One trend in particular has become very popular lately, and it fundamentally goes against the conventional wisdom about how a web page should be made. It is exciting for some but frustrating for others, and the reasons for both are difficult to explain.'
+	content-copy: '<p>Web development is always changing. One trend in particular has become very popular lately, and it fundamentally goes against the conventional wisdom about how a web page should be made. It is exciting for some but frustrating for others, and the reasons for both are difficult to explain.</p>'
 }
 
 
@@ -21,7 +21,7 @@ journal:
 	title: 'Code alone can’t solve every problem. It’s okay to do things that don’t scale.', 
 	url: 'https://firstround.com/review/How-design-thinking-transformed-Airbnb-from-failing-startup-to-billion-dollar-business/',
 	content-title: 'How Design Thinking transformed Airbnb from a failing startup to a billion dollar business',
-	content-copy: 'While Airbnb is data driven, they don’t let data push them around. Instead of developing reactively to metrics, the team often starts with a creative hypothesis, implements a change, reviews how it impacts the business and then repeats that process. <br/> <br/>Individual team members at Airbnb make small bets on new features, and then measure if there’s a meaningful return on the bet. If there’s a payoff, they send more pirates in that direction. This structure encourages employees to take measured, productive risks on behalf of the company that can lead to the development of major new features. It allows Airbnb to move quickly and continually find new opportunities.'
+	content-copy: '<p>While Airbnb is data driven, they don’t let data push them around. Instead of developing reactively to metrics, the team often starts with a creative hypothesis, implements a change, reviews how it impacts the business and then repeats that process. <br/> <br/>Individual team members at Airbnb make small bets on new features, and then measure if there’s a meaningful return on the bet. If there’s a payoff, they send more pirates in that direction. This structure encourages employees to take measured, productive risks on behalf of the company that can lead to the development of major new features. It allows Airbnb to move quickly and continually find new opportunities.</p>'
 }
 
 
@@ -29,7 +29,7 @@ journal:
 	title: 'Good design is understanding business and help it grow.', 
 	url: 'https://twitter.com/jmspool/status/961804803440562176?s=20',
 	content-title: 'Jared Spool @jmspool',
-	content-copy: 'There’s only 5 things execs care about: <br/> • Increasing revenues <br/> • Decreasing costs <br/> • Increasing new business/marketshare <br/> • Increasing revenue from existing customers <br/> • Increasing shareholder value <br/><br/> Design leaders know to frame their team’s efforts as helping these priorities.'
+	content-copy: '<p>There’s only 5 things execs care about: <br/> • Increasing revenues <br/> • Decreasing costs <br/> • Increasing new business/marketshare <br/> • Increasing revenue from existing customers <br/> • Increasing shareholder value <br/><br/> Design leaders know to frame their team’s efforts as helping these priorities.</p>'
 }
 
 
@@ -37,7 +37,7 @@ journal:
 	title: 'I always rely on a todo list. Now I know it has other benefits.', 
 	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
 	content-title: 'Writing to-do lists helps your brain (whether or not you finish them)',
-	content-copy: 'Keeping a list of tasks you need to perform is like taking notes when you’re reading a book or listening to a lecture. When you take notes, you need to filter external information, summarize it in your head, and then write it down. Many studies have shown that note taking helps us distill the information we hear and remember it better than we would if we’d just heard or read it.'
+	content-copy: '<p>Keeping a list of tasks you need to perform is like taking notes when you’re reading a book or listening to a lecture. When you take notes, you need to filter external information, summarize it in your head, and then write it down. Many studies have shown that note taking helps us distill the information we hear and remember it better than we would if we’d just heard or read it.</p>'
 }
 
 
@@ -45,7 +45,7 @@ journal:
 	title: 'Mindfulness also lowers levels of anxiety and depression.', 
 	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
 	content-title: 'The Japanese skill copied by the world',
-	content-copy: 'Mindfulness has become trendy around the world in recent years – but in Japan, it’s been ingrained into the culture for centuries.'
+	content-copy: '<p>Mindfulness has become trendy around the world in recent years – but in Japan, it’s been ingrained into the culture for centuries.</p>'
 }
 
 
@@ -53,7 +53,7 @@ journal:
 	title: '3 simple but effictive lessons about keeping customers at the center of what you do.', 
 	url: 'https://hbr.org/2020/01/turn-your-customers-into-your-community',
 	content-title: 'Turn your Customers into your Community',
-	content-copy: 'For many organizations, cultivating a community will mean cultivating a new capacity. This is a democratic, not autocratic, route to building customer relationships. It requires trusting instead of controlling, and commitment instead of flightiness.'
+	content-copy: '<p>For many organizations, cultivating a community will mean cultivating a new capacity. This is a democratic, not autocratic, route to building customer relationships. It requires trusting instead of controlling, and commitment instead of flightiness.</p>'
 }
 
 
@@ -61,7 +61,7 @@ journal:
 	title: 'Interesting approach for managing your commits.', 
 	url: 'https://hofmannsven.com/2019/commit-message-driven-development',
 	content-title: 'Commit Message Driven Development',
-	content-copy: 'In software development, we usually start with writing the code. But what if we’d start by writing out the commit message? Follow me through the concept of commit message driven development.'
+	content-copy: '<p>In software development, we usually start with writing the code. But what if we’d start by writing out the commit message? Follow me through the concept of commit message driven development.</p>'
 }
 
 
@@ -69,7 +69,7 @@ journal:
 	title: 'How to increase focus to solve challenging problems by minimizing distractions.',
 	url: 'https://www.smashingmagazine.com/2019/11/better-design-deep-thinking/',
 	content-title: 'Better Design With Deep Thinking',
-	content-copy: 'Task switching is a design killer. Find out why switching and interruptions are even more serious than you think and how biology makes it difficult to resist the temptation to just check your email every few minutes. Learn how to slay the distraction dragon with five practical tips for increasing focus as you tackle challenging design problems.'
+	content-copy: '<p>Task switching is a design killer. Find out why switching and interruptions are even more serious than you think and how biology makes it difficult to resist the temptation to just check your email every few minutes. Learn how to slay the distraction dragon with five practical tips for increasing focus as you tackle challenging design problems.</p>'
 }
 
 
@@ -77,7 +77,7 @@ journal:
 	title: 'Some useful tips on how to impress your new boss early on.', 
 	url: 'https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/" target="_blank',
 	content-title: 'How to impress your new boss in your first 30 days',
-	content-copy: 'Exceed expectations • Display excellent writing skills • Accept feedback willingly • Give feedback willingly • Be eager – but set expectations • Be a “manager of one” • Be empathetic • Small gestures make meaningful impact'
+	content-copy: '<p>Exceed expectations • Display excellent writing skills • Accept feedback willingly • Give feedback willingly • Be eager – but set expectations • Be a “manager of one” • Be empathetic • Small gestures make meaningful impact</p>'
 }
 
 
@@ -85,7 +85,7 @@ journal:
 	title: '7 interesting things that made Briana working at Stripe feel different.', 
 	url: 'https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/',
 	content-title: 'Brianna @zebriez',
-	content-copy: 'I recently left Stripe after 4.5 formative and magical years. Some reflections on what made working at Stripe feel different than working other places:<br>1/Turpentine<br>2/Writing<br>3/Meticulousness<br>4/Principled decision-making<br>5/Ambition<br>6/Talking up<br>7/The API metaphor'
+	content-copy: '<p>I recently left Stripe after 4.5 formative and magical years. Some reflections on what made working at Stripe feel different than working other places:<br>1/Turpentine<br>2/Writing<br>3/Meticulousness<br>4/Principled decision-making<br>5/Ambition<br>6/Talking up<br>7/The API metaphor</p>'
 }
 
 
@@ -93,7 +93,7 @@ journal:
 	title: 'Empathy isn’t about being nice but it can help increase revenue.', 
 	url: 'https://vimeo.com/343056801',
 	content-title: 'Michael Ventura: Empathy is your Best Creative Tool',
-	content-copy: 'Entrepreneur and author Michael Ventura has dedicated his career to exploring how empathy can make us better leaders, collaborators, and contributors to society. In his 99U talk, Michael explains that the practice of empathy “isn’t about being nice” — it’s about deep understanding, and learning to apply that understanding to incredibly effective ends.'
+	content-copy: '<p>Entrepreneur and author Michael Ventura has dedicated his career to exploring how empathy can make us better leaders, collaborators, and contributors to society. In his 99U talk, Michael explains that the practice of empathy “isn’t about being nice” — it’s about deep understanding, and learning to apply that understanding to incredibly effective ends.</p>'
 }
 
 
@@ -101,7 +101,7 @@ journal:
 	title: 'I’ve been working remotely for 12 years now, and these practices are must-do.', 
 	url: 'https://weworkremotely.com/10-practices-that-will-ensure-you-succeed-at-remote-work',
 	content-title: '10 Practices that will Ensure You Succeed at Remote Work',
-	content-copy: 'FYI’s co-founder, Marie Prokopets shares some new research on remote work they’ve gathered and a detailed breakdown of 10 practices to ensure remote work success.'
+	content-copy: '<p>FYI’s co-founder, Marie Prokopets shares some new research on remote work they’ve gathered and a detailed breakdown of 10 practices to ensure remote work success.</p>'
 }
 
 
@@ -109,7 +109,7 @@ journal:
 	title: 'So this is how Amazon innvotes at scale: relentlessly practising their principles.', 
 	url: 'https://chiefmartec.com/2019/07/want-innovate-like-amazon-heres-formula',
 	content-title: 'Want to innovate like Amazon? Here’s their formula',
-	content-copy: 'You can’t escape Amazon in the digital economy. Now a trillion-dollar company, they have disrupted diverse sectors from retail to software development with a deftness and drive that’s admirable and alarming. They actually seem to be speeding up their rate of innovation as they scale, defying the Law of Large Companies that causes giants to get dragged down by their own girth. How do they manage that? A week ago at the MIT Platform Strategy Summit, Dirk Didascalou, vice president of IoT at Amazon Web Services (AWS), laid out their approach to innovating at scale.'
+	content-copy: '<p>You can’t escape Amazon in the digital economy. Now a trillion-dollar company, they have disrupted diverse sectors from retail to software development with a deftness and drive that’s admirable and alarming. They actually seem to be speeding up their rate of innovation as they scale, defying the Law of Large Companies that causes giants to get dragged down by their own girth. How do they manage that? A week ago at the MIT Platform Strategy Summit, Dirk Didascalou, vice president of IoT at Amazon Web Services (AWS), laid out their approach to innovating at scale.</p>'
 }
 
 
@@ -117,7 +117,7 @@ journal:
 	title: 'Different ways to communicate product changes and how to select them.', 
 	url: 'https://community.uservoice.com/blog/how-to-communicate-product-changes-to-your-users/',
 	content-title: 'How to communicate product changes to your users',
-	content-copy: 'When it comes to communicating new features and functionality, your main objectives are driving awareness and promoting adoption. That’s why you want to convey both the why and the how. When announcing something new, it can be tempting to start the story off with capabilities. But before you tap into your inner infomercial host, remember that users don’t really care about what a product can do. They care about what a product can do for them.'
+	content-copy: '<p>When it comes to communicating new features and functionality, your main objectives are driving awareness and promoting adoption. That’s why you want to convey both the why and the how. When announcing something new, it can be tempting to start the story off with capabilities. But before you tap into your inner infomercial host, remember that users don’t really care about what a product can do. They care about what a product can do for them.</p>'
 }
 
 
@@ -125,7 +125,7 @@ journal:
 	title: 'Output is a means to an end: Outcome.', 
 	url: 'https://www.intercom.com/blog/podcasts/josh-seiden-on-why-product-teams-should-focus-on-outcome-vs-output/',
 	content-title: 'Why product teams should focus on outcomes over output',
-	content-copy: 'Deciding what your engineers should do next can be a lot like climbing a ladder. On the lowest rung is a problem to be solved. At the top is an impact on the business, a change in the bottom line. Instead of trying to jump straight from the theoretical business impact to a directive for your R&D teams, it’s essential to stop for a moment and consider: “What is the desired outcome? If we implement a new feature, how will customer behavior change in a meaningful way?”'
+	content-copy: '<p>Deciding what your engineers should do next can be a lot like climbing a ladder. On the lowest rung is a problem to be solved. At the top is an impact on the business, a change in the bottom line. Instead of trying to jump straight from the theoretical business impact to a directive for your R&D teams, it’s essential to stop for a moment and consider: “What is the desired outcome? If we implement a new feature, how will customer behavior change in a meaningful way?”</p>'
 }
 
 
@@ -133,7 +133,7 @@ journal:
 	title: 'So much goes into designing great search experience.', 
 	url: 'https://www.smashingmagazine.com/2019/06/better-search-ux-microcopy/',
 	content-title: 'Better search UX through microcopy',
-	content-copy: 'Writing a good search experience comes down to thoughtfulness. As designers, we’ve probably used and created hundreds of different web search experiences, so we breeze through the process. But when we consider every small step of the process (every microinteraction and every edge case), the minor changes we make can have a major impact on the experience. Next time you find yourself reaching for a visual solution to a search problem, consider using your words instead.'
+	content-copy: '<p>Writing a good search experience comes down to thoughtfulness. As designers, we’ve probably used and created hundreds of different web search experiences, so we breeze through the process. But when we consider every small step of the process (every microinteraction and every edge case), the minor changes we make can have a major impact on the experience. Next time you find yourself reaching for a visual solution to a search problem, consider using your words instead.</p>'
 }
 
 
@@ -141,7 +141,7 @@ journal:
 	title: 'Focus is the key, as it helps you move faster.', 
 	url: 'https://producthabits.com/my-billion-dollar-mistake/',
 	content-title: 'My billion dollar mistake',
-	content-copy: 'At my last company, KISSmetrics, I made a mistake that I truly believe lost me a billion dollar opportunity. It’s not something I’m proud of, and it’s one of the main reasons I’m now obsessed with building products the right way. I wrote the painful details of exactly what happened so you don’t have to make the same mistakes I did.'
+	content-copy: '<p>At my last company, KISSmetrics, I made a mistake that I truly believe lost me a billion dollar opportunity. It’s not something I’m proud of, and it’s one of the main reasons I’m now obsessed with building products the right way. I wrote the painful details of exactly what happened so you don’t have to make the same mistakes I did.</p>'
 }
 
 
@@ -149,7 +149,7 @@ journal:
 	title: 'Don’t give customers what they ask for. Help them become more productive.', 
 	url: 'https://itunes.apple.com/us/story/id1435835881',
 	content-title: 'Where respect is due',
-	content-copy: 'We’ve always had the utmost respect for the user. Every internal decision about look and function answers the question “What does the customer need?” and “How can we help them become more productive?” (Not “How can we give them what they are asking for?” because that isn’t the right question to answer.).'
+	content-copy: '<p>We’ve always had the utmost respect for the user. Every internal decision about look and function answers the question “What does the customer need?” and “How can we help them become more productive?” (Not “How can we give them what they are asking for?” because that isn’t the right question to answer.).</p>'
 }
 
 
@@ -157,7 +157,7 @@ journal:
 	title: 'We do design team retrospective, and they are so useful. Let’s try these.', 
 	url: 'https://www.intercom.com/blog/how-we-conduct-project-retrospectives-at-intercom/',
 	content-title: 'How we run project retrospectives at Intercom',
-	content-copy: 'One of Intercom’s core values is that we’re serious about wanting to be the very best. One of the things we can do to implement this value is to be open and honest with each other about our strengths and weaknesses, with a willingness to learn and always keeping in mind that we can do better next time.'
+	content-copy: '<p>One of Intercom’s core values is that we’re serious about wanting to be the very best. One of the things we can do to implement this value is to be open and honest with each other about our strengths and weaknesses, with a willingness to learn and always keeping in mind that we can do better next time.</p>'
 }
 
 
@@ -166,7 +166,7 @@ journal:
 	title: 'Looks like we need to fix the colors for our charts. Must get the basics right.', 
 	url: 'https://blog.datawrapper.de/colors/',
 	content-title: 'What to consider when choosing colors for data visualization',
-	content-copy: 'Consider if there is a better alternative to gradient colors when encoding your most important values. Gradient colors can be great to show a pattern, e.g. on a choropleth map, but it’s hard to decipher the actual values from them and to see differences between the values. Consider showing your most important values with bars, position (like in a dot plot) or even areas, and to use colors to only show categories. Readers will be able to decipher your values faster.'
+	content-copy: '<p>Consider if there is a better alternative to gradient colors when encoding your most important values. Gradient colors can be great to show a pattern, e.g. on a choropleth map, but it’s hard to decipher the actual values from them and to see differences between the values. Consider showing your most important values with bars, position (like in a dot plot) or even areas, and to use colors to only show categories. Readers will be able to decipher your values faster.</p>'
 }
 
 
@@ -174,7 +174,7 @@ journal:
 	title: 'I too find this hard to do sometimes but it is essential for the team’s growth.', 
 	url: 'https://knowyourteam.com/blog/2018/04/30/delegate-outcomes-not-activities/',
 	content-title: 'Delegate outcomes, not activities',
-	content-copy: 'For so many managers and leaders — especially those of us who are used to be the person doing the work and are now handing off the work to others — learning to delegate is, well, tricky, if not painful. The good news is that we are by no means alone. I recently happened upon some helpful advice from leaders who similarly have a tough time delegating in a few conversations on The Watercooler. And they were incredibly generous with their advice.', 
+	content-copy: '<p>For so many managers and leaders — especially those of us who are used to be the person doing the work and are now handing off the work to others — learning to delegate is, well, tricky, if not painful. The good news is that we are by no means alone. I recently happened upon some helpful advice from leaders who similarly have a tough time delegating in a few conversations on The Watercooler. And they were incredibly generous with their advice.</p>', 
 	date: 'Feb 17, 2019'
 }
 
@@ -183,7 +183,7 @@ journal:
 	title: 'This is a great advice for the CEOs. They should trust their teams more.', 
 	url: 'https://www.mironov.com/ceos/',
 	content-title: 'Why CEOs should not be our primary source of customer input',
-	content-copy: 'Many CEOs think they are best-informed people at their companies about what customers need/want. But product+design teams have time, focus, expertise to objectively validate ideas.', 
+	content-copy: '<p>Many CEOs think they are best-informed people at their companies about what customers need/want. But product+design teams have time, focus, expertise to objectively validate ideas.</p>', 
 	date: 'Feb 11, 2019'
 }
 
@@ -192,7 +192,7 @@ journal:
 	title: 'We have had hard time implementing OKRs. Maybe, we are going too deep.', 
 	url: 'https://www.range.co/blog/are-you-doing-okrs-right',
 	content-title: 'Are you doing OKRs right?',
-	content-copy: 'OKRs really shouldn’t go too deep. For most teams, company-level OKRs are probably fine. As the company starts to grow, it may make sense to do team level OKRs. But those teams should not be functional teams, they should be product or mission teams. Don’t create engineering OKRs, product team OKRs, and marketing team OKRs. That doesn’t make sense.', 
+	content-copy: '<p>OKRs really shouldn’t go too deep. For most teams, company-level OKRs are probably fine. As the company starts to grow, it may make sense to do team level OKRs. But those teams should not be functional teams, they should be product or mission teams. Don’t create engineering OKRs, product team OKRs, and marketing team OKRs. That doesn’t make sense.</p>', 
 	date: 'Feb 11, 2019'
 }
 
@@ -201,7 +201,7 @@ journal:
 	title: 'Don’t conflate success with shipping a lots of features.', 
 	url: 'https://medium.com/@joulee/how-to-make-things-high-quality-f466f875227d',
 	content-title: 'How to make things high-quality',
-	content-copy: 'If you don’t think a feature is worth the time it takes to make it great, then it is not rational to ship a crappier version simply because you have sunk time into it.', 
+	content-copy: '<p>If you don’t think a feature is worth the time it takes to make it great, then it is not rational to ship a crappier version simply because you have sunk time into it.</p>', 
 	date: 'Jan 11, 2019'
 }
 
@@ -210,7 +210,7 @@ journal:
 	title: 'This is why I love Basecamp. It simply gets the job done. And, this is the reason.', 
 	url: 'https://twitter.com/jasonfried/status/1027970341744898049',
 	content-title: 'Jason Fried on feature parity',
-	content-copy: 'When making something new that clearly competes with something that exists, gravity will pull you towards trying to do everything they do PLUS the new stuff you want to do. I’d encourage you steer clear of feature parity. Instead, handle common struggles in novel, unique ways.', 
+	content-copy: '<p>When making something new that clearly competes with something that exists, gravity will pull you towards trying to do everything they do PLUS the new stuff you want to do. I’d encourage you steer clear of feature parity. Instead, handle common struggles in novel, unique ways.</p>', 
 	date: 'Nov 15, 2018'
 }
 
@@ -219,7 +219,7 @@ journal:
 	title: 'This is really insightful as we are building our own UI components library.', 
 	url: 'https://www.invisionapp.com/design-system-manager/expert-advice',
 	content-title: 'Build your design system like the pros',
-	content-copy: 'Learn the secrets of product design at scale in a design systems master class taught by the most influential thinkers in the field. Over the course of this up-close six-part video series, Brad Frost, Dan Mall, and Josh Clark share expert recommendations for every step of design system implementation—from early planning of system scope and structure to ongoing operational success.', 
+	content-copy: '<p>Learn the secrets of product design at scale in a design systems master class taught by the most influential thinkers in the field. Over the course of this up-close six-part video series, Brad Frost, Dan Mall, and Josh Clark share expert recommendations for every step of design system implementation—from early planning of system scope and structure to ongoing operational success.</p>', 
 	date: 'Nov 13, 2018'
 }
 
@@ -227,7 +227,7 @@ journal:
 	title: 'Interesting “Plays”. Let’s try with the team and see if they help fill the gaps.', 
 	url: 'https://www.atlassian.com/team-playbook',
 	content-title: 'Atlassian Team Playbook – Team building activities that work',
-	content-copy: 'Step-by-step instructions for tracking your team’s health, and new ways of working ("plays") that build your Get $#!τ Done™ muscle. Use the plays on their own, or in concert with Atlassian tools. We developed the Team Playbook to transform the way we work. And it has. This ain’t your CEO’s management book. It’s by teams, for teams – any team.', 
+	content-copy: '<p>Step-by-step instructions for tracking your team’s health, and new ways of working ("plays") that build your Get $#!τ Done™ muscle. Use the plays on their own, or in concert with Atlassian tools. We developed the Team Playbook to transform the way we work. And it has. This ain’t your CEO’s management book. It’s by teams, for teams – any team.</p>', 
 	date: 'Aug 28, 2018'
 }
 
@@ -236,7 +236,7 @@ journal:
 	title: 'I admit, I’ve had a hard time explaining the difference but Ryan has nailed it.', 
 	url: 'https://twitter.com/rjs/status/1019354630038409218',
 	content-title: 'Ryan Singer on Twitter',
-	content-copy: 'The difference between UI and UX in one image. The key to understanding UX is to introduce time. Things like an increase in anxiety (wait, what?) or running out of time (this is taking too long!) happen at specific moments.', 
+	content-copy: '<p>The difference between UI and UX in one image. The key to understanding UX is to introduce time. Things like an increase in anxiety (wait, what?) or running out of time (this is taking too long!) happen at specific moments.</p>', 
 	date: 'Jul 19, 2018'
 }
 
@@ -245,7 +245,7 @@ journal:
 	title: 'Found this while working with our customer success team to reduce churn and increase retention.', 
 	url: 'https://www.intercom.com/blog/retention-cohorts-and-visualisations/',
 	content-title: 'Using cohort analysis to improve retention',
-	content-copy: 'Retention can be measured qualitatively by talking and checking in with your customers regularly so you’ll know what their main questions and issues are, and when they occur. Retention can also be quantified, giving you hard data on how much money you’re losing. Typically this is done using a cohort analysis.', 
+	content-copy: '<p>Retention can be measured qualitatively by talking and checking in with your customers regularly so you’ll know what their main questions and issues are, and when they occur. Retention can also be quantified, giving you hard data on how much money you’re losing. Typically this is done using a cohort analysis.</p>', 
 	date: 'Jul 17, 2018'
 }
 
@@ -254,7 +254,7 @@ journal:
 	title: 'User flows are vital to design great UX. It helps detect edge cases so one can address them effectively.', 
 	url: 'https://blog.overflow.io/8-tips-for-creating-better-user-flows-e46eb0d2a2c6',
 	content-title: '8 tips for creating better user flows.',
-	content-copy: 'User flows are visual representations of the path the user can follow to achieve a goal while using an app, website or any other product. Creating a representation like this, helps designers reflect on the flow themselves, communicate it with the team and stakeholders and get feedback. User flows also allow designers to compare alternatives, as well as evaluate and test them with real users before proceeding. The better designed the user flows, the easier it is for the audience to understand the story behind the designs and therefore the more constructive the feedback they will give.', 
+	content-copy: '<p>User flows are visual representations of the path the user can follow to achieve a goal while using an app, website or any other product. Creating a representation like this, helps designers reflect on the flow themselves, communicate it with the team and stakeholders and get feedback. User flows also allow designers to compare alternatives, as well as evaluate and test them with real users before proceeding. The better designed the user flows, the easier it is for the audience to understand the story behind the designs and therefore the more constructive the feedback they will give.</p>', 
 	date: 'May 22, 2018'
 }
 
@@ -263,7 +263,7 @@ journal:
 	title: 'When I review copy, I encourage brevity but not at the expense of clarity or personality.', 
 	url: 'https://www.invisionapp.com/blog/good-ux-copy/',
 	content-title: 'Good UX copy doesn’t have to be short',
-	content-copy: 'UX copy is dependent on so much outside your control. The subject of the content itself, the position of a page in the user flow, and your users’ wants and needs. We often strangle ourselves into writing short copy no matter what. Not only can this hinder sales, it chokes any life or tone out of your copy. There is such a thing as being too brief—it kills personality.', 
+	content-copy: '<p>UX copy is dependent on so much outside your control. The subject of the content itself, the position of a page in the user flow, and your users’ wants and needs. We often strangle ourselves into writing short copy no matter what. Not only can this hinder sales, it chokes any life or tone out of your copy. There is such a thing as being too brief—it kills personality.</p>', 
 	date: 'May 8, 2018'
 }
 
@@ -272,7 +272,7 @@ journal:
 	title: 'There is always room for improvement. Even in a Git commit message.', 
 	url: 'https://chris.beams.io/posts/git-commit/',
 	content-title: 'How to write a git commit message',
-	content-copy: 'If you haven’t given much thought to what makes a great Git commit message, it may be the case that you haven’t spent much time using git log and related tools. There is a vicious cycle here: because the commit history is unstructured and inconsistent, one doesn’t spend much time using or taking care of it. And because it doesn’t get used or taken care of, it remains unstructured and inconsistent.', 
+	content-copy: '<p>If you haven’t given much thought to what makes a great Git commit message, it may be the case that you haven’t spent much time using git log and related tools. There is a vicious cycle here: because the commit history is unstructured and inconsistent, one doesn’t spend much time using or taking care of it. And because it doesn’t get used or taken care of, it remains unstructured and inconsistent.</p>', 
 	date: 'Apr 26, 2018',
 	id: ''
 }

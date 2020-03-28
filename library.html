@@ -35,7 +35,7 @@ page-description: Whenever I work on something new or need to understand somethi
         <div class="l-span_6" data-aos="fade-up">
             {% for book in site.data.books.favs %}
                 {% if forloop.first %}
-                    <ul class="o-list--bullet c-books_list c-books_list--favs">{% endif %}
+                    <ul class="c-books_list c-books_list--favs">{% endif %}
                         <li class="c-books_list_item c-books_list_item--fav" aria-labelledby="{{ book.category }}">
                             <a class="c-book_link" href="{{ book.url }}" target="_blank">
                                 <img class="c-book_cover" loading="lazy" src="assets/i/books/{{ book.src }}"/>
@@ -65,7 +65,7 @@ page-description: Whenever I work on something new or need to understand somethi
 
             {% for book in site.data.books.all %}
                 {% if forloop.first %}
-                    <ul class="o-list--bullet c-books_list c-books_list--all">{% endif %}
+                    <ul class="c-books_list c-books_list--all">{% endif %}
                         <li class="c-books_list_item c-books_list_item--all" aria-labelledby="{{ book.category }}">
                             <a class="c-book_link" href="{{ book.url }}" target="_blank">
                                 <img class="c-book_cover" loading="lazy" src="assets/i/books/{{ book.src }}"/>

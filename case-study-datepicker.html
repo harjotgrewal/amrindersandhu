@@ -150,46 +150,86 @@ page-description: Redesigning the most used UI component using the most sophisti
 
     <hr class="u-space_below--most"/>
 
-    <!-- MORE -->
-    <section>
-        <h2>More Case Studies</h2>
 
 
-        <div class="c-media l-span_5-9 u-space_below">
-            <a href="/case-study-qas.html">
-                <div class="c-media__info">
-                    <p>Saving months of extra work and balanced innovation with collaboration and communication.</p>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                            <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                        </g>
-                    </svg>
-                </div>
-
-
-                <img src="/assets/i/sshots/cs-qas-cover.png" alt="QAS cover"/>
-            </a>
+    <!-- MORE CASE STUDIES -->
+    <section class="u-space_below--most">
+        <div class="l-span_4">
+            <h2 class="l-span_2">More Case Studies</h2>
         </div>
 
 
-        <div class="c-media l-span_4">
-            <a href="/case-study-branding.html">
-                <div class="c-media__info">
-                    <p>Positioning Unmetric as a leader in social media analytics space and a premium brand.</p>
+        {% for entry in site.data.work.case-study %}
+            {% if entry.status == "active" %}
+                {% if entry.page-title != "Case Study – DatePicker" %}
+                    <div class="c-media {{ entry.class }} l-span_4 u-space_below">
+                        <a href="{{ entry.link }}">
+                            <div class="c-media__info">
+                                <p>{{ entry.title }}</p>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                            <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                        </g>
-                    </svg>
-                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
+                                        <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
+                                    </g>
+                                </svg>
+                            </div>
 
-
-                <img src="/assets/i/sshots/cs-br-cover.png" alt="Branding case study cover"/>
-            </a>
-        </div>
+                            <img src="{{ entry.src }}" alt="Cover for QAS case study"/>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
     </section>
+
+
+
+
+
+    <hr class="u-space_below--most"/>
+
+
+
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="u-space_below--most">
+        <h2 class="l-span_2 u-space_above">Selected <i class="u-break_line--hd"></i>Projects</h2>
+
+
+        {% for entry in site.data.work.project %}
+            <div class="c-media c-media--prj u-space_below {{ entry.class }}">
+                <a href="{{ entry.link }}">
+                    <div class="c-media__info">
+                        <p>{{ entry.title }}</p>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
+                                <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
+                            </g>
+                        </svg>
+                    </div>
+
+
+                    <img src="{{ entry.img }}" alt="Cover for Integration project"/>
+                </a>
+            </div>
+        {% endfor %}
+    </section>
+
+
+
+    <hr class="u-space_below--most"/>
+
+
+    <section>
+        <p class="l-span_3-9">I’m available to join full-time from April, 2020. <a href="mailto:contact@amrindersandhu.com"><b>Email Me</b></a></p>
+
+    </section>
+
+    
+
 </main>
 
 
