@@ -73,7 +73,7 @@ h2 {
 h3 {
     font-size: $as-font-size-m;
     font-weight: $as-font-weight-bold;
-    line-height: $as-line-height-m;
+    line-height: 24px;
     margin-bottom: 15px;
 
     @include media-query(hd) {
