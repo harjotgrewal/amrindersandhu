@@ -1724,11 +1724,10 @@ html.p-journal {
   html.th-white {
     background-color: white; } }
 
-.p-home .c-nav__link--home,
+.p-work .c-nav__link--home,
 .p-journal .c-nav__link--journal,
 .p-library .c-nav__link--library,
 .p-about .c-nav__link--about {
-  color: #050505;
   font-weight: 600; }
 
 /* -------------------- *\
