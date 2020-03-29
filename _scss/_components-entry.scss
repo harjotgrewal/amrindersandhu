@@ -42,17 +42,6 @@
     .c-entry__link {
         border-bottom: 0;
         display: block;
-
-        &:hover {
-            .c-entry__heading {
-                border-color: $theme-bg-bright-4;
-                color: $color-text-base;
-            }
-
-            p {
-                color: $color-text-base;
-            }
-        }
     }
 
 

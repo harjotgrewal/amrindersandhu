@@ -8,13 +8,7 @@
     margin: 0 30px 30px;
     
     @include media-query(hd) {
-        bottom: 3vw;
-        left: 0;
-        line-height: 1;
-        margin: 0;
-        position: fixed;
-        width: 20%;
-        text-align: center;
+        margin: 0 0 3vw 350px;
     }
 
 

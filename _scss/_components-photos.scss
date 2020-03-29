@@ -13,9 +13,7 @@
     }
 
     figcaption {
-        
         font-weight: 400;
-        
         text-align: center;
         
     }
@@ -28,6 +26,7 @@
 
         figcaption {
             backdrop-filter: blur(20px);
+            border-radius: 6px;
             color: rgba(white, .85);
             padding: 3px 12px;
             position: absolute;

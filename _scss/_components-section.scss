@@ -145,13 +145,7 @@
     line-height: 30px;
     padding-top: 6px;
 
-    &:hover {
-        border-bottom-color: transparent;
+    &:hover {        
         border-bottom-width: 1px;
-        color: $theme-bg-bright-3;
-    }
-
-    &.is_active {
-        color: $theme-bg-bright-3;
     }
 }
