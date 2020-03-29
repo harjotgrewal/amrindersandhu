@@ -51,7 +51,7 @@
     li {
         color: $color-grey-light;
         list-style: none;
-        margin: 0 60px 60px 0 !important;
+        margin: 0 0 60px 0 !important;
         width: 100%;
 
         @include media-query(portable) { 
@@ -59,6 +59,7 @@
         }
 
         @include media-query(hd) {
+            margin-right: 60px;
             width: 100%;
         } 
     }

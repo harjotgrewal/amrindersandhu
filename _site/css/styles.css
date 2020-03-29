@@ -1317,13 +1317,14 @@ ul li, ol li {
   .c-books_list--favs li {
     color: #858585;
     list-style: none;
-    margin: 0 60px 60px 0 !important;
+    margin: 0 0 60px 0 !important;
     width: 100%; }
     @media screen and (max-width: 63.9375em) {
       .c-books_list--favs li {
         margin-right: 0; } }
     @media screen and (min-width: 1139px) {
       .c-books_list--favs li {
+        margin-right: 60px;
         width: 100%; } }
   .c-books_list--favs .c-book_link {
     display: -ms-flexbox;
