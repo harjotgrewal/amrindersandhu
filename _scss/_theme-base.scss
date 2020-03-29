@@ -11,10 +11,10 @@ $theme-color-21: #E6E9F0;
 $theme-color-22: #2860E3;
 
 $theme-color-21: #F2F1E9;
-$theme-color-22: #E38D28;
+$theme-color-22: #E3A328;
 
 $theme-color-31: #F2EAE9;
-$theme-color-32: #E32828;
+$theme-color-32: #E33328;
 
 $theme-color-41: #E6F0EE;
 $theme-color-42: #01CD7D;
@@ -28,6 +28,10 @@ $theme-color-52: #572DF5;
 
 html.p-work {
     background-color: $theme-color-11;
+
+    .c-name:after {
+        background-color: $theme-color-11; 
+    }
 
     .c-header,
     hr,
@@ -56,13 +60,7 @@ html.p-work {
     a,
     .c-nav__link:hover {
         color: $theme-color-12;
-    }
-
-    .c-photo figcaption {
-
-        @include media-query(hd) {
-            color: darken($theme-color-11, 10);
-        }
+        border-color: $theme-color-12;
     }
 }
 
@@ -73,6 +71,10 @@ html.p-work {
 html.p-cs,
 html.p-pr {
     background-color: $theme-color-51;
+
+    .c-name:after {
+        background-color: $theme-color-51; 
+    }
 
     .c-header,
     hr,
@@ -109,6 +111,10 @@ html.p-pr {
 
 html.p-about {
     background-color: $theme-color-41;
+
+    .c-name:after {
+        background-color: $theme-color-41; 
+    }
 
     .c-header,
     hr,
@@ -157,6 +163,10 @@ html.p-about {
 html.p-library {
     background-color: $theme-color-21;
 
+    .c-name:after {
+        background-color: $theme-color-21; 
+    }
+
     .c-header,
     hr,
     a {
@@ -173,7 +183,8 @@ html.p-library {
     h3, 
     p,
     li,
-    .c-footer small {
+    .c-footer small,
+    .c-nav__link--library {
         color: darken($theme-color-21, 70);
     }
 
@@ -189,10 +200,9 @@ html.p-library {
     }
 
     a,
-    .c-nav__link--library,
     .c-nav__link:hover {
-        color: darken($theme-color-41, 90);
-        border-color: $theme-color-42;
+        color: darken($theme-color-21, 90);
+        border-color: $theme-color-22;
     }
 }
 
@@ -201,6 +211,10 @@ html.p-library {
 
 html.p-journal {
     background-color: $theme-color-31;
+
+    .c-name:after {
+        background-color: $theme-color-31; 
+    }
 
     .c-header,
     hr,
@@ -214,10 +228,6 @@ html.p-journal {
     .c-entry__blurb li {
         color: darken($theme-color-31, 50);
     }
-
-    // h1 {
-    //     color: #EA3325;
-    // }
 
     .c-name,
     h3, 
@@ -241,7 +251,8 @@ html.p-journal {
 
     a,
     .c-nav__link:hover {
-        color: $theme-color-32;
+        color: darken($theme-color-31, 90);
+        border-color: $theme-color-32;
     }
 }
 

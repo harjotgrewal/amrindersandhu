@@ -1563,6 +1563,8 @@ ul li, ol li {
 
 html.p-work {
   background-color: #ECE9F2; }
+  html.p-work .c-name:after {
+    background-color: #ECE9F2; }
   html.p-work .c-header,
   html.p-work hr,
   html.p-work a {
@@ -1581,14 +1583,15 @@ html.p-work {
     color: #1f192a; }
   html.p-work a,
   html.p-work .c-nav__link:hover {
-    color: #572DF5; }
-  @media screen and (min-width: 1139px) {
-    html.p-work .c-photo figcaption {
-      color: #d0c9df; } }
+    color: #572DF5;
+    border-color: #572DF5; }
 
 html.p-cs,
 html.p-pr {
   background-color: #F0F0F1; }
+  html.p-cs .c-name:after,
+  html.p-pr .c-name:after {
+    background-color: #F0F0F1; }
   html.p-cs .c-header,
   html.p-cs hr,
   html.p-cs a,
@@ -1626,6 +1629,8 @@ html.p-pr {
 
 html.p-about {
   background-color: #E6F0EE; }
+  html.p-about .c-name:after {
+    background-color: #E6F0EE; }
   html.p-about .c-header,
   html.p-about hr,
   html.p-about a {
@@ -1653,6 +1658,8 @@ html.p-about {
 
 html.p-library {
   background-color: #F2F1E9; }
+  html.p-library .c-name:after {
+    background-color: #F2F1E9; }
   html.p-library .c-header,
   html.p-library hr,
   html.p-library a {
@@ -1665,7 +1672,8 @@ html.p-library {
   html.p-library h3,
   html.p-library p,
   html.p-library li,
-  html.p-library .c-footer small {
+  html.p-library .c-footer small,
+  html.p-library .c-nav__link--library {
     color: #4a472c; }
   html.p-library .c-section__nav_link.is_active,
   html.p-library .c-section__nav_link:hover {
@@ -1675,13 +1683,14 @@ html.p-library {
   html.p-library h4 {
     color: #2a2819; }
   html.p-library a,
-  html.p-library .c-nav__link--library,
   html.p-library .c-nav__link:hover {
-    color: #040706;
-    border-color: #01CD7D; }
+    color: #0a0a06;
+    border-color: #E3A328; }
 
 html.p-journal {
   background-color: #F2EAE9; }
+  html.p-journal .c-name:after {
+    background-color: #F2EAE9; }
   html.p-journal .c-header,
   html.p-journal hr,
   html.p-journal a {
@@ -1700,14 +1709,15 @@ html.p-journal {
   html.p-journal .c-nav__link--journal {
     color: #6a443f; }
   html.p-journal .c-entry__link:hover .c-entry__heading {
-    border-color: #E32828; }
+    border-color: #E33328; }
   html.p-journal h2,
   html.p-journal h3,
   html.p-journal h4 {
     color: #4a2f2c; }
   html.p-journal a,
   html.p-journal .c-nav__link:hover {
-    color: #E32828; }
+    color: #0a0606;
+    border-color: #E33328; }
 
 @media screen and (min-width: 1139px) {
   html.th-white {
