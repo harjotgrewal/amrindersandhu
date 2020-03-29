@@ -1571,13 +1571,13 @@ html.p-work {
   html.p-work a {
     border-color: #d0c9df; }
   html.p-work .c-nav__link,
-  html.p-work h1 {
+  html.p-work h1,
+  html.p-work .c-footer small {
     color: #65528a; }
   html.p-work .c-name,
   html.p-work h3,
   html.p-work p,
   html.p-work li,
-  html.p-work .c-footer small,
   html.p-work .c-nav__link--home {
     color: #362c4a; }
   html.p-work h2, html.p-work h3 {
@@ -1602,20 +1602,20 @@ html.p-pr {
     border-color: #d6d6d8; }
   html.p-cs .c-nav__link,
   html.p-cs h1,
+  html.p-cs .c-footer small,
   html.p-pr .c-nav__link,
-  html.p-pr h1 {
+  html.p-pr h1,
+  html.p-pr .c-footer small {
     color: #6d6d75; }
   html.p-cs .c-name,
   html.p-cs h3,
   html.p-cs p,
   html.p-cs li,
-  html.p-cs .c-footer small,
   html.p-cs .c-nav__link--home,
   html.p-pr .c-name,
   html.p-pr h3,
   html.p-pr p,
   html.p-pr li,
-  html.p-pr .c-footer small,
   html.p-pr .c-nav__link--home {
     color: #3c3c40; }
   html.p-cs h2, html.p-cs h3,
@@ -1637,12 +1637,12 @@ html.p-about {
   html.p-about a {
     border-color: #c6ddd8; }
   html.p-about .c-nav__link,
-  html.p-about h1 {
+  html.p-about h1,
+  html.p-about .c-footer small {
     color: #51867c; }
   html.p-about h3,
   html.p-about p,
   html.p-about li,
-  html.p-about .c-footer small,
   html.p-about .c-nav__link--about {
     color: #3e675e; }
   html.p-about .c-name,
@@ -1667,13 +1667,13 @@ html.p-library {
     border-color: #dfddc9; }
   html.p-library .c-nav__link,
   html.p-library h1,
+  html.p-library .c-footer small,
   html.p-library .c-book_info {
     color: #8a8452; }
   html.p-library .c-name,
   html.p-library h3,
   html.p-library p,
   html.p-library li,
-  html.p-library .c-footer small,
   html.p-library .c-nav__link--library {
     color: #4a472c; }
   html.p-library .c-section__nav_link.is_active,
@@ -1699,13 +1699,13 @@ html.p-journal {
   html.p-journal .c-nav__link,
   html.p-journal h1,
   html.p-journal .c-entry__blurb p,
+  html.p-journal .c-footer small,
   html.p-journal .c-entry__blurb li {
     color: #8a5852; }
   html.p-journal .c-name,
   html.p-journal h3,
   html.p-journal p,
   html.p-journal li,
-  html.p-journal .c-footer small,
   html.p-journal .c-book_info,
   html.p-journal .c-nav__link--journal {
     color: #6a443f; }

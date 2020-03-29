@@ -40,7 +40,8 @@ html.p-work {
     }
 
     .c-nav__link,
-    h1 {
+    h1,
+    .c-footer small {
         color: darken($theme-color-11, 50);
     }
 
@@ -48,7 +49,6 @@ html.p-work {
     h3, 
     p,
     li,
-    .c-footer small,
     .c-nav__link--home {
         color: darken($theme-color-11, 70);
     }
@@ -83,7 +83,8 @@ html.p-pr {
     }
 
     .c-nav__link,
-    h1 {
+    h1,
+    .c-footer small {
         color: darken($theme-color-51, 50);
     }
 
@@ -91,7 +92,6 @@ html.p-pr {
     h3, 
     p,
     li,
-    .c-footer small,
     .c-nav__link--home {
         color: darken($theme-color-51, 70);
     }
@@ -123,7 +123,8 @@ html.p-about {
     }
 
     .c-nav__link,
-    h1 {
+    h1,
+    .c-footer small {
         color: darken($theme-color-41, 50);
     }
 
@@ -131,7 +132,6 @@ html.p-about {
     h3, 
     p,
     li,
-    .c-footer small,
     .c-nav__link--about {
         color: darken($theme-color-41, 60);
     }
@@ -175,6 +175,7 @@ html.p-library {
 
     .c-nav__link,
     h1,
+    .c-footer small,
     .c-book_info {
         color: darken($theme-color-21, 50);
     }
@@ -183,7 +184,6 @@ html.p-library {
     h3, 
     p,
     li,
-    .c-footer small,
     .c-nav__link--library {
         color: darken($theme-color-21, 70);
     }
@@ -225,6 +225,7 @@ html.p-journal {
     .c-nav__link,
     h1,
     .c-entry__blurb p,
+    .c-footer small,
     .c-entry__blurb li {
         color: darken($theme-color-31, 50);
     }
@@ -233,7 +234,6 @@ html.p-journal {
     h3, 
     p,
     li,
-    .c-footer small,
     .c-book_info,
     .c-nav__link--journal {
         color: darken($theme-color-31, 60);
