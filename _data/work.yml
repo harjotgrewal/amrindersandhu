@@ -5,7 +5,7 @@ case-study:
 	link: '/case-study-qas.html',
 	title: 'Saving months of extra work <br/>with transparent communication <br/>and open collaboration.',
 	page-title: 'Case Study – Quick Access Sidebar and Outliers',
-	src: '/assets/i/sshots/cs-qas-cover.png',
+	src: '/assets/i/sshots/cover-qas.png',
 	status: 'active'
 }
 
