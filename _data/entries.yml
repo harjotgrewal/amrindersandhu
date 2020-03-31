@@ -1,6 +1,16 @@
 
 journal:
 
+# - {	
+# 	title: '', 
+# 	url: '',
+# 	content-title: '',
+# 	content-copy: '', 
+# 	date: ''
+# }
+
+
+
 - {	
 	title: 'The “definition of success” certainly needs a redesign. It is hugely mistaken.', 
 	url: 'https://www.ideo.com/blog/24-more-things-we-want-to-redesign',
@@ -323,614 +333,93 @@ journal:
 }
 
 
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-# - {	
-# 	title: '', 
-# 	url: '',
-# 	content-title: '',
-# 	content-copy: '', 
-# 	date: ''
-# }
-
-
-
-
-
-
-
-
-
-
+- {	
+	title: 'This is something we can use to tighten our processes around product development.', 
+	url: 'https://library.gv.com/how-google-sets-goals-okrs-a1f69b0b72c7',
+	content-title: 'How Google sets goals: OKRs',
+	content-copy: '<iframe width="650" height="365" src="https://www.youtube.com/embed/mJB83EZtAjc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', 
+	date: 'Oct 14,'
+}
+
+
+- {	
+	title: 'Sounds like an interesting approach. One more thing to try and test.', 
+	url: 'https://m.signalvnoise.com/threes-company/',
+	content-title: 'Three’s company',
+	content-copy: 'Nearly all product work is done by teams of three people. A team of three is usually composed of two programmers and one designer. And if it’s not three, it’s two or one — not four or five. We don’t throw more people at problems, we chisel problems down until they can be tackled by three people, at most.', 
+	date: 'Aug 14, 2017'
+}
+
+
+- {	
+	title: 'Three key tenants that can any company can apply to move faster.', 
+	url: 'https://hbr.org/2014/09/how-space-x-learned-to-make-faster-decisions',
+	content-title: 'How companies can learn to make faster decisions',
+	content-copy: 'The results were dramatic: The global company reduced the review cycle to just one person owning the process, which took a single month. Prior, it took three people and six months, so that’s an 18-fold, or 90% reduction, in time.', 
+	date: 'Jul 31, 2017'
+}
+
+
+- {	
+	title: 'A simple four step process to setting up interviews with cold prospects.', 
+	url: 'https://growandconvert.com/user-research/conduct-customer-interviews-even-dont-customers/',
+	content-title: 'How to conduct customer interviews (even when you don’t have customers)',
+	content-copy: 'When you’re interviewing people for marketing insights, the usual rules of small talk don’t apply. You’re looking for the struggles, pains and motivations that drive a person to look for a solution, and the words they use to describe that process will be gold in your copy. That means when you start talking to them, you have to give them space to answer. You can’t just rush them through the questions. The first time you ask them an interview question, they might give you a short one-line response.', 
+	date: 'Jul 3, 2017'
+}
+
+
+- {	
+	title: 'How understanding the reasons why people shop Basecamp help them build better product.', 
+	url: 'https://m.signalvnoise.com/the-why-before-the-why/',
+	content-title: 'The Why before the Why',
+	content-copy: 'There are usually a few events that lead to the desire — or demand — to shop. Something happens that trips the initial thought. There’s a spark. This is often when passive looking begins. You aren’t feeling the internal pressure to buy yet, but you’re starting to get curious. Then a second event happens. It could be soon after the first, or months later, but this one’s more serious. It lights a fire. You need to make progress. Now you’re actively shopping.', 
+	date: 'Jul 29, 2017'
+}
+
+
+- {	
+	title: 'A useful tool to build a common sense of the customers’ problems to drive future thinking.', 
+	url: 'https://articles.uie.com/the-power-of-experience-mapping/',
+	content-title: 'The power of experience mapping',
+	content-copy: 'In design, we map experiences. These maps take different forms. Customer journey maps show how our users progress through our design, often highlighting the frustrating moments alongside the delightful ones. Service blueprints describe how the organization interfaces with the customer, often revealing the invisible steps that happen for every action a customer takes. Empathy maps explore what our customers see, think, say, and feel, as they interact with our designs.', 
+	date: 'Apr 14, 2017'
+}
+
+
+
+- {	
+	title: 'Measure right, put right people at right places, collect feedback carefully, UX is the key, and focus on long term.', 
+	url: 'https://news.greylock.com/five-lessons-from-scaling-pinterest-6a699a889b08#.5w3l2q8q3',
+	content-title: 'Five lessons from scaling Pinterest',
+	content-copy: 'Ultimately at Pinterest, we dug in to really understand who we were, doubled-down on our value prop to users, our growth team persevered and cracked a new distribution strategy. Growth re-accelerated. Just remember that there will be days, months, or even quarters like this. Even the almighty Facebook went through this moment. But as long as you’re focused on your core strategy — and that strategy is differentiated — you can break through it with execution.', 
+	date: 'Mar 28, 2019'
+}
+
+
+- {	
+	title: 'Asking the right question helps in finding the answer easily.', 
+	url: 'https://www.inc.com/lisa-calhoun/elon-musk-on-the-1-creative-skill-every-founder-needs-now.html',
+	content-title: 'Elon Musk on the 1 creative skill every founder needs now',
+	content-copy: 'Musk says he finds inspiration in the shower, in the middle of the night, and out with friends. Pretty normal, right? It’s what he does after that which makes all the difference. You can use the same approach. Asking the right questions is a skill that can be learned, according to Warren Berger, bestselling author of A More Beautiful Question.', 
+	date: 'Mar 15, 2017'
+}
+
+
+
+- {	
+	title: 'How reducing cognitive load can help with user adoption and virality.', 
+	url: 'https://firstround.com/review/cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips/',
+	content-title: 'Cognitive overhead is your product’s overlord — topple it with these tips',
+	content-copy: 'Technology aside, at the core of Bump’s success was the simple act of touching two phones together. It was straightforward and repeatable — even executed without explanation. “Yes, it’s true that simplicity in products is not a new idea. For decades, some of the most successful products would be best described as simple,” says Lieb. “But simplicity comes in many dimensions: the number of buttons on an interface, number of features, steps in a flow or time it takes to complete a decision, and more. But the dimension that matters most is cognitive simplicity: how easy your product is to understand.”', 
+	date: 'Feb 13, 2017'
+}
+
+
+- {	
+	title: 'When it comes to user interface design, clarity is job #1.', 
+	url: 'http://bokardo.com/principles-of-user-interface-design/',
+	content-title: 'Principles of User Interface Design',
+	content-copy: 'Clarity is the first and most important job of any interface. To be effective using an interface you’ve designed, people must be able to recognize what it is, care about why they would use it, understand what the interface is helping them interact with, predict what will happen when they use it, and then successfully interact with it. While there is room for mystery and delayed gratification in interfaces, there is no room for confusion. Clarity inspires confidence and leads to further use. One hundred clear screens is preferable to a single cluttered one.', 
+	date: 'Jan 24, 2017'
+}
