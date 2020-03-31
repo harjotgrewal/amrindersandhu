@@ -49,7 +49,9 @@ project:
 	class: 'l-span_3',
 	link: '/proj-integration.html',
 	title: 'Unmetric Falcon <br/>Integration <br/>Phase 1',
-	img: '/assets/i/sshots/cover-proj-integ.png'
+	page-title: 'Project – Integration',
+	img: '/assets/i/sshots/cover-proj-integ.png',
+	status: 'active'
 }
 
 
@@ -57,24 +59,30 @@ project:
 	class: 'l-span_3',
 	link: '/proj-website.html',
 	title: 'Unmetric Website, <br/>Blog and Email<br/>Newsletters',
-	img: '/assets/i/sshots/cover-web.png'
+	page-title: 'Project – Website',
+	img: '/assets/i/sshots/cover-web.png',
+	status: 'active'
 }
 
 
 - {	
-	class: 'l-span_3-6',
+	class: 'l-span_3',
 	link: '/proj-unds.html',
 	title: 'Unmetric <br/>Design <br/>System',
-	img: '/assets/i/sshots/cover-unds.png'
+	page-title: 'Project – UNDS',
+	img: '/assets/i/sshots/cover-unds.png',
+	status: 'active'
 }
 
 
 
 # - {	
-# 	class: 'l-span_3-6 is-coming_soon',
+# 	class: 'l-span_3 is-coming_soon',
 # 	link: '/proj-unds.html',
 # 	title: 'Insights by Xia: <br/>The Data <br/>Chatbot',
-# 	img: '/assets/i/sshots/cover-unds.png'
+#   page-title: 'Project – XIA',
+# 	img: '/assets/i/sshots/cover-unds.png',
+#  	status: 'active'
 # }
 
 
@@ -82,5 +90,7 @@ project:
 	class: 'l-span_3 is-coming_soon',
 	link: 'javascript:void(0)',
 	title: 'Relpost – Handpicked related posts for Web Designers (Side Project)',
-	img: '/assets/i/sshots/cover-relpost.png'
+	page-title: 'Project – Relpost',
+	img: '/assets/i/sshots/cover-relpost.png',
+	status: 'inactive'
 }

@@ -155,6 +155,49 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
 
+    
+    <hr class="u-space_below--most"/>
+
+
+
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="u-space_below--most">
+        <div class="l-span_2">
+            <h2 class="u-space_above">More <i class="u-break_line--hd"></i>Projects</h2>
+        </div>
+
+
+        {% for entry in site.data.work.project %}
+            {% if entry.status == "active" %}
+                {% if entry.page-title != "Project – Integration" %}
+
+                    <div class="c-media c-media--prj {{ entry.class }}">
+                        <a href="{{ entry.link }}">
+                            <div class="c-media__info">
+                                <p>{{ entry.title }}</p>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
+                                        <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
+                                    </g>
+                                </svg>
+                            </div>
+
+
+                            <img src="{{ entry.img }}" alt="Cover for Integration project"/>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </section>
+
+
+
+
+
     <hr class="u-space_below--most"/>
 
 
@@ -191,40 +234,6 @@ page-description: Redesigning the most used UI component using the most sophisti
         {% endfor %}
     </section>
 
-
-
-
-
-    <hr class="u-space_below--most"/>
-
-
-
-
-
-    <!-- PROJECTS SECTION -->
-    <section class="u-space_below--most">
-        <h2 class="l-span_2 u-space_above">Selected <i class="u-break_line--hd"></i>Projects</h2>
-
-
-        {% for entry in site.data.work.project %}
-            <div class="c-media c-media--prj u-space_below {{ entry.class }}">
-                <a href="{{ entry.link }}">
-                    <div class="c-media__info">
-                        <p>{{ entry.title }}</p>
-
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                            <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                                <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                            </g>
-                        </svg>
-                    </div>
-
-
-                    <img src="{{ entry.img }}" alt="Cover for Integration project"/>
-                </a>
-            </div>
-        {% endfor %}
-    </section>
 
 
 
