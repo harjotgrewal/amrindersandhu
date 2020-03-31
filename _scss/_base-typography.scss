@@ -33,7 +33,6 @@ ul,
 table {
     font-size: $as-font-size-s;
     line-height: $as-line-height-s;
-    font-weight: 300;
 
     @include media-query(hd) {
         font-size: $as-font-size-m;

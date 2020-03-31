@@ -476,9 +476,10 @@ html {
 
 body {
   color: #050505;
-  font: 62.5% I0nter, -apple-system, BlinkMacSystemFont, sans-serif;
+  font: 62.5% -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  -webkit-font-smoothing: subpixel-antialiased; }
   @media screen and (min-width: 1139px) {
     body {
       margin: 0 auto;
@@ -699,8 +700,7 @@ p,
 ul,
 table {
   font-size: 16px;
-  line-height: 24px;
-  font-weight: 300; }
+  line-height: 24px; }
   @media screen and (min-width: 1139px) {
     body,
     p,
