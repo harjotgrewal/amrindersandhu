@@ -13,7 +13,8 @@
 
 .c-entry__comment {
     font-size: $as-font-size-s;
-    line-height: 1.7;
+    font-style: italic;
+    line-height: 1.6;
     margin-top: 21px;
 
     @include media-query(hd) {
@@ -22,10 +23,6 @@
     }
 }
 
-
-.c-entry__content {
-
-}
 
 
 .c-entry__blurb {
