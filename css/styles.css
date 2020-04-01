@@ -886,11 +886,14 @@ ul li, ol li {
   .o-list--bullet li {
     list-style-type: none; }
   .o-list--bullet li:before {
-    color: rgba(0, 0, 0, 0.5);
-    content: "•";
+    color: rgba(0, 0, 0, 0.3);
+    content: "✦";
+    font-size: 10px;
     padding-right: 15px;
     vertical-align: baseline;
-    margin-left: -23px; }
+    margin-left: -23px;
+    position: relative;
+    top: -2px; }
 
 .c-billboard {
   -ms-flex-align: center;

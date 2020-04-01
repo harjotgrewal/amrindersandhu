@@ -279,11 +279,14 @@ ul, ol {
     }
 
     li:before {
-        color: rgba(black, .5);
-        content: "•";
+        color: rgba(black, .3);
+        content: "✦";
+        font-size: 10px;
         padding-right: 15px;
         vertical-align: baseline;
         margin-left: -23px;
+        position: relative;
+        top: -2px;
     }
 }
 
