@@ -232,8 +232,8 @@ figcaption,
     }
 
     @include media-query(hd) {
-        font-size: $as-font-size-s;
-        line-height: $as-line-height-s;
+        font-size: 15px;
+        line-height: 22px;
     }
 }
 

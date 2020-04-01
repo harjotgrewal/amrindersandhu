@@ -586,6 +586,10 @@ main {
     grid-column: 3/-1; } }
 
 @media screen and (min-width: 1139px) {
+  .l-span_4-9 {
+    grid-column: 4/-1; } }
+
+@media screen and (min-width: 1139px) {
   .l-span_5-9 {
     grid-column: 5/-1; } }
 
@@ -849,8 +853,8 @@ figcaption,
   @media screen and (min-width: 1139px) {
     figcaption,
     .c-caption {
-      font-size: 16px;
-      line-height: 24px; } }
+      font-size: 15px;
+      line-height: 22px; } }
 
 ul li, ol li {
   margin-bottom: 5px; }
@@ -1611,6 +1615,9 @@ html.p-work {
   html.p-work h1,
   html.p-work .c-footer small {
     color: #65528a; }
+  html.p-work figcaption,
+  html.p-work .c-caption {
+    color: #8b79b0; }
   html.p-work .c-name,
   html.p-work h3,
   html.p-work p,
@@ -1671,17 +1678,17 @@ html.p-pr {
     color: #171c27; }
   html.p-cs a,
   html.p-pr a {
-    color: #040706;
-    border-color: #01CD7D; }
+    color: #040507;
+    border-color: #2860E3; }
   html.p-cs .c-nav__link,
   html.p-pr .c-nav__link {
-    border-color: #c6ddd8; }
+    border-color: #c6cddd; }
     html.p-cs .c-nav__link:hover,
     html.p-pr .c-nav__link:hover {
-      color: #040706; }
+      color: #040507; }
   html.p-cs .c-hire_me,
   html.p-pr .c-hire_me {
-    background-color: #d3e5e1; }
+    background-color: #d3d8e5; }
 
 html.p-about {
   background-color: #E6F0EE; }
@@ -1808,7 +1815,9 @@ html.p-testimonials {
     border-color: #c6cddd; }
   html.p-testimonials .c-nav__link,
   html.p-testimonials h1,
-  html.p-testimonials .c-footer small {
+  html.p-testimonials .c-footer small,
+  html.p-testimonials caption,
+  html.p-testimonials .c-caption {
     color: #516186; }
   html.p-testimonials .c-name,
   html.p-testimonials h3,

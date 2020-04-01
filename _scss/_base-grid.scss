@@ -86,6 +86,13 @@
 }
 
 
+.l-span_4-9 {
+    @include media-query(hd) {
+        grid-column: 4/-1;
+    }
+}
+
+
 .l-span_5-9 {
     @include media-query(hd) {
         grid-column: 5/-1;

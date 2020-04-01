@@ -43,6 +43,11 @@ html.p-work {
         color: darken($theme-color-11, 50);
     }
 
+    figcaption,
+    .c-caption {
+        color: darken($theme-color-11, 35);
+    }
+
     .c-name,
     h3, 
     p,
@@ -119,22 +124,22 @@ html.p-pr {
     }
 
     a {
-        color: darken($theme-color-41, 90);
-        border-color: $theme-color-42;
+        color: darken($theme-color-51, 90);
+        border-color: $theme-color-52;
     }
 
 
     .c-nav__link {
-        border-color: darken($theme-color-41, 10);
+        border-color: darken($theme-color-51, 10);
 
         &:hover {
-            color: darken($theme-color-41, 90);;
+            color: darken($theme-color-51, 90);;
         }
     }
 
 
     .c-hire_me {
-        background-color: darken($theme-color-41, 6);
+        background-color: darken($theme-color-51, 6);
     }
 }
 
@@ -354,7 +359,9 @@ html.p-testimonials {
 
     .c-nav__link,
     h1,
-    .c-footer small {
+    .c-footer small,
+    caption,
+    .c-caption {
         color: darken($theme-color-51, 50);
     }
 
