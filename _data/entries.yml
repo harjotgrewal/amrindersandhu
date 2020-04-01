@@ -337,7 +337,7 @@ journal:
 	title: 'This is something we can use to tighten our processes around product development.', 
 	url: 'https://library.gv.com/how-google-sets-goals-okrs-a1f69b0b72c7',
 	content-title: 'How Google sets goals: OKRs',
-	content-copy: '<iframe width="650" height="365" src="https://www.youtube.com/embed/mJB83EZtAjc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', 
+	content-copy: '<div class="c-embedded_video"><iframe width="650" height="365" src="https://www.youtube.com/embed/mJB83EZtAjc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>', 
 	date: 'Oct 14,'
 }
 
