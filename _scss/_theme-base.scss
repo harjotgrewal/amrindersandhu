@@ -7,9 +7,6 @@
 $theme-color-11: #ECE9F2;
 $theme-color-12: #572DF5;
 
-$theme-color-21: #E6E9F0;
-$theme-color-22: #2860E3;
-
 $theme-color-21: #F2F1E9;
 $theme-color-22: #E3A328;
 
@@ -19,8 +16,8 @@ $theme-color-32: #E33328;
 $theme-color-41: #E6F0EE;
 $theme-color-42: #01CD7D;
 
-$theme-color-51: #F0F0F1;
-$theme-color-52: #572DF5;
+$theme-color-51: #E6E9F0;
+$theme-color-52: #2860E3;
 
 
 
@@ -333,6 +330,67 @@ html.p-journal {
 
         h4 {
             color: $theme-color-32;
+        }
+    }
+}
+
+
+
+
+
+html.p-testimonials {
+    background-color: $theme-color-51;
+
+    .c-name:after {
+        background-color: $theme-color-51; 
+        box-shadow: 0 0 0 1px darken($theme-color-51, 10); 
+    }
+
+    .c-header,
+    hr,
+    a {
+        border-color: darken($theme-color-51, 10);
+    }
+
+    .c-nav__link,
+    h1,
+    .c-footer small {
+        color: darken($theme-color-51, 50);
+    }
+
+    .c-name,
+    h3, 
+    p,
+    li,
+    .c-nav__link--home {
+        color: darken($theme-color-51, 70);
+    }
+
+    h2, 
+    h3 {
+        color: darken($theme-color-51, 80);
+    }
+
+    a {
+        color: darken($theme-color-51, 90);
+        border-color: $theme-color-52;
+    }
+
+
+    .c-nav__link {
+        border-color: darken($theme-color-51, 10);
+
+        &:hover {
+            color: darken($theme-color-51, 90);;
+        }
+    }
+
+
+    .c-hire_me {
+        background-color: darken($theme-color-51, 6);
+
+        h4 {
+            color: $theme-color-52;
         }
     }
 }
