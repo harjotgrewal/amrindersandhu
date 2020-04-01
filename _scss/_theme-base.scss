@@ -31,6 +31,7 @@ html.p-work {
 
     .c-name:after {
         background-color: $theme-color-11; 
+        box-shadow: 0 0 0 1px darken($theme-color-11, 10); 
     }
 
     .c-header,
@@ -53,14 +54,32 @@ html.p-work {
         color: darken($theme-color-11, 70);
     }
 
-    h2, h3 {
+    h2, 
+    h3 {
         color: darken($theme-color-11, 80);
     }
 
-    a,
-    .c-nav__link:hover {
-        color: $theme-color-12;
+    a {
+        color: darken($theme-color-11, 90);
         border-color: $theme-color-12;
+    }
+
+
+    .c-nav__link {
+        border-color: darken($theme-color-11, 10);
+
+        &:hover {
+            color: darken($theme-color-11, 90);;
+        }
+    }
+
+
+    .c-hire_me {
+        background-color: darken($theme-color-11, 6);
+
+        h4 {
+            color: $theme-color-12;
+        }
     }
 }
 
@@ -74,6 +93,7 @@ html.p-pr {
 
     .c-name:after {
         background-color: $theme-color-51; 
+        box-shadow: 0 0 0 1px darken($theme-color-51, 10); 
     }
 
     .c-header,
@@ -96,13 +116,28 @@ html.p-pr {
         color: darken($theme-color-51, 70);
     }
 
-    h2, h3 {
+    h2, 
+    h3 {
         color: darken($theme-color-51, 80);
     }
 
-    a,
-    .c-nav__link:hover {
-        color: $theme-color-52;
+    a {
+        color: darken($theme-color-41, 90);
+        border-color: $theme-color-42;
+    }
+
+
+    .c-nav__link {
+        border-color: darken($theme-color-41, 10);
+
+        &:hover {
+            color: darken($theme-color-41, 90);;
+        }
+    }
+
+
+    .c-hire_me {
+        background-color: darken($theme-color-41, 6);
     }
 }
 
@@ -113,7 +148,8 @@ html.p-about {
     background-color: $theme-color-41;
 
     .c-name:after {
-        background-color: $theme-color-41; 
+        background-color: $theme-color-41;
+        box-shadow: 0 0 0 1px darken($theme-color-41, 10); 
     }
 
     .c-header,
@@ -138,14 +174,28 @@ html.p-about {
 
     .c-name,
     h2, 
-    h3 {
+    h3,
+    h4 {
         color: darken($theme-color-41, 70);
     }
 
-    a,
-    .c-nav__link:hover {
-        color: darken($theme-color-41, 90);;
+    a {
+        color: darken($theme-color-41, 90);
         border-color: $theme-color-42;
+    }
+
+
+    .c-nav__link {
+        border-color: darken($theme-color-41, 10);
+
+        &:hover {
+            color: darken($theme-color-41, 90);;
+        }
+    }
+
+
+    .c-hire_me {
+        background-color: darken($theme-color-41, 6);
     }
 
     .c-photo figcaption {
@@ -153,6 +203,10 @@ html.p-about {
         @include media-query(hd) {
             color: darken($theme-color-41, 10);
         }
+    }
+
+    .c-hire_me h4 {
+        color: $theme-color-42;
     }
 }
 
@@ -165,6 +219,7 @@ html.p-library {
 
     .c-name:after {
         background-color: $theme-color-21; 
+        box-shadow: 0 0 0 1px darken($theme-color-21, 10); 
     }
 
     .c-header,
@@ -204,6 +259,14 @@ html.p-library {
         color: darken($theme-color-21, 90);
         border-color: $theme-color-22;
     }
+
+    .c-hire_me {
+        background-color: darken($theme-color-21, 6);
+
+        h4 {
+            color: $theme-color-22;
+        }
+    }
 }
 
 
@@ -214,6 +277,7 @@ html.p-journal {
 
     .c-name:after {
         background-color: $theme-color-31; 
+        box-shadow: 0 0 0 1px darken($theme-color-31, 10); 
     }
 
     .c-header,
@@ -249,10 +313,27 @@ html.p-journal {
         color: darken($theme-color-31, 70);
     }
 
-    a,
-    .c-nav__link:hover {
+    a {
         color: darken($theme-color-31, 90);
         border-color: $theme-color-32;
+    }
+
+
+    .c-nav__link {
+        border-color: darken($theme-color-31, 10);
+
+        &:hover {
+            color: darken($theme-color-31, 90);;
+        }
+    }
+
+
+    .c-hire_me {
+        background-color: darken($theme-color-31, 6);
+
+        h4 {
+            color: $theme-color-32;
+        }
     }
 }
 
@@ -268,52 +349,6 @@ html.th-white {
 
 
 
-//
-// .c-nav__link--home {
-
-//     &:active {
-//         border-color: $theme-bg-bright-1;
-//     }
-// }
-
-
-// .c-nav__link--portfolio:hover {
-//     &:active {
-//         border-color: $theme-bg-bright-2;
-//     }
-
-//     &:hover {
-//         strong {
-//             color: $theme-bg-bright-2;
-//         }
-//     }
-// }
-
-
-// .c-nav__link--books:hover {
-//     &:active {
-//         border-color: $theme-bg-bright-3;
-//     }
-
-//     &:hover {
-//         strong {
-//             color: $theme-bg-bright-3;
-//         }
-//     }
-// }
-
-
-// .c-nav__link--journal:hover {
-//     &:active {
-//         border-color: $theme-bg-bright-4;
-//     }
-
-//     &:hover {
-//         strong {
-//             color: $theme-bg-bright-4;
-//         }
-//     }
-// }
 
 
 

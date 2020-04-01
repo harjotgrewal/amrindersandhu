@@ -135,12 +135,6 @@ a {
     border-bottom: 1px solid;
     color: $color-grey-darker;
     text-decoration: none;
-
-    @include media-query(hd) {
-        &:hover {
-            border-width: 3px;
-        }
-    }
 }
 
 

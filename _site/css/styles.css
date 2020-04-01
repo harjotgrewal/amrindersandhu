@@ -485,15 +485,6 @@ body {
       margin: 0 auto;
       max-width: 1280px; } }
 
-@media screen and (min-width: 1139px) {
-  header {
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 3vw;
-    bottom: 3vw;
-    left: 0;
-    width: 20%; } }
-
 main {
   margin: 20vw 30px 0; }
   @media screen and (min-width: 1139px) {
@@ -779,9 +770,6 @@ a {
   border-bottom: 1px solid;
   color: #050505;
   text-decoration: none; }
-  @media screen and (min-width: 1139px) {
-    a:hover {
-      border-width: 3px; } }
 
 blockquote:not(.c-caption) {
   border-left: 5px solid rgba(0, 0, 0, 0.1);
@@ -1038,6 +1026,20 @@ ul li, ol li {
     color: #858585;
     font-size: 14px; }
 
+@media screen and (min-width: 1139px) {
+  .c-header {
+    bottom: 4vw;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    left: 4vw;
+    position: fixed;
+    top: 4vw;
+    width: 210px; } }
+
 .c-name {
   border: none;
   display: inline-block;
@@ -1047,18 +1049,15 @@ ul li, ol li {
   text-transform: uppercase; }
   @media screen and (min-width: 1139px) {
     .c-name {
-      left: 50%;
-      margin: 0 0 0 -45px;
+      margin: 0 auto;
       padding-top: 120px;
-      position: absolute;
       text-align: center;
-      top: 0;
       width: 90px; } }
   .c-name:after {
     background: url("/assets/i/photos/amrinder-11.jpg") no-repeat center;
     background-color: #f0efef;
     background-size: 90px 90px;
-    border: 5px solid white;
+    border: 3px solid white;
     content: "";
     display: block;
     height: 90px;
@@ -1071,7 +1070,7 @@ ul li, ol li {
     @media screen and (min-width: 1139px) {
       .c-name:after {
         background-size: 110px 110px;
-        left: -10px;
+        left: 50px;
         height: 110px;
         width: 110px;
         top: -5px; } }
@@ -1092,7 +1091,7 @@ ul li, ol li {
     .c-avatar {
       display: block;
       position: absolute;
-      top: 35px;
+      top: 0;
       right: 30px;
       background: url("/assets/i/photos/amrinder-11.jpg") no-repeat center;
       background-color: #FAF5E4;
@@ -1105,12 +1104,28 @@ ul li, ol li {
       .c-avatar img {
         display: none; } }
 
+.c-hire_me {
+  text-align: center; }
+  @media screen and (max-width: 63.9375em) {
+    .c-hire_me {
+      margin: 45px 30px;
+      padding: 30px 30px 15px; } }
+  @media screen and (min-width: 1139px) {
+    .c-hire_me {
+      border-radius: 200px;
+      height: 210px;
+      margin: -1px;
+      padding: 35px 30px 15px;
+      width: 210px; } }
+  .c-hire_me h4 {
+    margin-bottom: 9px;
+    text-transform: uppercase; }
+  .c-hire_me p {
+    font-size: 16px;
+    line-height: 1.8; }
+
 .c-nav {
   z-index: 9; }
-  @media screen and (min-width: 1139px) {
-    .c-nav {
-      margin: 17vw auto 0;
-      width: 100px; } }
 
 @media screen and (max-width: 44.9375em) {
   .c-nav__list {
@@ -1121,20 +1136,24 @@ ul li, ol li {
             column-gap: 30px;
     margin: 15px 30px 30px; } }
 
+.c-nav__item {
+  margin-bottom: 0; }
+  @media screen and (min-width: 1139px) {
+    .c-nav__item:last-child a {
+      border: none; } }
+
 .c-nav__link {
-  border-color: rgba(0, 0, 0, 0.15);
   color: rgba(0, 0, 0, 0.75);
   display: block;
   line-height: 2.5;
   margin-bottom: 10px; }
   @media screen and (min-width: 1139px) {
     .c-nav__link {
-      border: 0 none;
+      border: none;
       line-height: 3;
       margin-bottom: 0;
-      text-align: center; }
-      .c-nav__link:hover {
-        color: black; } }
+      padding: 2px;
+      text-align: center; } }
 
 .c-section {
   display: grid;
@@ -1568,7 +1587,8 @@ ul li, ol li {
 html.p-work {
   background-color: #ECE9F2; }
   html.p-work .c-name:after {
-    background-color: #ECE9F2; }
+    background-color: #ECE9F2;
+    box-shadow: 0 0 0 1px #d0c9df; }
   html.p-work .c-header,
   html.p-work hr,
   html.p-work a {
@@ -1583,19 +1603,28 @@ html.p-work {
   html.p-work li,
   html.p-work .c-nav__link--home {
     color: #362c4a; }
-  html.p-work h2, html.p-work h3 {
+  html.p-work h2,
+  html.p-work h3 {
     color: #1f192a; }
-  html.p-work a,
-  html.p-work .c-nav__link:hover {
-    color: #572DF5;
+  html.p-work a {
+    color: #07060a;
     border-color: #572DF5; }
+  html.p-work .c-nav__link {
+    border-color: #d0c9df; }
+    html.p-work .c-nav__link:hover {
+      color: #07060a; }
+  html.p-work .c-hire_me {
+    background-color: #dbd6e7; }
+    html.p-work .c-hire_me h4 {
+      color: #572DF5; }
 
 html.p-cs,
 html.p-pr {
   background-color: #F0F0F1; }
   html.p-cs .c-name:after,
   html.p-pr .c-name:after {
-    background-color: #F0F0F1; }
+    background-color: #F0F0F1;
+    box-shadow: 0 0 0 1px #d6d6d8; }
   html.p-cs .c-header,
   html.p-cs hr,
   html.p-cs a,
@@ -1621,20 +1650,30 @@ html.p-pr {
   html.p-pr li,
   html.p-pr .c-nav__link--home {
     color: #3c3c40; }
-  html.p-cs h2, html.p-cs h3,
+  html.p-cs h2,
+  html.p-cs h3,
   html.p-pr h2,
   html.p-pr h3 {
     color: #232326; }
   html.p-cs a,
-  html.p-cs .c-nav__link:hover,
-  html.p-pr a,
-  html.p-pr .c-nav__link:hover {
-    color: #572DF5; }
+  html.p-pr a {
+    color: #040706;
+    border-color: #01CD7D; }
+  html.p-cs .c-nav__link,
+  html.p-pr .c-nav__link {
+    border-color: #c6ddd8; }
+    html.p-cs .c-nav__link:hover,
+    html.p-pr .c-nav__link:hover {
+      color: #040706; }
+  html.p-cs .c-hire_me,
+  html.p-pr .c-hire_me {
+    background-color: #d3e5e1; }
 
 html.p-about {
   background-color: #E6F0EE; }
   html.p-about .c-name:after {
-    background-color: #E6F0EE; }
+    background-color: #E6F0EE;
+    box-shadow: 0 0 0 1px #c6ddd8; }
   html.p-about .c-header,
   html.p-about hr,
   html.p-about a {
@@ -1650,20 +1689,29 @@ html.p-about {
     color: #3e675e; }
   html.p-about .c-name,
   html.p-about h2,
-  html.p-about h3 {
+  html.p-about h3,
+  html.p-about h4 {
     color: #2a4741; }
-  html.p-about a,
-  html.p-about .c-nav__link:hover {
+  html.p-about a {
     color: #040706;
     border-color: #01CD7D; }
+  html.p-about .c-nav__link {
+    border-color: #c6ddd8; }
+    html.p-about .c-nav__link:hover {
+      color: #040706; }
+  html.p-about .c-hire_me {
+    background-color: #d3e5e1; }
   @media screen and (min-width: 1139px) {
     html.p-about .c-photo figcaption {
       color: #c6ddd8; } }
+  html.p-about .c-hire_me h4 {
+    color: #01CD7D; }
 
 html.p-library {
   background-color: #F2F1E9; }
   html.p-library .c-name:after {
-    background-color: #F2F1E9; }
+    background-color: #F2F1E9;
+    box-shadow: 0 0 0 1px #dfddc9; }
   html.p-library .c-header,
   html.p-library hr,
   html.p-library a {
@@ -1690,11 +1738,16 @@ html.p-library {
   html.p-library .c-nav__link:hover {
     color: #0a0a06;
     border-color: #E3A328; }
+  html.p-library .c-hire_me {
+    background-color: #e7e5d6; }
+    html.p-library .c-hire_me h4 {
+      color: #E3A328; }
 
 html.p-journal {
   background-color: #F2EAE9; }
   html.p-journal .c-name:after {
-    background-color: #F2EAE9; }
+    background-color: #F2EAE9;
+    box-shadow: 0 0 0 1px #dfcbc9; }
   html.p-journal .c-header,
   html.p-journal hr,
   html.p-journal a {
@@ -1718,10 +1771,17 @@ html.p-journal {
   html.p-journal h3,
   html.p-journal h4 {
     color: #4a2f2c; }
-  html.p-journal a,
-  html.p-journal .c-nav__link:hover {
+  html.p-journal a {
     color: #0a0606;
     border-color: #E33328; }
+  html.p-journal .c-nav__link {
+    border-color: #dfcbc9; }
+    html.p-journal .c-nav__link:hover {
+      color: #0a0606; }
+  html.p-journal .c-hire_me {
+    background-color: #e7d8d6; }
+    html.p-journal .c-hire_me h4 {
+      color: #E33328; }
 
 @media screen and (min-width: 1139px) {
   html.th-white {

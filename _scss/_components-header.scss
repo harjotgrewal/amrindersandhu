@@ -5,10 +5,17 @@
 .c-header {
 
     @include media-query(hd) {
-        
+        bottom: 4vw;
+        //border: 1px solid rgba(black, .1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        left: 4vw;
+		position: fixed;
+		top: 4vw;
+		width: 210px;
     }
 }
-
 
 
 
@@ -21,12 +28,9 @@
     text-transform: uppercase;
 
     @include media-query(hd) {
-        left: 50%;
-        margin: 0 0 0 -45px;
+        margin: 0 auto;
         padding-top: 120px;
-        position: absolute;
         text-align: center;
-        top: 0;
         width: 90px;
     }
 
@@ -34,7 +38,7 @@
         background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
         background-color: $theme-bg-light-1;
         background-size: 90px 90px;
-        border: 5px solid white;
+        border: 3px solid white;
         content: "";
         display: block;
         height: 90px;
@@ -47,7 +51,7 @@
 
         @include media-query(hd) {
             background-size: 110px 110px;
-            left: -10px;
+            left: 50px;
             height: 110px;
             width: 110px;
             top: -5px;
@@ -79,7 +83,7 @@
     @include media-query(portable) {
         display: block;
         position: absolute;
-        top: 35px;
+        top: 0;
         right: 30px;
         background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
         background-color: $theme-bg-light-4;
@@ -93,5 +97,37 @@
         img {
             display: none;
         }
+    }
+}
+
+
+
+
+.c-hire_me {
+
+    text-align: center;
+    
+    @include media-query(portable) {
+        margin: 45px 30px;
+        padding: 30px 30px 15px;
+    }
+
+    @include media-query(hd) {
+        border-radius: 200px;
+        height: 210px;
+        margin: -1px;
+        padding: 35px 30px 15px;
+        
+        width: 210px;
+    }
+
+    h4 {
+        margin-bottom: 9px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: $as-font-size-s;
+        line-height: 1.8;
     }
 }

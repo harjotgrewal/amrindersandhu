@@ -38,17 +38,7 @@ body {
 	}
 }
 
-header {
 
-	@include media-query(hd) {
-		border-right: 1px solid rgba(black, .1);
-		position: fixed;
-		top: 3vw;
-		bottom: 3vw;
-		left: 0;
-		width: 20%;
-	}
-}
 
 
 main {
