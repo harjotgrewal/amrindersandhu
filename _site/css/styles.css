@@ -542,6 +542,7 @@ main {
 .l-grid_of_2,
 .l-grid_of_3,
 .l-grid_of_4,
+.l-grid_of_5,
 .l-grid_of_6,
 .l-grid_of_8 {
   display: grid;
@@ -552,6 +553,10 @@ main {
   @media screen and (min-width: 1139px) {
     .l-grid_of_8 {
       grid-template-columns: repeat(8, 90px); } }
+
+@media screen and (min-width: 1139px) {
+  .l-grid_of_5 {
+    grid-template-columns: repeat(5, 90px); } }
 
 @media screen and (min-width: 1139px) {
   .l-grid_of_6 {

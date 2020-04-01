@@ -7,6 +7,7 @@
 .l-grid_of_2,
 .l-grid_of_3,
 .l-grid_of_4,
+.l-grid_of_5,
 .l-grid_of_6,
 .l-grid_of_8 {
     display: grid;
@@ -22,6 +23,12 @@
     }
 }
 
+.l-grid_of_5 {
+
+    @include media-query(hd) {
+        grid-template-columns: repeat(5, 90px);
+    }    
+}
 
 .l-grid_of_6 {
 
