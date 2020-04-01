@@ -1020,7 +1020,7 @@ ul li, ol li {
   margin: 0 30px 30px; }
   @media screen and (min-width: 1139px) {
     .c-footer {
-      margin: 0 0 3vw 350px; } }
+      margin: 0 0 6vw 350px; } }
   .c-footer small,
   .c-footer a {
     color: #858585;
@@ -1105,6 +1105,7 @@ ul li, ol li {
         display: none; } }
 
 .c-hire_me {
+  background-color: rgba(0, 0, 0, 0.05);
   text-align: center; }
   @media screen and (max-width: 63.9375em) {
     .c-hire_me {
