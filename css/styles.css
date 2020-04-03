@@ -498,7 +498,8 @@ main {
         grid-template-columns: repeat(8, 90px);
         grid-column-gap: 30px;
         margin-bottom: 90px; } }
-  main img {
+  main img,
+  main video {
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05); }
 
 @media screen and (max-width: 44.9375em) {
