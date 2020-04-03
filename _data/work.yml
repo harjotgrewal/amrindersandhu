@@ -29,12 +29,11 @@ case-study:
 
 
 - {	
-	class: 'is-coming_soon',
-	link: 'javascript:void(0)',
+	link: '/case-study-discover.html',
 	title: 'Designing the world’s <br/>largest branded content <br/>catalog: Discover.',
-	page-title: 'Project – Discover',
+	page-title: 'Case Study – Discover',
 	src: '/assets/i/sshots/cover-discover.png',
-	status: 'inactive'
+	status: 'active'
 }
 
 
