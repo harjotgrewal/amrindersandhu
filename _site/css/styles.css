@@ -862,7 +862,7 @@ figcaption,
       line-height: 22px; } }
 
 ul li, ol li {
-  margin-bottom: 5px; }
+  margin-bottom: 15px; }
 
 .o-list--ordered,
 .o-list--bullet {
@@ -1918,6 +1918,9 @@ html.p-testimonials {
 
 .u-space_below {
   margin-bottom: 30px; }
+
+.u-space_below--less {
+  margin-bottom: 15px; }
 
 .u-space_below--more {
   margin-bottom: 60px; }

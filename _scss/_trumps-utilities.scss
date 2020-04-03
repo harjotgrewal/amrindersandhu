@@ -107,6 +107,15 @@
 }
 
 
+.u-space_below--less {
+    margin-bottom: 15px;
+
+    @include media-query(hd) {
+        
+    }
+}
+
+
 .u-space_below--more {
     margin-bottom: 60px;
 
