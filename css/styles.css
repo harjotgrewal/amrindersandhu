@@ -1622,7 +1622,9 @@ html.p-work {
   html.p-work .c-footer small {
     color: #65528a; }
   html.p-work figcaption,
-  html.p-work .c-caption {
+  html.p-work figcaption a,
+  html.p-work .c-caption,
+  html.p-work .c-caption a {
     color: #8b79b0; }
   html.p-work .c-name,
   html.p-work h3,
@@ -1666,6 +1668,15 @@ html.p-pr {
   html.p-pr h1,
   html.p-pr .c-footer small {
     color: #516186; }
+  html.p-cs figcaption,
+  html.p-cs figcaption a,
+  html.p-cs .c-caption,
+  html.p-cs .c-caption a,
+  html.p-pr figcaption,
+  html.p-pr figcaption a,
+  html.p-pr .c-caption,
+  html.p-pr .c-caption a {
+    color: #7687ad; }
   html.p-cs .c-name,
   html.p-cs h3,
   html.p-cs p,

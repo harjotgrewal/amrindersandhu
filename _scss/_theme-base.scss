@@ -44,7 +44,9 @@ html.p-work {
     }
 
     figcaption,
-    .c-caption {
+    figcaption a, 
+    .c-caption,
+    .c-caption a {
         color: darken($theme-color-11, 35);
     }
 
@@ -108,6 +110,13 @@ html.p-pr {
     h1,
     .c-footer small {
         color: darken($theme-color-51, 50);
+    }
+
+    figcaption,
+    figcaption a, 
+    .c-caption,
+    .c-caption a {
+        color: darken($theme-color-51, 35);
     }
 
     .c-name,
