@@ -1102,17 +1102,16 @@ ul li, ol li {
   font-weight: 600;
   line-height: 1 !important;
   margin: 60px 30px 30px 204px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  width: 90px; }
   @media screen and (max-width: 1278px) {
     .c-name {
-      margin-left: calc(50% + 15px);
-      width: 90px; } }
+      margin-left: calc(50% + 15px); } }
   @media screen and (min-width: 1279px) {
     .c-name {
       margin: 0 auto;
       padding-top: 120px;
-      text-align: center;
-      width: 90px; } }
+      text-align: center; } }
   .c-name:after {
     background: url("/assets/i/photos/amrinder-11.jpg") no-repeat center;
     background-color: #f0efef;
@@ -1144,6 +1143,9 @@ ul li, ol li {
       .c-name span {
         font-size: 18px;
         letter-spacing: -0.5px; } }
+  .c-name svg {
+    width: 120px;
+    margin-left: -20px; }
 
 .c-hire_me {
   background-color: rgba(0, 0, 0, 0.05);
