@@ -1317,9 +1317,10 @@ ul li, ol li {
       overflow: hidden; }
       .c-photo figcaption {
         backdrop-filter: blur(20px);
+        background-color: rgba(0, 0, 0, 0.3);
         border-radius: 6px;
         color: rgba(255, 255, 255, 0.85);
-        padding: 3px 12px;
+        padding: 3px 12px 4px;
         position: absolute;
         -webkit-transform: translateY(50px);
                 transform: translateY(50px);

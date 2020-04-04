@@ -25,9 +25,10 @@
 
         figcaption {
             backdrop-filter: blur(20px);
+            background-color: rgba(black, .3);
             border-radius: 6px;
             color: rgba(white, .85);
-            padding: 3px 12px;
+            padding: 3px 12px 4px;
             position: absolute;
             transform: translateY(50px);
             transition: .2s transform ease;
