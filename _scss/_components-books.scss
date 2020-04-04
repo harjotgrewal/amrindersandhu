@@ -3,26 +3,31 @@
 // -----------------------------------------------------------------------------
 
 
+
+
 .c-books_list {
     align-items: baseline;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    align-content: space-between;
+    justify-content: space-between;
 
     li {
         color: $color-grey-light;
         list-style: none;
-        margin: auto 30px 210px 0;
-        width: 140px;
+        margin: auto 0 210px;
 
-        @include media-query(portable) { 
+        @include media-query(portable) {
+            width: 170px;
+
+            // &:nth-child(3n+0) {
+            //     margin-right: 0;
+            // }
+        } 
+
+        @include media-query(palm) { 
+            width: 140px;
             margin-bottom: 150px;
-            margin-right: 30px;
-
-            &:nth-child(2n+0) {
-                margin-right: 0;
-            }
 
             &:last-child {
                 margin-bottom: 90px;
@@ -32,10 +37,24 @@
         @include media-query(hd) {
             width: 190px;
 
-            &:nth-child(3n+0) {
-                margin-right: 0;
-            }
+            // &:nth-child(3n+0) {
+            //     margin-right: 0;
+            // }
         } 
+    }
+
+    a {
+        border-color: $theme-bg-bright-3;
+        color: $color-grey-darker;
+        font-weight: 500;
+
+        &:hover {
+            border-width: 3px;
+        }
+    }
+
+    em {
+        color: $color-grey-dark;
     }
 }
 
@@ -80,7 +99,7 @@
         height: auto;
         width: 120px;
     
-        @include media-query(hd) {
+        @include media-query(lap-and-up) {
             margin-right: 30px;
             width: 210px;
         }
@@ -89,10 +108,6 @@
     .c-book_meta {
         position: relative;
         width: auto;
-    
-        @include media-query(hd) {
-            width: auto;
-        }
     }
 
 
@@ -127,33 +142,21 @@
 .c-book_link {
     border: none;
     display: block;
-    //width: 120px;
-
-    @include media-query(hd) {
-        //width: 150px;
-    }
 }
 
 
 .c-book_cover {
     margin-bottom: 15px;
     width: 150px;
-
-    @include media-query(hd) {
-        width: 150px;
-    }
 }
 
 
 .c-book_meta {
+    align-self: center;
     position: absolute;
-    width: 120px;
-
-    @include media-query(hd) {
-        align-self: center;
-        width: 150px;
-    }
+    width: 150px;
 }
+
 
 .c-book_title {
     font-size: $as-font-size-xs;

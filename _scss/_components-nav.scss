@@ -11,12 +11,15 @@
 
 .c-nav__list {
 
-    @include media-query(palm) {
+    
+
+    @include media-query(portable) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
-        margin: 15px 30px 30px;
     }
+
+    
 }
 
 

@@ -248,7 +248,7 @@
     padding: 30px;
     margin: 0 -30px 45px;
 
-    @include media-query(palm) {
+    @include media-query(portable) {
         img,
         video {
             

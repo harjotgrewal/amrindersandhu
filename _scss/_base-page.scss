@@ -26,11 +26,11 @@ html {
 
 body {
 	color: $color-grey-darker; 
-	font: 62.5% -apple-system, BlinkMacSystemFont, sans-serif; 
+	font: 62.5% '0GT Walsheim Pro', -apple-system, BlinkMacSystemFont, sans-serif; 
 	//font-weight: 300;
 	line-height: 1.5;
 	overflow-x: hidden;
-	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
 
 	@include media-query(hd) {
 		margin: 0 auto;
@@ -42,7 +42,13 @@ body {
 
 
 main {
-	margin: 20vw 30px 0;
+	@include media-query(portable) {
+		margin: 20vw auto 2vw;
+	}
+
+	@include media-query(palm) {
+		margin: 20vw 30px 0;
+	}
 
 	@include media-query(hd) {
 		margin: 20vw 0 0 350px;
@@ -67,9 +73,20 @@ main {
 
 
 
+header,
+main,
+.c-footer {
+
+	@include media-query(portable) {
+		max-width: 570px;
+	}
+}
+
+
+
 figure {
 
-	@include media-query(palm) {
+	@include media-query(portable) {
         img,
         video {
             

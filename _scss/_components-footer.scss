@@ -5,7 +5,16 @@
 
 
 .c-footer {
-    margin: 0 30px 30px;
+
+    @include media-query(portable) {
+        max-width: 570px;
+        margin: 0 auto 60px;
+    }
+    
+    @include media-query(palm) {
+        margin-left: 30px;
+        margin-right: 30px;
+	}
     
     @include media-query(hd) {
         margin: 0 0 6vw 350px;

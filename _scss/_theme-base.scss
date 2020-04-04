@@ -175,6 +175,13 @@ html.p-about {
         color: darken($theme-color-41, 50);
     }
 
+    figcaption,
+    figcaption a, 
+    .c-caption,
+    .c-caption a {
+        color: darken($theme-color-41, 35);
+    }
+
     
     h3, 
     p,
@@ -246,6 +253,13 @@ html.p-library {
         color: darken($theme-color-21, 50);
     }
 
+    figcaption,
+    figcaption a, 
+    .c-caption,
+    .c-caption a {
+        color: darken($theme-color-21, 35);
+    }
+
     .c-name,
     h3, 
     p,
@@ -303,6 +317,13 @@ html.p-journal {
     .c-footer small,
     .c-entry__blurb li {
         color: darken($theme-color-31, 50);
+    }
+
+    figcaption,
+    figcaption a, 
+    .c-caption,
+    .c-caption a {
+        color: darken($theme-color-31, 35);
     }
 
     .c-name,
@@ -372,6 +393,13 @@ html.p-testimonials {
     caption,
     .c-caption {
         color: darken($theme-color-51, 50);
+    }
+
+    figcaption,
+    figcaption a, 
+    .c-caption,
+    .c-caption a {
+        color: darken($theme-color-51, 35);
     }
 
     .c-name,

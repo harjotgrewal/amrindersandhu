@@ -3,10 +3,18 @@
 // -----------------------------------------------------------------------------
 
 .c-header {
+    position: relative;
+
+    @include media-query(portable) {
+		margin: 0 auto;
+    }
+    
+    @include media-query(palm) {
+        margin: 15px 30px 30px;
+    }
 
     @include media-query(hd) {
         bottom: 4vw;
-        //border: 1px solid rgba(black, .1);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -27,6 +35,11 @@
     margin: 60px 30px 30px 204px;
     text-transform: uppercase;
 
+    @include media-query(portable) {
+        margin-left: calc(50% + 15px);
+        width: 90px;
+    }
+
     @include media-query(hd) {
         margin: 0 auto;
         padding-top: 120px;
@@ -44,7 +57,7 @@
         height: 90px;
         position: absolute;
         top: 30px;
-        left: 30px;
+        left: 0;
         width: 90px;
         border-radius: 110px;
         background-blend-mode: luminosity;
@@ -105,11 +118,12 @@
 
 .c-hire_me {
     background-color: rgba(black, .05);
+    margin: 45px 0;
+    padding: 30px 30px 15px;
     text-align: center;
     
     @include media-query(portable) {
-        margin: 45px 30px;
-        padding: 30px 30px 15px;
+        
     }
 
     @include media-query(hd) {
