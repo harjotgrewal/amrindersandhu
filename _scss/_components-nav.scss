@@ -7,19 +7,19 @@
 }
 
 
-
-
 .c-nav__list {
 
-    
-
     @include media-query(portable) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 30px;
+    }
+
+    @include media-query(palm) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
     }
-
-    
 }
 
 
@@ -32,9 +32,6 @@
         }
     }
 }
-
-
-
 
 
 .c-nav__link {
