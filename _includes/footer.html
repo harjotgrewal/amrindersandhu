@@ -24,3 +24,17 @@
   
   --><small class="l-span_3-9">&copy; 2008-2020 Amrinder Sandhu</small>
 </footer>
+<script>
+  // LAZY LOADING IMAGES
+  if(!!window.IntersectionObserver){
+      let observer = new IntersectionObserver((entries, observer) => { 
+          entries.forEach(entry => {
+          if(entry.isIntersecting){        
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+          }
+          });
+      }, {rootMargin: "0px 0px 100px 0px"});
+      document.querySelectorAll('img').forEach(img => { observer.observe(img) });
+  }
+</script>

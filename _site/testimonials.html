@@ -78,7 +78,7 @@
         </div>
 
         <div class="l-span_2 l-grid_flip_order c-testimonial__author">
-            <img src="/assets/i/photos/lux.jpg"/>
+            <img data-src="/assets/i/photos/lux.jpg"/>
 
             <small><b>Lux Narayan</b> <br/> CEO & Co-Founder,<br/> Unmetric</small>
         </div>
@@ -102,7 +102,7 @@
         </div>
 
         <div class="l-span_2 l-grid_flip_order c-testimonial__author">
-            <img src="/assets/i/photos/kumar.jpeg"/>
+            <img data-src="/assets/i/photos/kumar.jpeg"/>
 
             <small><b>Kumar Krishnasami</b> <br/> Head of Product and <br/> Co-Founder, Unmetric</small>
         </div>
@@ -124,7 +124,7 @@
         </div>
 
         <div class="l-span_2 l-grid_flip_order c-testimonial__author">
-            <img src="/assets/i/photos/sikandar.jpeg"/>
+            <img data-src="/assets/i/photos/sikandar.jpeg"/>
 
             <small><b>Sikandar Syed</b> <br/> Director - Customer Success and Operations, Unmetric</small>
         </div>
@@ -148,7 +148,7 @@
         </div>
 
         <div class="l-span_2 l-grid_flip_order c-testimonial__author">
-            <img src="/assets/i/photos/vikram.jpeg"/>
+            <img data-src="/assets/i/photos/vikram.jpeg"/>
 
             <small><b>Vikram Ravi Ramanathan</b> <br/> Head of Customer Success &amp;  <br/> Research, Unmetric</small>
         </div>
@@ -170,7 +170,7 @@
         </div>
 
         <div class="l-span_2 l-grid_flip_order c-testimonial__author">
-            <img src="/assets/i/photos/peter.jpeg"/>
+            <img data-src="/assets/i/photos/peter.jpeg"/>
 
             <small><b>Peter Claridge</b> <br/> B2B SaaS Marketer</small>
 
@@ -267,7 +267,21 @@
   
   
   --><small class="l-span_3-9">&copy; 2008-2020 Amrinder Sandhu</small>
-</footer>         
+</footer>
+<script>
+  // LAZY LOADING IMAGES
+  if(!!window.IntersectionObserver){
+      let observer = new IntersectionObserver((entries, observer) => { 
+          entries.forEach(entry => {
+          if(entry.isIntersecting){        
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+          }
+          });
+      }, {rootMargin: "0px 0px 100px 0px"});
+      document.querySelectorAll('img').forEach(img => { observer.observe(img) });
+  }
+</script>         
 			
 	<script src="assets/js/functions.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->

@@ -211,7 +211,7 @@
 
         <div class="l-span_5-9">
             <figure class="c-photo">
-                <img src="/assets/i/photos/with-family.jpg" alt="with my family">
+                <img data-src="/assets/i/photos/with-family.jpg" alt="with my family">
 
                 <figcaption>With my family</figcaption>
             </figure>
@@ -220,38 +220,38 @@
 
         <div class="l-span_4">
             <figure class="c-photo">
-                <img src="/assets/i/photos/orchids.jpg" alt="orchids at home">
+                <img data-src="/assets/i/photos/orchids.jpg" alt="orchids at home">
 
                 <figcaption>Orchids at home</figcaption>
             </figure class="c-photo">
 
             <figure class="c-photo">
-                <img src="/assets/i/photos/gradient.jpg" alt="sunset from a plane">
+                <img data-src="/assets/i/photos/gradient.jpg" alt="sunset from a plane">
 
                 <figcaption>Sunset from a plane</figcaption>
             </figure>
 
 
             <figure class="c-photo">
-                <img src="/assets/i/photos/plate.jpg" alt="plate back">
+                <img data-src="/assets/i/photos/plate.jpg" alt="plate back">
 
                 <figcaption>Back of a plate</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img src="/assets/i/photos/bench.jpg" alt="bench in sunset">
+                <img data-src="/assets/i/photos/bench.jpg" alt="bench in sunset">
 
                 <figcaption>Sunset at the Leamington beach</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img src="/assets/i/photos/leaf.jpg" alt="fall maple leaf">
+                <img data-src="/assets/i/photos/leaf.jpg" alt="fall maple leaf">
 
                 <figcaption>Fall leaf saying goodbye</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img src="/assets/i/photos/home.jpg" alt="our home">
+                <img data-src="/assets/i/photos/home.jpg" alt="our home">
 
                 <figcaption>Home sweet home</figcaption>
             </figure>
@@ -262,29 +262,29 @@
 
         <div class="l-span_4">
             <figure class="c-photo">
-                <img src="/assets/i/photos/leaves.jpg" alt="fall colors in the front yard">
+                <img data-src="/assets/i/photos/leaves.jpg" alt="fall colors in the front yard">
                 <figcaption>Fall colors in my frontyard</figcaption>
             </figure>
             
             <figure class="c-photo">
-                <img src="/assets/i/photos/boats.jpg" alt="boats">
+                <img data-src="/assets/i/photos/boats.jpg" alt="boats">
                 <figcaption>Boats at White Rock, BC pier</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img src="/assets/i/photos/stone.jpg" alt="stone">
+                <img data-src="/assets/i/photos/stone.jpg" alt="stone">
 
                 <figcaption>Stone at the Point Pelee beach</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img src="/assets/i/photos/sunrise.jpg" alt="sunrise">
+                <img data-src="/assets/i/photos/sunrise.jpg" alt="sunrise">
 
                 <figcaption>Sunrise and snow</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img src="/assets/i/photos/with-danmall.jpg" alt="with Dan Mall at a Smashing conf.">
+                <img data-src="/assets/i/photos/with-danmall.jpg" alt="with Dan Mall at a Smashing conf.">
 
                 <figcaption>With Dan Mall at a workshop</figcaption>
             </figure>
@@ -322,7 +322,21 @@
   
   
   --><small class="l-span_3-9">&copy; 2008-2020 Amrinder Sandhu</small>
-</footer>         
+</footer>
+<script>
+  // LAZY LOADING IMAGES
+  if(!!window.IntersectionObserver){
+      let observer = new IntersectionObserver((entries, observer) => { 
+          entries.forEach(entry => {
+          if(entry.isIntersecting){        
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+          }
+          });
+      }, {rootMargin: "0px 0px 100px 0px"});
+      document.querySelectorAll('img').forEach(img => { observer.observe(img) });
+  }
+</script>         
 			
 	<script src="assets/js/functions.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->

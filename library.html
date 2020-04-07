@@ -38,7 +38,7 @@ page-description: Whenever I work on something new or need to understand somethi
                     <ul class="c-books_list c-books_list--favs">{% endif %}
                         <li class="c-books_list_item c-books_list_item--fav" aria-labelledby="{{ book.category }}">
                             <a class="c-book_link" href="{{ book.url }}" target="_blank">
-                                <img class="c-book_cover" loading="lazy" src="assets/i/books/{{ book.src }}"/>
+                                <img class="c-book_cover" loading="lazy" data-src="assets/i/books/{{ book.src }}"/>
 
                                 <div class="c-book_meta">
                                     <h4 class="c-book_title">{{ book.name }}</h4>
@@ -68,7 +68,7 @@ page-description: Whenever I work on something new or need to understand somethi
                     <ul class="c-books_list c-books_list--all">{% endif %}
                         <li class="c-books_list_item c-books_list_item--all" aria-labelledby="{{ book.category }}">
                             <a class="c-book_link" href="{{ book.url }}" target="_blank">
-                                <img class="c-book_cover" loading="lazy" src="assets/i/books/{{ book.src }}"/>
+                                <img class="c-book_cover" loading="lazy" data-src="assets/i/books/{{ book.src }}"/>
 
                                 <div class="c-book_meta">
                                     <h4 class="c-book_title">{{ book.name }}</h4>
