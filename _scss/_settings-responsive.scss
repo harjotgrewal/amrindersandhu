@@ -19,7 +19,7 @@ $breakpoints: (
     "portable"      "screen and (max-width: 1278px)",
     "desk"          "screen and (min-width: 64em)",
     "retina"        "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)",
-    "tv"            "screen and (min-width: 120em)",
+    "tv"            "screen and (min-width: 1650px)",
     "hd"            "screen and (min-width: 1279px)",
     "w_lap"         "screen and (max-height: 800px)"
 ) !default;

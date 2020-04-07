@@ -1084,14 +1084,14 @@ ul li, ol li {
       margin: 15px 30px 30px; } }
   @media screen and (min-width: 1279px) {
     .c-header {
-      bottom: -30px;
+      bottom: -24px;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-direction: column;
           flex-direction: column;
       -ms-flex-pack: justify;
           justify-content: space-between;
-      left: 4vw;
+      left: 2vw;
       position: fixed;
       top: 4vw;
       width: 210px; } }
@@ -1110,7 +1110,7 @@ ul li, ol li {
   @media screen and (min-width: 1279px) {
     .c-name {
       margin: 0 auto;
-      padding-top: 110px;
+      padding-top: 105px;
       text-align: center; } }
   .c-name:after {
     background: url("/assets/i/photos/amrinder-11.jpg") no-repeat center;
@@ -1144,8 +1144,10 @@ ul li, ol li {
         font-size: 18px;
         letter-spacing: -0.5px; } }
   .c-name svg {
-    width: 120px;
-    margin-left: -20px; }
+    width: 110px;
+    margin-left: -15px; }
+    .c-name svg g {
+      fill: rgba(0, 0, 0, 0.5); }
 
 .c-hire_me {
   background-color: rgba(0, 0, 0, 0.05);
@@ -1154,7 +1156,7 @@ ul li, ol li {
   text-align: center; }
   @media screen and (min-width: 1279px) {
     .c-hire_me {
-      border-radius: 200px 200px 0 0;
+      border-radius: 200px;
       height: 210px;
       margin: -1px;
       padding: 35px 30px 15px;

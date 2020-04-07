@@ -3,7 +3,6 @@
 // -----------------------------------------------------------------------------
 
 
-
 .l-grid_of_2,
 .l-grid_of_3,
 .l-grid_of_4,
@@ -12,6 +11,10 @@
 .l-grid_of_8 {
     display: grid;
     grid-column-gap: 30px;
+
+    // @include media-query(tv) {
+    //     grid-column-gap: 60px;
+    // }
 }
 
 

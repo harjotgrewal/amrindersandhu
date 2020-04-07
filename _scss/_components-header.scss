@@ -14,11 +14,11 @@
     }
 
     @include media-query(hd) {
-        bottom: -30px;
+        bottom: -24px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        left: 4vw;
+        left: 2vw;
 		position: fixed;
 		top: 4vw;
 		width: 210px;
@@ -42,7 +42,7 @@
 
     @include media-query(hd) {
         margin: 0 auto;
-        padding-top: 110px;
+        padding-top: 105px;
         text-align: center; 
     }
 
@@ -89,13 +89,11 @@
 
 
    svg {
-       width: 120px;
-       margin-left: -20px;
+       width: 110px;
+       margin-left: -15px;
 
        g {
-           //fill: red;
-           //stroke: red;
-           //stroke-width: 1px;
+           fill: rgba(black, .5);
        }
    }
 }
@@ -114,11 +112,10 @@
     }
 
     @include media-query(hd) {
-        border-radius: 200px 200px 0 0;
+        border-radius: 200px;
         height: 210px;
         margin: -1px;
         padding: 35px 30px 15px;
-        
         width: 210px;
     }
 
