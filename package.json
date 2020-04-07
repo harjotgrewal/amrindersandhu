@@ -33,5 +33,7 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-inline-source": "^4.0.0"
+  }
 }
