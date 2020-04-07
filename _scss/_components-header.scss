@@ -32,12 +32,12 @@
     display: inline-block;
     font-weight: 600;
     line-height: 1 !important;
-    margin: 60px 30px 30px 204px;
+    margin: 60px 30px 30px 190px;
     text-transform: uppercase;
     width: 90px;
 
     @include media-query(portable) {
-        margin-left: calc(50% + 15px);
+        margin-left: calc(50% + 30px);
     }
 
     @include media-query(hd) {
