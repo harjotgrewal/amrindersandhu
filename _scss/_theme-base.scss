@@ -31,6 +31,10 @@ html.p-work {
         box-shadow: 0 0 0 1px darken($theme-color-11, 10); 
     }
 
+    .c-name svg g {
+        fill: darken($theme-color-11, 50);
+    }
+
     .c-header,
     hr,
     a {
@@ -100,6 +104,10 @@ html.p-pr {
         box-shadow: 0 0 0 1px darken($theme-color-51, 10); 
     }
 
+    .c-name svg g {
+        fill: darken($theme-color-51, 50);
+    }
+
     .c-header,
     hr,
     a {
@@ -161,6 +169,10 @@ html.p-about {
     .c-name:after {
         background-color: $theme-color-41;
         box-shadow: 0 0 0 1px darken($theme-color-41, 10); 
+    }
+
+    .c-name svg g {
+        fill: darken($theme-color-41, 50);
     }
 
     .c-header,
@@ -240,6 +252,10 @@ html.p-library {
         box-shadow: 0 0 0 1px darken($theme-color-21, 10); 
     }
 
+    .c-name svg g {
+        fill: darken($theme-color-21, 50);
+    }
+
     .c-header,
     hr,
     a {
@@ -303,6 +319,10 @@ html.p-journal {
     .c-name:after {
         background-color: $theme-color-31; 
         box-shadow: 0 0 0 1px darken($theme-color-31, 10); 
+    }
+
+    .c-name svg g {
+        fill: darken($theme-color-31, 50);
     }
 
     .c-header,
@@ -379,6 +399,10 @@ html.p-testimonials {
     .c-name:after {
         background-color: $theme-color-51; 
         box-shadow: 0 0 0 1px darken($theme-color-51, 10); 
+    }
+
+    .c-name svg g {
+        fill: darken($theme-color-51, 50);
     }
 
     .c-header,

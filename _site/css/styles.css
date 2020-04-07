@@ -1084,7 +1084,7 @@ ul li, ol li {
       margin: 15px 30px 30px; } }
   @media screen and (min-width: 1279px) {
     .c-header {
-      bottom: 4vw;
+      bottom: -30px;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-direction: column;
@@ -1110,7 +1110,7 @@ ul li, ol li {
   @media screen and (min-width: 1279px) {
     .c-name {
       margin: 0 auto;
-      padding-top: 120px;
+      padding-top: 110px;
       text-align: center; } }
   .c-name:after {
     background: url("/assets/i/photos/amrinder-11.jpg") no-repeat center;
@@ -1154,7 +1154,7 @@ ul li, ol li {
   text-align: center; }
   @media screen and (min-width: 1279px) {
     .c-hire_me {
-      border-radius: 200px;
+      border-radius: 200px 200px 0 0;
       height: 210px;
       margin: -1px;
       padding: 35px 30px 15px;
@@ -1199,7 +1199,7 @@ ul li, ol li {
   @media screen and (min-width: 1279px) {
     .c-nav__link {
       border: none;
-      line-height: 3;
+      line-height: calc(4vh + 20px);
       margin-bottom: 0;
       padding: 2px;
       text-align: center; } }
@@ -1639,6 +1639,8 @@ html.p-work {
   html.p-work .c-name:after {
     background-color: #ECE9F2;
     box-shadow: 0 0 0 1px #d0c9df; }
+  html.p-work .c-name svg g {
+    fill: #65528a; }
   html.p-work .c-header,
   html.p-work hr,
   html.p-work a {
@@ -1680,6 +1682,9 @@ html.p-pr {
   html.p-pr .c-name:after {
     background-color: #E6E9F0;
     box-shadow: 0 0 0 1px #c6cddd; }
+  html.p-cs .c-name svg g,
+  html.p-pr .c-name svg g {
+    fill: #516186; }
   html.p-cs .c-header,
   html.p-cs hr,
   html.p-cs a,
@@ -1738,6 +1743,8 @@ html.p-about {
   html.p-about .c-name:after {
     background-color: #E6F0EE;
     box-shadow: 0 0 0 1px #c6ddd8; }
+  html.p-about .c-name svg g {
+    fill: #51867c; }
   html.p-about .c-header,
   html.p-about hr,
   html.p-about a {
@@ -1781,6 +1788,8 @@ html.p-library {
   html.p-library .c-name:after {
     background-color: #F2F1E9;
     box-shadow: 0 0 0 1px #dfddc9; }
+  html.p-library .c-name svg g {
+    fill: #8a8452; }
   html.p-library .c-header,
   html.p-library hr,
   html.p-library a {
@@ -1822,6 +1831,8 @@ html.p-journal {
   html.p-journal .c-name:after {
     background-color: #F2EAE9;
     box-shadow: 0 0 0 1px #dfcbc9; }
+  html.p-journal .c-name svg g {
+    fill: #8a5852; }
   html.p-journal .c-header,
   html.p-journal hr,
   html.p-journal a {
@@ -1867,6 +1878,8 @@ html.p-testimonials {
   html.p-testimonials .c-name:after {
     background-color: #E6E9F0;
     box-shadow: 0 0 0 1px #c6cddd; }
+  html.p-testimonials .c-name svg g {
+    fill: #516186; }
   html.p-testimonials .c-header,
   html.p-testimonials hr,
   html.p-testimonials a {

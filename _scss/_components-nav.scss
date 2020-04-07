@@ -42,7 +42,8 @@
 
     @include media-query(hd) {
         border: none;
-        line-height: 3;
+        line-height: calc(4vh + 20px);
+
         margin-bottom: 0;
         padding: 2px;
         text-align: center;

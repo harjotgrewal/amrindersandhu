@@ -14,7 +14,7 @@
     }
 
     @include media-query(hd) {
-        bottom: 4vw;
+        bottom: -30px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -42,9 +42,8 @@
 
     @include media-query(hd) {
         margin: 0 auto;
-        padding-top: 120px;
-        text-align: center;
-        
+        padding-top: 110px;
+        text-align: center; 
     }
 
     &:after {
@@ -102,30 +101,6 @@
 }
 
 
-// .c-avatar {
-//     display: none;
-
-//     @include media-query(portable) {
-//         display: block;
-//         position: absolute;
-//         top: 0;
-//         right: 30px;
-//         background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
-//         background-color: $theme-bg-light-4;
-//         background-size: 100px 100px;
-//         border: 5px solid white;
-//         height: 100px;
-//         width: 100px;
-//         border-radius: 100px;
-//         background-blend-mode: luminosity;
-
-//         img {
-//             display: none;
-//         }
-//     }
-// }
-
-
 
 
 .c-hire_me {
@@ -139,7 +114,7 @@
     }
 
     @include media-query(hd) {
-        border-radius: 200px;
+        border-radius: 200px 200px 0 0;
         height: 210px;
         margin: -1px;
         padding: 35px 30px 15px;
