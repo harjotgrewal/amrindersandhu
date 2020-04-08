@@ -884,8 +884,19 @@ ul li, ol li {
 .o-list--ordered,
 .o-list--bullet {
   font-size: 16px;
-  list-style-position: outside;
-  margin: 0 0 30px 22px; }
+  list-style: none;
+  margin: 0 0 30px 30px;
+  position: relative; }
+  .o-list--ordered li,
+  .o-list--bullet li {
+    position: relative; }
+    .o-list--ordered li::before,
+    .o-list--bullet li::before {
+      display: inline-block;
+      width: 30px;
+      padding-right: 15px;
+      margin-left: -30px;
+      text-align: right; }
   @media screen and (min-width: 1279px) {
     .o-list--ordered,
     .o-list--bullet {
@@ -893,21 +904,32 @@ ul li, ol li {
       margin-bottom: 45px; } }
 
 .o-list--ordered {
-  list-style-type: decimal; }
+  counter-reset: li; }
+  .o-list--ordered li {
+    counter-increment: li;
+    position: relative; }
+    .o-list--ordered li::before {
+      content: counter(li);
+      color: red;
+      direction: rtl;
+      width: 30px;
+      text-align: right; }
+    .o-list--ordered li::after {
+      content: ".";
+      color: red;
+      display: inline-block;
+      left: -15px;
+      position: absolute;
+      top: 0;
+      width: 30px; }
 
-.o-list--bullet {
-  position: relative; }
-  .o-list--bullet li {
-    list-style-type: none; }
-  .o-list--bullet li:before {
-    color: rgba(0, 0, 0, 0.3);
-    content: "✦";
-    font-size: 10px;
-    padding-right: 15px;
-    vertical-align: baseline;
-    margin-left: -23px;
-    position: relative;
-    top: -2px; }
+.o-list--bullet li:before {
+  color: rgba(0, 0, 0, 0.3);
+  content: "✦";
+  font-size: 10px;
+  vertical-align: baseline;
+  position: relative;
+  top: -2px; }
 
 .c-billboard {
   -ms-flex-align: center;
@@ -1705,10 +1727,14 @@ html.p-pr {
   html.p-cs figcaption a,
   html.p-cs .c-caption,
   html.p-cs .c-caption a,
+  html.p-cs .o-list--ordered li::before,
+  html.p-cs .o-list--ordered li::after,
   html.p-pr figcaption,
   html.p-pr figcaption a,
   html.p-pr .c-caption,
-  html.p-pr .c-caption a {
+  html.p-pr .c-caption a,
+  html.p-pr .o-list--ordered li::before,
+  html.p-pr .o-list--ordered li::after {
     color: #7687ad; }
   html.p-cs .c-name,
   html.p-cs h3,

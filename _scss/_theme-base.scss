@@ -123,7 +123,9 @@ html.p-pr {
     figcaption,
     figcaption a, 
     .c-caption,
-    .c-caption a {
+    .c-caption a,
+    .o-list--ordered li::before,
+    .o-list--ordered li::after {
         color: darken($theme-color-51, 35);
     }
 
