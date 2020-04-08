@@ -1184,7 +1184,8 @@ ul li, ol li {
       padding: 35px 30px 15px;
       width: 210px; } }
   .c-hire_me h4 {
-    margin-bottom: 9px;
+    border-radius: 27px;
+    margin: 0 27px 9px;
     text-transform: uppercase; }
   .c-hire_me p {
     font-size: 16px;
@@ -1697,6 +1698,7 @@ html.p-work {
   html.p-work .c-hire_me {
     background-color: #dbd6e7; }
     html.p-work .c-hire_me h4 {
+      background-color: #ECE9F2;
       color: #572DF5; }
 
 html.p-cs,
@@ -1749,8 +1751,10 @@ html.p-pr {
     color: #2a3347; }
   html.p-cs h2,
   html.p-cs h3,
+  html.p-cs h4,
   html.p-pr h2,
-  html.p-pr h3 {
+  html.p-pr h3,
+  html.p-pr h4 {
     color: #171c27; }
   html.p-cs a,
   html.p-pr a {
@@ -1765,6 +1769,10 @@ html.p-pr {
   html.p-cs .c-hire_me,
   html.p-pr .c-hire_me {
     background-color: #d3d8e5; }
+    html.p-cs .c-hire_me h4,
+    html.p-pr .c-hire_me h4 {
+      background-color: #E6E9F0;
+      color: #2860E3; }
 
 html.p-about {
   background-color: #E6F0EE; }
@@ -1805,11 +1813,12 @@ html.p-about {
       color: #040706; }
   html.p-about .c-hire_me {
     background-color: #d3e5e1; }
+    html.p-about .c-hire_me h4 {
+      background-color: #E6F0EE;
+      color: #01CD7D; }
   @media screen and (min-width: 1279px) {
     html.p-about .c-photo figcaption {
       color: #c6ddd8; } }
-  html.p-about .c-hire_me h4 {
-    color: #01CD7D; }
 
 html.p-library {
   background-color: #F2F1E9; }
@@ -1852,6 +1861,7 @@ html.p-library {
   html.p-library .c-hire_me {
     background-color: #e7e5d6; }
     html.p-library .c-hire_me h4 {
+      background-color: #F2F1E9;
       color: #E3A328; }
 
 html.p-journal {
@@ -1899,6 +1909,7 @@ html.p-journal {
   html.p-journal .c-hire_me {
     background-color: #e7d8d6; }
     html.p-journal .c-hire_me h4 {
+      background-color: #F2EAE9;
       color: #E33328; }
 
 html.p-testimonials {
@@ -1942,6 +1953,7 @@ html.p-testimonials {
   html.p-testimonials .c-hire_me {
     background-color: #d3d8e5; }
     html.p-testimonials .c-hire_me h4 {
+      background-color: #E6E9F0;
       color: #2860E3; }
 
 @media screen and (min-width: 1279px) {

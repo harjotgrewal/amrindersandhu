@@ -86,6 +86,7 @@ html.p-work {
         background-color: darken($theme-color-11, 6);
 
         h4 {
+            background-color: $theme-color-11;
             color: $theme-color-12;
         }
     }
@@ -138,7 +139,8 @@ html.p-pr {
     }
 
     h2, 
-    h3 {
+    h3,
+    h4 {
         color: darken($theme-color-51, 80);
     }
 
@@ -159,6 +161,11 @@ html.p-pr {
 
     .c-hire_me {
         background-color: darken($theme-color-51, 6);
+
+        h4 {
+            background-color: $theme-color-51;
+            color: $theme-color-52;
+        }
     }
 }
 
@@ -228,6 +235,11 @@ html.p-about {
 
     .c-hire_me {
         background-color: darken($theme-color-41, 6);
+
+        h4 {
+            background-color: $theme-color-41;
+            color: $theme-color-42;
+        }
     }
 
     .c-photo figcaption {
@@ -235,10 +247,6 @@ html.p-about {
         @include media-query(hd) {
             color: darken($theme-color-41, 10);
         }
-    }
-
-    .c-hire_me h4 {
-        color: $theme-color-42;
     }
 }
 
@@ -307,6 +315,7 @@ html.p-library {
         background-color: darken($theme-color-21, 6);
 
         h4 {
+            background-color: $theme-color-21;
             color: $theme-color-22;
         }
     }
@@ -386,6 +395,7 @@ html.p-journal {
         background-color: darken($theme-color-31, 6);
 
         h4 {
+            background-color: $theme-color-31;
             color: $theme-color-32;
         }
     }
@@ -460,6 +470,7 @@ html.p-testimonials {
         background-color: darken($theme-color-51, 6);
 
         h4 {
+            background-color: $theme-color-51;
             color: $theme-color-52;
         }
     }
