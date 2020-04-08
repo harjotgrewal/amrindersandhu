@@ -198,8 +198,11 @@
 
 
 .u-cols--two {
-    column-count: 2;
-    column-gap: 30px;
+    
+    @include media-query(lap-and-up) {
+        column-count: 2;
+        column-gap: 30px;
+    }
 }
 
 
