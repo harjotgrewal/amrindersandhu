@@ -16,10 +16,15 @@ $as-font-size-s: 20px;
 $as-font-size-xs: 16px;
 
  
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+}
 
 h1 {
     font-size: $as-font-size-xl;
-    font-weight: 700;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -32,7 +37,6 @@ h1 {
 
 h2 {
     font-size: $as-font-size-l;
-    font-weight: 700;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -45,7 +49,6 @@ h2 {
 
 h3 {
     font-size: $as-font-size-m;
-    font-weight: 700;
     letter-spacing: -1px;
     line-height: 1;
     margin-top: 30px;
@@ -60,7 +63,6 @@ h3 {
 
 h4 {
     font-size: $as-font-size-s;
-    font-weight: 700;
     margin-top: 10px;
     line-height: 1.1;
 

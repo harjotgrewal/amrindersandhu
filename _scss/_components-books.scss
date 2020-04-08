@@ -19,10 +19,6 @@
 
         @include media-query(portable) {
             width: 170px;
-
-            // &:nth-child(3n+0) {
-            //     margin-right: 0;
-            // }
         } 
 
         @include media-query(palm) { 
@@ -46,7 +42,6 @@
     a {
         border-color: $theme-bg-bright-3;
         color: $color-grey-darker;
-        font-weight: 500;
 
         &:hover {
             border-width: 3px;

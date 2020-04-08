@@ -477,6 +477,7 @@ html {
 body {
   color: #050505;
   font: 62.5% '0GT Walsheim Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
   line-height: 1.5;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased; }
@@ -840,7 +841,7 @@ main p {
       -ms-hyphens: auto;
           hyphens: auto; }
   main p + h3 {
-    margin-top: 30px; }
+    margin-top: 45px; }
   main p .no-hypens {
     -webkit-hyphens: none;
        -moz-hyphens: none;
@@ -1193,6 +1194,9 @@ ul li, ol li {
 
 .c-nav {
   z-index: 9; }
+  @media screen and (min-width: 1279px) {
+    .c-nav {
+      margin-bottom: 30px; } }
 
 @media screen and (max-width: 1278px) {
   .c-nav__list {
@@ -1408,8 +1412,7 @@ ul li, ol li {
         width: 190px; } }
   .c-books_list a {
     border-color: #01CD7D;
-    color: #050505;
-    font-weight: 500; }
+    color: #050505; }
     .c-books_list a:hover {
       border-width: 3px; }
   .c-books_list em {
@@ -1672,34 +1675,38 @@ html.p-work {
     border-color: #d0c9df; }
   html.p-work .c-nav__link,
   html.p-work h1,
-  html.p-work .c-footer small {
+  html.p-work .c-footer small,
+  html.p-work .c-testimonial small,
+  html.p-work blockquote:not(.c-caption) footer {
     color: #65528a; }
   html.p-work figcaption,
   html.p-work figcaption a,
   html.p-work .c-caption,
-  html.p-work .c-caption a {
-    color: #8b79b0; }
+  html.p-work .c-caption a,
+  html.p-work .o-list--ordered li::before,
+  html.p-work .o-list--ordered li::after {
+    color: #9989b9; }
   html.p-work .c-name,
-  html.p-work h3,
   html.p-work p,
-  html.p-work li,
-  html.p-work .c-nav__link--home {
+  html.p-work li {
     color: #362c4a; }
   html.p-work h2,
   html.p-work h3 {
-    color: #1f192a; }
+    color: #130f1a; }
   html.p-work a {
-    color: #07060a;
+    color: #130f1a;
     border-color: #572DF5; }
   html.p-work .c-nav__link {
     border-color: #d0c9df; }
     html.p-work .c-nav__link:hover {
-      color: #07060a; }
+      color: #130f1a; }
   html.p-work .c-hire_me {
     background-color: #dbd6e7; }
     html.p-work .c-hire_me h4 {
       background-color: #ECE9F2;
       color: #572DF5; }
+  html.p-work .c-nav__link--home {
+    color: #362c4a; }
 
 html.p-cs,
 html.p-pr {
@@ -1721,9 +1728,13 @@ html.p-pr {
   html.p-cs .c-nav__link,
   html.p-cs h1,
   html.p-cs .c-footer small,
+  html.p-cs .c-testimonial small,
+  html.p-cs blockquote:not(.c-caption) footer,
   html.p-pr .c-nav__link,
   html.p-pr h1,
-  html.p-pr .c-footer small {
+  html.p-pr .c-footer small,
+  html.p-pr .c-testimonial small,
+  html.p-pr blockquote:not(.c-caption) footer {
     color: #516186; }
   html.p-cs figcaption,
   html.p-cs figcaption a,
@@ -1737,35 +1748,29 @@ html.p-pr {
   html.p-pr .c-caption a,
   html.p-pr .o-list--ordered li::before,
   html.p-pr .o-list--ordered li::after {
-    color: #7687ad; }
+    color: #8695b7; }
   html.p-cs .c-name,
-  html.p-cs h3,
   html.p-cs p,
   html.p-cs li,
-  html.p-cs .c-nav__link--home,
   html.p-pr .c-name,
-  html.p-pr h3,
   html.p-pr p,
-  html.p-pr li,
-  html.p-pr .c-nav__link--home {
+  html.p-pr li {
     color: #2a3347; }
   html.p-cs h2,
   html.p-cs h3,
-  html.p-cs h4,
   html.p-pr h2,
-  html.p-pr h3,
-  html.p-pr h4 {
-    color: #171c27; }
+  html.p-pr h3 {
+    color: #0e1017; }
   html.p-cs a,
   html.p-pr a {
-    color: #040507;
+    color: #0e1017;
     border-color: #2860E3; }
   html.p-cs .c-nav__link,
   html.p-pr .c-nav__link {
     border-color: #c6cddd; }
     html.p-cs .c-nav__link:hover,
     html.p-pr .c-nav__link:hover {
-      color: #040507; }
+      color: #0e1017; }
   html.p-cs .c-hire_me,
   html.p-pr .c-hire_me {
     background-color: #d3d8e5; }
@@ -1787,38 +1792,38 @@ html.p-about {
     border-color: #c6ddd8; }
   html.p-about .c-nav__link,
   html.p-about h1,
-  html.p-about .c-footer small {
+  html.p-about .c-footer small,
+  html.p-about .c-testimonial small,
+  html.p-about blockquote:not(.c-caption) footer {
     color: #51867c; }
   html.p-about figcaption,
   html.p-about figcaption a,
   html.p-about .c-caption,
-  html.p-about .c-caption a {
-    color: #76ada2; }
-  html.p-about h3,
-  html.p-about p,
-  html.p-about li,
-  html.p-about .c-nav__link--about {
-    color: #3e675e; }
+  html.p-about .c-caption a,
+  html.p-about .o-list--ordered li::before,
+  html.p-about .o-list--ordered li::after {
+    color: #86b7ad; }
   html.p-about .c-name,
+  html.p-about p,
+  html.p-about li {
+    color: #3e675e; }
   html.p-about h2,
-  html.p-about h3,
-  html.p-about h4 {
-    color: #2a4741; }
+  html.p-about h3 {
+    color: #0e1715; }
   html.p-about a {
-    color: #040706;
+    color: #0e1715;
     border-color: #01CD7D; }
   html.p-about .c-nav__link {
     border-color: #c6ddd8; }
     html.p-about .c-nav__link:hover {
-      color: #040706; }
+      color: #0e1715; }
   html.p-about .c-hire_me {
     background-color: #d3e5e1; }
     html.p-about .c-hire_me h4 {
       background-color: #E6F0EE;
       color: #01CD7D; }
-  @media screen and (min-width: 1279px) {
-    html.p-about .c-photo figcaption {
-      color: #c6ddd8; } }
+  html.p-about .c-nav__link--about {
+    color: #2a4741; }
 
 html.p-library {
   background-color: #F2F1E9; }
@@ -1834,35 +1839,40 @@ html.p-library {
   html.p-library .c-nav__link,
   html.p-library h1,
   html.p-library .c-footer small,
-  html.p-library .c-book_info {
+  html.p-library .c-testimonial small,
+  html.p-library blockquote:not(.c-caption) footer {
     color: #8a8452; }
   html.p-library figcaption,
   html.p-library figcaption a,
   html.p-library .c-caption,
-  html.p-library .c-caption a {
-    color: #b0aa79; }
+  html.p-library .c-caption a,
+  html.p-library .o-list--ordered li::before,
+  html.p-library .o-list--ordered li::after {
+    color: #b9b489; }
   html.p-library .c-name,
-  html.p-library h3,
   html.p-library p,
-  html.p-library li,
-  html.p-library .c-nav__link--library {
-    color: #4a472c; }
-  html.p-library .c-section__nav_link.is_active,
-  html.p-library .c-section__nav_link:hover {
-    border-color: #0a0a06; }
+  html.p-library li {
+    color: #6a653f; }
   html.p-library h2,
-  html.p-library h3,
-  html.p-library h4 {
-    color: #2a2819; }
-  html.p-library a,
-  html.p-library .c-nav__link:hover {
-    color: #0a0a06;
+  html.p-library h3 {
+    color: #1a190f; }
+  html.p-library a {
+    color: #1a190f;
     border-color: #E3A328; }
+  html.p-library .c-nav__link {
+    border-color: #dfddc9; }
+    html.p-library .c-nav__link:hover {
+      color: #1a190f; }
   html.p-library .c-hire_me {
     background-color: #e7e5d6; }
     html.p-library .c-hire_me h4 {
       background-color: #F2F1E9;
       color: #E3A328; }
+  html.p-library .c-nav__link--library {
+    color: #4a472c; }
+  html.p-library .c-section__nav_link.is_active,
+  html.p-library .c-section__nav_link:hover {
+    border-color: #0a0a06; }
 
 html.p-journal {
   background-color: #F2EAE9; }
@@ -1877,40 +1887,44 @@ html.p-journal {
     border-color: #dfcbc9; }
   html.p-journal .c-nav__link,
   html.p-journal h1,
-  html.p-journal .c-entry__blurb p,
   html.p-journal .c-footer small,
-  html.p-journal .c-entry__blurb li {
+  html.p-journal .c-testimonial small,
+  html.p-journal blockquote:not(.c-caption) footer {
     color: #8a5852; }
   html.p-journal figcaption,
   html.p-journal figcaption a,
   html.p-journal .c-caption,
-  html.p-journal .c-caption a {
-    color: #b07f79; }
+  html.p-journal .c-caption a,
+  html.p-journal .o-list--ordered li::before,
+  html.p-journal .o-list--ordered li::after {
+    color: #b98e89; }
   html.p-journal .c-name,
-  html.p-journal h3,
   html.p-journal p,
-  html.p-journal li,
-  html.p-journal .c-book_info,
-  html.p-journal .c-nav__link--journal {
+  html.p-journal li {
     color: #6a443f; }
-  html.p-journal .c-entry__link:hover .c-entry__heading {
-    border-color: #E33328; }
   html.p-journal h2,
-  html.p-journal h3,
-  html.p-journal h4 {
-    color: #4a2f2c; }
+  html.p-journal h3 {
+    color: #1a110f; }
   html.p-journal a {
-    color: #0a0606;
+    color: #1a110f;
     border-color: #E33328; }
   html.p-journal .c-nav__link {
     border-color: #dfcbc9; }
     html.p-journal .c-nav__link:hover {
-      color: #0a0606; }
+      color: #1a110f; }
   html.p-journal .c-hire_me {
     background-color: #e7d8d6; }
     html.p-journal .c-hire_me h4 {
       background-color: #F2EAE9;
       color: #E33328; }
+  html.p-journal .c-book_info,
+  html.p-journal .c-nav__link--journal {
+    color: #6a443f; }
+  html.p-journal .c-entry__link:hover .c-entry__heading {
+    border-color: #E33328; }
+  html.p-journal .c-entry__blurb p,
+  html.p-journal .c-entry__blurb li {
+    color: #8a5852; }
 
 html.p-testimonials {
   background-color: #E6E9F0; }
@@ -1926,30 +1940,30 @@ html.p-testimonials {
   html.p-testimonials .c-nav__link,
   html.p-testimonials h1,
   html.p-testimonials .c-footer small,
-  html.p-testimonials caption,
-  html.p-testimonials .c-caption {
+  html.p-testimonials .c-testimonial small,
+  html.p-testimonials blockquote:not(.c-caption) footer {
     color: #516186; }
   html.p-testimonials figcaption,
   html.p-testimonials figcaption a,
   html.p-testimonials .c-caption,
-  html.p-testimonials .c-caption a {
+  html.p-testimonials .c-caption a,
+  html.p-testimonials .o-list--ordered li::before,
+  html.p-testimonials .o-list--ordered li::after {
     color: #7687ad; }
   html.p-testimonials .c-name,
-  html.p-testimonials h3,
   html.p-testimonials p,
-  html.p-testimonials li,
-  html.p-testimonials .c-nav__link--home {
+  html.p-testimonials li {
     color: #2a3347; }
   html.p-testimonials h2,
   html.p-testimonials h3 {
-    color: #171c27; }
+    color: #0e1017; }
   html.p-testimonials a {
-    color: #040507;
+    color: #0e1017;
     border-color: #2860E3; }
   html.p-testimonials .c-nav__link {
     border-color: #c6cddd; }
     html.p-testimonials .c-nav__link:hover {
-      color: #040507; }
+      color: #0e1017; }
   html.p-testimonials .c-hire_me {
     background-color: #d3d8e5; }
     html.p-testimonials .c-hire_me h4 {
