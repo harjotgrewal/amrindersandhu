@@ -106,10 +106,8 @@
     margin: 45px 0;
     padding: 30px 30px 15px;
     text-align: center;
-    
-    @include media-query(portable) {
-        
-    }
+    border-radius: 9px;
+
 
     @include media-query(hd) {
         border-radius: 200px;
@@ -121,7 +119,9 @@
 
     h4 {
         border-radius: 27px;
-        margin: 0 27px 9px;
+        display: inline-block;
+        margin-bottom: 9px;
+        padding: 3px 24px;
         text-transform: uppercase;
     }
 

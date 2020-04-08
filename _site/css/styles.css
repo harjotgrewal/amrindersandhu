@@ -1176,7 +1176,8 @@ ul li, ol li {
   background-color: rgba(0, 0, 0, 0.05);
   margin: 45px 0;
   padding: 30px 30px 15px;
-  text-align: center; }
+  text-align: center;
+  border-radius: 9px; }
   @media screen and (min-width: 1279px) {
     .c-hire_me {
       border-radius: 200px;
@@ -1186,7 +1187,9 @@ ul li, ol li {
       width: 210px; } }
   .c-hire_me h4 {
     border-radius: 27px;
-    margin: 0 27px 9px;
+    display: inline-block;
+    margin-bottom: 9px;
+    padding: 3px 24px;
     text-transform: uppercase; }
   .c-hire_me p {
     font-size: 16px;
