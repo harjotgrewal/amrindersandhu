@@ -530,7 +530,7 @@ main video {
   @media screen and (min-width: 1279px) {
     .c-dp_analysis {
       width: 690px;
-      height: 480px; } }
+      height: 480px !important; } }
 
 .c-dp_prototype {
   width: 100%; }

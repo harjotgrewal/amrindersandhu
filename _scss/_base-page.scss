@@ -109,7 +109,7 @@ figure {
 
 	@include media-query(hd) {	
 		width: 690px;
-		height: 480px;
+		height: 480px !important;
 	}
 }
 
