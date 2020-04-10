@@ -1,0 +1,91 @@
+---
+layout: default
+title: Project – Website, Blog and Newsletters
+page-class: p-pr th-white
+page-heading: 
+page-description: Redesigning the most used UI component using the most sophisticated design tool – data.
+---
+
+{% include header.html %}
+
+<main class="c-main">      
+    <section>
+        <div class="l-span_3-8">
+            <h1 class="u-space_below">Relpost – Handpicked related <i class="u-break_line--hd"></i>posts for Web Designers</h1>
+
+            <p class="c-caption u-space_below">2010–2011  <i class="u-sep">&bull;</i> Side Project</p>
+        </div> 
+        
+        <figure class="l-span_3-9 c-sshot--wrapped">
+            <img data-src="/assets/i/sshots/proj-relpost.jpg" alt="Website Teaser"/>
+
+            <figcaption class="is-below">Relpost Homepage</figcaption>
+        </figure>
+    </section>
+
+
+
+
+
+    <section>
+        <h2 class="l-span_2">What I did</h2>
+
+        <ul class="u-cols--two l-span_4">
+            <li>Founded</li>
+
+            <li>Art Direction</li>
+
+            <li>Website Design</li>
+            
+            <li>Curation</li>
+        </ul>
+    </section>
+
+
+    
+
+
+    <hr class="u-space_below--most"/>
+
+
+
+
+
+    <!-- MORE -->
+    <section class="u-space_below--most">
+        <div class="l-span_4">
+            <h2 class="l-span_2">More Case Studies</h2>
+        </div>
+
+
+        {% for entry in site.data.work.case-study %}
+            {% if entry.status == "active" %}
+                {% if entry.page-title != "Case Study – Branding" %}
+                    <div class="c-media {{ entry.class }} l-span_4 u-space_below">
+                        <a href="{{ entry.link }}">
+                            <div class="c-media__info">
+                                <p>{{ entry.title }}</p>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
+                                        <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
+                                    </g>
+                                </svg>
+                            </div>
+
+                            <img data-src="{{ entry.src }}" alt="Cover for QAS case study"/>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </section>
+
+    
+
+</main>
+
+
+
+
+{% include footer.html %}

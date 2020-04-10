@@ -86,10 +86,10 @@ project:
 
 
 - {	
-	class: 'l-span_3 is-coming_soon',
-	link: 'javascript:void(0)',
+	class: 'l-span_3',
+	link: '/proj-relpost.html',
 	title: 'Relpost – Handpicked related posts for Web Designers (Side Project)',
 	page-title: 'Project – Relpost',
 	img: '/assets/i/sshots/cover-relpost.png',
-	status: 'inactive'
+	status: 'active'
 }
