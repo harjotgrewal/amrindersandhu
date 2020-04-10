@@ -63,6 +63,59 @@
 //     delay: anime.stagger(50)
 //   })
 
+
+
+// Email me modal
+// Get the modal
+var modal = document.getElementById("emailModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Copy email button
+var copyBtn = document.getElementById("copyEmail");
+
+// Send email button
+var sendEmail = document.getElementById("sendEmail");
+
+// Get the <span> element that closes the modal
+var closeModal = document.getElementsByClassName("c-modal__close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+  copyBtn.innerHTML = 'Copy email address';
+}
+
+
+copyBtn.onclick = function() {
+    const el = document.createElement('textarea');
+    el.value = 'contact@amrindersandhu.com';
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    copyBtn.innerHTML = 'Copied to clipboard';
+}
+
+sendEmail.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+closeModal.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
 const filterWrapper = document.querySelector(".js-filtersWrapper");
 
 const filterControls = filterWrapper.querySelectorAll(".js-filter");
@@ -173,6 +226,4 @@ function showFavItems() {
 
     favFilters.classList.add('is_active');
 }
-
-
 

@@ -1,6 +1,8 @@
 footer.c-footer.l-grid_of_8
+    small.l-span_3-9 &copy; 2008-2020 Amrinder Sandhu
+    
     //ul
-        //li 
+        li 
             a(href="#") contact@amrindersandhu.com
 
         
@@ -21,7 +23,36 @@ footer.c-footer.l-grid_of_8
 
 
 
-    small.l-span_3-9 &copy; 2008-2020 Amrinder Sandhu
+    
+
+    // Email Modal
+    //#emailModal.c-modal
+        .c-modal__content
+            .c-modal__header 
+                h1 Email Me
+
+                button.c-modal__close Done
+
+
+            p Copy my email address (contact@amrindersandhu.com) 
+
+            button#copyEmail Copy
+
+            p
+                br
+                
+                | or 
+                
+                br
+
+                | compose an email in your default email client.
+
+            
+
+            button#sendEmail.c-button
+                a(href="mailto:contact@amrindersandhu.com?subject=Re%3A%20Job%20Opportunity" target="_blank") Open in an email app
+
+
 
 
 script. 

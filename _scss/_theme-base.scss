@@ -93,6 +93,11 @@ $theme-color-52: #2860E3;
             color: $th-col-2;
         }
     }
+
+    button,
+    .c-button {
+        color: $th-col-2;
+    }
 }
 
 
@@ -105,73 +110,6 @@ html.p-work {
     .c-nav__link--home {
         color: darken($theme-color-11, 70);
     }
-
-    // background-color: $theme-color-11;
-
-    // .c-name:after {
-    //     background-color: $theme-color-11; 
-    //     box-shadow: 0 0 0 1px darken($theme-color-11, 10); 
-    // }
-
-    // .c-name svg g {
-    //     fill: darken($theme-color-11, 50);
-    // }
-
-    // .c-header,
-    // hr,
-    // a {
-    //     border-color: darken($theme-color-11, 10);
-    // }
-
-    // .c-nav__link,
-    // h1,
-    // .c-footer small {
-    //     color: darken($theme-color-11, 50);
-    // }
-
-    // figcaption,
-    // figcaption a, 
-    // .c-caption,
-    // .c-caption a {
-    //     color: darken($theme-color-11, 35);
-    // }
-
-    // .c-name,
-    // h3, 
-    // p,
-    // li,
-    // .c-nav__link--home {
-    //     color: darken($theme-color-11, 70);
-    // }
-
-    // h2, 
-    // h3 {
-    //     color: darken($theme-color-11, 80);
-    // }
-
-    // a {
-    //     color: darken($theme-color-11, 90);
-    //     border-color: $theme-color-12;
-    // }
-
-
-    // .c-nav__link {
-    //     border-color: darken($theme-color-11, 10);
-
-    //     &:hover {
-    //         color: darken($theme-color-11, 90);;
-    //     }
-    // }
-
-
-    // .c-hire_me {
-    //     background-color: darken($theme-color-11, 6);
-
-    //     h4 {
-    //         background-color: $theme-color-11;
-    //         color: $theme-color-12;
-    //     }
-    // }
 }
 
 
@@ -181,76 +119,6 @@ html.p-work {
 html.p-cs,
 html.p-pr {
     @include apply-theme($theme-color-51, $theme-color-52, 10, 30, 50, 70, 85);    
-
-    // background-color: $theme-color-51;
-
-    // .c-name:after {
-    //     background-color: $theme-color-51; 
-    //     box-shadow: 0 0 0 1px darken($theme-color-51, 10); 
-    // }
-
-    // .c-name svg g {
-    //     fill: darken($theme-color-51, 50);
-    // }
-
-    // .c-header,
-    // hr,
-    // a {
-    //     border-color: darken($theme-color-51, 10);
-    // }
-
-    // .c-nav__link,
-    // h1,
-    // .c-footer small {
-    //     color: darken($theme-color-51, 50);
-    // }
-
-    // figcaption,
-    // figcaption a, 
-    // .c-caption,
-    // .c-caption a,
-    // .o-list--ordered li::before,
-    // .o-list--ordered li::after {
-    //     color: darken($theme-color-51, 35);
-    // }
-
-    // .c-name,
-    // h3, 
-    // p,
-    // li,
-    // .c-nav__link--home {
-    //     color: darken($theme-color-51, 70);
-    // }
-
-    // h2, 
-    // h3,
-    // h4 {
-    //     color: darken($theme-color-51, 80);
-    // }
-
-    // a {
-    //     color: darken($theme-color-51, 90);
-    //     border-color: $theme-color-52;
-    // }
-
-
-    // .c-nav__link {
-    //     border-color: darken($theme-color-51, 10);
-
-    //     &:hover {
-    //         color: darken($theme-color-51, 90);;
-    //     }
-    // }
-
-
-    // .c-hire_me {
-    //     background-color: darken($theme-color-51, 6);
-
-    //     h4 {
-    //         background-color: $theme-color-51;
-    //         color: $theme-color-52;
-    //     }
-    // }
 }
 
 
@@ -262,82 +130,6 @@ html.p-about {
     .c-nav__link--about {
         color: darken($theme-color-41, 70);
     }
-
-    // background-color: $theme-color-41;
-
-    // .c-name:after {
-    //     background-color: $theme-color-41;
-    //     box-shadow: 0 0 0 1px darken($theme-color-41, 10); 
-    // }
-
-    // .c-name svg g {
-    //     fill: darken($theme-color-41, 50);
-    // }
-
-    // .c-header,
-    // hr,
-    // a {
-    //     border-color: darken($theme-color-41, 10);
-    // }
-
-    // .c-nav__link,
-    // h1,
-    // .c-footer small {
-    //     color: darken($theme-color-41, 50);
-    // }
-
-    // figcaption,
-    // figcaption a, 
-    // .c-caption,
-    // .c-caption a {
-    //     color: darken($theme-color-41, 35);
-    // }
-
-    
-    // h3, 
-    // p,
-    // li,
-    // .c-nav__link--about {
-    //     color: darken($theme-color-41, 60);
-    // }
-
-    // .c-name,
-    // h2, 
-    // h3,
-    // h4 {
-    //     color: darken($theme-color-41, 70);
-    // }
-
-    // a {
-    //     color: darken($theme-color-41, 90);
-    //     border-color: $theme-color-42;
-    // }
-
-
-    // .c-nav__link {
-    //     border-color: darken($theme-color-41, 10);
-
-    //     &:hover {
-    //         color: darken($theme-color-41, 90);;
-    //     }
-    // }
-
-
-    // .c-hire_me {
-    //     background-color: darken($theme-color-41, 6);
-
-    //     h4 {
-    //         background-color: $theme-color-41;
-    //         color: $theme-color-42;
-    //     }
-    // }
-
-    // .c-photo figcaption {
-
-    //     @include media-query(hd) {
-    //         color: darken($theme-color-41, 10);
-    //     }
-    // }
 }
 
 
@@ -355,72 +147,6 @@ html.p-library {
     .c-section__nav_link:hover {
         border-color: darken($theme-color-21, 90);
     }
-
-
-    // background-color: $theme-color-21;
-
-    // .c-name:after {
-    //     background-color: $theme-color-21; 
-    //     box-shadow: 0 0 0 1px darken($theme-color-21, 10); 
-    // }
-
-    // .c-name svg g {
-    //     fill: darken($theme-color-21, 50);
-    // }
-
-    // .c-header,
-    // hr,
-    // a {
-    //     border-color: darken($theme-color-21, 10);
-    // }
-
-    // .c-nav__link,
-    // h1,
-    // .c-footer small,
-    // .c-book_info {
-    //     color: darken($theme-color-21, 50);
-    // }
-
-    // figcaption,
-    // figcaption a, 
-    // .c-caption,
-    // .c-caption a {
-    //     color: darken($theme-color-21, 35);
-    // }
-
-    // .c-name,
-    // h3, 
-    // p,
-    // li,
-    // .c-nav__link--library {
-    //     color: darken($theme-color-21, 70);
-    // }
-
-    // .c-section__nav_link.is_active,
-    // .c-section__nav_link:hover {
-    //     border-color: darken($theme-color-21, 90);
-    // }
-
-    // h2, 
-    // h3,
-    // h4 {
-    //     color: darken($theme-color-21, 80);
-    // }
-
-    // a,
-    // .c-nav__link:hover {
-    //     color: darken($theme-color-21, 90);
-    //     border-color: $theme-color-22;
-    // }
-
-    // .c-hire_me {
-    //     background-color: darken($theme-color-21, 6);
-
-    //     h4 {
-    //         background-color: $theme-color-21;
-    //         color: $theme-color-22;
-    //     }
-    // }
 }
 
 
@@ -442,81 +168,6 @@ html.p-journal {
     .c-entry__blurb li {
         color: darken($theme-color-31, 50);
     }
-
-    // background-color: $theme-color-31;
-
-    // .c-name:after {
-    //     background-color: $theme-color-31; 
-    //     box-shadow: 0 0 0 1px darken($theme-color-31, 10); 
-    // }
-
-    // .c-name svg g {
-    //     fill: darken($theme-color-31, 50);
-    // }
-
-    // .c-header,
-    // hr,
-    // a {
-    //     border-color: darken($theme-color-31, 10);
-    // }
-
-    // .c-nav__link,
-    // h1,
-    // .c-entry__blurb p,
-    // .c-footer small,
-    // .c-entry__blurb li {
-    //     color: darken($theme-color-31, 50);
-    // }
-
-    // figcaption,
-    // figcaption a, 
-    // .c-caption,
-    // .c-caption a {
-    //     color: darken($theme-color-31, 35);
-    // }
-
-    // .c-name,
-    // h3, 
-    // p,
-    // li,
-    // .c-book_info,
-    // .c-nav__link--journal {
-    //     color: darken($theme-color-31, 60);
-    // }
-
-    // .c-entry__link:hover .c-entry__heading {
-    //     border-color: $theme-color-32;
-    // }
-
-    // h2, 
-    // h3,
-    // h4 {
-    //     color: darken($theme-color-31, 70);
-    // }
-
-    // a {
-    //     color: darken($theme-color-31, 90);
-    //     border-color: $theme-color-32;
-    // }
-
-
-    // .c-nav__link {
-    //     border-color: darken($theme-color-31, 10);
-
-    //     &:hover {
-    //         color: darken($theme-color-31, 90);;
-    //     }
-    // }
-
-
-    // .c-hire_me {
-    //     background-color: darken($theme-color-31, 6);
-
-    //     h4 {
-    //         background-color: $theme-color-31;
-    //         color: $theme-color-32;
-    //     }
-    // }
 }
 
 
@@ -525,76 +176,6 @@ html.p-journal {
 
 html.p-testimonials {
     @include apply-theme($theme-color-51, $theme-color-52, 10, 35, 50, 70, 85);
-
-
-    // background-color: $theme-color-51;
-
-    // .c-name:after {
-    //     background-color: $theme-color-51; 
-    //     box-shadow: 0 0 0 1px darken($theme-color-51, 10); 
-    // }
-
-    // .c-name svg g {
-    //     fill: darken($theme-color-51, 50);
-    // }
-
-    // .c-header,
-    // hr,
-    // a {
-    //     border-color: darken($theme-color-51, 10);
-    // }
-
-    // .c-nav__link,
-    // h1,
-    // .c-footer small,
-    // caption,
-    // .c-caption {
-    //     color: darken($theme-color-51, 50);
-    // }
-
-    // figcaption,
-    // figcaption a, 
-    // .c-caption,
-    // .c-caption a {
-    //     color: darken($theme-color-51, 35);
-    // }
-
-    // .c-name,
-    // h3, 
-    // p,
-    // li,
-    // .c-nav__link--home {
-    //     color: darken($theme-color-51, 70);
-    // }
-
-    // h2, 
-    // h3 {
-    //     color: darken($theme-color-51, 80);
-    // }
-
-    // a {
-    //     color: darken($theme-color-51, 90);
-    //     border-color: $theme-color-52;
-    // }
-
-
-    // .c-nav__link {
-    //     border-color: darken($theme-color-51, 10);
-
-    //     &:hover {
-    //         color: darken($theme-color-51, 90);;
-    //     }
-    // }
-
-
-    // .c-hire_me {
-    //     background-color: darken($theme-color-51, 6);
-
-    //     h4 {
-    //         background-color: $theme-color-51;
-    //         color: $theme-color-52;
-    //     }
-    // }
 }
 
 
@@ -604,6 +185,15 @@ html.th-white {
 
     @include media-query(hd) {
         background-color: white;
+    }
+
+    .c-hire_me {
+        //background-color: darken($theme-color-11, 6);
+
+        h4 {
+            background-color: white;
+            color: $theme-color-52;
+        }
     }
 }
 

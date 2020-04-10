@@ -130,3 +130,67 @@
         line-height: 1.8;
     }
 }
+
+
+
+
+
+/* The Modal (background) */
+.c-modal {
+    //display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+
+  /* Modal Content */
+  .c-modal__content {
+    background-color: #fefefe;
+    border-radius: 12px;
+    margin: auto;
+    padding: 21px 30px 30px;
+    border: 1px solid #888;
+    max-width: 360px;
+
+    @include media-query(hd) {
+        max-width: 420px;
+    }
+
+    button + button {
+
+    }
+  }
+
+
+  /* Modal Header */
+  .c-modal__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        h1 {
+            font-size: $as-font-size-l;
+        }
+  }
+
+
+
+button,
+.c-button {
+    background: none;
+    border: none;
+    font-size: $as-font-size-m;
+    font-weight: 600;
+
+    @include media-query(hd) {
+        font-size: $as-font-size-m;
+    }
+}
