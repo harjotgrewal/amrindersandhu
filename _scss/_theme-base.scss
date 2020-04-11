@@ -36,9 +36,12 @@ $theme-color-52: #2860E3;
     }
 
     .c-header,
-    hr,
     a {
         border-color: darken($th-col-1, $val-1);
+    }
+
+    hr {
+        border-color: darken($th-col-1, 05);
     }
 
     .c-nav__link,

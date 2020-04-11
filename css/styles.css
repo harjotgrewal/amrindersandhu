@@ -828,8 +828,8 @@ blockquote.c-caption p {
   line-height: 24px; }
 
 hr {
-  border-width: 1px 0 0;
-  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 2px 0 0;
+  border-color: rgba(0, 0, 0, 0.03);
   border-style: solid;
   margin: 0; }
 
@@ -844,15 +844,16 @@ main p {
           hyphens: auto; }
   main p + h3 {
     margin-top: 45px; }
-  main p .no-hypens {
-    -webkit-hyphens: none;
-       -moz-hyphens: none;
-        -ms-hyphens: none;
-            hyphens: none; }
 
 main img,
 main video {
   max-width: 100%; }
+
+.no-hypens {
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none; }
 
 figcaption,
 .c-caption {
@@ -1769,9 +1770,10 @@ html.p-work {
   html.p-work .c-name svg g {
     fill: #65528a; }
   html.p-work .c-header,
-  html.p-work hr,
   html.p-work a {
     border-color: #d0c9df; }
+  html.p-work hr {
+    border-color: #ded9e9; }
   html.p-work .c-nav__link,
   html.p-work h1,
   html.p-work .c-footer small,
@@ -1821,12 +1823,13 @@ html.p-pr {
   html.p-pr .c-name svg g {
     fill: #516186; }
   html.p-cs .c-header,
-  html.p-cs hr,
   html.p-cs a,
   html.p-pr .c-header,
-  html.p-pr hr,
   html.p-pr a {
     border-color: #c6cddd; }
+  html.p-cs hr,
+  html.p-pr hr {
+    border-color: #d6dbe6; }
   html.p-cs .c-nav__link,
   html.p-cs h1,
   html.p-cs .c-footer small,
@@ -1894,9 +1897,10 @@ html.p-about {
   html.p-about .c-name svg g {
     fill: #51867c; }
   html.p-about .c-header,
-  html.p-about hr,
   html.p-about a {
     border-color: #c6ddd8; }
+  html.p-about hr {
+    border-color: #d6e6e3; }
   html.p-about .c-nav__link,
   html.p-about h1,
   html.p-about .c-footer small,
@@ -1943,9 +1947,10 @@ html.p-library {
   html.p-library .c-name svg g {
     fill: #8a8452; }
   html.p-library .c-header,
-  html.p-library hr,
   html.p-library a {
     border-color: #dfddc9; }
+  html.p-library hr {
+    border-color: #e9e7d9; }
   html.p-library .c-nav__link,
   html.p-library h1,
   html.p-library .c-footer small,
@@ -1995,9 +2000,10 @@ html.p-journal {
   html.p-journal .c-name svg g {
     fill: #8a5852; }
   html.p-journal .c-header,
-  html.p-journal hr,
   html.p-journal a {
     border-color: #dfcbc9; }
+  html.p-journal hr {
+    border-color: #e9dbd9; }
   html.p-journal .c-nav__link,
   html.p-journal h1,
   html.p-journal .c-footer small,
@@ -2050,9 +2056,10 @@ html.p-testimonials {
   html.p-testimonials .c-name svg g {
     fill: #516186; }
   html.p-testimonials .c-header,
-  html.p-testimonials hr,
   html.p-testimonials a {
     border-color: #c6cddd; }
+  html.p-testimonials hr {
+    border-color: #d6dbe6; }
   html.p-testimonials .c-nav__link,
   html.p-testimonials h1,
   html.p-testimonials .c-footer small,

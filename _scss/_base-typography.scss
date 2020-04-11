@@ -176,8 +176,8 @@ blockquote {
 
 
 hr {
-    border-width: 1px 0 0;
-    border-color: rgba(black, .1);
+    border-width: 2px 0 0;
+    border-color: rgba(black, .03);
     border-style: solid;
     margin: 0;
 }
@@ -194,16 +194,17 @@ main {
         + h3 {
             margin-top: 45px;
         }
-
-        .no-hypens {
-            hyphens: none;
-        }
     }
 
     img,
     video {
         max-width: 100%;
     }
+}
+
+
+.no-hypens {
+    hyphens: none;
 }
 
 
