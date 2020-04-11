@@ -45,9 +45,12 @@
   </nav>
   <div class="c-hire_me">
     <h4>Hire Me</h4>
-    <p>I’m available to join full-time from May 2020. <a href="mailto:contact@amrindersandhu.com?subject=Re%3A%20Job%20Opportunity" target="_blank"><b>Email Me</b></a>
-      <!--a#myBtn(href="javascript:void(0)")b Email Me
-      -->
+    <p>I’m available to join full-time from May 2020. 
+      <!--a(href="mailto:contact@amrindersandhu.com?subject=Re%3A%20Job%20Opportunity" target="_blank")
+      b Email Me
+      
+      
+      --><a id="myBtn" href="javascript:void(0)"><b>Email Me</b></a>
     </p>
   </div>
 </header>
@@ -216,36 +219,16 @@
   
   -->
   <!-- Email Modal-->
-  <!--#emailModal.c-modal
-  .c-modal__content
-      .c-modal__header 
-          h1 Email Me
-  
-          button.c-modal__close Done
-  
-  
-      p Copy my email address (contact@amrindersandhu.com) 
-  
-      button#copyEmail Copy
-  
-      p
-          br
-          
-          | or 
-          
-          br
-  
-          | compose an email in your default email client.
-  
+  <div id="emailModal" class="c-modal c-modal--email">
+    <div class="c-modal__content">
+      <button id="copyEmail"> <span id="btnCopy" class="c-button__text">Copy my email address</span><span class="c-button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="#aab3c2" transform="translate(2 0)"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"></path></g></svg></span></button>
+      <!--small (contact@amrindersandhu.com)-->
       
-  
-      button#sendEmail.c-button
-          a(href="mailto:contact@amrindersandhu.com?subject=Re%3A%20Job%20Opportunity" target="_blank") Open in an email app
-  
-  
-  
-  
-  -->
+      <hr/><a id="composeMail" href="mailto:contact@amrindersandhu.com?subject=Re%3A%20Job%20Opportunity" target="_blank" class="c-button"> <span class="c-button__text">Compose an email </span><span class="c-button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="translate(0 0)" fill="#aab3c2" stroke="#aab3c2"><line x1="2" y1="22" x2="22" y2="2" fill="none" stroke-miterlimit="10"></line> <polyline points="12 2 22 2 22 12" fill="none" stroke-miterlimit="10"></polyline></g></svg></span></a>
+      <hr/>
+      <button id="closeModal" class="c-modal__close"> <span class="c-button__text">Nevermind </span><span class="c-button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(0 0)" fill="#aab3c2" stroke="#aab3c2"><circle cx="12" cy="12" r="11" fill="none" stroke="#aab3c2" stroke-miterlimit="10"></circle> <path d="M12,19a6.459,6.459,0,0,0,5-3" fill="none" stroke-miterlimit="10"></path> <path data-stroke="none" d="M7.376,7a3.294,3.294,0,1,0,2.772,4.94L11.3,9.954a.745.745,0,0,1,1.412,0l1.147,1.987A3.294,3.294,0,1,0,16.626,7L12,7.022Z" fill-rule="evenodd" stroke="none"></path></g></svg></span></button>
+    </div>
+  </div>
 </footer>
 <script>
   // LAZY LOADING IMAGES

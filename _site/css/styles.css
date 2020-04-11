@@ -485,6 +485,8 @@ body {
     body {
       margin: 0 auto;
       max-width: 1280px; } }
+  body.is-fixed {
+    overflow: hidden; }
 
 @media screen and (max-width: 1278px) {
   main {
@@ -1197,12 +1199,12 @@ ul li, ol li {
 
 /* The Modal (background) */
 .c-modal {
+  display: -ms-flexbox;
+  display: flex;
   position: fixed;
   /* Stay in place */
   z-index: 1000;
   /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
   left: 0;
   top: 0;
   width: 100%;
@@ -1214,19 +1216,33 @@ ul li, ol li {
   background-color: black;
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */ }
+  /* Black w/ opacity */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out; }
+  .c-modal.is-visible {
+    opacity: 1;
+    pointer-events: all; }
+    .c-modal.is-visible .c-modal__content {
+      -webkit-transform: scale(1);
+              transform: scale(1); }
 
 /* Modal Content */
 .c-modal__content {
   background-color: #fefefe;
   border-radius: 12px;
   margin: auto;
-  padding: 21px 30px 30px;
+  padding: 30px;
   border: 1px solid #888;
-  max-width: 360px; }
+  width: 360px;
+  top: 10px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out; }
   @media screen and (min-width: 1279px) {
     .c-modal__content {
-      max-width: 420px; } }
+      width: 420px; } }
 
 /* Modal Header */
 .c-modal__header {
@@ -1234,20 +1250,46 @@ ul li, ol li {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  margin-bottom: 15px; }
+  margin-bottom: 30px;
+  position: relative; }
   .c-modal__header h1 {
     font-size: 21px; }
+
+.c-modal--email button,
+.c-modal--email .c-button {
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  cursor: default;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.c-modal--email .c-button__icon {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  display: contents; }
+
+.c-modal--email hr {
+  opacity: .3;
+  border-width: 2px 0 0;
+  margin: 24px -30px; }
 
 button,
 .c-button {
   background: none;
   border: none;
-  font-size: 18px;
-  font-weight: 600; }
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 18px !important;
+  font-weight: 600;
+  outline: none; }
   @media screen and (min-width: 1279px) {
     button,
     .c-button {
-      font-size: 18px; } }
+      font-size: 18px !important; } }
 
 .c-nav {
   z-index: 9; }

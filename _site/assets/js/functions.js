@@ -67,6 +67,8 @@
 
 // Email me modal
 // Get the modal
+var body = document.body;
+
 var modal = document.getElementById("emailModal");
 
 // Get the button that opens the modal
@@ -75,16 +77,20 @@ var btn = document.getElementById("myBtn");
 // Copy email button
 var copyBtn = document.getElementById("copyEmail");
 
+// Copy button text
+var btnText = document.getElementById('btnCopy');
+
 // Send email button
-var sendEmail = document.getElementById("sendEmail");
+var sendEmail = document.getElementById("composeMail");
 
 // Get the <span> element that closes the modal
 var closeModal = document.getElementsByClassName("c-modal__close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
-  modal.style.display = "block";
-  copyBtn.innerHTML = 'Copy email address';
+  modal.classList.add('is-visible');
+  body.classList.add('is-fixed');
+  btnText.innerHTML = 'Copy my email address';
 }
 
 
@@ -95,23 +101,31 @@ copyBtn.onclick = function() {
     el.select();
     document.execCommand('copy');
     document.body.removeChild(el);
-    copyBtn.innerHTML = 'Copied to clipboard';
+    btnText.innerHTML = 'Copied email to clipboard';
+
+    setTimeout(function(){ 
+        modal.classList.remove('is-visible');
+        body.classList.remove('is-fixed');
+     }, 1000);
 }
 
 sendEmail.onclick = function() {
-    modal.style.display = "none";
+    modal.classList.remove('is-visible');
+    body.classList.remove('is-fixed');
 }
 
 
 // When the user clicks on <span> (x), close the modal
 closeModal.onclick = function() {
-  modal.style.display = "none";
+    modal.classList.remove('is-visible');
+    body.classList.remove('is-fixed');
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
+    modal.classList.remove('is-visible');
+    body.classList.remove('is-fixed');
   }
 }
 

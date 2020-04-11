@@ -36,6 +36,10 @@ body {
 		margin: 0 auto;
 		max-width: 1280px;
 	}
+
+	&.is-fixed {
+		overflow: hidden;
+	}
 }
 
 
