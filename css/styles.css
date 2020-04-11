@@ -1232,15 +1232,15 @@ ul li, ol li {
   background-color: #fefefe;
   border-radius: 12px;
   margin: auto;
-  padding: 30px;
+  padding: 27px 30px;
   border: 1px solid #888;
-  width: 360px;
+  width: 315px;
   top: 10px;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
   transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out; }
-  @media screen and (min-width: 1279px) {
+  @media screen and (min-width: 45em) {
     .c-modal__content {
       width: 420px; } }
 
@@ -1283,10 +1283,10 @@ button,
   background: none;
   border: none;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px !important;
+  font-size: 16px !important;
   font-weight: 600;
   outline: none; }
-  @media screen and (min-width: 1279px) {
+  @media screen and (min-width: 45em) {
     button,
     .c-button {
       font-size: 18px !important; } }

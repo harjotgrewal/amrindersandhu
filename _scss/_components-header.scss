@@ -167,14 +167,14 @@
     background-color: #fefefe;
     border-radius: 12px;
     margin: auto;
-    padding: 30px;
+    padding: 27px 30px;
     border: 1px solid #888;
-    width: 360px;
+    width: 315px;
     top: 10px;
     transform: scale(.9);
     transition: transform .3s ease-in-out;
 
-    @include media-query(hd) {
+    @include media-query(lap-and-up) {
         width: 420px;
     }
   }
@@ -226,11 +226,11 @@ button,
     background: none;
     border: none;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: $as-font-size-m !important;
+    font-size: $as-font-size-s !important;
     font-weight: 600;
     outline: none;
 
-    @include media-query(hd) {
+    @include media-query(lap-and-up) {
         font-size: $as-font-size-m !important;
     }
 }
