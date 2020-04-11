@@ -102,10 +102,12 @@ copyBtn.onclick = function() {
     document.execCommand('copy');
     document.body.removeChild(el);
     btnText.innerHTML = 'Copied email to clipboard';
+    btnText.style.color = "green";
 
     setTimeout(function(){ 
         modal.classList.remove('is-visible');
         body.classList.remove('is-fixed');
+        btnText.style.setProperty('color', 'inherit');
      }, 1000);
 }
 
