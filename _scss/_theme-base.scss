@@ -44,13 +44,20 @@ $theme-color-52: #2860E3;
         border-color: darken($th-col-1, 05);
     }
 
+    
+
     .c-nav__link,
     h1,
     .c-footer small,
+    .c-footer__links a,
     .c-testimonial small,
     blockquote:not(.c-caption) footer {
         color: darken($th-col-1, $val-3);
     }
+
+    // h1 {
+    //     color: darken($th-col-2, 15);
+    // }
 
     figcaption,
     figcaption a, 

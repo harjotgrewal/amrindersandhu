@@ -5,6 +5,7 @@
 
 
 .c-footer {
+    align-items: baseline;
 
     @include media-query(portable) {
         max-width: 570px;
@@ -14,6 +15,17 @@
     @include media-query(palm) {
         margin-left: 30px;
         margin-right: 30px;
+
+        display: flex;
+        flex-direction: column;
+
+        .u-sep {
+            display: none;
+        }
+
+        a {
+            display: inline-block;
+        }
 	}
     
     @include media-query(hd) {
@@ -25,5 +37,19 @@
     a {
         color: $color-grey-light;
         font-size: $as-font-size-xs;
+    }
+}
+
+
+
+.c-footer__links {
+    @include media-query(palm) {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+
+        a {
+            margin-top: 15px;
+        }
     }
 }

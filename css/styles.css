@@ -1081,24 +1081,43 @@ ul li, ol li {
     width: 100%;
     height: 100%; }
 
-@media screen and (max-width: 1278px) {
-  .c-footer {
-    max-width: 570px;
-    margin: 0 auto 60px; } }
+.c-footer {
+  -ms-flex-align: baseline;
+      align-items: baseline; }
+  @media screen and (max-width: 1278px) {
+    .c-footer {
+      max-width: 570px;
+      margin: 0 auto 60px; } }
+  @media screen and (max-width: 44.9375em) {
+    .c-footer {
+      margin-left: 30px;
+      margin-right: 30px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+      .c-footer .u-sep {
+        display: none; }
+      .c-footer a {
+        display: inline-block; } }
+  @media screen and (min-width: 1279px) {
+    .c-footer {
+      margin: 0 0 6vw 350px; } }
+  .c-footer small,
+  .c-footer a {
+    color: #858585;
+    font-size: 14px; }
 
 @media screen and (max-width: 44.9375em) {
-  .c-footer {
-    margin-left: 30px;
-    margin-right: 30px; } }
-
-@media screen and (min-width: 1279px) {
-  .c-footer {
-    margin: 0 0 6vw 350px; } }
-
-.c-footer small,
-.c-footer a {
-  color: #858585;
-  font-size: 14px; }
+  .c-footer__links {
+    -ms-flex-align: start;
+        align-items: flex-start;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    .c-footer__links a {
+      margin-top: 15px; } }
 
 .c-header {
   position: relative; }
@@ -1777,6 +1796,7 @@ html.p-work {
   html.p-work .c-nav__link,
   html.p-work h1,
   html.p-work .c-footer small,
+  html.p-work .c-footer__links a,
   html.p-work .c-testimonial small,
   html.p-work blockquote:not(.c-caption) footer {
     color: #65528a; }
@@ -1833,11 +1853,13 @@ html.p-pr {
   html.p-cs .c-nav__link,
   html.p-cs h1,
   html.p-cs .c-footer small,
+  html.p-cs .c-footer__links a,
   html.p-cs .c-testimonial small,
   html.p-cs blockquote:not(.c-caption) footer,
   html.p-pr .c-nav__link,
   html.p-pr h1,
   html.p-pr .c-footer small,
+  html.p-pr .c-footer__links a,
   html.p-pr .c-testimonial small,
   html.p-pr blockquote:not(.c-caption) footer {
     color: #516186; }
@@ -1904,6 +1926,7 @@ html.p-about {
   html.p-about .c-nav__link,
   html.p-about h1,
   html.p-about .c-footer small,
+  html.p-about .c-footer__links a,
   html.p-about .c-testimonial small,
   html.p-about blockquote:not(.c-caption) footer {
     color: #51867c; }
@@ -1954,6 +1977,7 @@ html.p-library {
   html.p-library .c-nav__link,
   html.p-library h1,
   html.p-library .c-footer small,
+  html.p-library .c-footer__links a,
   html.p-library .c-testimonial small,
   html.p-library blockquote:not(.c-caption) footer {
     color: #8a8452; }
@@ -2007,6 +2031,7 @@ html.p-journal {
   html.p-journal .c-nav__link,
   html.p-journal h1,
   html.p-journal .c-footer small,
+  html.p-journal .c-footer__links a,
   html.p-journal .c-testimonial small,
   html.p-journal blockquote:not(.c-caption) footer {
     color: #8a5852; }
@@ -2063,6 +2088,7 @@ html.p-testimonials {
   html.p-testimonials .c-nav__link,
   html.p-testimonials h1,
   html.p-testimonials .c-footer small,
+  html.p-testimonials .c-footer__links a,
   html.p-testimonials .c-testimonial small,
   html.p-testimonials blockquote:not(.c-caption) footer {
     color: #516186; }
