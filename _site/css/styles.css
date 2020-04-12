@@ -1961,6 +1961,9 @@ html.p-about {
     color: #01CD7D; }
   html.p-about .c-nav__link--about {
     color: #2a4741; }
+  @media screen and (min-width: 1279px) {
+    html.p-about .c-photo figcaption {
+      color: #c6ddd8; } }
 
 html.p-library {
   background-color: #F2F1E9; }

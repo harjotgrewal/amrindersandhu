@@ -140,6 +140,13 @@ html.p-about {
     .c-nav__link--about {
         color: darken($theme-color-41, 70);
     }
+
+    .c-photo figcaption {
+
+        @include media-query(hd) {
+            color: darken($theme-color-41, 10);
+        }
+    }
 }
 
 
