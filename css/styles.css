@@ -802,7 +802,7 @@ a {
 blockquote:not(.c-caption) {
   border-left: 5px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 9px 0 9px 21px;
   margin-bottom: 30px; }
   @media screen and (min-width: 1279px) {
     blockquote:not(.c-caption) {
