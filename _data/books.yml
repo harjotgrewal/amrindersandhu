@@ -67,6 +67,22 @@ favs:
 all:
 
 - {	
+	url: 'https://abookapart.com/products/expressive-design-systems',
+	name: 'Expressive Design Systems',
+	author: 'Yesenia Perez-Cruz',	
+	src: 'expressive_design_systems.png',
+	category: 'process'	
+}
+
+- {	
+	url: 'https://abookapart.com/products/animation-at-work',
+	name: 'Animation at Work',
+	author: 'Rachel Nabors',	
+	src: 'animation_at_work.png',
+	category: 'process'	
+}
+
+- {	
 	url: 'https://www.amazon.ca/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0307361179',
 	name: 'Creativity, Inc.',
 	author: 'Ed Catmull',	
