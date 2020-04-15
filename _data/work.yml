@@ -45,7 +45,7 @@ case-study:
 
 project:
 - {	
-	class: 'l-span_3',
+	class: 'l-span_3 u-space_below',
 	link: '/proj-integration.html',
 	title: 'Unmetric Falcon <br/>Integration <br/>Phase 1',
 	page-title: 'Project – Integration',
@@ -55,7 +55,7 @@ project:
 
 
 - {	
-	class: 'l-span_3',
+	class: 'l-span_3 u-space_below',
 	link: '/proj-website.html',
 	title: 'Unmetric Website, <br/>Blog and Email<br/>Newsletters',
 	page-title: 'Project – Website',
