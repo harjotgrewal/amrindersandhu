@@ -57,7 +57,32 @@
 
 
 .back-to-top {
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+    padding: 15px;
     position: fixed;
     right: 20px;
     bottom: 20px;
+    transform: scale(0);
+    opacity: 0;
+    transition: opacity .2s ease-in-out, transform .2s ease-in-out;
+    width: 78px;
+
+    span {
+        display: inline-block;
+        font-size: $as-font-size-xs !important;
+        line-height: 1.2;
+    }
+
+    @include media-query(palm) { 
+        right: 9px;
+        bottom: 9px;
+        padding: 9px;
+        width: 60px;
+    }
+
+    &.is-visible {
+        opacity: 1;
+        transform: scale(1);
+    }
 }

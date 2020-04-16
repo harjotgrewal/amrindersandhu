@@ -150,10 +150,10 @@ topButton.onclick = function() {
 window.onscroll = function() {
     let scrollTop = window.pageYOffset;
     if(scrollTop > 1500) {
-        topButton.classList.remove('is-hidden');
+        topButton.classList.add('is-visible');
     }
     else if(scrollTop < 1500) {
-        topButton.classList.add('is-hidden');
+        topButton.classList.remove('is-visible');
     }
 }
 
