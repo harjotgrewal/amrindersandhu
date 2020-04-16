@@ -1119,6 +1119,11 @@ ul li, ol li {
     .c-footer__links a {
       margin-top: 15px; } }
 
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px; }
+
 .c-header {
   position: relative; }
   @media screen and (max-width: 1278px) {

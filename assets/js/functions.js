@@ -65,6 +65,9 @@
 
 
 
+
+
+
 // Email me modal
 // Get the modal
 var body = document.body;
@@ -132,6 +135,30 @@ window.onclick = function(event) {
 }
 
 
+// Back to top
+const topButton = document.getElementById('js-back-to-top');
+
+topButton.onclick = function() {
+    console.log('hi');
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+}
+
+window.onscroll = function() {
+    let scrollTop = window.pageYOffset;
+    if(scrollTop > 1500) {
+        topButton.classList.remove('is-hidden');
+    }
+    else if(scrollTop < 1500) {
+        topButton.classList.add('is-hidden');
+    }
+}
+
+
+// Library 
 const filterWrapper = document.querySelector(".js-filtersWrapper");
 
 const filterControls = filterWrapper.querySelectorAll(".js-filter");
