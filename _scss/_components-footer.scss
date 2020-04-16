@@ -57,6 +57,7 @@
 
 
 .back-to-top {
+    -webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(30px);
     border-radius: 15px;
     padding: 15px;
