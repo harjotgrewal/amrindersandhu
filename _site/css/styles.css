@@ -1801,7 +1801,7 @@ button,
     font-size: 21px;
     position: absolute; }
     .c-testimonial blockquote span:first-child {
-      left: -15px; }
+      left: -10px; }
 
 @media screen and (max-width: 44.9375em) {
   .c-testimonial__author {
