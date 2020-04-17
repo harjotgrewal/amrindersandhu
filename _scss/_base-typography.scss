@@ -329,7 +329,7 @@ ul, ol {
     font-weight: 200;
     float: left;
     line-height: 1;
-    margin-right: 0.05em;
+    margin-right: 3px;
 
     &:before,
     &:after {
@@ -338,10 +338,10 @@ ul, ol {
     }
 
     &:before {
-        margin-bottom: -0.025em;
+        margin-bottom: -1px;
     }
 
     &:after {
-        margin-top: -0.15em;
+        margin-top: 0;
     }
 }

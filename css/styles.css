@@ -946,14 +946,14 @@ ul li, ol li {
   font-weight: 200;
   float: left;
   line-height: 1;
-  margin-right: 0.05em; }
+  margin-right: 3px; }
   .c-dropcap:before, .c-dropcap:after {
     content: "";
     display: block; }
   .c-dropcap:before {
-    margin-bottom: -0.025em; }
+    margin-bottom: -1px; }
   .c-dropcap:after {
-    margin-top: -0.15em; }
+    margin-top: 0; }
 
 .c-billboard {
   -ms-flex-align: center;
