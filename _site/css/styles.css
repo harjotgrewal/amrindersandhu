@@ -795,9 +795,12 @@ small {
       line-height: 24px; } }
 
 a {
-  border-bottom: 1px solid;
+  border-bottom: 2px solid;
+  border-radius: 2px;
   color: #050505;
   text-decoration: none; }
+  a:hover {
+    border-bottom-color: #050505 !important; }
 
 blockquote:not(.c-caption) {
   border-left: 5px solid rgba(0, 0, 0, 0.1);
@@ -1846,6 +1849,8 @@ html.p-work {
   html.p-work a {
     color: #130f1a;
     border-color: #572DF5; }
+    html.p-work a:hover {
+      color: #572DF5; }
   html.p-work .c-nav__link {
     border-color: #d0c9df; }
     html.p-work .c-nav__link:hover {
@@ -1921,6 +1926,9 @@ html.p-pr {
   html.p-pr a {
     color: #0e1017;
     border-color: #2860E3; }
+    html.p-cs a:hover,
+    html.p-pr a:hover {
+      color: #2860E3; }
   html.p-cs .c-nav__link,
   html.p-pr .c-nav__link {
     border-color: #c6cddd; }
@@ -1976,6 +1984,8 @@ html.p-about {
   html.p-about a {
     color: #0e1715;
     border-color: #01CD7D; }
+    html.p-about a:hover {
+      color: #01CD7D; }
   html.p-about .c-nav__link {
     border-color: #c6ddd8; }
     html.p-about .c-nav__link:hover {
@@ -2030,6 +2040,8 @@ html.p-library {
   html.p-library a {
     color: #1a190f;
     border-color: #E3A328; }
+    html.p-library a:hover {
+      color: #E3A328; }
   html.p-library .c-nav__link {
     border-color: #dfddc9; }
     html.p-library .c-nav__link:hover {
@@ -2084,6 +2096,8 @@ html.p-journal {
   html.p-journal a {
     color: #1a110f;
     border-color: #E33328; }
+    html.p-journal a:hover {
+      color: #E33328; }
   html.p-journal .c-nav__link {
     border-color: #dfcbc9; }
     html.p-journal .c-nav__link:hover {
@@ -2141,6 +2155,8 @@ html.p-testimonials {
   html.p-testimonials a {
     color: #0e1017;
     border-color: #2860E3; }
+    html.p-testimonials a:hover {
+      color: #2860E3; }
   html.p-testimonials .c-nav__link {
     border-color: #c6cddd; }
     html.p-testimonials .c-nav__link:hover {

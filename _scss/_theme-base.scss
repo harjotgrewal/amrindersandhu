@@ -83,6 +83,10 @@ $theme-color-52: #2860E3;
     a {
         color: darken($th-col-1, $val-5);
         border-color: $th-col-2;
+
+        &:hover {
+            color: $th-col-2;
+        }
     }
 
 

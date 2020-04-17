@@ -132,9 +132,14 @@ small {
 
 
 a {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
+    border-radius: 2px;
     color: $color-grey-darker;
     text-decoration: none;
+
+    &:hover {
+        border-bottom-color: $color-grey-darker !important;
+    }
 }
 
 
