@@ -20,19 +20,20 @@ case-study:
 
 
 - {	
-	link: '/case-study-branding.html',
-	title: 'Positioning Unmetric as a leader <br/>in social media analytics space<br/>and a premium brand.',
-	page-title: 'Case Study – Branding',
-	src: '/assets/i/sshots/cs-br-cover.png',
-	status: 'active'
-}
-
-
-- {	
 	link: '/case-study-discover.html',
 	title: 'Designing the world’s <br/>largest branded content <br/>catalog: Discover.',
 	page-title: 'Case Study – Discover',
 	src: '/assets/i/sshots/cover-discover.png',
+	status: 'active'
+}
+
+
+
+- {	
+	link: '/case-study-branding.html',
+	title: 'Positioning Unmetric as a leader <br/>in social media analytics space<br/>and a premium brand.',
+	page-title: 'Case Study – Branding',
+	src: '/assets/i/sshots/cs-br-cover.png',
 	status: 'active'
 }
 
