@@ -181,7 +181,8 @@ blockquote {
 
 
 hr {
-    border-width: 2px 0 0;
+    border-radius:  0 0 3px 3px;
+    border-width: 3px 0 0;
     border-color: rgba(black, .03);
     border-style: solid;
     margin: 0;
@@ -317,5 +318,30 @@ ul, ol {
         vertical-align: baseline;
         position: relative;
         top: -2px;
+    }
+}
+
+
+.c-dropcap {
+    display: inline-block;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 200;
+    float: left;
+    line-height: 1;
+    margin-right: 0.05em;
+
+    &:before,
+    &:after {
+    content: "";
+    display: block;
+    }
+
+    &:before {
+        margin-bottom: -0.025em;
+    }
+
+    &:after {
+        margin-top: -0.15em;
     }
 }

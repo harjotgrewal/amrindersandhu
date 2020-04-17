@@ -11,7 +11,7 @@ journal:
 
 
 - {	
-	title: 'In these tough times, when everyone is working remotely, it’s more important to be humane than professional, especially for leaders.', 
+	title: '<span class="c-dropcap">I</span>n these tough times, when everyone is working remotely, it’s more important to be humane than professional, especially for leaders.', 
 	url: 'https://firstround.com/review/struggling-to-thrive-as-a-large-team-working-remotely-this-exec-has-the-field-guide-you-need/',
 	content-title: 'Struggling to thrive as a large team working remotely? <i class="u-break_line--hd"></i>This exec has the field guide you need',
 	content-copy: '<p>“What works for our remote team are things that work for all humans — trust, transparency, clear communication, clear expectations, mutual respect, accountability and camaraderie,” Leung says. “When it comes to remote work, there’s no huge secret or magic potion. To make our large remote team work, we do a lot of small things consistently and we know that every element matters. It’s like going to the gym every day — everyone knows it’s healthy, but not everyone does it consistently. We also know we’re not perfect, that we’ll screw things up along the way, that we’ll fall short. That’s okay. We know what our North Star is, and we all have a chance to do better every day,” Leung says.</p>', 
@@ -21,7 +21,7 @@ journal:
 
 
 - {	
-	title: 'The “definition of success” certainly needs a redesign. It is hugely mistaken.', 
+	title: '<span class="c-dropcap">T</span>he “definition of success” certainly needs a redesign. It is hugely mistaken.', 
 	url: 'https://www.ideo.com/blog/24-more-things-we-want-to-redesign',
 	content-title: '24 more things we want to redesign',
 	content-copy: '<p>When was the last time you were annoyed by something small? Like the mean, angry noise a chip reader makes when it’s done with your card? Or the mess a pen makes when the cap pops off in your back pocket? Or how deeply, achingly, frustratingly hard it is to tie a water balloon?</p>',
@@ -30,7 +30,7 @@ journal:
 
 
 - {	
-	title: 'Web development is both fun and frustrating because it is always changing, and fast.', 
+	title: '<span class="c-dropcap">W</span>eb development is both fun and frustrating because it is always changing, and fast.', 
 	url: 'https://css-tricks.com/why-javascript-is-eating-html/',
 	content-title: 'Why JavaScript is eating HTML',
 	content-copy: '<p>Web development is always changing. One trend in particular has become very popular lately, and it fundamentally goes against the conventional wisdom about how a web page should be made. It is exciting for some but frustrating for others, and the reasons for both are difficult to explain.</p>'
@@ -38,7 +38,7 @@ journal:
 
 
 - {	
-	title: 'Code alone can’t solve every problem. It’s okay to do things that don’t scale.', 
+	title: '<span class="c-dropcap">C</span>ode alone can’t solve every problem. It’s okay to do things that don’t scale.', 
 	url: 'https://firstround.com/review/How-design-thinking-transformed-Airbnb-from-failing-startup-to-billion-dollar-business/',
 	content-title: 'How Design Thinking transformed Airbnb from a failing startup to a billion dollar business',
 	content-copy: '<p>While Airbnb is data driven, they don’t let data push them around. Instead of developing reactively to metrics, the team often starts with a creative hypothesis, implements a change, reviews how it impacts the business and then repeats that process. <br/> <br/>Individual team members at Airbnb make small bets on new features, and then measure if there’s a meaningful return on the bet. If there’s a payoff, they send more pirates in that direction. This structure encourages employees to take measured, productive risks on behalf of the company that can lead to the development of major new features. It allows Airbnb to move quickly and continually find new opportunities.</p>'
@@ -46,7 +46,7 @@ journal:
 
 
 - {	
-	title: 'Good design is understanding business and help it grow.', 
+	title: '<span class="c-dropcap">G</span>ood design is understanding business and help it grow.', 
 	url: 'https://twitter.com/jmspool/status/961804803440562176?s=20',
 	content-title: 'Jared Spool @jmspool',
 	content-copy: '<p>There’s only 5 things execs care about: <br/> • Increasing revenues <br/> • Decreasing costs <br/> • Increasing new business/marketshare <br/> • Increasing revenue from existing customers <br/> • Increasing shareholder value <br/><br/> Design leaders know to frame their team’s efforts as helping these priorities.</p>'
@@ -54,7 +54,7 @@ journal:
 
 
 - {	
-	title: 'I always rely on a todo list. Now I know it has other benefits.', 
+	title: '<span class="c-dropcap">I</span> always rely on a todo list. Now I know it has other benefits.', 
 	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
 	content-title: 'Writing to-do lists helps your brain (whether or not you finish them)',
 	content-copy: '<p>Keeping a list of tasks you need to perform is like taking notes when you’re reading a book or listening to a lecture. When you take notes, you need to filter external information, summarize it in your head, and then write it down. Many studies have shown that note taking helps us distill the information we hear and remember it better than we would if we’d just heard or read it.</p>'
@@ -62,7 +62,7 @@ journal:
 
 
 - {	
-	title: 'Mindfulness also lowers levels of anxiety and depression.', 
+	title: '<span class="c-dropcap">M</span>indfulness also lowers levels of anxiety and depression.', 
 	url: 'http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world',
 	content-title: 'The Japanese skill copied by the world',
 	content-copy: '<p>Mindfulness has become trendy around the world in recent years – but in Japan, it’s been ingrained into the culture for centuries.</p>'
@@ -70,7 +70,7 @@ journal:
 
 
 - {	
-	title: '3 simple but effictive lessons about keeping customers at the center of what you do.', 
+	title: '<span class="c-dropcap">3</span> simple but effictive lessons about keeping customers at the center of what you do.', 
 	url: 'https://hbr.org/2020/01/turn-your-customers-into-your-community',
 	content-title: 'Turn your Customers into your Community',
 	content-copy: '<p>For many organizations, cultivating a community will mean cultivating a new capacity. This is a democratic, not autocratic, route to building customer relationships. It requires trusting instead of controlling, and commitment instead of flightiness.</p>'
@@ -78,7 +78,7 @@ journal:
 
 
 - {	
-	title: 'Interesting approach for managing your commits.', 
+	title: '<span class="c-dropcap">I</span>nteresting approach for managing your commits.', 
 	url: 'https://hofmannsven.com/2019/commit-message-driven-development',
 	content-title: 'Commit Message Driven Development',
 	content-copy: '<p>In software development, we usually start with writing the code. But what if we’d start by writing out the commit message? Follow me through the concept of commit message driven development.</p>'
@@ -86,7 +86,7 @@ journal:
 
 
 - {	
-	title: 'How to increase focus to solve challenging problems by minimizing distractions.',
+	title: '<span class="c-dropcap">H</span>ow to increase focus to solve challenging problems by minimizing distractions.',
 	url: 'https://www.smashingmagazine.com/2019/11/better-design-deep-thinking/',
 	content-title: 'Better Design With Deep Thinking',
 	content-copy: '<p>Task switching is a design killer. Find out why switching and interruptions are even more serious than you think and how biology makes it difficult to resist the temptation to just check your email every few minutes. Learn how to slay the distraction dragon with five practical tips for increasing focus as you tackle challenging design problems.</p>'
@@ -94,7 +94,7 @@ journal:
 
 
 - {	
-	title: 'Some useful tips on how to impress your new boss early on.', 
+	title: '<span class="c-dropcap">S</span>ome useful tips on how to impress your new boss early on.', 
 	url: 'https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/" target="_blank',
 	content-title: 'How to impress your new boss in your first 30 days',
 	content-copy: '<p>Exceed expectations • Display excellent writing skills • Accept feedback willingly • Give feedback willingly • Be eager – but set expectations • Be a “manager of one” • Be empathetic • Small gestures make meaningful impact</p>'
@@ -102,7 +102,7 @@ journal:
 
 
 - {	
-	title: '7 interesting things that made Briana working at Stripe feel different.', 
+	title: '<span class="c-dropcap">7</span> interesting things that made Briana working at Stripe feel different.', 
 	url: 'https://knowyourteam.com/blog/2019/09/24/how-to-impress-your-new-boss-in-your-first-30-days/',
 	content-title: 'Brianna @zebriez',
 	content-copy: '<p>I recently left Stripe after 4.5 formative and magical years. Some reflections on what made working at Stripe feel different than working other places:<br>1/Turpentine<br>2/Writing<br>3/Meticulousness<br>4/Principled decision-making<br>5/Ambition<br>6/Talking up<br>7/The API metaphor</p>'
@@ -110,7 +110,7 @@ journal:
 
 
 - {	
-	title: 'Empathy isn’t about being nice but it can help increase revenue.', 
+	title: '<span class="c-dropcap">E</span>mpathy isn’t about being nice but it can help increase revenue.', 
 	url: 'https://vimeo.com/343056801',
 	content-title: 'Michael Ventura: Empathy is your Best Creative Tool',
 	content-copy: '<p>Entrepreneur and author Michael Ventura has dedicated his career to exploring how empathy can make us better leaders, collaborators, and contributors to society. In his 99U talk, Michael explains that the practice of empathy “isn’t about being nice” — it’s about deep understanding, and learning to apply that understanding to incredibly effective ends.</p>'
@@ -118,7 +118,7 @@ journal:
 
 
 - {	
-	title: 'I’ve been working remotely for 12 years now, and these practices are must-do.', 
+	title: '<span class="c-dropcap">I</span>’ve been working remotely for 12 years now, and these practices are must-do.', 
 	url: 'https://weworkremotely.com/10-practices-that-will-ensure-you-succeed-at-remote-work',
 	content-title: '10 Practices that will Ensure You Succeed at Remote Work',
 	content-copy: '<p>FYI’s co-founder, Marie Prokopets shares some new research on remote work they’ve gathered and a detailed breakdown of 10 practices to ensure remote work success.</p>'
@@ -126,7 +126,7 @@ journal:
 
 
 - {	
-	title: 'So this is how Amazon innvotes at scale: relentlessly practising their principles.', 
+	title: '<span class="c-dropcap">S</span>o this is how Amazon innvotes at scale: relentlessly practising their principles.', 
 	url: 'https://chiefmartec.com/2019/07/want-innovate-like-amazon-heres-formula',
 	content-title: 'Want to innovate like Amazon? Here’s their formula',
 	content-copy: '<p>You can’t escape Amazon in the digital economy. Now a trillion-dollar company, they have disrupted diverse sectors from retail to software development with a deftness and drive that’s admirable and alarming. They actually seem to be speeding up their rate of innovation as they scale, defying the Law of Large Companies that causes giants to get dragged down by their own girth. How do they manage that? A week ago at the MIT Platform Strategy Summit, Dirk Didascalou, vice president of IoT at Amazon Web Services (AWS), laid out their approach to innovating at scale.</p>'
@@ -134,7 +134,7 @@ journal:
 
 
 - {	
-	title: 'Different ways to communicate product changes and how to select them.', 
+	title: '<span class="c-dropcap">D</span>ifferent ways to communicate product changes and how to select them.', 
 	url: 'https://community.uservoice.com/blog/how-to-communicate-product-changes-to-your-users/',
 	content-title: 'How to communicate product changes to your users',
 	content-copy: '<p>When it comes to communicating new features and functionality, your main objectives are driving awareness and promoting adoption. That’s why you want to convey both the why and the how. When announcing something new, it can be tempting to start the story off with capabilities. But before you tap into your inner infomercial host, remember that users don’t really care about what a product can do. They care about what a product can do for them.</p>'
@@ -142,7 +142,7 @@ journal:
 
 
 - {	
-	title: 'Output is a means to an end: Outcome.', 
+	title: '<span class="c-dropcap">O</span>utput is a means to an end: Outcome.', 
 	url: 'https://www.intercom.com/blog/podcasts/josh-seiden-on-why-product-teams-should-focus-on-outcome-vs-output/',
 	content-title: 'Why product teams should focus on outcomes over output',
 	content-copy: '<p>Deciding what your engineers should do next can be a lot like climbing a ladder. On the lowest rung is a problem to be solved. At the top is an impact on the business, a change in the bottom line. Instead of trying to jump straight from the theoretical business impact to a directive for your R&D teams, it’s essential to stop for a moment and consider: “What is the desired outcome? If we implement a new feature, how will customer behavior change in a meaningful way?”</p>'
@@ -150,7 +150,7 @@ journal:
 
 
 - {	
-	title: 'So much goes into designing great search experience.', 
+	title: '<span class="c-dropcap">S</span>o much goes into designing great search experience.', 
 	url: 'https://www.smashingmagazine.com/2019/06/better-search-ux-microcopy/',
 	content-title: 'Better search UX through microcopy',
 	content-copy: '<p>Writing a good search experience comes down to thoughtfulness. As designers, we’ve probably used and created hundreds of different web search experiences, so we breeze through the process. But when we consider every small step of the process (every microinteraction and every edge case), the minor changes we make can have a major impact on the experience. Next time you find yourself reaching for a visual solution to a search problem, consider using your words instead.</p>'
@@ -158,7 +158,7 @@ journal:
 
 
 - {	
-	title: 'Focus is the key, as it helps you move faster.', 
+	title: '<span class="c-dropcap">F</span>ocus is the key, as it helps you move faster.', 
 	url: 'https://producthabits.com/my-billion-dollar-mistake/',
 	content-title: 'My billion dollar mistake',
 	content-copy: '<p>At my last company, KISSmetrics, I made a mistake that I truly believe lost me a billion dollar opportunity. It’s not something I’m proud of, and it’s one of the main reasons I’m now obsessed with building products the right way. I wrote the painful details of exactly what happened so you don’t have to make the same mistakes I did.</p>'
@@ -166,7 +166,7 @@ journal:
 
 
 - {	
-	title: 'Don’t give customers what they ask for. Help them become more productive.', 
+	title: '<span class="c-dropcap">D</span>on’t give customers what they ask for. Help them become more productive.', 
 	url: 'https://itunes.apple.com/us/story/id1435835881',
 	content-title: 'Where respect is due',
 	content-copy: '<p>We’ve always had the utmost respect for the user. Every internal decision about look and function answers the question “What does the customer need?” and “How can we help them become more productive?” (Not “How can we give them what they are asking for?” because that isn’t the right question to answer.).</p>'
@@ -174,7 +174,7 @@ journal:
 
 
 - {	
-	title: 'We do design team retrospective, and they are so useful. Let’s try these.', 
+	title: '<span class="c-dropcap">W</span>e do design team retrospective, and they are so useful. Let’s try these.', 
 	url: 'https://www.intercom.com/blog/how-we-conduct-project-retrospectives-at-intercom/',
 	content-title: 'How we run project retrospectives at Intercom',
 	content-copy: '<p>One of Intercom’s core values is that we’re serious about wanting to be the very best. One of the things we can do to implement this value is to be open and honest with each other about our strengths and weaknesses, with a willingness to learn and always keeping in mind that we can do better next time.</p>'
@@ -183,7 +183,7 @@ journal:
 
 
 - {	
-	title: 'Looks like we need to fix the colors for our charts. Must get the basics right.', 
+	title: '<span class="c-dropcap">L</span>ooks like we need to fix the colors for our charts. Must get the basics right.', 
 	url: 'https://blog.datawrapper.de/colors/',
 	content-title: 'What to consider when choosing colors for data visualization',
 	content-copy: '<p>Consider if there is a better alternative to gradient colors when encoding your most important values. Gradient colors can be great to show a pattern, e.g. on a choropleth map, but it’s hard to decipher the actual values from them and to see differences between the values. Consider showing your most important values with bars, position (like in a dot plot) or even areas, and to use colors to only show categories. Readers will be able to decipher your values faster.</p>'
@@ -191,7 +191,7 @@ journal:
 
 
 - {	
-	title: 'I too find this hard to do sometimes but it is essential for the team’s growth.', 
+	title: '<span class="c-dropcap">I</span> too find this hard to do sometimes but it is essential for the team’s growth.', 
 	url: 'https://knowyourteam.com/blog/2018/04/30/delegate-outcomes-not-activities/',
 	content-title: 'Delegate outcomes, not activities',
 	content-copy: '<p>For so many managers and leaders — especially those of us who are used to be the person doing the work and are now handing off the work to others — learning to delegate is, well, tricky, if not painful. The good news is that we are by no means alone. I recently happened upon some helpful advice from leaders who similarly have a tough time delegating in a few conversations on The Watercooler. And they were incredibly generous with their advice.</p>', 
@@ -200,7 +200,7 @@ journal:
 
 
 - {	
-	title: 'This is a great advice for the CEOs. They should trust their teams more.', 
+	title: '<span class="c-dropcap">T</span>his is a great advice for the CEOs. They should trust their teams more.', 
 	url: 'https://www.mironov.com/ceos/',
 	content-title: 'Why CEOs should not be our primary source of customer input',
 	content-copy: '<p>Many CEOs think they are best-informed people at their companies about what customers need/want. But product+design teams have time, focus, expertise to objectively validate ideas.</p>', 
@@ -209,7 +209,7 @@ journal:
 
 
 - {	
-	title: 'We have had hard time implementing OKRs. Maybe, we are going too deep.', 
+	title: '<span class="c-dropcap">W</span>e have had hard time implementing OKRs. Maybe, we are going too deep.', 
 	url: 'https://www.range.co/blog/are-you-doing-okrs-right',
 	content-title: 'Are you doing OKRs right?',
 	content-copy: '<p>OKRs really shouldn’t go too deep. For most teams, company-level OKRs are probably fine. As the company starts to grow, it may make sense to do team level OKRs. But those teams should not be functional teams, they should be product or mission teams. Don’t create engineering OKRs, product team OKRs, and marketing team OKRs. That doesn’t make sense.</p>', 
@@ -218,7 +218,7 @@ journal:
 
 
 - {	
-	title: 'Don’t conflate success with shipping a lots of features.', 
+	title: '<span class="c-dropcap">D</span>on’t conflate success with shipping a lots of features.', 
 	url: 'https://medium.com/@joulee/how-to-make-things-high-quality-f466f875227d',
 	content-title: 'How to make things high-quality',
 	content-copy: '<p>If you don’t think a feature is worth the time it takes to make it great, then it is not rational to ship a crappier version simply because you have sunk time into it.</p>', 
@@ -227,7 +227,7 @@ journal:
 
 
 - {	
-	title: 'This is why I love Basecamp. It simply gets the job done. And, this is the reason.', 
+	title: '<span class="c-dropcap">T</span>his is why I love Basecamp. It simply gets the job done. And, this is the reason.', 
 	url: 'https://twitter.com/jasonfried/status/1027970341744898049',
 	content-title: 'Jason Fried on feature parity',
 	content-copy: '<p>When making something new that clearly competes with something that exists, gravity will pull you towards trying to do everything they do PLUS the new stuff you want to do. I’d encourage you steer clear of feature parity. Instead, handle common struggles in novel, unique ways.</p>', 
@@ -236,7 +236,7 @@ journal:
 
 
 - {	
-	title: 'This is really insightful as we are building our own UI components library.', 
+	title: '<span class="c-dropcap">T</span>his is really insightful as we are building our own UI components library.', 
 	url: 'https://www.invisionapp.com/design-system-manager/expert-advice',
 	content-title: 'Build your design system like the pros',
 	content-copy: '<p>Learn the secrets of product design at scale in a design systems master class taught by the most influential thinkers in the field. Over the course of this up-close six-part video series, Brad Frost, Dan Mall, and Josh Clark share expert recommendations for every step of design system implementation—from early planning of system scope and structure to ongoing operational success.</p>', 
@@ -244,7 +244,7 @@ journal:
 }
 
 - {	
-	title: 'Interesting “Plays”. Let’s try with the team and see if they help fill the gaps.', 
+	title: '<span class="c-dropcap">I</span>nteresting “Plays”. Let’s try with the team and see if they help fill the gaps.', 
 	url: 'https://www.atlassian.com/team-playbook',
 	content-title: 'Atlassian Team Playbook – Team building activities that work',
 	content-copy: '<p>Step-by-step instructions for tracking your team’s health, and new ways of working ("plays") that build your Get $#!τ Done™ muscle. Use the plays on their own, or in concert with Atlassian tools. We developed the Team Playbook to transform the way we work. And it has. This ain’t your CEO’s management book. It’s by teams, for teams – any team.</p>', 
@@ -253,7 +253,7 @@ journal:
 
 
 - {	
-	title: 'I admit, I’ve had a hard time explaining the difference but Ryan has nailed it.', 
+	title: '<span class="c-dropcap">I</span> admit, I’ve had a hard time explaining the difference but Ryan has nailed it.', 
 	url: 'https://twitter.com/rjs/status/1019354630038409218',
 	content-title: 'Ryan Singer on Twitter',
 	content-copy: '<p>The difference between UI and UX in one image. The key to understanding UX is to introduce time. Things like an increase in anxiety (wait, what?) or running out of time (this is taking too long!) happen at specific moments.</p>', 
@@ -262,7 +262,7 @@ journal:
 
 
 - {	
-	title: 'Found this while working with our customer success team to reduce churn and increase retention.', 
+	title: '<span class="c-dropcap">F</span>ound this while working with our customer success team to reduce churn and increase retention.', 
 	url: 'https://www.intercom.com/blog/retention-cohorts-and-visualisations/',
 	content-title: 'Using cohort analysis to improve retention',
 	content-copy: '<p>Retention can be measured qualitatively by talking and checking in with your customers regularly so you’ll know what their main questions and issues are, and when they occur. Retention can also be quantified, giving you hard data on how much money you’re losing. Typically this is done using a cohort analysis.</p>', 
@@ -271,7 +271,7 @@ journal:
 
 
 - {	
-	title: 'User flows are vital to design great UX. It helps detect edge cases so one can address them effectively.', 
+	title: '<span class="c-dropcap">U</span>ser flows are vital to design great UX. It helps detect edge cases so one can address them effectively.', 
 	url: 'https://blog.overflow.io/8-tips-for-creating-better-user-flows-e46eb0d2a2c6',
 	content-title: '8 tips for creating better user flows.',
 	content-copy: '<p>User flows are visual representations of the path the user can follow to achieve a goal while using an app, website or any other product. Creating a representation like this, helps designers reflect on the flow themselves, communicate it with the team and stakeholders and get feedback. User flows also allow designers to compare alternatives, as well as evaluate and test them with real users before proceeding. The better designed the user flows, the easier it is for the audience to understand the story behind the designs and therefore the more constructive the feedback they will give.</p>', 
@@ -280,7 +280,7 @@ journal:
 
 
 - {	
-	title: 'When I review copy, I encourage brevity but not at the expense of clarity or personality.', 
+	title: '<span class="c-dropcap">W</span>hen I review copy, I encourage brevity but not at the expense of clarity or personality.', 
 	url: 'https://www.invisionapp.com/blog/good-ux-copy/',
 	content-title: 'Good UX copy doesn’t have to be short',
 	content-copy: '<p>UX copy is dependent on so much outside your control. The subject of the content itself, the position of a page in the user flow, and your users’ wants and needs. We often strangle ourselves into writing short copy no matter what. Not only can this hinder sales, it chokes any life or tone out of your copy. There is such a thing as being too brief—it kills personality.</p>', 
@@ -289,7 +289,7 @@ journal:
 
 
 - {	
-	title: 'There is always room for improvement. Even in a Git commit message.', 
+	title: '<span class="c-dropcap">T</span>here is always room for improvement. Even in a Git commit message.', 
 	url: 'https://chris.beams.io/posts/git-commit/',
 	content-title: 'How to write a git commit message',
 	content-copy: '<p>If you haven’t given much thought to what makes a great Git commit message, it may be the case that you haven’t spent much time using git log and related tools. There is a vicious cycle here: because the commit history is unstructured and inconsistent, one doesn’t spend much time using or taking care of it. And because it doesn’t get used or taken care of, it remains unstructured and inconsistent.</p>', 
@@ -299,7 +299,7 @@ journal:
 
 
 - {	
-	title: 'Interesting exercise. Trying this on Unmetric Sports App.', 
+	title: '<span class="c-dropcap">I</span>nteresting exercise. Trying this on Unmetric Sports App.', 
 	url: 'https://alistapart.com/article/object-oriented-ux',
 	content-title: 'Object-Oriented UX',
 	content-copy: 'Object mapping, my process behind OOUX, is content modeling for designers who do not deal with content in the traditional sense, but still need to design systems—and not just systems of implementation. While a tight collection of reusable templates and modules is invaluable, those design patterns don’t hold meaning for a user unless they’re backed by a system of real-world objects that matches that user’s mental model. Focus first on designing the system of real-world objects, then on designing a system of implementation to bring it all to life. This is the linchpin of all my design work, because it transforms goals into an executable system that meets those goals.', 
@@ -308,7 +308,7 @@ journal:
 
 
 - {	
-	title: 'How complexity can lead you to failure and why is it important to keep your product simple.', 
+	title: '<span class="c-dropcap">H</span>ow complexity can lead you to failure and why is it important to keep your product simple.', 
 	url: 'https://blog.intercom.com/the-hidden-cost-of-design-complexity/',
 	content-title: 'The hidden cost of design complexity',
 	content-copy: 'Complexity can be a real mental burden for the team. Each decision requires thinking about multiple facets: it’s harder for designers to keep the entire product in their head, it’s harder for engineers to think about side effects, it’s harder for customer support to understand and to explain how the product is supposed to work, it’s harder for analysts to find which part impacts the measures, it’s harder for the QA team to go through all the edge cases, it just makes it harder for the entire company to deliver value to the customers.', 
@@ -317,7 +317,7 @@ journal:
 
 
 - {	
-	title: 'One of the few important things we need to get right in our product strategy.', 
+	title: '<span class="c-dropcap">O</span>ne of the few important things we need to get right in our product strategy.', 
 	url: 'https://medium.com/initialized-capital/what-to-do-if-your-product-isnt-growing-7eb9d158fc',
 	content-title: 'What to do if your product isn’t growing',
 	content-copy: 'Early startups should start simple and make sure they know the optimal journey they want their product to fulfill for the user. Your Critical User Journey should focus on a single use case with a specific goal and include the surrounding context for the user. For example, one of the journeys that Pinterest is focused on is helping a user find ideas around their own personal style. A Pinterest user typically starts from browsing a large visual catalog of style ideas, and then progresses to discovering the right looks that fit their own style.', 
@@ -326,7 +326,7 @@ journal:
 
 
 - {	
-	title: 'Problems with focusing too much on the user feedback and how to fix them.', 
+	title: '<span class="c-dropcap">P</span>roblems with focusing too much on the user feedback and how to fix them.', 
 	url: 'https://articles.uie.com/designing_web_applications_for_use/',
 	content-title: 'Designing Web Applications for Use',
 	content-copy: 'The trick to designing effective support for an activity is to develop a rich picture of what the activity is about, what it involves, and what participants are trying to accomplish. Activity modeling, part of the well-established usage-centered design method, is a simple and systematic way to capture and organize understanding about human activity as it relates to the design of applications and other technology tools. It draws on extensive project experience to zero in on those things about activities that are most likely to be useful in shaping a good design.', 
@@ -335,7 +335,7 @@ journal:
 
 
 - {	
-	title: 'Conversational dashboards sound interesting. Just like replacing dashboard with insights feed.', 
+	title: '<span class="c-dropcap">C</span>onversational dashboards sound interesting. Just like replacing dashboard with insights feed.', 
 	url: 'https://medium.com/behavior-design/die-dashboards-die-why-conversations-will-reinvent-software-a632880d5465',
 	content-title: 'Die dashboards die! Why conversations will reinvent software',
 	content-copy: 'In years to come, conversations will breathe new life into software — particularly the boring enterprise tools millions of knowledge workers begrudgingly use every day. Conversational user interfaces (CUIs) work because of our familiarity with messaging. Even the most technically complex interactions can look as simple as getting an SMS text when presented as a conversation.', 
@@ -344,7 +344,7 @@ journal:
 
 
 - {	
-	title: 'This is something we can use to tighten our processes around product development.', 
+	title: '<span class="c-dropcap">T</span>his is something we can use to tighten our processes around product development.', 
 	url: 'https://library.gv.com/how-google-sets-goals-okrs-a1f69b0b72c7',
 	content-title: 'How Google sets goals: OKRs',
 	content-copy: '<div class="c-embedded_video"><iframe width="650" height="365" src="https://www.youtube.com/embed/mJB83EZtAjc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>', 
@@ -353,7 +353,7 @@ journal:
 
 
 - {	
-	title: 'Sounds like an interesting approach. One more thing to try and test.', 
+	title: '<span class="c-dropcap">S</span>ounds like an interesting approach. One more thing to try and test.', 
 	url: 'https://m.signalvnoise.com/threes-company/',
 	content-title: 'Three’s company',
 	content-copy: 'Nearly all product work is done by teams of three people. A team of three is usually composed of two programmers and one designer. And if it’s not three, it’s two or one — not four or five. We don’t throw more people at problems, we chisel problems down until they can be tackled by three people, at most.', 
@@ -362,7 +362,7 @@ journal:
 
 
 - {	
-	title: 'Three key tenants that can any company can apply to move faster.', 
+	title: '<span class="c-dropcap">T</span>hree key tenants that can any company can apply to move faster.', 
 	url: 'https://hbr.org/2014/09/how-space-x-learned-to-make-faster-decisions',
 	content-title: 'How companies can learn to make faster decisions',
 	content-copy: 'The results were dramatic: The global company reduced the review cycle to just one person owning the process, which took a single month. Prior, it took three people and six months, so that’s an 18-fold, or 90% reduction, in time.', 
@@ -371,7 +371,7 @@ journal:
 
 
 - {	
-	title: 'A simple four step process to setting up interviews with cold prospects.', 
+	title: '<span class="c-dropcap">A</span> simple four step process to setting up interviews with cold prospects.', 
 	url: 'https://growandconvert.com/user-research/conduct-customer-interviews-even-dont-customers/',
 	content-title: 'How to conduct customer interviews (even when you don’t have customers)',
 	content-copy: 'When you’re interviewing people for marketing insights, the usual rules of small talk don’t apply. You’re looking for the struggles, pains and motivations that drive a person to look for a solution, and the words they use to describe that process will be gold in your copy. That means when you start talking to them, you have to give them space to answer. You can’t just rush them through the questions. The first time you ask them an interview question, they might give you a short one-line response.', 
@@ -380,7 +380,7 @@ journal:
 
 
 - {	
-	title: 'How understanding the reasons why people shop Basecamp help them build better product.', 
+	title: '<span class="c-dropcap">H</span>ow understanding the reasons why people shop Basecamp help them build better product.', 
 	url: 'https://m.signalvnoise.com/the-why-before-the-why/',
 	content-title: 'The Why before the Why',
 	content-copy: 'There are usually a few events that lead to the desire — or demand — to shop. Something happens that trips the initial thought. There’s a spark. This is often when passive looking begins. You aren’t feeling the internal pressure to buy yet, but you’re starting to get curious. Then a second event happens. It could be soon after the first, or months later, but this one’s more serious. It lights a fire. You need to make progress. Now you’re actively shopping.', 
@@ -389,7 +389,7 @@ journal:
 
 
 - {	
-	title: 'A useful tool to build a common sense of the customers’ problems to drive future thinking.', 
+	title: '<span class="c-dropcap">A</span> useful tool to build a common sense of the customers’ problems to drive future thinking.', 
 	url: 'https://articles.uie.com/the-power-of-experience-mapping/',
 	content-title: 'The power of experience mapping',
 	content-copy: 'In design, we map experiences. These maps take different forms. Customer journey maps show how our users progress through our design, often highlighting the frustrating moments alongside the delightful ones. Service blueprints describe how the organization interfaces with the customer, often revealing the invisible steps that happen for every action a customer takes. Empathy maps explore what our customers see, think, say, and feel, as they interact with our designs.', 
@@ -399,7 +399,7 @@ journal:
 
 
 - {	
-	title: 'Measure right, put right people at right places, collect feedback carefully, UX is the key, and focus on long term.', 
+	title: '<span class="c-dropcap">M</span>easure right, put right people at right places, collect feedback carefully, UX is the key, and focus on long term.', 
 	url: 'https://news.greylock.com/five-lessons-from-scaling-pinterest-6a699a889b08#.5w3l2q8q3',
 	content-title: 'Five lessons from scaling Pinterest',
 	content-copy: 'Ultimately at Pinterest, we dug in to really understand who we were, doubled-down on our value prop to users, our growth team persevered and cracked a new distribution strategy. Growth re-accelerated. Just remember that there will be days, months, or even quarters like this. Even the almighty Facebook went through this moment. But as long as you’re focused on your core strategy — and that strategy is differentiated — you can break through it with execution.', 
@@ -408,7 +408,7 @@ journal:
 
 
 - {	
-	title: 'Asking the right question helps in finding the answer easily.', 
+	title: '<span class="c-dropcap">A</span>sking the right question helps in finding the answer easily.', 
 	url: 'https://www.inc.com/lisa-calhoun/elon-musk-on-the-1-creative-skill-every-founder-needs-now.html',
 	content-title: 'Elon Musk on the 1 creative skill every founder needs now',
 	content-copy: 'Musk says he finds inspiration in the shower, in the middle of the night, and out with friends. Pretty normal, right? It’s what he does after that which makes all the difference. You can use the same approach. Asking the right questions is a skill that can be learned, according to Warren Berger, bestselling author of A More Beautiful Question.', 
@@ -418,7 +418,7 @@ journal:
 
 
 - {	
-	title: 'How reducing cognitive load can help with user adoption and virality.', 
+	title: '<span class="c-dropcap">H</span>ow reducing cognitive load can help with user adoption and virality.', 
 	url: 'https://firstround.com/review/cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips/',
 	content-title: 'Cognitive overhead is your product’s overlord — topple it with these tips',
 	content-copy: 'Technology aside, at the core of Bump’s success was the simple act of touching two phones together. It was straightforward and repeatable — even executed without explanation. “Yes, it’s true that simplicity in products is not a new idea. For decades, some of the most successful products would be best described as simple,” says Lieb. “But simplicity comes in many dimensions: the number of buttons on an interface, number of features, steps in a flow or time it takes to complete a decision, and more. But the dimension that matters most is cognitive simplicity: how easy your product is to understand.”', 
@@ -427,7 +427,7 @@ journal:
 
 
 - {	
-	title: 'When it comes to user interface design, clarity is job #1.', 
+	title: '<span class="c-dropcap">W</span>hen it comes to user interface design, clarity is job #1.', 
 	url: 'http://bokardo.com/principles-of-user-interface-design/',
 	content-title: 'Principles of User Interface Design',
 	content-copy: 'Clarity is the first and most important job of any interface. To be effective using an interface you’ve designed, people must be able to recognize what it is, care about why they would use it, understand what the interface is helping them interact with, predict what will happen when they use it, and then successfully interact with it. While there is room for mystery and delayed gratification in interfaces, there is no room for confusion. Clarity inspires confidence and leads to further use. One hundred clear screens is preferable to a single cluttered one.', 

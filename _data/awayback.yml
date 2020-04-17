@@ -1,7 +1,7 @@
 journal:
 
 - {	
-	title: 'I’m learning CSS animations, and it’s beautifully explained in this video.', 
+	title: '<span class="c-dropcap">I</span>’m learning CSS animations, and it’s beautifully explained in this video.', 
 	url: 'https://youtu.be/KRVhtMxQWRs',
 	author: 'TED Educatoin',
 	content-title: 'Animation basics: The art of timing and spacing',
@@ -10,7 +10,7 @@ journal:
 
 
 - {	
-	title: 'Great article about Thinking, Listening and Imagination.', 
+	title: '<span class="c-dropcap">G</span>reat article about Thinking, Listening and Imagination.', 
 	url: 'http://ia.net/blog/putting-thought-into-things/',
 	author: 'iA',
 	content-title: 'Putting thought into things',
@@ -19,7 +19,7 @@ journal:
 
 
 - {	
-	title: 'Design is about solving problems. So, listen before you start.', 
+	title: '<span class="c-dropcap">D</span>esign is about solving problems. So, listen before you start.', 
 	url: 'http://99u.com/articles/24713/the-most-underrated-skill-for-creatives-empathy',
 	author: '99U',
 	content-title: 'The most underrated skill for creatives? Empathy.',
@@ -28,7 +28,7 @@ journal:
 
 
 - {	
-	title: 'To stay on top of the competitors, offer great user experience.', 
+	title: '<span class="c-dropcap">T</span>o stay on top of the competitors, offer great user experience.', 
 	url: 'http://www.fastcodesign.com/3025274/move-over-product-design-ux-is-the-future',
 	author: 'Fast Co Design',
 	content-title: 'Move over Product Design, UX is the Future',
@@ -37,7 +37,7 @@ journal:
 
 
 - {	
-	title: 'We have started using job stories to understand user problems and design solutions.', 
+	title: '<span class="c-dropcap">W</span>e have started using job stories to understand user problems and design solutions.', 
 	url: 'https://www.intercom.com/blog/using-job-stories-design-features-ui-ux/',
 	author: 'Intercom Blog',
 	content-title: 'Designing features using Job Stories',
@@ -46,7 +46,7 @@ journal:
 
 
 - {	
-	title: 'Proven examples how focusing on real problem makes a product successful.', 
+	title: '<span class="c-dropcap">P</span>roven examples how focusing on real problem makes a product successful.', 
 	url: 'https://www.intercom.com/blog/making-things-people-want/',
 	author: 'Intercom Blog',
 	content-title: 'Making things people want',
@@ -55,7 +55,7 @@ journal:
 
 
 - {	
-	title: 'Great advice on setting type for headings.', 
+	title: '<span class="c-dropcap">G</span>reat advice on setting type for headings.', 
 	url: 'http://blog.typekit.com/2013/10/09/on-weights-styles/',
 	author: 'TypeKit Blog',
 	content-title: 'On Weights & Styles',
@@ -64,7 +64,7 @@ journal:
 
 
 - {	
-	title: 'A common problem with most softwares and how to fix it.', 
+	title: '<span class="c-dropcap">A</span> common problem with most softwares and how to fix it.', 
 	url: 'http://blog.typekit.com/2013/10/09/on-weights-styles/',
 	author: 'TypeKit Blog',
 	content-title: 'The forgotten side of quality',
