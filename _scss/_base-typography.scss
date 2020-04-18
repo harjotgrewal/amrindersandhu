@@ -313,11 +313,12 @@ ul, ol {
 
     li:before {
         color: rgba(black, .3);
-        content: "✦";
-        font-size: 12px;
+        content: "*";
+        font-family: monospace;
+        font-size: 20px;
         vertical-align: baseline;
         position: relative;
-        top: -2px;
+        top: 1px;
     }
 }
 
