@@ -26,6 +26,10 @@ $theme-color-52: #2860E3;
 @mixin apply-theme($th-col-1, $th-col-2, $val-1: 10, $val-2: 30, $val-3: 50, $val-4: 75, $val-5: 85) {
     background-color: $th-col-1;
 
+    .c-progress__bar {
+        background-color: $th-col-2; 
+    }
+
     .c-name:after {
         background-color: $th-col-1; 
         box-shadow: 0 0 0 1px darken($th-col-1, $val-1); 

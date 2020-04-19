@@ -480,10 +480,6 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased; }
-  @media screen and (min-width: 1279px) {
-    body {
-      margin: 0 auto;
-      max-width: 1280px; } }
   body.is-fixed {
     overflow: hidden; }
 
@@ -497,7 +493,12 @@ body {
 
 @media screen and (min-width: 1279px) {
   main {
-    margin: 20vw 0 0 350px; } }
+    margin: 20vw 0 0 24%;
+    max-width: 930px; } }
+
+@media screen and (min-width: 1650px) {
+  main {
+    margin-left: 36%; } }
 
 main section {
   margin-bottom: 60px; }
@@ -555,6 +556,23 @@ main video {
     .c-integ_flow_prototype {
       width: 930px;
       height: 1000px; } }
+
+.c-progress {
+  height: 6px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+
+.c-progress__container {
+  height: 6px;
+  position: fixed;
+  width: 100%; }
+
+.c-progress__bar {
+  background: #4caf50;
+  height: 6px;
+  width: 0%; }
 
 .l-grid_of_2,
 .l-grid_of_3,
@@ -795,7 +813,6 @@ small {
 
 a {
   border-bottom: 1px solid;
-  border-radius: 2px;
   color: #050505;
   text-decoration: none; }
   a:hover {
@@ -1122,7 +1139,11 @@ ul li, ol li {
         display: inline-block; } }
   @media screen and (min-width: 1279px) {
     .c-footer {
-      margin: 0 0 6vw 350px; } }
+      margin: 0 0 6vw 24%;
+      max-width: 930px; } }
+  @media screen and (min-width: 1650px) {
+    .c-footer {
+      margin-left: 36%; } }
   .c-footer small,
   .c-footer a {
     color: #858585;
@@ -1832,6 +1853,8 @@ button,
 
 html.p-work {
   background-color: #ECE9F2; }
+  html.p-work .c-progress__bar {
+    background-color: #572DF5; }
   html.p-work .c-name:after {
     background-color: #ECE9F2;
     box-shadow: 0 0 0 1px #d0c9df; }
@@ -1886,6 +1909,9 @@ html.p-work {
 html.p-cs,
 html.p-pr {
   background-color: #E6E9F0; }
+  html.p-cs .c-progress__bar,
+  html.p-pr .c-progress__bar {
+    background-color: #2860E3; }
   html.p-cs .c-name:after,
   html.p-pr .c-name:after {
     background-color: #E6E9F0;
@@ -1967,6 +1993,8 @@ html.p-pr {
 
 html.p-about {
   background-color: #E6F0EE; }
+  html.p-about .c-progress__bar {
+    background-color: #01CD7D; }
   html.p-about .c-name:after {
     background-color: #E6F0EE;
     box-shadow: 0 0 0 1px #c6ddd8; }
@@ -2023,6 +2051,8 @@ html.p-about {
 
 html.p-library {
   background-color: #F2F1E9; }
+  html.p-library .c-progress__bar {
+    background-color: #E3A328; }
   html.p-library .c-name:after {
     background-color: #F2F1E9;
     box-shadow: 0 0 0 1px #dfddc9; }
@@ -2079,6 +2109,8 @@ html.p-library {
 
 html.p-journal {
   background-color: #F2EAE9; }
+  html.p-journal .c-progress__bar {
+    background-color: #E33328; }
   html.p-journal .c-name:after {
     background-color: #F2EAE9;
     box-shadow: 0 0 0 1px #dfcbc9; }
@@ -2138,6 +2170,8 @@ html.p-journal {
 
 html.p-testimonials {
   background-color: #E6E9F0; }
+  html.p-testimonials .c-progress__bar {
+    background-color: #2860E3; }
   html.p-testimonials .c-name:after {
     background-color: #E6E9F0;
     box-shadow: 0 0 0 1px #c6cddd; }

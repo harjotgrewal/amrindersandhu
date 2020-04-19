@@ -32,11 +32,6 @@ body {
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 
-	@include media-query(hd) {
-		margin: 0 auto;
-		max-width: 1280px;
-	}
-
 	&.is-fixed {
 		overflow: hidden;
 	}
@@ -55,7 +50,12 @@ main {
 	}
 
 	@include media-query(hd) {
-		margin: 20vw 0 0 350px;
+		margin: 20vw 0 0 24%;
+		max-width: 930px;
+	}
+
+	@include media-query(tv) {
+		margin-left: 36%;
 	}
 	
 	section {
@@ -148,4 +148,26 @@ figure {
 		width: 930px;
 		height: 1000px;
 	}
+}
+
+
+.c-progress {
+	height: 6px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+
+.c-progress__container {
+	height: 6px;
+	position: fixed;
+	width: 100%;
+  }
+  
+.c-progress__bar {
+	background: #4caf50;
+	height: 6px;
+	width: 0%;
 }

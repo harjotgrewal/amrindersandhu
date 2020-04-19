@@ -27,10 +27,16 @@
             display: inline-block;
         }
 	}
-    
+
+
     @include media-query(hd) {
-        margin: 0 0 6vw 350px;
-    }
+		margin: 0 0 6vw 24%;
+		max-width: 930px;
+	}
+
+	@include media-query(tv) {
+		margin-left: 36%;
+	}
 
 
     small,
