@@ -713,6 +713,7 @@ main video {
 
 .c-sshot--wrapped {
   background-color: white;
+  border-radius: 6px;
   padding: 30px;
   margin: 0 -30px 45px; }
   @media screen and (max-width: 1278px) {
@@ -1707,9 +1708,11 @@ button,
 .c-media a {
   background-color: white;
   border: none;
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
   display: block;
-  padding: 21px 0 0 21px; }
+  padding: 21px 0 0 21px;
+  overflow: hidden; }
   .c-media a:hover {
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
   @media screen and (min-width: 1279px) {
@@ -1909,6 +1912,8 @@ html.p-work {
     html.p-work .c-hire_me h4 {
       background-color: #ECE9F2;
       color: #572DF5; }
+  html.p-work .c-sshot--wrapped {
+    background-color: #f4f3f8; }
   html.p-work .c-name,
   html.p-work h1,
   html.p-work h2,
@@ -1997,6 +2002,9 @@ html.p-pr {
     html.p-pr .c-hire_me h4 {
       background-color: #E6E9F0;
       color: #2860E3; }
+  html.p-cs .c-sshot--wrapped,
+  html.p-pr .c-sshot--wrapped {
+    background-color: #f0f1f6; }
   html.p-cs .c-name,
   html.p-cs h1,
   html.p-cs h2,
@@ -2061,6 +2069,8 @@ html.p-about {
     html.p-about .c-hire_me h4 {
       background-color: #E6F0EE;
       color: #01CD7D; }
+  html.p-about .c-sshot--wrapped {
+    background-color: #f0f6f5; }
   html.p-about .c-name,
   html.p-about h1,
   html.p-about h2,
@@ -2123,6 +2133,8 @@ html.p-library {
     html.p-library .c-hire_me h4 {
       background-color: #F2F1E9;
       color: #E3A328; }
+  html.p-library .c-sshot--wrapped {
+    background-color: #f8f7f3; }
   html.p-library .c-name,
   html.p-library h1,
   html.p-library h2,
@@ -2185,6 +2197,8 @@ html.p-journal {
     html.p-journal .c-hire_me h4 {
       background-color: #F2EAE9;
       color: #E33328; }
+  html.p-journal .c-sshot--wrapped {
+    background-color: #f8f3f3; }
   html.p-journal .c-name,
   html.p-journal h1,
   html.p-journal h2,
@@ -2250,6 +2264,8 @@ html.p-testimonials {
     html.p-testimonials .c-hire_me h4 {
       background-color: #E6E9F0;
       color: #2860E3; }
+  html.p-testimonials .c-sshot--wrapped {
+    background-color: #f0f1f6; }
   html.p-testimonials .c-name,
   html.p-testimonials h1,
   html.p-testimonials h2,

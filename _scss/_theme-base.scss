@@ -104,6 +104,10 @@ $theme-color-52: #2860E3;
         }
     }
 
+    .c-sshot--wrapped {
+        background-color: lighten($th-col-1, 3%);
+    }
+
     .c-name, 
     h1, 
     h2,

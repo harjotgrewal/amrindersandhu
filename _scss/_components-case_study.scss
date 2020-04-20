@@ -7,9 +7,11 @@
     a {
         background-color: white;
         border: none;
-        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
         display: block;
         padding: 21px 0 0 21px;
+        overflow: hidden;
 
         &:hover {
             box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); 
