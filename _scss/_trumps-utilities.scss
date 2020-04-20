@@ -207,6 +207,16 @@
 
 
 
+.u-cols--three {
+    
+    @include media-query(lap-and-up) {
+        column-count: 3;
+        column-gap: 30px;
+    }
+}
+
+
+
 .u-txt-align--right {
     @include media-query(hd) {
         text-align: right;
