@@ -72,7 +72,6 @@ $theme-color-52: #2860E3;
         color: darken($th-col-1, $val-2);
     }
 
-    .c-name, 
     p,
     li {
         color: darken($th-col-1, $val-4);
@@ -108,6 +107,7 @@ $theme-color-52: #2860E3;
         }
     }
 
+    .c-name, 
     h1, 
     h2,
     button,

@@ -749,7 +749,7 @@ h1, h2 {
   font-family: 'Playfair Display', serif; }
 
 h1 {
-  font-size: 27px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: -1px;
   line-height: 32px; }
@@ -765,12 +765,12 @@ h2 {
   margin-bottom: 15px; }
   @media screen and (min-width: 1279px) {
     h2 {
-      font-size: 27px;
+      font-size: 24px;
       line-height: 32px;
       margin-bottom: 30px; } }
 
 h3 {
-  font-size: 18px;
+  font-size: 18ps;
   font-weight: 600;
   line-height: 24px;
   margin-bottom: 15px; }
@@ -782,7 +782,7 @@ h3 {
       letter-spacing: -1px; } }
 
 h4 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 20px;
   margin-bottom: 10px; }
@@ -1881,7 +1881,6 @@ html.p-work {
   html.p-work .o-list--ordered li::before,
   html.p-work .o-list--ordered li::after {
     color: #9989b9; }
-  html.p-work .c-name,
   html.p-work p,
   html.p-work li {
     color: #362c4a; }
@@ -1900,6 +1899,7 @@ html.p-work {
     html.p-work .c-hire_me h4 {
       background-color: #ECE9F2;
       color: #572DF5; }
+  html.p-work .c-name,
   html.p-work h1,
   html.p-work h2,
   html.p-work button,
@@ -1956,10 +1956,8 @@ html.p-pr {
   html.p-pr .o-list--ordered li::before,
   html.p-pr .o-list--ordered li::after {
     color: #8695b7; }
-  html.p-cs .c-name,
   html.p-cs p,
   html.p-cs li,
-  html.p-pr .c-name,
   html.p-pr p,
   html.p-pr li {
     color: #2a3347; }
@@ -1985,11 +1983,13 @@ html.p-pr {
     html.p-pr .c-hire_me h4 {
       background-color: #E6E9F0;
       color: #2860E3; }
+  html.p-cs .c-name,
   html.p-cs h1,
   html.p-cs h2,
   html.p-cs button,
   html.p-cs .c-button,
   html.p-cs .c-nav__link:hover,
+  html.p-pr .c-name,
   html.p-pr h1,
   html.p-pr h2,
   html.p-pr button,
@@ -2025,7 +2025,6 @@ html.p-about {
   html.p-about .o-list--ordered li::before,
   html.p-about .o-list--ordered li::after {
     color: #86b7ad; }
-  html.p-about .c-name,
   html.p-about p,
   html.p-about li {
     color: #3e675e; }
@@ -2044,6 +2043,7 @@ html.p-about {
     html.p-about .c-hire_me h4 {
       background-color: #E6F0EE;
       color: #01CD7D; }
+  html.p-about .c-name,
   html.p-about h1,
   html.p-about h2,
   html.p-about button,
@@ -2084,7 +2084,6 @@ html.p-library {
   html.p-library .o-list--ordered li::before,
   html.p-library .o-list--ordered li::after {
     color: #b9b489; }
-  html.p-library .c-name,
   html.p-library p,
   html.p-library li {
     color: #6a653f; }
@@ -2103,6 +2102,7 @@ html.p-library {
     html.p-library .c-hire_me h4 {
       background-color: #F2F1E9;
       color: #E3A328; }
+  html.p-library .c-name,
   html.p-library h1,
   html.p-library h2,
   html.p-library button,
@@ -2143,7 +2143,6 @@ html.p-journal {
   html.p-journal .o-list--ordered li::before,
   html.p-journal .o-list--ordered li::after {
     color: #b98e89; }
-  html.p-journal .c-name,
   html.p-journal p,
   html.p-journal li {
     color: #6a443f; }
@@ -2162,6 +2161,7 @@ html.p-journal {
     html.p-journal .c-hire_me h4 {
       background-color: #F2EAE9;
       color: #E33328; }
+  html.p-journal .c-name,
   html.p-journal h1,
   html.p-journal h2,
   html.p-journal button,
@@ -2205,7 +2205,6 @@ html.p-testimonials {
   html.p-testimonials .o-list--ordered li::before,
   html.p-testimonials .o-list--ordered li::after {
     color: #7687ad; }
-  html.p-testimonials .c-name,
   html.p-testimonials p,
   html.p-testimonials li {
     color: #2a3347; }
@@ -2224,6 +2223,7 @@ html.p-testimonials {
     html.p-testimonials .c-hire_me h4 {
       background-color: #E6E9F0;
       color: #2860E3; }
+  html.p-testimonials .c-name,
   html.p-testimonials h1,
   html.p-testimonials h2,
   html.p-testimonials button,

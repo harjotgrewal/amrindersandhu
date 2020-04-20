@@ -51,26 +51,26 @@ h1, h2 {
 
 
 h1 {
-    font-size: $as-font-size-xl;
+    font-size: 24px;
     font-weight: $as-font-weight-bold;
     letter-spacing: -1px;
     line-height: $as-line-height-xl;
 
     @include media-query(hd) {
-        font-size: $as-font-size-xxl;
+        font-size: 36px;
         line-height: $as-line-height-xxl;
     }
 }
 
 
 h2 {
-    font-size: $as-font-size-l;
+    font-size: 21px;
     font-weight: $as-font-weight-bold;
     line-height: $as-line-height-l;
     margin-bottom: 15px;
 
     @include media-query(hd) {
-        font-size: $as-font-size-xl;
+        font-size: 24px;
         line-height: $as-line-height-xl;
         margin-bottom: 30px;
     }
@@ -78,13 +78,13 @@ h2 {
 
 
 h3 {
-    font-size: $as-font-size-m;
+    font-size: 18ps;
     font-weight: $as-font-weight-bold;
     line-height: 24px;
     margin-bottom: 15px;
 
     @include media-query(hd) {
-        font-size: $as-font-size-l;
+        font-size: 21px;
         line-height: $as-line-height-l;
         margin-bottom: 30px;
         letter-spacing: -1px;
@@ -94,13 +94,13 @@ h3 {
 
 
 h4 {
-    font-size: $as-font-size-s;
+    font-size: 15px;
     font-weight: $as-font-weight-bold;
     line-height: 20px;
     margin-bottom: 10px;
 
     @include media-query(hd) {
-        font-size: $as-font-size-m;
+        font-size: 18px;
         line-height: 30px;
     }
 }
