@@ -36,7 +36,7 @@ $theme-color-52: #2860E3;
     }
 
     .c-name svg g {
-        fill: darken($th-col-1, $val-3);
+        fill: $th-col-2;
     }
 
     .c-header,
@@ -96,10 +96,6 @@ $theme-color-52: #2860E3;
 
     .c-nav__link {
         border-color: darken($th-col-1, $val-1);
-
-        &:hover {
-            color: darken($th-col-1, $val-5);
-        }
     }
 
 
@@ -112,8 +108,11 @@ $theme-color-52: #2860E3;
         }
     }
 
+    h1, 
+    h2,
     button,
-    .c-button {
+    .c-button,
+    .c-nav__link:hover {
         color: $th-col-2;
     } 
 }

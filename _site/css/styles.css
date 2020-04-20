@@ -475,7 +475,7 @@ html {
 
 body {
   color: #050505;
-  font: 62.5% '0GT Walsheim Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  font: 62.5% -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   overflow-x: hidden;
@@ -1859,7 +1859,7 @@ html.p-work {
     background-color: #ECE9F2;
     box-shadow: 0 0 0 1px #d0c9df; }
   html.p-work .c-name svg g {
-    fill: #65528a; }
+    fill: #572DF5; }
   html.p-work .c-header,
   html.p-work a {
     border-color: #d0c9df; }
@@ -1893,15 +1893,16 @@ html.p-work {
       color: #572DF5; }
   html.p-work .c-nav__link {
     border-color: #d0c9df; }
-    html.p-work .c-nav__link:hover {
-      color: #130f1a; }
   html.p-work .c-hire_me {
     background-color: #dbd6e7; }
     html.p-work .c-hire_me h4 {
       background-color: #ECE9F2;
       color: #572DF5; }
+  html.p-work h1,
+  html.p-work h2,
   html.p-work button,
-  html.p-work .c-button {
+  html.p-work .c-button,
+  html.p-work .c-nav__link:hover {
     color: #572DF5; }
   html.p-work .c-nav__link--home {
     color: #362c4a; }
@@ -1918,7 +1919,7 @@ html.p-pr {
     box-shadow: 0 0 0 1px #c6cddd; }
   html.p-cs .c-name svg g,
   html.p-pr .c-name svg g {
-    fill: #516186; }
+    fill: #2860E3; }
   html.p-cs .c-header,
   html.p-cs a,
   html.p-pr .c-header,
@@ -1975,9 +1976,6 @@ html.p-pr {
   html.p-cs .c-nav__link,
   html.p-pr .c-nav__link {
     border-color: #c6cddd; }
-    html.p-cs .c-nav__link:hover,
-    html.p-pr .c-nav__link:hover {
-      color: #0e1017; }
   html.p-cs .c-hire_me,
   html.p-pr .c-hire_me {
     background-color: #d3d8e5; }
@@ -1985,10 +1983,16 @@ html.p-pr {
     html.p-pr .c-hire_me h4 {
       background-color: #E6E9F0;
       color: #2860E3; }
+  html.p-cs h1,
+  html.p-cs h2,
   html.p-cs button,
   html.p-cs .c-button,
+  html.p-cs .c-nav__link:hover,
+  html.p-pr h1,
+  html.p-pr h2,
   html.p-pr button,
-  html.p-pr .c-button {
+  html.p-pr .c-button,
+  html.p-pr .c-nav__link:hover {
     color: #2860E3; }
 
 html.p-about {
@@ -1999,7 +2003,7 @@ html.p-about {
     background-color: #E6F0EE;
     box-shadow: 0 0 0 1px #c6ddd8; }
   html.p-about .c-name svg g {
-    fill: #51867c; }
+    fill: #01CD7D; }
   html.p-about .c-header,
   html.p-about a {
     border-color: #c6ddd8; }
@@ -2033,15 +2037,16 @@ html.p-about {
       color: #01CD7D; }
   html.p-about .c-nav__link {
     border-color: #c6ddd8; }
-    html.p-about .c-nav__link:hover {
-      color: #0e1715; }
   html.p-about .c-hire_me {
     background-color: #d3e5e1; }
     html.p-about .c-hire_me h4 {
       background-color: #E6F0EE;
       color: #01CD7D; }
+  html.p-about h1,
+  html.p-about h2,
   html.p-about button,
-  html.p-about .c-button {
+  html.p-about .c-button,
+  html.p-about .c-nav__link:hover {
     color: #01CD7D; }
   html.p-about .c-nav__link--about {
     color: #2a4741; }
@@ -2057,7 +2062,7 @@ html.p-library {
     background-color: #F2F1E9;
     box-shadow: 0 0 0 1px #dfddc9; }
   html.p-library .c-name svg g {
-    fill: #8a8452; }
+    fill: #E3A328; }
   html.p-library .c-header,
   html.p-library a {
     border-color: #dfddc9; }
@@ -2091,15 +2096,16 @@ html.p-library {
       color: #E3A328; }
   html.p-library .c-nav__link {
     border-color: #dfddc9; }
-    html.p-library .c-nav__link:hover {
-      color: #1a190f; }
   html.p-library .c-hire_me {
     background-color: #e7e5d6; }
     html.p-library .c-hire_me h4 {
       background-color: #F2F1E9;
       color: #E3A328; }
+  html.p-library h1,
+  html.p-library h2,
   html.p-library button,
-  html.p-library .c-button {
+  html.p-library .c-button,
+  html.p-library .c-nav__link:hover {
     color: #E3A328; }
   html.p-library .c-nav__link--library {
     color: #4a472c; }
@@ -2115,7 +2121,7 @@ html.p-journal {
     background-color: #F2EAE9;
     box-shadow: 0 0 0 1px #dfcbc9; }
   html.p-journal .c-name svg g {
-    fill: #8a5852; }
+    fill: #E33328; }
   html.p-journal .c-header,
   html.p-journal a {
     border-color: #dfcbc9; }
@@ -2149,15 +2155,16 @@ html.p-journal {
       color: #E33328; }
   html.p-journal .c-nav__link {
     border-color: #dfcbc9; }
-    html.p-journal .c-nav__link:hover {
-      color: #1a110f; }
   html.p-journal .c-hire_me {
     background-color: #e7d8d6; }
     html.p-journal .c-hire_me h4 {
       background-color: #F2EAE9;
       color: #E33328; }
+  html.p-journal h1,
+  html.p-journal h2,
   html.p-journal button,
-  html.p-journal .c-button {
+  html.p-journal .c-button,
+  html.p-journal .c-nav__link:hover {
     color: #E33328; }
   html.p-journal .c-book_info,
   html.p-journal .c-nav__link--journal {
@@ -2176,7 +2183,7 @@ html.p-testimonials {
     background-color: #E6E9F0;
     box-shadow: 0 0 0 1px #c6cddd; }
   html.p-testimonials .c-name svg g {
-    fill: #516186; }
+    fill: #2860E3; }
   html.p-testimonials .c-header,
   html.p-testimonials a {
     border-color: #c6cddd; }
@@ -2210,15 +2217,16 @@ html.p-testimonials {
       color: #2860E3; }
   html.p-testimonials .c-nav__link {
     border-color: #c6cddd; }
-    html.p-testimonials .c-nav__link:hover {
-      color: #0e1017; }
   html.p-testimonials .c-hire_me {
     background-color: #d3d8e5; }
     html.p-testimonials .c-hire_me h4 {
       background-color: #E6E9F0;
       color: #2860E3; }
+  html.p-testimonials h1,
+  html.p-testimonials h2,
   html.p-testimonials button,
-  html.p-testimonials .c-button {
+  html.p-testimonials .c-button,
+  html.p-testimonials .c-nav__link:hover {
     color: #2860E3; }
 
 @media screen and (min-width: 1279px) {
