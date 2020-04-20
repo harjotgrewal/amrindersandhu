@@ -26,7 +26,8 @@ $theme-color-52: #2860E3;
 @mixin apply-theme($th-col-1, $th-col-2, $val-1: 10, $val-2: 30, $val-3: 50, $val-4: 75, $val-5: 85) {
     background-color: $th-col-1;
 
-    .c-progress__bar {
+    .c-progress__bar,
+    .c-button {
         background-color: $th-col-2; 
     }
 
@@ -58,10 +59,6 @@ $theme-color-52: #2860E3;
     blockquote:not(.c-caption) footer {
         color: darken($th-col-1, $val-3);
     }
-
-    // h1 {
-    //     color: darken($th-col-2, 15);
-    // }
 
     figcaption,
     figcaption a, 
@@ -114,7 +111,11 @@ $theme-color-52: #2860E3;
     .c-button,
     .c-nav__link:hover {
         color: $th-col-2;
-    } 
+    }
+    
+    .c-modal--email .c-button {
+        color: $th-col-2 !important;
+    }
 }
 
 

@@ -1,0 +1,88 @@
+// -----------------------------------------------------------------------------
+// MODAL
+// -----------------------------------------------------------------------------
+
+/* The Modal (background) */
+.c-modal {
+    display: flex;
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+
+    &.is-visible {
+        opacity: 1;
+        pointer-events: all;
+
+        .c-modal__content {
+            transform: scale(1);
+        }
+    }
+  }
+  
+
+  /* Modal Content */
+  .c-modal__content {
+    background-color: #fefefe;
+    border-radius: 12px;
+    margin: auto;
+    padding: 27px 30px;
+    border: 1px solid #888;
+    width: 315px;
+    top: 10px;
+    transform: scale(.9);
+    transition: transform .3s ease-in-out;
+
+    @include media-query(lap-and-up) {
+        width: 420px;
+    }
+  }
+
+
+
+  /* Modal Header */
+  .c-modal__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        position: relative;
+
+        h1 {
+            font-size: $as-font-size-l;
+        }
+  }
+
+
+.c-modal--email {
+
+    button,
+    .c-button {
+        align-items: center;
+        background-color: transparent !important;
+        justify-content: space-between;
+        cursor: default;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .c-button__icon {
+        align-self: flex-end;
+        display: contents;
+    }
+
+    hr {
+        opacity: .3;
+        border-width: 2px 0 0;
+        margin: 24px -30px;
+    }
+}

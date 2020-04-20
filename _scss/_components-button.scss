@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// BUTTON
+// -----------------------------------------------------------------------------
+
+
+
+button,
+.c-button {
+    background: none;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: $as-font-size-s !important;
+    font-weight: 600;
+    outline: none;
+
+    @include media-query(lap-and-up) {
+        font-size: $as-font-size-m !important;
+    }
+}
+
+
+.c-button {
+    background-color: black;
+    border-radius: 6px;
+    color: white !important;
+    padding: 3px 12px;
+}

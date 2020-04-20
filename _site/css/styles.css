@@ -1069,6 +1069,25 @@ ul li, ol li {
 .c-billboard--alt {
   margin: 125px 0 125px 125px; }
 
+button,
+.c-button {
+  background: none;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px !important;
+  font-weight: 600;
+  outline: none; }
+  @media screen and (min-width: 45em) {
+    button,
+    .c-button {
+      font-size: 18px !important; } }
+
+.c-button {
+  background-color: black;
+  border-radius: 6px;
+  color: white !important;
+  padding: 3px 12px; }
+
 .c-entry {
   margin-bottom: 30px; }
   @media screen and (min-width: 1279px) {
@@ -1267,27 +1286,29 @@ ul li, ol li {
       fill: rgba(0, 0, 0, 0.5); }
 
 .c-hire_me {
+  -ms-flex-align: center;
+      align-items: center;
   background-color: rgba(0, 0, 0, 0.05);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
   margin: 45px 0;
-  padding: 30px 30px 15px;
+  padding: 30px 30px 9px;
   text-align: center;
   border-radius: 9px; }
   @media screen and (min-width: 1279px) {
     .c-hire_me {
-      border-radius: 200px;
+      border-radius: 210px;
       height: 210px;
       margin: -1px;
-      padding: 35px 30px 15px;
       width: 210px; } }
-  .c-hire_me h4 {
-    border-radius: 27px;
-    display: inline-block;
-    margin-bottom: 9px;
-    padding: 3px 24px;
-    text-transform: uppercase; }
   .c-hire_me p {
     font-size: 16px;
-    line-height: 1.8; }
+    line-height: 1.7; }
+  .c-hire_me .c-button {
+    display: inline-block;
+    margin-top: 9px; }
 
 /* The Modal (background) */
 .c-modal {
@@ -1351,6 +1372,7 @@ ul li, ol li {
 .c-modal--email .c-button {
   -ms-flex-align: center;
       align-items: center;
+  background-color: transparent !important;
   -ms-flex-pack: justify;
       justify-content: space-between;
   cursor: default;
@@ -1369,19 +1391,6 @@ ul li, ol li {
   opacity: .3;
   border-width: 2px 0 0;
   margin: 24px -30px; }
-
-button,
-.c-button {
-  background: none;
-  border: none;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px !important;
-  font-weight: 600;
-  outline: none; }
-  @media screen and (min-width: 45em) {
-    button,
-    .c-button {
-      font-size: 18px !important; } }
 
 .c-nav {
   z-index: 9; }
@@ -1855,7 +1864,8 @@ button,
 
 html.p-work {
   background-color: #ECE9F2; }
-  html.p-work .c-progress__bar {
+  html.p-work .c-progress__bar,
+  html.p-work .c-button {
     background-color: #572DF5; }
   html.p-work .c-name:after {
     background-color: #ECE9F2;
@@ -1906,6 +1916,8 @@ html.p-work {
   html.p-work .c-button,
   html.p-work .c-nav__link:hover {
     color: #572DF5; }
+  html.p-work .c-modal--email .c-button {
+    color: #572DF5 !important; }
   html.p-work .c-nav__link--home {
     color: #362c4a; }
 
@@ -1913,7 +1925,9 @@ html.p-cs,
 html.p-pr {
   background-color: #E6E9F0; }
   html.p-cs .c-progress__bar,
-  html.p-pr .c-progress__bar {
+  html.p-cs .c-button,
+  html.p-pr .c-progress__bar,
+  html.p-pr .c-button {
     background-color: #2860E3; }
   html.p-cs .c-name:after,
   html.p-pr .c-name:after {
@@ -1996,10 +2010,14 @@ html.p-pr {
   html.p-pr .c-button,
   html.p-pr .c-nav__link:hover {
     color: #2860E3; }
+  html.p-cs .c-modal--email .c-button,
+  html.p-pr .c-modal--email .c-button {
+    color: #2860E3 !important; }
 
 html.p-about {
   background-color: #E6F0EE; }
-  html.p-about .c-progress__bar {
+  html.p-about .c-progress__bar,
+  html.p-about .c-button {
     background-color: #01CD7D; }
   html.p-about .c-name:after {
     background-color: #E6F0EE;
@@ -2050,6 +2068,8 @@ html.p-about {
   html.p-about .c-button,
   html.p-about .c-nav__link:hover {
     color: #01CD7D; }
+  html.p-about .c-modal--email .c-button {
+    color: #01CD7D !important; }
   html.p-about .c-nav__link--about {
     color: #2a4741; }
   @media screen and (min-width: 1279px) {
@@ -2058,7 +2078,8 @@ html.p-about {
 
 html.p-library {
   background-color: #F2F1E9; }
-  html.p-library .c-progress__bar {
+  html.p-library .c-progress__bar,
+  html.p-library .c-button {
     background-color: #E3A328; }
   html.p-library .c-name:after {
     background-color: #F2F1E9;
@@ -2109,6 +2130,8 @@ html.p-library {
   html.p-library .c-button,
   html.p-library .c-nav__link:hover {
     color: #E3A328; }
+  html.p-library .c-modal--email .c-button {
+    color: #E3A328 !important; }
   html.p-library .c-nav__link--library {
     color: #4a472c; }
   html.p-library .c-section__nav_link.is_active,
@@ -2117,7 +2140,8 @@ html.p-library {
 
 html.p-journal {
   background-color: #F2EAE9; }
-  html.p-journal .c-progress__bar {
+  html.p-journal .c-progress__bar,
+  html.p-journal .c-button {
     background-color: #E33328; }
   html.p-journal .c-name:after {
     background-color: #F2EAE9;
@@ -2168,6 +2192,8 @@ html.p-journal {
   html.p-journal .c-button,
   html.p-journal .c-nav__link:hover {
     color: #E33328; }
+  html.p-journal .c-modal--email .c-button {
+    color: #E33328 !important; }
   html.p-journal .c-book_info,
   html.p-journal .c-nav__link--journal {
     color: #6a443f; }
@@ -2179,7 +2205,8 @@ html.p-journal {
 
 html.p-testimonials {
   background-color: #E6E9F0; }
-  html.p-testimonials .c-progress__bar {
+  html.p-testimonials .c-progress__bar,
+  html.p-testimonials .c-button {
     background-color: #2860E3; }
   html.p-testimonials .c-name:after {
     background-color: #E6E9F0;
@@ -2230,6 +2257,8 @@ html.p-testimonials {
   html.p-testimonials .c-button,
   html.p-testimonials .c-nav__link:hover {
     color: #2860E3; }
+  html.p-testimonials .c-modal--email .c-button {
+    color: #2860E3 !important; }
 
 @media screen and (min-width: 1279px) {
   html.th-white {
