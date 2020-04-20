@@ -41,6 +41,15 @@ table {
 }
 
 
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.c-testimonial blockquote {
+    font-family: 'Playfair Display', serif;
+}
+
+
 h1 {
     font-size: $as-font-size-xl;
     font-weight: $as-font-weight-bold;
@@ -57,7 +66,6 @@ h1 {
 h2 {
     font-size: $as-font-size-l;
     font-weight: $as-font-weight-bold;
-    letter-spacing: -1px;
     line-height: $as-line-height-l;
     margin-bottom: 15px;
 
