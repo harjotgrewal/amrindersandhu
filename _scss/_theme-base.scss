@@ -8,13 +8,13 @@ $theme-color-11: #ECE9F2;
 $theme-color-12: #572DF5;
 
 $theme-color-21: #F2F1E9;
-$theme-color-22: #E3A328;
+$theme-color-22: #F58D2D;
 
 $theme-color-31: #F2EAE9;
 $theme-color-32: #E33328;
 
 $theme-color-41: #E6F0EE;
-$theme-color-42: #01CD7D;
+$theme-color-42: #05CD01;
 
 $theme-color-51: #E6E9F0;
 $theme-color-52: #2860E3;
@@ -33,11 +33,11 @@ $theme-color-52: #2860E3;
 
     .c-name:after {
         background-color: $th-col-1; 
-        box-shadow: 0 0 0 1px darken($th-col-1, $val-1); 
+        box-shadow: 0 0 0 3px $th-col-2; 
     }
 
-    .c-name svg g {
-        fill: $th-col-2;
+    .c-name svg path {
+        fill: darken($th-col-2, 15%);
     }
 
     .c-header,
@@ -108,13 +108,16 @@ $theme-color-52: #2860E3;
         background-color: lighten($th-col-1, 3%);
     }
 
+
+
     .c-name, 
     h1, 
     h2,
     button,
     .c-button,
-    .c-nav__link:hover {
-        color: $th-col-2;
+    .c-nav__link:hover,
+    .c-media a:hover span {
+        color: darken($th-col-2, 15%);
     }
     
     .c-modal--email .c-button {
@@ -213,11 +216,10 @@ html.p-testimonials {
 html.th-white {
 
     @include media-query(hd) {
-        background-color: white;
+        background-color: #f6f6f6;
     }
 
     .c-hire_me {
-        //background-color: darken($theme-color-11, 6);
 
         h4 {
             background-color: white;

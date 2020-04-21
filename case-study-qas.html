@@ -405,78 +405,33 @@ page-description:
 
 
 
-    
- 
+
     <!-- MORE -->
     <section class="u-space_below--most">
-        <div class="l-span_4 l-grid_of_4">
-            <h2 class="l-span_1">More Case Studies</h2>
-        </div>
+        <h1 class="l-span_1 u-space_below--most">More Projects</h1>
 
 
-        {% for entry in site.data.work.case-study %}
+
+        {% for entry in site.data.work %}
             {% if entry.status == "active" %}
                 {% if entry.page-title != "Case Study – Quick Access Sidebar and Outliers" %}
-                    <div class="c-media {{ entry.class }} l-span_4 u-space_below">
-                        <a href="{{ entry.link }}">
-                            <div class="c-media__info">
-                                <p>{{ entry.title }}</p>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                                    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                                        <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                                    </g>
-                                </svg>
+                    <div class="c-media {{ entry.class }} l-span_full u-space_below--most">
+                        <a class="l-grid_of_8" href="{{ entry.link }}">
+                            <div class="c-media__info l-span_3">
+                                <h2>{{ entry.title }}</h2>
+        
+                                <p>{{ entry.desc }}</p>
+        
+                                <span>{{ entry.cta }}</span>
                             </div>
-
-                            <img data-src="{{ entry.src }}" alt="Cover for QAS case study"/>
+        
+                            <img class="l-span_5-9" data-src="{{ entry.src }}" alt="{{ entry.alt }}"/>
                         </a>
                     </div>
                 {% endif %}
             {% endif %}
         {% endfor %}
     </section>
-
-
-
-
-
-    <hr class="u-space_below--most"/>
-
-
-    
-
-
-
-    <!-- PROJECTS SECTION -->
-    <section class="u-space_below--most">
-        <h2 class="l-span_2 u-space_above">Selected <i class="u-break_line--hd"></i>Projects</h2>
-        
-
-        <div class="l-span_6 l-grid_of_6">
-            {% for entry in site.data.work.project %}
-                <div class="c-media c-media--prj u-space_below {{ entry.class }}">
-                    <a href="{{ entry.link }}">
-                        <div class="c-media__info">
-                            <p>{{ entry.title }}</p>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                                <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                                    <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                                </g>
-                            </svg>
-                        </div>
-
-
-                        <img data-src="{{ entry.img }}" alt="Cover for Integration project"/>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-    </section>
-
-
-
 </main>
 
 

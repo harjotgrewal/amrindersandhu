@@ -1,77 +1,81 @@
-# CASE STUDIES
+# WORK
 
-case-study:
+
+
 - {	
-	link: '/case-study-qas.html',
-	title: 'Saving months of extra work <br/>with transparent communication <br/>and open collaboration.',
-	page-title: 'Case Study – Quick Access Sidebar and Outliers',
-	src: '/assets/i/sshots/cover-qas.png',
-	status: 'active'
+	link: '/case-study-discover.html',
+	title: 'Designing the <br/>Discover App',
+	desc: 'How I used double diamond to build and iterate the world’s largest branded content catalog.',
+	page-title: 'Case Study – Discover',
+	src: '/assets/i/sshots/cover-discover.png',
+	status: 'active',
+	cta: 'Read the case study &rarr;'
 }
 
 
 - {	
 	link: '/case-study-datepicker.html',
-	title: 'Redesigning the most used <br/>UI component using the most <br/>sophisticated design tool – data.',
+	title: 'Designing with <br/>the usage data',
+	desc: 'How I redesigned the most used UI component using the most sophisticated design tool – data.',
 	page-title: 'Case Study – DatePicker',
 	src: '/assets/i/sshots/cover-datepicker.png',
-	status: 'active'
+	status: 'active',
+	cta: 'Read the case study &rarr;'
 }
 
 
 - {	
-	link: '/case-study-discover.html',
-	title: 'Designing the world’s <br/>largest branded content <br/>catalog: Discover.',
-	page-title: 'Case Study – Discover',
-	src: '/assets/i/sshots/cover-discover.png',
-	status: 'active'
+	link: '/case-study-qas.html',
+	title: 'Designing two key <br/>Analyze features',
+	desc: 'How I redesigned Unmetric’s flagship app homepage after five years and launched a key feature simultaneously.',
+	page-title: 'Case Study – Quick Access Sidebar and Outliers',
+	src: '/assets/i/sshots/cover-qas.png',
+	status: 'active',
+	cta: 'Read the case study &rarr;'
 }
 
+
+- {	
+	link: '/proj-integration.html',
+	title: 'Unmetric Falcon <br/>Integration',
+	desc: 'How I led the team of seven across three time zones and six locations to integrate Unmetric with Falcon.',
+	page-title: 'Project – Unmetric Falcon Integration',
+	src: '/assets/i/sshots/cover-integ.png',
+	status: 'active',
+	cta: 'View the project &rarr;'
+}
+
+
+- {	
+	link: '/proj-unds.html',
+	title: 'Unmetric <br/>Design System',
+	desc: 'Why and how I built a design system alone over a span of six years.',
+	page-title: 'Project – Unmetric Design System',
+	src: '/assets/i/sshots/cover-unds.png',
+	status: 'active',
+	cta: 'View the project &rarr;'
+}
 
 
 - {	
 	link: '/case-study-branding.html',
-	title: 'Positioning Unmetric as a leader <br/>in social media analytics space<br/>and a premium brand.',
+	title: 'Unmetric <br/>Rebranding',
+	desc: 'Positioning Unmetric as a leader in social media analytics space.',
 	page-title: 'Case Study – Branding',
-	src: '/assets/i/sshots/cs-br-cover.png',
-	status: 'active'
-}
-
-
-
-
-
-
-# PROJECTS
-
-project:
-- {	
-	class: 'l-span_3 u-space_below',
-	link: '/proj-integration.html',
-	title: 'Unmetric Falcon <br/>Integration <br/>Phase 1',
-	page-title: 'Project – Integration',
-	img: '/assets/i/sshots/cover-proj-integ.png',
-	status: 'active'
+	src: '/assets/i/sshots/cover-branding.png',
+	status: 'active',
+	cta: 'Read the case study &rarr;'
 }
 
 
 - {	
-	class: 'l-span_3 u-space_below',
 	link: '/proj-website.html',
-	title: 'Unmetric Website, <br/>Blog and Email<br/>Newsletters',
-	page-title: 'Project – Website',
-	img: '/assets/i/sshots/cover-web.png',
-	status: 'active'
-}
-
-
-- {	
-	class: 'l-span_3',
-	link: '/proj-unds.html',
-	title: 'Unmetric <br/>Design <br/>System',
-	page-title: 'Project – UNDS',
-	img: '/assets/i/sshots/cover-unds.png',
-	status: 'active'
+	title: 'Unmetric Website, <br/> Blog and more',
+	desc: 'I led multiple redesigns of the website along with blog, newsletters, pitch decks, collateral, etc.',
+	page-title: 'Project – Unmetric Website, Blog and More',
+	src: '/assets/i/sshots/cover-web.png',
+	status: 'active',
+	cta: 'View the project &rarr;'
 }
 
 
@@ -86,11 +90,11 @@ project:
 # }
 
 
-- {	
-	class: 'l-span_3',
-	link: '/proj-relpost.html',
-	title: 'Relpost – Handpicked related posts for Web Designers (Side Project)',
-	page-title: 'Project – Relpost',
-	img: '/assets/i/sshots/cover-relpost.png',
-	status: 'active'
-}
+# - {	
+# 	class: 'l-span_3',
+# 	link: '/proj-relpost.html',
+# 	title: 'Relpost – Handpicked related posts for Web Designers (Side Project)',
+# 	page-title: 'Project – Relpost',
+# 	img: '/assets/i/sshots/cover-relpost.png',
+# 	status: 'active'
+# }

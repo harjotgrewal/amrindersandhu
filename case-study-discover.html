@@ -12,6 +12,10 @@ page-description: Redesigning the most used UI component using the most sophisti
     <section>
         <h1 class="l-span_3-9 u-space_below--more">Designing the world’s largest branded content catalog: Discover</h1>
 
+
+        <!-- <p class="l-span_2">2015-2018</p> -->
+
+
         <p class="l-span_3-9 u-space_below--more">With Discover, content creators and planners explore millions of ideas for their new campaigns and content for their social media channels. It allows users to discover inspiration, find concept evidence and explore whitespaces for their brand’s content.</p> 
     
     
@@ -77,9 +81,9 @@ page-description: Redesigning the most used UI component using the most sophisti
         <div class="c-sshot--wrapped l-grid_of_8">
             <p class="c-caption l-span_2">The requirements document where I added business and user assumptions and outcomes.</p>
 
-            <img class="l-span_3" data-src="/assets/i/sshots/proj-dis-ideas-doc-1.png"/>
+            <img class="l-span_3 u-space_above--mob" data-src="/assets/i/sshots/proj-dis-ideas-doc-1.png"/>
 
-            <img class="l-span_3" data-src="/assets/i/sshots/proj-dis-ideas-doc-2.png"/>
+            <img class="l-span_3 u-space_above--mob" data-src="/assets/i/sshots/proj-dis-ideas-doc-2.png"/>
         </div>
 
         <p class="l-span_3-6 u-pad_right--30">Next, I initiated discussion around user needs and challenges they are facing. I asked a handful of questions to understand the “Why’s”.</p>
@@ -319,80 +323,33 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
 
-    
- 
+
     <!-- MORE -->
     <section class="u-space_below--most">
-        <div class="l-span_4 l-grid_of_4">
-            <h2 class="l-span_1">More Case Studies</h2>
-        </div>
+        <h1 class="l-span_1 u-space_below--most">More Projects</h1>
 
 
-        {% for entry in site.data.work.case-study %}
+
+        {% for entry in site.data.work %}
             {% if entry.status == "active" %}
                 {% if entry.page-title != "Case Study – Discover" %}
-                    <div class="c-media {{ entry.class }} l-span_4 u-space_below">
-                        <a href="{{ entry.link }}">
-                            <div class="c-media__info">
-                                <p>{{ entry.title }}</p>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                                    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                                        <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                                    </g>
-                                </svg>
+                    <div class="c-media {{ entry.class }} l-span_full u-space_below--most">
+                        <a class="l-grid_of_8" href="{{ entry.link }}">
+                            <div class="c-media__info l-span_3">
+                                <h2>{{ entry.title }}</h2>
+        
+                                <p>{{ entry.desc }}</p>
+        
+                                <span>{{ entry.cta }}</span>
                             </div>
-
-                            <img data-src="{{ entry.src }}" alt="Cover for QAS case study"/>
+        
+                            <img class="l-span_5-9" data-src="{{ entry.src }}" alt="{{ entry.alt }}"/>
                         </a>
                     </div>
                 {% endif %}
             {% endif %}
         {% endfor %}
     </section>
-
-
-
-
-
-    <hr class="u-space_below--most"/>
-
-
-    
-
-
-
-    <!-- PROJECTS SECTION -->
-    <section class="u-space_below--most">
-        <h2 class="l-span_2 u-space_above">Selected <i class="u-break_line--hd"></i>Projects</h2>
-        
-
-        <div class="l-span_6 l-grid_of_6">
-            {% for entry in site.data.work.project %}
-                <div class="c-media c-media--prj u-space_below {{ entry.class }}">
-                    <a href="{{ entry.link }}">
-                        <div class="c-media__info">
-                            <p>{{ entry.title }}</p>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                                <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                                    <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                                </g>
-                            </svg>
-                        </div>
-
-
-                        <img data-src="{{ entry.img }}" alt="Cover for Integration project"/>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-    </section>
-
-
-
-
-    <hr class="u-space_below--most"/>
 </main>
 
 

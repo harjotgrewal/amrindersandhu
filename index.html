@@ -20,10 +20,8 @@ page-description: For 12 years, Amrinder has lead design at startups to help ach
     <!-- INTRO SECTION -->      
     <section class="u-space_below--most">
         <div class="l-span_3-9">
-            <h1 class="u-space_below">I’m a digital product designer focused on delivering human-centered business outcomes and delightful user experiences.</h1>
-        </div>
+            <h1 class="u-space_below">Amrinder is a digital product designer focused on delivering human-centered business outcomes and delightful user experiences.</h1>
 
-        <div class="l-span_3-9">
             <p>Research is at the core of everything I do, and it’s one of my favorite <a href="#design-tools">design tools</a>, along with empathy, data, and code. In design, I love problem-solving the most.</p>
 
             <p>From September 2013 to March 2020, I was the Head of Design at <a href="https://unmetric.com" target="_blank">Unmetric</a> (acquired by Cision). From day one, I designed all three core products &mdash; <a href="https://unmetric.com/analyze" target="_blank">Analyze</a>, <a href="https://unmetric.com/discover" target="_blank">Discover</a>, and <a href="https://unmetric.com/track" target="_blank">Track</a> &mdash; used by customers like Coca-Cola, Unilever, General Motors, and Accenture.</p>
@@ -35,25 +33,19 @@ page-description: For 12 years, Amrinder has lead design at startups to help ach
 
     <!-- CASE STUDIES SECTION -->
     <section class="u-space_below--most">
-        <div class="l-span_4 l-grid_of_4">
-            <h2 class="l-span_1 u-space_above">Case Studies</h2>
-        </div>
 
+        {% for entry in site.data.work %}
+            <div class="c-media {{ entry.class }} l-span_full u-space_below--most">
+                <a class="l-grid_of_8" href="{{ entry.link }}">
+                    <div class="c-media__info l-span_2">
+                        <h2>{{ entry.title }}</h2>
 
-        {% for entry in site.data.work.case-study %}
-            <div class="c-media {{ entry.class }} l-span_4 u-space_below">
-                <a href="{{ entry.link }}">
-                    <div class="c-media__info">
-                        <p>{{ entry.title }}</p>
+                        <p>{{ entry.desc }}</p>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                            <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                                <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                            </g>
-                        </svg>
+                        <span>{{ entry.cta }}</span>
                     </div>
 
-                    <img data-src="{{ entry.src }}" alt="Cover for QAS case study"/>
+                    <img class="l-span_6" data-src="{{ entry.src }}" alt="{{ entry.alt }}"/>
                 </a>
             </div>
         {% endfor %}
@@ -127,7 +119,7 @@ page-description: For 12 years, Amrinder has lead design at startups to help ach
             </div>
 
 
-            <p class="l-span_5">As a <del>t-shaped</del> <a href="http://www.futurecapable.com/?p=102" target="_blank">key-shaped</a> designer, I can wear many hats and possess skills that help me lead teams from discovery through delivery.</p>
+            <p class="l-span_5">As a <del>t-shaped</del> <a href="http://www.futurecapable.com/?p=102" target="_blank">key-shaped</a> designer, I can wear many hats and possess skills that help me lead teams from discovery through delivery to build products and features faster, and achieve business outcomes.</p>
 
 
             <div class="l-span_6">
@@ -167,43 +159,6 @@ page-description: For 12 years, Amrinder has lead design at startups to help ach
             </div>
         </div>
     </section>
-
-
-
-
-    <hr class="u-space_below--most"/>
-
-
-
-
-
-    <!-- PROJECTS SECTION -->
-    <section class="u-space_below--most">
-        <h2 class="l-span_2 u-space_above">Selected <i class="u-break_line--hd"></i>Projects</h2>
-
-        <div class="l-span_6 l-grid_of_6">
-            {% for entry in site.data.work.project %}
-                <div class="c-media c-media--prj u-space_below {{ entry.class }}">
-                    <a href="{{ entry.link }}">
-                        <div class="c-media__info">
-                            <p>{{ entry.title }}</p>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                                <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                                    <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                                </g>
-                            </svg>
-                        </div>
-
-
-                        <img data-src="{{ entry.img }}" alt="Cover for Integration project"/>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-
-    </section>
-
 
 
 

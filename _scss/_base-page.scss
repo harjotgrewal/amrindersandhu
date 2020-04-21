@@ -171,3 +171,53 @@ figure {
 	height: 3px;
 	width: 0%;
 }
+
+
+
+.p-work h1 {
+	position: relative;
+
+	// &::before{
+	// 	background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
+    //     background-color: $theme-bg-light-1;
+    //     background-size: 210px 210px;
+    //     border: 3px solid white;
+    //     content: "";
+    //     display: block;
+    //     height: 210px;
+    //     position: absolute;
+    //     top: 150px;
+    //     left: -300px;
+    //     width: 210px;
+    //     border-radius: 240px;
+    //     background-blend-mode: luminosity;
+	// }
+		
+
+	&::first-line {
+		@include media-query(hd) {
+			text-indent: -160px;
+		}
+	}
+}
+
+
+.p-about h1 {
+	position: relative;
+
+	&::before{
+		background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
+	    background-color: $theme-bg-light-1;
+	    background-size: 210px 210px;
+	    border: 3px solid white;
+	    content: "";
+	    display: block;
+	    height: 210px;
+	    position: absolute;
+	    top: 45px;
+	    left: -270px;
+	    width: 210px;
+	    border-radius: 240px;
+	    background-blend-mode: luminosity;
+	}
+}

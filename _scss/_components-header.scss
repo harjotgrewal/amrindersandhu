@@ -30,67 +30,47 @@
 .c-name {
     border: none;
     display: inline-block;
-    font-weight: 600;
+    font-family: monospace;
     line-height: 1 !important;
-    margin: 60px 30px 30px 190px;
-    text-transform: uppercase;
+    margin: 30px 30px 0 0;
     width: 90px;
-
-    @include media-query(portable) {
-        margin-left: calc(50% + 30px);
-    }
+    height: 90px;
 
     @include media-query(hd) {
         margin: 0 auto;
-        padding-top: 105px;
         text-align: center; 
     }
 
-    &:after {
-        background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
-        background-color: $theme-bg-light-1;
-        background-size: 90px 90px;
-        border: 3px solid white;
-        content: "";
-        display: block;
-        height: 90px;
-        position: absolute;
-        top: 30px;
-        left: 0;
-        width: 90px;
-        border-radius: 110px;
-        background-blend-mode: luminosity;
+    // &:after {
+    //     background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
+    //     background-color: $theme-bg-light-1;
+    //     background-size: 90px 90px;
+    //     border: 3px solid white;
+    //     content: "";
+    //     display: block;
+    //     height: 90px;
+    //     position: absolute;
+    //     top: 30px;
+    //     left: 0;
+    //     width: 90px;
+    //     border-radius: 90px;
+    //     background-blend-mode: luminosity;
+    //     opacity: 0.3;
 
-        @include media-query(hd) {
-            background-size: 110px 110px;
-            left: 50px;
-            height: 110px;
-            width: 110px;
-            top: -5px;
-        }
-    }
-
-    span + span {
-        font-size: 23px;
-        letter-spacing: -1px;
-        margin-left: -1px;
-    }
-
-    
+    //     @include media-query(hd) {
+    //         left: 60px;
+    //         top: 10px;
+    //     }
+    // }
 
    @include media-query(portable) {
        left: 30px;
-
-       span { 
-            font-size: 18px;
-            letter-spacing: -0.5px;
-       }
    }
 
 
    svg {
-       width: 110px;
-       margin-left: -15px;
+       height: 60px;
+       width: 60px;
 
        g {
            fill: rgba(black, .5);
