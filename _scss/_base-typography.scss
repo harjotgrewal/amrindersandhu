@@ -197,7 +197,7 @@ hr {
 
 main {
     h2 {
-        transform: translateY(-4px);
+        transform: translateY(-3px);
     }
 
     p {
@@ -278,11 +278,14 @@ ul, ol {
             margin-left: -30px;
             text-align: right; 
         }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     @include media-query(hd) {
         font-size: $as-font-size-m;
-        margin-bottom: 45px;
     }
 }
 

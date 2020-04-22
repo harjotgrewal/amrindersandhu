@@ -881,8 +881,8 @@ hr {
   margin: 0; }
 
 main h2 {
-  -webkit-transform: translateY(-4px);
-          transform: translateY(-4px); }
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px); }
 
 main p {
   -webkit-hyphens: auto;
@@ -948,11 +948,13 @@ ul li, ol li {
       padding-right: 15px;
       margin-left: -30px;
       text-align: right; }
+    .o-list--ordered li:last-child,
+    .o-list--bullet li:last-child {
+      margin-bottom: 0; }
   @media screen and (min-width: 1279px) {
     .o-list--ordered,
     .o-list--bullet {
-      font-size: 18px;
-      margin-bottom: 45px; } }
+      font-size: 18px; } }
 
 .o-list--ordered {
   counter-reset: li; }
