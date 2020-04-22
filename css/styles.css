@@ -1794,7 +1794,6 @@ html.p-work {
   html.p-work p,
   html.p-work li {
     color: #362c4a; }
-  html.p-work h2,
   html.p-work h3 {
     color: #130f1a; }
   html.p-work a {
@@ -1818,7 +1817,7 @@ html.p-work {
   html.p-work .c-button,
   html.p-work .c-nav__link:hover,
   html.p-work .c-media a:hover span {
-    color: #320acc; }
+    color: #360ada; }
   html.p-work .c-modal--email .c-button {
     color: #572DF5 !important; }
   html.p-work .c-nav__link--home {
@@ -1878,9 +1877,7 @@ html.p-pr {
   html.p-pr p,
   html.p-pr li {
     color: #2a3347; }
-  html.p-cs h2,
   html.p-cs h3,
-  html.p-pr h2,
   html.p-pr h3 {
     color: #0e1017; }
   html.p-cs a,
@@ -1917,7 +1914,7 @@ html.p-pr {
   html.p-pr .c-button,
   html.p-pr .c-nav__link:hover,
   html.p-pr .c-media a:hover span {
-    color: #1642a9; }
+    color: #1847b6; }
   html.p-cs .c-modal--email .c-button,
   html.p-pr .c-modal--email .c-button {
     color: #2860E3 !important; }
@@ -1926,12 +1923,12 @@ html.p-about {
   background-color: #E6F0EE; }
   html.p-about .c-progress__bar,
   html.p-about .c-button {
-    background-color: #05CD01; }
+    background-color: #03AE24; }
   html.p-about .c-name:after {
     background-color: #E6F0EE;
-    box-shadow: 0 0 0 3px #05CD01; }
+    box-shadow: 0 0 0 3px #03AE24; }
   html.p-about .c-name svg path {
-    fill: #038101; }
+    fill: #026314; }
   html.p-about .c-header,
   html.p-about a {
     border-color: #c6ddd8; }
@@ -1954,21 +1951,20 @@ html.p-about {
   html.p-about p,
   html.p-about li {
     color: #3e675e; }
-  html.p-about h2,
   html.p-about h3 {
     color: #0e1715; }
   html.p-about a {
     color: #0e1715;
-    border-color: #05CD01; }
+    border-color: #03AE24; }
     html.p-about a:hover {
-      color: #05CD01; }
+      color: #03AE24; }
   html.p-about .c-nav__link {
     border-color: #c6ddd8; }
   html.p-about .c-hire_me {
     background-color: #d3e5e1; }
     html.p-about .c-hire_me h4 {
       background-color: #E6F0EE;
-      color: #05CD01; }
+      color: #03AE24; }
   html.p-about .c-sshot--wrapped {
     background-color: #f0f6f5; }
   html.p-about .c-name,
@@ -1978,9 +1974,9 @@ html.p-about {
   html.p-about .c-button,
   html.p-about .c-nav__link:hover,
   html.p-about .c-media a:hover span {
-    color: #038101; }
+    color: #027218; }
   html.p-about .c-modal--email .c-button {
-    color: #05CD01 !important; }
+    color: #03AE24 !important; }
   html.p-about .c-nav__link--about {
     color: #2a4741; }
   @media screen and (min-width: 1279px) {
@@ -2019,7 +2015,6 @@ html.p-library {
   html.p-library p,
   html.p-library li {
     color: #6a653f; }
-  html.p-library h2,
   html.p-library h3 {
     color: #1a190f; }
   html.p-library a {
@@ -2043,7 +2038,7 @@ html.p-library {
   html.p-library .c-button,
   html.p-library .c-nav__link:hover,
   html.p-library .c-media a:hover span {
-    color: #cc670a; }
+    color: #da6e0a; }
   html.p-library .c-modal--email .c-button {
     color: #F58D2D !important; }
   html.p-library .c-nav__link--library {
@@ -2084,7 +2079,6 @@ html.p-journal {
   html.p-journal p,
   html.p-journal li {
     color: #6a443f; }
-  html.p-journal h2,
   html.p-journal h3 {
     color: #1a110f; }
   html.p-journal a {
@@ -2108,7 +2102,7 @@ html.p-journal {
   html.p-journal .c-button,
   html.p-journal .c-nav__link:hover,
   html.p-journal .c-media a:hover span {
-    color: #a91f16; }
+    color: #b62118; }
   html.p-journal .c-modal--email .c-button {
     color: #E33328 !important; }
   html.p-journal .c-book_info,
@@ -2152,7 +2146,6 @@ html.p-testimonials {
   html.p-testimonials p,
   html.p-testimonials li {
     color: #2a3347; }
-  html.p-testimonials h2,
   html.p-testimonials h3 {
     color: #0e1017; }
   html.p-testimonials a {
@@ -2176,7 +2169,7 @@ html.p-testimonials {
   html.p-testimonials .c-button,
   html.p-testimonials .c-nav__link:hover,
   html.p-testimonials .c-media a:hover span {
-    color: #1642a9; }
+    color: #1847b6; }
   html.p-testimonials .c-modal--email .c-button {
     color: #2860E3 !important; }
 
