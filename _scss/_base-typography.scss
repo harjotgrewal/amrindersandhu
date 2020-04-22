@@ -78,7 +78,7 @@ h2 {
 
 
 h3 {
-    font-size: 18ps;
+    font-size: 18px;
     font-weight: $as-font-weight-bold;
     line-height: 24px;
     margin-bottom: 15px;
@@ -86,7 +86,6 @@ h3 {
     @include media-query(hd) {
         font-size: 21px;
         line-height: $as-line-height-l;
-        margin-bottom: 30px;
         letter-spacing: -1px;
     }
 }

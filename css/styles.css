@@ -796,7 +796,7 @@ h2 {
       margin-bottom: 30px; } }
 
 h3 {
-  font-size: 18ps;
+  font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   margin-bottom: 15px; }
@@ -804,7 +804,6 @@ h3 {
     h3 {
       font-size: 21px;
       line-height: 30px;
-      margin-bottom: 30px;
       letter-spacing: -1px; } }
 
 h4 {
@@ -1819,7 +1818,7 @@ html.p-work {
   html.p-work .c-media a:hover span {
     color: #360ada; }
   html.p-work .c-modal--email .c-button {
-    color: #572DF5 !important; }
+    color: #360ada !important; }
   html.p-work .c-nav__link--home {
     color: #362c4a; }
 
@@ -1917,7 +1916,7 @@ html.p-pr {
     color: #1847b6; }
   html.p-cs .c-modal--email .c-button,
   html.p-pr .c-modal--email .c-button {
-    color: #2860E3 !important; }
+    color: #1847b6 !important; }
 
 html.p-about {
   background-color: #E6F0EE; }
@@ -1976,7 +1975,7 @@ html.p-about {
   html.p-about .c-media a:hover span {
     color: #027218; }
   html.p-about .c-modal--email .c-button {
-    color: #03AE24 !important; }
+    color: #027218 !important; }
   html.p-about .c-nav__link--about {
     color: #2a4741; }
   @media screen and (min-width: 1279px) {
@@ -2040,7 +2039,7 @@ html.p-library {
   html.p-library .c-media a:hover span {
     color: #da6e0a; }
   html.p-library .c-modal--email .c-button {
-    color: #F58D2D !important; }
+    color: #da6e0a !important; }
   html.p-library .c-nav__link--library {
     color: #4a472c; }
   html.p-library .c-section__nav_link.is_active,
@@ -2104,7 +2103,7 @@ html.p-journal {
   html.p-journal .c-media a:hover span {
     color: #b62118; }
   html.p-journal .c-modal--email .c-button {
-    color: #E33328 !important; }
+    color: #b62118 !important; }
   html.p-journal .c-book_info,
   html.p-journal .c-nav__link--journal {
     color: #6a443f; }
@@ -2171,7 +2170,7 @@ html.p-testimonials {
   html.p-testimonials .c-media a:hover span {
     color: #1847b6; }
   html.p-testimonials .c-modal--email .c-button {
-    color: #2860E3 !important; }
+    color: #1847b6 !important; }
 
 @media screen and (min-width: 1279px) {
   html.th-white {

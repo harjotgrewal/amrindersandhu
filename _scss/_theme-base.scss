@@ -119,7 +119,7 @@ $theme-color-52: #2860E3;
     }
     
     .c-modal--email .c-button {
-        color: $th-col-2 !important;
+        color: darken($th-col-2, 12%) !important;
     }
 }
 
