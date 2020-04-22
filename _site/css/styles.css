@@ -881,8 +881,8 @@ hr {
   margin: 0; }
 
 main h2 {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px); }
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px); }
 
 main p {
   -webkit-hyphens: auto;
