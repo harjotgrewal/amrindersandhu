@@ -1,18 +1,6 @@
 # WORK
 
 
-
-- {	
-	link: '/case-study-discover.html',
-	title: 'Designing the <br/>Discover App',
-	desc: 'How I used double diamond to build and iterate the world’s largest branded content catalog.',
-	page-title: 'Case Study – Discover',
-	src: '/assets/i/sshots/cover-discover.png',
-	status: 'active',
-	cta: 'Read the case study &rarr;'
-}
-
-
 - {	
 	link: '/case-study-datepicker.html',
 	title: 'Designing with <br/>the usage data',
@@ -23,6 +11,16 @@
 	cta: 'Read the case study &rarr;'
 }
 
+
+- {	
+	link: '/case-study-discover.html',
+	title: 'Designing the <br/>Discover App',
+	desc: 'How I used double diamond to build and iterate the world’s largest branded content catalog.',
+	page-title: 'Case Study – Discover',
+	src: '/assets/i/sshots/cover-discover.png',
+	status: 'active',
+	cta: 'Read the case study &rarr;'
+}
 
 - {	
 	link: '/case-study-qas.html',
