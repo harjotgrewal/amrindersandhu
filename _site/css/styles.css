@@ -809,7 +809,7 @@ h3 {
     h3 {
       font-size: 21px;
       line-height: 30px;
-      letter-spacing: -.5px; } }
+      letter-spacing: -0.5px; } }
 
 h4 {
   font-size: 15px;
@@ -911,7 +911,7 @@ figcaption,
 .c-caption {
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
-  line-height: 18px;
+  line-height: 20px;
   margin-bottom: 0; }
   figcaption a,
   .c-caption a {
