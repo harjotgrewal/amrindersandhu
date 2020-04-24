@@ -19,7 +19,7 @@ $as-line-height-m: 30px;
 $as-line-height-s: 24px;
 $as-line-height-xs: 18px;
 
-$as-font-weight-bold: 600; 
+$as-font-weight-bold: 700; 
 
 
 
@@ -45,9 +45,6 @@ h1, h2 {
     font-family: 'Playfair Display', serif;
 }
 
-// .c-testimonial blockquote {
-//     font-family: 'Playfair Display', serif;
-// }
 
 
 h1 {
@@ -86,7 +83,7 @@ h3 {
     @include media-query(hd) {
         font-size: 21px;
         line-height: $as-line-height-l;
-        letter-spacing: -1px;
+        letter-spacing: -0.5px;
     }
 }
 
