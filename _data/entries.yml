@@ -9,6 +9,15 @@ journal:
 # 	date: ''
 # }
 
+- {	
+	title: '<span class="c-dropcap">U</span>sually designers go by gut or intiution. However, in product design there are ways to measure both, and we must do it.', 
+	url: 'https://uxdesign.cc/how-to-measure-success-in-design-f63f96a0c541',
+	content-title: '10 frameworks to help you measure success in design',
+	content-copy: 'To get a head start, existing frameworks are helpful in terms of broadening the thinking. In the following, I put together 10 frameworks about metric settings that I’ve seen being used or discussed in the industry. I’ll start with the popular business-oriented metrics, moving on to experience-oriented ones, and end with the lesser-known-yet-important social impact metrics. Hopefully, these can serve as inspirations for product teams to draft a meaningful story of success.', 
+	date: '24 Apr, 2020'
+}
+
+
 
 - {	
 	title: '<span class="c-dropcap">I</span>n these tough times, when everyone is working remotely, it’s more important to be humane than professional, especially for leaders.', 
