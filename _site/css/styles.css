@@ -475,7 +475,7 @@ html {
 
 body {
   color: #050505;
-  font: 62.5% -apple-system, BlinkMacSystemFont, sans-serif;
+  font: 62.5% system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   overflow-x: hidden;
@@ -631,6 +631,10 @@ main video {
 @media screen and (min-width: 1279px) {
   .l-grid_of_2 {
     grid-template-columns: repeat(2, 90px); } }
+
+@media screen and (min-width: 1279px) {
+  .l-span_3-5 {
+    grid-column: 3/5; } }
 
 @media screen and (min-width: 1279px) {
   .l-span_3-6 {
@@ -1779,7 +1783,6 @@ html.p-work {
   html.p-work hr {
     border-color: #ded9e9; }
   html.p-work .c-nav__link,
-  html.p-work h1,
   html.p-work .c-footer small,
   html.p-work .c-footer__links a,
   html.p-work .c-testimonial small,
@@ -1791,7 +1794,7 @@ html.p-work {
   html.p-work .c-caption a,
   html.p-work .o-list--ordered li::before,
   html.p-work .o-list--ordered li::after {
-    color: #9989b9; }
+    color: #65528a; }
   html.p-work p,
   html.p-work li {
     color: #362c4a; }
@@ -1814,6 +1817,7 @@ html.p-work {
   html.p-work .c-name,
   html.p-work h1,
   html.p-work h2,
+  html.p-work .u-txt-t1,
   html.p-work button,
   html.p-work .c-button,
   html.p-work .c-nav__link:hover,
@@ -1848,13 +1852,11 @@ html.p-pr {
   html.p-pr hr {
     border-color: #d6dbe6; }
   html.p-cs .c-nav__link,
-  html.p-cs h1,
   html.p-cs .c-footer small,
   html.p-cs .c-footer__links a,
   html.p-cs .c-testimonial small,
   html.p-cs blockquote:not(.c-caption) footer,
   html.p-pr .c-nav__link,
-  html.p-pr h1,
   html.p-pr .c-footer small,
   html.p-pr .c-footer__links a,
   html.p-pr .c-testimonial small,
@@ -1872,7 +1874,7 @@ html.p-pr {
   html.p-pr .c-caption a,
   html.p-pr .o-list--ordered li::before,
   html.p-pr .o-list--ordered li::after {
-    color: #8695b7; }
+    color: #516186; }
   html.p-cs p,
   html.p-cs li,
   html.p-pr p,
@@ -1904,6 +1906,7 @@ html.p-pr {
   html.p-cs .c-name,
   html.p-cs h1,
   html.p-cs h2,
+  html.p-cs .u-txt-t1,
   html.p-cs button,
   html.p-cs .c-button,
   html.p-cs .c-nav__link:hover,
@@ -1911,6 +1914,7 @@ html.p-pr {
   html.p-pr .c-name,
   html.p-pr h1,
   html.p-pr h2,
+  html.p-pr .u-txt-t1,
   html.p-pr button,
   html.p-pr .c-button,
   html.p-pr .c-nav__link:hover,
@@ -1936,7 +1940,6 @@ html.p-about {
   html.p-about hr {
     border-color: #d6e6e3; }
   html.p-about .c-nav__link,
-  html.p-about h1,
   html.p-about .c-footer small,
   html.p-about .c-footer__links a,
   html.p-about .c-testimonial small,
@@ -1948,7 +1951,7 @@ html.p-about {
   html.p-about .c-caption a,
   html.p-about .o-list--ordered li::before,
   html.p-about .o-list--ordered li::after {
-    color: #86b7ad; }
+    color: #51867c; }
   html.p-about p,
   html.p-about li {
     color: #3e675e; }
@@ -1971,6 +1974,7 @@ html.p-about {
   html.p-about .c-name,
   html.p-about h1,
   html.p-about h2,
+  html.p-about .u-txt-t1,
   html.p-about button,
   html.p-about .c-button,
   html.p-about .c-nav__link:hover,
@@ -2000,7 +2004,6 @@ html.p-library {
   html.p-library hr {
     border-color: #e9e7d9; }
   html.p-library .c-nav__link,
-  html.p-library h1,
   html.p-library .c-footer small,
   html.p-library .c-footer__links a,
   html.p-library .c-testimonial small,
@@ -2012,7 +2015,7 @@ html.p-library {
   html.p-library .c-caption a,
   html.p-library .o-list--ordered li::before,
   html.p-library .o-list--ordered li::after {
-    color: #b9b489; }
+    color: #8a8452; }
   html.p-library p,
   html.p-library li {
     color: #6a653f; }
@@ -2035,6 +2038,7 @@ html.p-library {
   html.p-library .c-name,
   html.p-library h1,
   html.p-library h2,
+  html.p-library .u-txt-t1,
   html.p-library button,
   html.p-library .c-button,
   html.p-library .c-nav__link:hover,
@@ -2064,7 +2068,6 @@ html.p-journal {
   html.p-journal hr {
     border-color: #e9dbd9; }
   html.p-journal .c-nav__link,
-  html.p-journal h1,
   html.p-journal .c-footer small,
   html.p-journal .c-footer__links a,
   html.p-journal .c-testimonial small,
@@ -2076,7 +2079,7 @@ html.p-journal {
   html.p-journal .c-caption a,
   html.p-journal .o-list--ordered li::before,
   html.p-journal .o-list--ordered li::after {
-    color: #b98e89; }
+    color: #8a5852; }
   html.p-journal p,
   html.p-journal li {
     color: #6a443f; }
@@ -2099,6 +2102,7 @@ html.p-journal {
   html.p-journal .c-name,
   html.p-journal h1,
   html.p-journal h2,
+  html.p-journal .u-txt-t1,
   html.p-journal button,
   html.p-journal .c-button,
   html.p-journal .c-nav__link:hover,
@@ -2131,7 +2135,6 @@ html.p-testimonials {
   html.p-testimonials hr {
     border-color: #d6dbe6; }
   html.p-testimonials .c-nav__link,
-  html.p-testimonials h1,
   html.p-testimonials .c-footer small,
   html.p-testimonials .c-footer__links a,
   html.p-testimonials .c-testimonial small,
@@ -2143,7 +2146,7 @@ html.p-testimonials {
   html.p-testimonials .c-caption a,
   html.p-testimonials .o-list--ordered li::before,
   html.p-testimonials .o-list--ordered li::after {
-    color: #7687ad; }
+    color: #516186; }
   html.p-testimonials p,
   html.p-testimonials li {
     color: #2a3347; }
@@ -2166,6 +2169,7 @@ html.p-testimonials {
   html.p-testimonials .c-name,
   html.p-testimonials h1,
   html.p-testimonials h2,
+  html.p-testimonials .u-txt-t1,
   html.p-testimonials button,
   html.p-testimonials .c-button,
   html.p-testimonials .c-nav__link:hover,
@@ -2318,3 +2322,7 @@ html.th-white .c-hire_me h4 {
 @media screen and (min-width: 1279px) {
   .u-txt-align--right {
     text-align: right; } }
+
+.u-txt-t1 {
+  font-size: 36px;
+  font-weight: bold; }

@@ -52,7 +52,6 @@ $theme-color-52: #2860E3;
     
 
     .c-nav__link,
-    h1,
     .c-footer small,
     .c-footer__links a,
     .c-testimonial small,
@@ -66,7 +65,7 @@ $theme-color-52: #2860E3;
     .c-caption a,
     .o-list--ordered li::before,
     .o-list--ordered li::after {
-        color: darken($th-col-1, $val-2);
+        color: darken($th-col-1, $val-3);
     }
 
     p,
@@ -111,6 +110,7 @@ $theme-color-52: #2860E3;
     .c-name, 
     h1, 
     h2,
+    .u-txt-t1,
     button,
     .c-button,
     .c-nav__link:hover,

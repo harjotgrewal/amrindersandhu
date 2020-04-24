@@ -65,6 +65,14 @@
 }
 
 
+.l-span_3-5 {
+
+    @include media-query(hd) {
+        grid-column: 3/5;
+    }
+}
+
+
 .l-span_3-6 {
 
     @include media-query(hd) {
