@@ -331,12 +331,12 @@ ul, ol {
 
 .c-dropcap {
     display: inline-block;
-    font-size: 51px;
+    font-size: 52px;
     font-style: normal;
     font-weight: 200;
     float: left;
     line-height: 1;
-    margin-right: 3px;
+    margin-right: 6px;
 
     &:before,
     &:after {
@@ -349,6 +349,6 @@ ul, ol {
     }
 
     &:after {
-        margin-top: 0;
+        margin-top: -3px;
     }
 }
