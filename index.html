@@ -37,15 +37,15 @@ page-description: For 12 years, Amrinder has lead design at startups to help ach
         {% for entry in site.data.work %}
             <div class="c-media {{ entry.class }} l-span_full u-space_below--most">
                 <a class="l-grid_of_8" href="{{ entry.link }}">
-                    <div class="c-media__info l-span_2">
+                    <div class="c-media__info l-span_3">
                         <h2>{{ entry.title }}</h2>
 
-                        <p>{{ entry.desc }}</p>
+                        <p class="u-pad_right--30">{{ entry.desc }}</p>
 
                         <span>{{ entry.cta }}</span>
                     </div>
 
-                    <img class="l-span_6" data-src="{{ entry.src }}" alt="{{ entry.alt }}"/>
+                    <img class="l-span_5" data-src="{{ entry.src }}" alt="{{ entry.alt }}"/>
                 </a>
             </div>
         {% endfor %}
