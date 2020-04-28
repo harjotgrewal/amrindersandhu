@@ -11,6 +11,16 @@
 	cta: 'Read the case study &rarr;'
 }
 
+- {	
+	link: '/proj-analyze.html',
+	title: 'Unmetric Analyze &mdash; <br/>10 years in the making',
+	desc: 'For a decade I worked closely with the Unmetric CEO from day to build the flagship product hands-on.',
+	page-title: 'Product – Analyze',
+	src: '/assets/i/sshots/cover-analyze.png',
+	status: 'active',
+	cta: 'Watch the product video &rarr;'
+}
+
 
 - {	
 	link: '/case-study-discover.html',

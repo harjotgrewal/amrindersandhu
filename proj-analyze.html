@@ -1,0 +1,110 @@
+---
+layout: default
+title: Unmetric Analyze
+page-class: p-pr
+page-heading: 
+page-description: Redesigning the most used UI component using the most sophisticated design tool – data.
+---
+
+{% include header.html %}
+
+<main class="c-main">      
+    <section>
+        <div class="l-span_3-9">
+            <h1 class="u-space_below--more">Unmetric Analyze &mdash; 10 years in the making</h1>
+
+            <p>From 2010 till 2020, I hands-on designed every single feature and played an instrumental role in shaping every aspect of Analyze. Over the years, Analyze was used and loved by customers like Coca-Cola, Unilever, GM, Pepsi, Ford, Amex, FedEx.</p> 
+
+        </div>
+    </section>
+
+    <section>
+        <h3 class="l-span_3-9 u-space_below">A quick walkthrough of Analyze</h3>
+
+        <div class="c-embedded_video l-span_full u-space_below--more">
+            <iframe src="https://player.vimeo.com/video/341528643" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+        <p class="l-span_3-9">Over the ten years of building Analyze, I worked on over dozen of new features and redesigns. Here are the in-depth case studies of a couple of the latest features:</p>
+
+        <ul class="o-list--bullet l-span_3-9">
+            <li><a href="/case-study-datepicker.html">Date-picker redesign case study</a></li>
+
+            <li><a href="/case-study-qas.html">Homepage and Navigation redesign case study</a></li>
+        </ul>
+    </section>
+
+
+
+
+    <!-- ROLE -->
+    <!-- <section>
+        <div class="l-span_2 u-space_below">
+            <h2>My Role</h2>
+
+            <ul>
+                <li>Discovery</li>
+
+                <li>Opportunity Canvas</li>
+                
+                <li>User Story Mapping</li>
+
+                <li>Prototyping</li>
+
+                <li>Project Management</li>
+
+                <li>UI/UX</li>
+
+                <li>Icon Design</li>
+
+                <li>Onboarding</li>
+            </ul>
+        </div>
+    </section> -->
+
+
+
+
+
+
+    
+    <hr class="u-space_below--most"/>
+
+
+
+
+
+    <!-- MORE -->
+    <section class="u-space_below--most">
+        <h1 class="l-span_1 u-space_below--most">More Projects</h1>
+
+
+
+        {% for entry in site.data.work %}
+            {% if entry.status == "active" %}
+                {% if entry.page-title != "Project – Unmetric Falcon Integration" %}
+                    <div class="c-media {{ entry.class }} l-span_full u-space_below--most">
+                        <a class="l-grid_of_8" href="{{ entry.link }}">
+                            <div class="c-media__info l-span_3">
+                                <h2>{{ entry.title }}</h2>
+        
+                                <p>{{ entry.desc }}</p>
+        
+                                <span>{{ entry.cta }}</span>
+                            </div>
+        
+                            <img class="l-span_5-9" data-src="{{ entry.src }}" alt="{{ entry.alt }}"/>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </section>
+
+
+</main>
+
+
+
+
+{% include footer.html %}
