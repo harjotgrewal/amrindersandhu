@@ -2241,8 +2241,9 @@ html.th-white .c-hire_me h4 {
   -ms-flex-align: end;
       align-items: flex-end; }
 
-.u-pad_right--30 {
-  padding-right: 30px; }
+@media screen and (min-width: 1279px) {
+  .u-pad_right--30 {
+    padding-right: 30px; } }
 
 @media screen and (min-width: 1279px) {
   .u-space_left--120 {

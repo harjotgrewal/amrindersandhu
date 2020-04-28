@@ -68,10 +68,10 @@
 
 
 .u-pad_right--30 {
-    padding-right: 30px;
+    
 
     @include media-query(hd) {
-        
+        padding-right: 30px;
     }
 }
 
