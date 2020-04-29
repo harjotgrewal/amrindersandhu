@@ -132,7 +132,7 @@
 
         <div class="l-span_5-9">
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/with-family.jpg" alt="with my family">
+                <img src="/assets/i/photos/with-family.jpg" alt="with my family">
 
                 <figcaption>With my family</figcaption>
             </figure>
@@ -141,38 +141,38 @@
 
         <div class="l-span_4">
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/orchids.jpg" alt="orchids at home">
+                <img src="/assets/i/photos/orchids.jpg" alt="orchids at home">
 
                 <figcaption>Orchids at home</figcaption>
             </figure class="c-photo">
 
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/gradient.jpg" alt="sunset from a plane">
+                <img src="/assets/i/photos/gradient.jpg" alt="sunset from a plane">
 
                 <figcaption>Sunset from a plane</figcaption>
             </figure>
 
 
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/plate.jpg" alt="plate back">
+                <img src="/assets/i/photos/plate.jpg" alt="plate back">
 
                 <figcaption>Back of a plate</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/bench.jpg" alt="bench in sunset">
+                <img src="/assets/i/photos/bench.jpg" alt="bench in sunset">
 
                 <figcaption>Sunset at the Leamington beach</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/leaf.jpg" alt="fall maple leaf">
+                <img src="/assets/i/photos/leaf.jpg" alt="fall maple leaf">
 
                 <figcaption>Fall leaf saying goodbye</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/home.jpg" alt="our home">
+                <img src="/assets/i/photos/home.jpg" alt="our home">
 
                 <figcaption>Home sweet home</figcaption>
             </figure>
@@ -183,29 +183,29 @@
 
         <div class="l-span_4">
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/leaves.jpg" alt="fall colors in the front yard">
+                <img src="/assets/i/photos/leaves.jpg" alt="fall colors in the front yard">
                 <figcaption>Fall colors in my frontyard</figcaption>
             </figure>
             
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/boats.jpg" alt="boats">
+                <img src="/assets/i/photos/boats.jpg" alt="boats">
                 <figcaption>Boats at White Rock, BC pier</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/stone.jpg" alt="stone">
+                <img src="/assets/i/photos/stone.jpg" alt="stone">
 
                 <figcaption>Stone at the Point Pelee beach</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/sunrise.jpg" alt="sunrise">
+                <img src="/assets/i/photos/sunrise.jpg" alt="sunrise">
 
                 <figcaption>Sunrise and snow</figcaption>
             </figure>
 
             <figure class="c-photo">
-                <img data-src="/assets/i/photos/with-danmall.jpg" alt="with Dan Mall at a Smashing conf.">
+                <img src="/assets/i/photos/with-danmall.jpg" alt="with Dan Mall at a Smashing conf.">
 
                 <figcaption>With Dan Mall at a workshop</figcaption>
             </figure>
@@ -231,21 +231,7 @@
       <button id="closeModal" class="c-modal__close"> <span class="c-button__text">Nevermind </span><span class="c-button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(0 0)" fill="#aab3c2" stroke="#aab3c2"><circle cx="12" cy="12" r="11" fill="none" stroke="#aab3c2" stroke-miterlimit="10"></circle> <path d="M12,19a6.459,6.459,0,0,0,5-3" fill="none" stroke-miterlimit="10"></path> <path data-stroke="none" d="M7.376,7a3.294,3.294,0,1,0,2.772,4.94L11.3,9.954a.745.745,0,0,1,1.412,0l1.147,1.987A3.294,3.294,0,1,0,16.626,7L12,7.022Z" fill-rule="evenodd" stroke="none"></path></g></svg></span></button>
     </div>
   </div>
-</footer>
-<script>
-  // LAZY LOADING IMAGES
-  if(!!window.IntersectionObserver){
-      let observer = new IntersectionObserver((entries, observer) => { 
-          entries.forEach(entry => {
-          if(entry.isIntersecting){        
-              entry.target.src = entry.target.dataset.src;
-              observer.unobserve(entry.target);
-          }
-          });
-      }, {rootMargin: "0px 0px 600px 0px"});
-      document.querySelectorAll('img').forEach(img => { observer.observe(img) });
-  }
-</script>         
+</footer>         
 			
 	<script src="assets/js/functions.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
