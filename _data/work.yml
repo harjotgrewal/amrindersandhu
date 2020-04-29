@@ -1,7 +1,8 @@
 # WORK
 
 
-- {	
+- {
+	time: 'Jun–Aug 2019',	
 	link: '/case-study-datepicker.html',
 	title: 'Designing with <br/>the usage data',
 	desc: 'How I redesigned the most used UI component using the most sophisticated design tool – data.',
@@ -11,7 +12,8 @@
 	cta: 'Read the case study &rarr;'
 }
 
-- {	
+- {
+	time: 'Oct 2010 – Mar 2020',	
 	link: '/proj-analyze.html',
 	title: 'Unmetric Analyze &mdash; <br/>10 years in the making',
 	desc: 'For a decade I worked closely with the Unmetric CEO from day to build the flagship product hands-on.',
@@ -23,6 +25,7 @@
 
 
 - {	
+	time: 'Oct 2015 – Jul 2018',	
 	link: '/case-study-discover.html',
 	title: 'Designing the <br/>Discover App',
 	desc: 'How I used double diamond to build and iterate the world’s largest branded content catalog.',
@@ -32,7 +35,8 @@
 	cta: 'Read the case study &rarr;'
 }
 
-- {	
+- {
+	time: 'Apr–Nov 2019',		
 	link: '/case-study-qas.html',
 	title: 'Designing two key <br/>Analyze features',
 	desc: 'How I redesigned Unmetric’s flagship app homepage after five years and launched a key feature simultaneously.',
@@ -44,6 +48,7 @@
 
 
 - {	
+	time: 'Dec 2019 – Feb 2020',		
 	link: '/proj-integration.html',
 	title: 'Unmetric Falcon <br/>Integration',
 	desc: 'How I led the team of seven across three time zones and six locations to integrate Unmetric with Falcon.',
@@ -54,7 +59,8 @@
 }
 
 
-- {	
+- {
+	time: 'Sep 2013 – Mar 2020',	
 	link: '/proj-unds.html',
 	title: 'Unmetric <br/>Design System',
 	desc: 'Why and how I built a design system alone over a span of six years.',
@@ -66,6 +72,7 @@
 
 
 - {	
+	time: 'Oct–Feb 2019',	
 	link: '/case-study-branding.html',
 	title: 'Unmetric <br/>Rebranding',
 	desc: 'Positioning Unmetric as a leader in social media analytics space.',
@@ -77,6 +84,7 @@
 
 
 - {	
+	time: 'Oct 2010 – Mar 2020',
 	link: '/proj-website.html',
 	title: 'Unmetric Website, <br/> Blog and more',
 	desc: 'I led multiple redesigns of the website along with blog, newsletters, pitch decks, collateral, etc.',

@@ -1727,10 +1727,19 @@ button,
 .c-media__info {
   -ms-flex-align: center;
       align-items: center; }
+  .c-media__info time {
+    color: #999;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
   .c-media__info h2 {
     margin-bottom: 15px; }
   .c-media__info p {
     margin-bottom: 15px; }
+    @media screen and (min-width: 1279px) {
+      .c-media__info p {
+        margin-bottom: 30px; } }
   .c-media__info span {
     display: inline-block;
     color: #999;
@@ -1828,6 +1837,9 @@ html.p-work {
     color: #360ada !important; }
   html.p-work .c-nav__link--home {
     color: #362c4a; }
+  html.p-work .c-media__info time,
+  html.p-work .c-media__info span {
+    color: #9989b9; }
 
 html.p-cs,
 html.p-pr {

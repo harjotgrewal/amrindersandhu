@@ -133,6 +133,11 @@ html.p-work {
     .c-nav__link--home {
         color: darken($theme-color-11, 70);
     }
+
+    .c-media__info time,
+    .c-media__info span {
+        color: darken($theme-color-11, 30);
+    }
 }
 
 
