@@ -1303,30 +1303,31 @@ button,
     .c-name svg g {
       fill: rgba(0, 0, 0, 0.5); }
 
-.c-hire_me {
-  border-bottom: 1px solid; }
-  .c-hire_me p {
-    margin-bottom: 12px; }
-  @media screen and (min-width: 1279px) {
-    .c-hire_me {
-      -ms-flex-align: center;
-          align-items: center;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: center;
-          justify-content: center;
-      margin: 45px 0;
-      padding: 30px 30px 9px;
-      text-align: center;
-      height: 210px;
-      margin: -1px;
-      width: 210px; } }
-  .c-hire_me p {
-    font-size: 16px;
-    line-height: 1.5; }
-  .c-hire_me a {
-    display: inline-block;
-    margin-top: 12px; }
+.c-hire_me p {
+  margin-bottom: 12px; }
+
+@media screen and (min-width: 1279px) {
+  .c-hire_me {
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: 45px 0;
+    padding: 30px 30px 9px;
+    text-align: center;
+    height: 210px;
+    margin: -1px;
+    width: 210px; } }
+
+.c-hire_me p {
+  font-size: 16px;
+  line-height: 1.5; }
+
+.c-hire_me a {
+  display: inline-block;
+  margin-top: 12px; }
 
 /* The Modal (background) */
 .c-modal {
