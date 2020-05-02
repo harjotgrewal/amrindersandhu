@@ -5,10 +5,10 @@
 	time: 'Jun–Aug 2019',	
 	link: '/case-study-datepicker.html',
 	title: 'Designing with <br/>the usage data',
-	desc: 'How I redesigned the most used UI component using the most sophisticated design tool – data.',
+	desc: 'How I redesigned the most used UI component using the most <i class="u-break_line--hd"></i>sophisticated design tool – data.',
 	page-title: 'Case Study – DatePicker',
 	src: '/assets/i/sshots/cover-datepicker.png',
-	status: 'active',
+	class: 'c-media--dp',
 	cta: 'Read the case study &rarr;'
 }
 
@@ -19,19 +19,20 @@
 	desc: 'For a decade I worked closely with the Unmetric CEO from day to build the flagship product hands-on.',
 	page-title: 'Product – Analyze',
 	src: '/assets/i/sshots/cover-analyze.png',
-	status: 'active',
-	cta: 'See projects and overview video &rarr;'
+	class: 'c-media--ana',
+	cta: 'See projects and video &rarr;'
 }
+
 
 
 - {	
 	time: 'Oct 2015 – Jul 2018',	
 	link: '/case-study-discover.html',
 	title: 'Designing the <br/>Discover App',
-	desc: 'How I used double diamond to build and iterate the world’s largest branded content catalog.',
+	desc: 'How I used double diamond to build <i class="u-break_line--hd"></i>and iterate the world’s largest <i class="u-break_line--hd"></i>branded content catalog.',
 	page-title: 'Case Study – Discover',
 	src: '/assets/i/sshots/cover-discover.png',
-	status: 'active',
+	class: 'c-media--dis',
 	cta: 'Read the case study &rarr;'
 }
 
@@ -42,7 +43,7 @@
 	desc: 'How I redesigned Unmetric’s flagship app homepage after five years and launched a key feature simultaneously.',
 	page-title: 'Case Study – Quick Access Sidebar and Outliers',
 	src: '/assets/i/sshots/cover-qas.png',
-	status: 'active',
+	class: 'c-media--qas',
 	cta: 'Read the case study &rarr;'
 }
 
@@ -51,10 +52,10 @@
 	time: 'Dec 2019 – Feb 2020',		
 	link: '/proj-integration.html',
 	title: 'Unmetric Falcon <br/>Integration',
-	desc: 'How I led the team of seven across three time zones and six locations to integrate Unmetric with Falcon.',
+	desc: 'How I led the team of seven across <i class="u-break_line--hd"></i>three time zones and six locations to <i class="u-break_line--hd"></i>integrate Unmetric with Falcon.',
 	page-title: 'Project – Unmetric Falcon Integration',
 	src: '/assets/i/sshots/cover-integ.png',
-	status: 'active',
+	class: 'c-media--int',
 	cta: 'View the project &rarr;'
 }
 
@@ -66,7 +67,7 @@
 	desc: 'Why and how I built a design system alone over a span of six years.',
 	page-title: 'Project – Unmetric Design System',
 	src: '/assets/i/sshots/cover-unds.png',
-	status: 'active',
+	class: 'c-media--unds',
 	cta: 'View the project &rarr;'
 }
 
@@ -75,10 +76,10 @@
 	time: 'Oct–Feb 2019',	
 	link: '/case-study-branding.html',
 	title: 'Unmetric <br/>Rebranding',
-	desc: 'Positioning Unmetric as a leader in social media analytics space.',
+	desc: 'Positioning Unmetric as a leader <i class="u-break_line--hd"></i>in social media analytics space.',
 	page-title: 'Case Study – Branding',
 	src: '/assets/i/sshots/cover-branding.png',
-	status: 'active',
+	class: 'c-media--br',
 	cta: 'Read the case study &rarr;'
 }
 
@@ -87,10 +88,10 @@
 	time: 'Oct 2010 – Mar 2020',
 	link: '/proj-website.html',
 	title: 'Unmetric Website, <br/> Blog and more',
-	desc: 'I led multiple redesigns of the website along with blog, newsletters, pitch decks, collateral, etc.',
+	desc: 'I led multiple redesigns of the website along with blog, newsletters, <i class="u-break_line--hd"></i>pitch decks, collateral, etc.',
 	page-title: 'Project – Unmetric Website, Blog and More',
 	src: '/assets/i/sshots/cover-web.png',
-	status: 'active',
+	class: 'c-media--web',
 	cta: 'View the project &rarr;'
 }
 

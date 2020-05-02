@@ -10,9 +10,7 @@ page-description: To improve what I know and learn what I don’t, I read blogs 
 
 <main>      
     <section class="u-space_below--most">
-        <div class="l-span_3-8">
-            <h1>To improve what I know and learn what I don’t, I read blogs and articles. Here’s what I find useful.</h1>
-        </div>    
+        <h1 class="l-span_4-9">To improve what I know and learn what I don’t, I read blogs and articles. Here’s what I find useful.</h1>
     </section>
     
 
@@ -20,15 +18,15 @@ page-description: To improve what I know and learn what I don’t, I read blogs 
 
     {% for entry in site.data.entries.journal %}
     <section>
-        <article class="c-entry l-grid_of_8">
+        <article class="c-entry l-grid_of_9">
 
-            <a class="c-entry__link l-span_3-9" href="{{ entry.url }}" target="_blank">
+            <a class="c-entry__link l-span_4-10" href="{{ entry.url }}" target="_blank">
                 <h2 class="c-entry__heading">{{ entry.content-title }}</h2>
             </a>
 
-            <p class="c-entry__comment l-span_2 u-pad_right--30">{{ entry.title }}</p>
+            <p class="c-entry__comment l-span_2">{{ entry.title }}</p>
 
-            <div class="c-entry__blurb l-span_5">{{ entry.content-copy }}</div>
+            <div class="c-entry__blurb l-span_4-10">{{ entry.content-copy }}</div>
         </article>
     </section>
     {% endfor %}
@@ -39,15 +37,15 @@ page-description: To improve what I know and learn what I don’t, I read blogs 
 
     {% for entry in site.data.awayback.journal %}
     <section>
-        <article class="c-entry l-grid_of_8">
+        <article class="c-entry l-grid_of_9">
 
-            <a class="c-entry__link l-span_3-9" href="{{ entry.url }}" target="_blank">
+            <a class="c-entry__link l-span_4-10" href="{{ entry.url }}" target="_blank">
                 <h2 class="c-entry__heading">{{ entry.content-title }}</h2>
             </a>
 
             <p class="c-entry__comment l-span_2 u-pad_right--30">{{ entry.title }}</p>
 
-            <div class="c-entry__blurb l-span_5">{{ entry.content-copy }}</div>
+            <div class="c-entry__blurb l-span_6">{{ entry.content-copy }}</div>
         </article>
     </section>
     {% endfor %}

@@ -36,6 +36,7 @@
 
     .c-testimonial__author {
         @include media-query(palm) {
+            align-items: center;
             display: grid;
             grid-template-columns: 99px 2fr;
 

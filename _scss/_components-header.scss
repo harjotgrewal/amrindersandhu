@@ -4,6 +4,7 @@
 
 .c-header {
     position: relative;
+    z-index: 2;
 
     @include media-query(portable) {
 		margin: 0 auto;
@@ -14,14 +15,14 @@
     }
 
     @include media-query(hd) {
-        bottom: -24px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        left: 2vw;
+        left: 0;
 		position: fixed;
 		top: 4vw;
-		width: 210px;
+        width: 210px;
+        bottom: 0;
     }
 }
 
@@ -32,36 +33,14 @@
     display: inline-block;
     font-family: monospace;
     line-height: 1 !important;
-    margin: 30px 30px 0 0;
-    width: 90px;
-    height: 90px;
+    margin: 30px 30px 30px 0;
+    width: 60px;
+    height: 60px;
 
     @include media-query(hd) {
         margin: 0 auto;
         text-align: center; 
     }
-
-    // &:after {
-    //     background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
-    //     background-color: $theme-bg-light-1;
-    //     background-size: 90px 90px;
-    //     border: 3px solid white;
-    //     content: "";
-    //     display: block;
-    //     height: 90px;
-    //     position: absolute;
-    //     top: 30px;
-    //     left: 0;
-    //     width: 90px;
-    //     border-radius: 90px;
-    //     background-blend-mode: luminosity;
-    //     opacity: 0.3;
-
-    //     @include media-query(hd) {
-    //         left: 60px;
-    //         top: 10px;
-    //     }
-    // }
 
    @include media-query(portable) {
        left: 30px;
@@ -82,18 +61,19 @@
 
 
 .c-hire_me {
-    align-items: center;
-    background-color: rgba(black, .05);
-    display: flex;
-    justify-content: center;
-    margin: 45px 0;
-    padding: 30px 30px 9px;
-    text-align: center;
-    border-radius: 9px;
+    border-bottom: 1px solid;
 
+    p {
+        margin-bottom: 12px;
+    }
 
     @include media-query(hd) {
-        border-radius: 210px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 45px 0;
+        padding: 30px 30px 9px;
+        text-align: center;
         height: 210px;
         margin: -1px;
         width: 210px;
@@ -101,11 +81,11 @@
 
     p {
         font-size: $as-font-size-s;
-        line-height: 1.7;
+        line-height: 1.5;
     }
 
-    .c-button {
+    a {
         display: inline-block;
-        margin-top: 9px;
+        margin-top: 12px;
     }
 }

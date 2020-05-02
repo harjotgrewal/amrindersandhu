@@ -3,6 +3,20 @@
 // -----------------------------------------------------------------------------
 
 .c-media {
+    border-radius: 9px;
+    position: relative;
+    margin: 0 -30px;
+
+    @include media-query(portable) {
+        //height: 840px;
+    }
+
+    @include media-query(hd) {
+        align-items: center;
+        display: flex;
+        height: 690px;
+    }
+    
 
     a {
         align-items: center;
@@ -17,7 +31,22 @@
     img {
         display: flex;
         box-shadow: none;
+        
+        //top: 300px;
+        z-index: 2;
+
+        @include media-query(portable) {
+            //top: 270px;
+        }
+
+        @include media-query(hd) {
+            position: absolute;
+            left: 480px;
+            top: 0;
+            max-height: 690px;
+        }
     }
+    
 
     &:last-child {
         margin-bottom: 0 !important;
@@ -30,6 +59,19 @@
 
 .c-media__info {
     align-items: center;
+    position: relative;
+    z-index: 2;
+
+    @include media-query(portable) {
+        max-width: 330px;
+        padding: 45px 30px 15px;
+    }
+
+    @include media-query(hd) {
+        margin-left: 120px;
+    }
+
+    
 
     time {
         color: #999;
@@ -60,4 +102,84 @@
             margin-bottom: 0;
         }
     }
+}
+
+
+
+
+
+
+@mixin media-theme($media-col-1) {
+
+    &:before {
+        background-color: $media-col-1;
+        //border: 15px solid $media-col-1;
+        border-radius: 900px;
+        content: "";
+        display: block;
+        height: 300px;
+        margin-left: -60px;
+        margin-top: -60px;
+        position: absolute;
+        width: 300px;
+    }
+
+    @include media-query(portable) {
+        &:before {
+            margin-left: -75px;
+            height: 480px;
+            width: 480px;
+        }
+    }
+
+
+    @include media-query(palm) {
+        &:before {
+            height: 420px;
+            width: 420px;
+        }
+    }
+
+    @include media-query(hd) {
+        &:before {
+            margin-top: 0;
+            height: 630px;
+            width: 630px;
+        }
+    }
+}
+
+
+
+
+.c-media--dp {
+    @include media-theme(#b2ebf2);
+}
+
+.c-media--ana {
+    @include media-theme(#dcd6f7);
+}
+
+.c-media--dis {
+    @include media-theme(#a3f7bf);
+}
+
+.c-media--int {
+    @include media-theme(#fff3cd);//(#b9cced);
+}
+
+.c-media--qas {
+    @include media-theme(#bae8e8);
+}
+
+.c-media--unds {
+    @include media-theme(#d8ebb5);//(#c3edea);
+}
+
+.c-media--web {
+    @include media-theme(#dcd6f7);
+}
+
+.c-media--br {
+    @include media-theme(#B5E0FF);
 }

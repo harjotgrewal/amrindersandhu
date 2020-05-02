@@ -42,7 +42,7 @@ table {
 
 
 h1, h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: $as-serif-font-family;
 }
 
 
@@ -50,12 +50,13 @@ h1, h2 {
 h1 {
     font-size: 24px;
     font-weight: $as-font-weight-bold;
-    letter-spacing: -1px;
     line-height: $as-line-height-xl;
+    margin-bottom: 30px;
 
     @include media-query(hd) {
         font-size: 36px;
         line-height: $as-line-height-xxl;
+        margin-bottom: 45px;
     }
 }
 
@@ -194,7 +195,7 @@ hr {
 
 main {
     h2 {
-        transform: translateY(-3px);
+        transform: translateY(-4px);
     }
 
     p {

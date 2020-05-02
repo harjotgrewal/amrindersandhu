@@ -8,7 +8,7 @@ button,
 .c-button {
     background: none;
     border: none;
-    font-family: 'Arimo', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: $as-sans-font-family;
     font-size: $as-font-size-s !important;
     font-weight: 600;
     outline: none;

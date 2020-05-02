@@ -10,15 +10,15 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 <main class="c-main">      
     <section>
-        <div class="l-span_3-8">
-            <h1 class="u-space_below">Relpost – Handpicked related <i class="u-break_line--hd"></i>posts for Web Designers</h1>
+        <div class="l-span_4-9">
+            <h1>Relpost – Handpicked related <i class="u-break_line--hd"></i>posts for Web Designers</h1>
 
             <p class="c-caption u-space_below">2010–2011  <i class="u-sep">&bull;</i> Side Project</p>
 
             <p>Whenever I was researching or learning some specific topics, the main problem I faced was that there was no way to find useful related articles on a subject. This led me to create Relpost. I designed the website and curated the content every week. My wife – Harjot, who is a front-end developer – coded the site and also handled the Wordpress setup.</p>
         </div> 
         
-        <figure class="l-span_3-9 c-sshot--wrapped">
+        <figure class="l-span_4-10 c-sshot--wrapped">
             <img src="/assets/i/sshots/proj-relpost.jpg" alt="Website Teaser"/>
 
             <figcaption class="is-below">Relpost Homepage</figcaption>
@@ -46,7 +46,7 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
     <section>
-        <figure class="l-span_3-9 c-sshot--wrapped">
+        <figure class="l-span_4-10 c-sshot--wrapped">
             <img src="/assets/i/sshots/proj-relpost-alt.png" alt="Website Teaser"/>
 
             <figcaption class="is-below">Alternative Relpost Homepage Design</figcaption>
@@ -70,26 +70,24 @@ page-description: Redesigning the most used UI component using the most sophisti
 
         <div class="l-span_6 l-grid_of_6">
             {% for entry in site.data.work.project %}
-                {% if entry.status == "active" %}
-                    {% if entry.page-title != "Project – Relpost" %}
+                {% if entry.page-title != "Project – Relpost" %}
 
-                        <div class="c-media c-media--prj {{ entry.class }}">
-                            <a href="{{ entry.link }}">
-                                <div class="c-media__info">
-                                    <p>{{ entry.title }}</p>
+                    <div class="c-media c-media--prj {{ entry.class }}">
+                        <a href="{{ entry.link }}">
+                            <div class="c-media__info">
+                                <p>{{ entry.title }}</p>
 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                                        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
-                                            <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
-                                        </g>
-                                    </svg>
-                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#aab3c2" stroke="#aab3c2">
+                                        <polyline fill="none" stroke="#aab3c2" stroke-miterlimit="10" points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline>
+                                    </g>
+                                </svg>
+                            </div>
 
 
-                                <img src="{{ entry.img }}" alt="Cover for Integration project"/>
-                            </a>
-                        </div>
-                    {% endif %}
+                            <img src="{{ entry.img }}" alt="Cover for Integration project"/>
+                        </a>
+                    </div>
                 {% endif %}
             {% endfor %}
         </div>

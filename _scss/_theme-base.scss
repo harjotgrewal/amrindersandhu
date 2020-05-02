@@ -3,26 +3,6 @@
 // -----------------------------------------------------------------------------
 
 
-
-$theme-color-11: #ECE9F2;
-$theme-color-12: #572DF5;
-
-$theme-color-21: #F2F1E9;
-$theme-color-22: #F58D2D;
-
-$theme-color-31: #F2EAE9;
-$theme-color-32: #E33328;
-
-$theme-color-41: #E6F0EE;
-$theme-color-42: #03AE24;
-
-$theme-color-51: #E6E9F0;
-$theme-color-52: #2860E3;
-
-
-
-
-
 @mixin apply-theme($th-col-1, $th-col-2, $val-1: 10, $val-2: 30, $val-3: 50, $val-4: 75, $val-5: 85) {
     background-color: $th-col-1;
 
@@ -87,18 +67,14 @@ $theme-color-52: #2860E3;
     }
 
 
-    .c-nav__link {
+    .c-nav__link,
+    .c-hire_me {
         border-color: darken($th-col-1, $val-1);
     }
 
 
-    .c-hire_me {
-        background-color: darken($th-col-1, 6);
-
-        h4 {
-            background-color: $th-col-1;
-            color: $th-col-2;
-        }
+    .c-hire_me p {
+        color: darken($th-col-1, $val-3);
     }
 
     .c-sshot--wrapped {
@@ -128,7 +104,7 @@ $theme-color-52: #2860E3;
 
 
 html.p-work {
-    @include apply-theme($theme-color-11, $theme-color-12, 10, 30, 50, 70, 85);
+    @include apply-theme($theme-color-51, $theme-color-12, 10, 30, 50, 70, 85);
 
     .c-nav__link--home {
         color: darken($theme-color-11, 70);
@@ -136,7 +112,7 @@ html.p-work {
 
     .c-media__info time,
     .c-media__info span {
-        color: darken($theme-color-11, 30);
+        color: darken($theme-color-11, 40);
     }
 }
 
@@ -181,6 +157,10 @@ html.p-library {
     .c-section__nav_link.is_active,
     .c-section__nav_link:hover {
         border-color: darken($theme-color-21, 90);
+    }
+
+    .c-book_info{
+        color: darken($theme-color-21, 50);
     }
 }
 

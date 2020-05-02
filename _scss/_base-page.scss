@@ -6,7 +6,6 @@
  * Set up a decent box model on the root element
 */
 html {
-	background-color: $theme-bg-light-1;
     box-sizing: border-box;
 }
   
@@ -27,7 +26,7 @@ html {
 body {
 	color: $color-grey-darker; 
 	font-size: 62.5%; 
-	font-family: 'Arimo', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: $as-sans-font-family;
 	font-weight: 400;
 	line-height: 1.5;
 	overflow-x: hidden;
@@ -51,12 +50,13 @@ main {
 	}
 
 	@include media-query(hd) {
-		margin: 20vw 0 0 24%;
-		max-width: 930px;
+		margin: 20vw auto 0 auto;
+		max-width: 1140px;
+		padding-left: 120px;
 	}
 
 	@include media-query(tv) {
-		margin-left: 36%;
+		//margin-left: 36%;
 	}
 	
 	section {
@@ -64,7 +64,7 @@ main {
 
 		@include media-query(hd) {
 			display: grid;
-			grid-template-columns: repeat(8, 90px);
+			grid-template-columns: repeat(9, 90px);
 			grid-column-gap: 30px;
 			margin-bottom: 90px;
 
@@ -146,7 +146,7 @@ figure {
 	width: 100%;
 	
 	@include media-query(hd) {	
-		width: 930px;
+		width: 1050px;
 		height: 1000px;
 	}
 }
@@ -177,32 +177,52 @@ figure {
 
 .p-work h1 {
 	position: relative;
-		
 
-	&::first-line {
-		@include media-query(hd) {
-			text-indent: -160px;
+	@include media-query(palm) {
+		span {
+			display: block;
+			font-size: 48px;
+			margin-bottom: 12px;
+		}
+	}
+	
+
+	@include media-query(hd) {
+		margin-right: -30px;
+
+		&::first-line {
+			text-indent: -214px;
 		}
 	}
 }
 
 
+
+$avatar-size: 300px;
+
+
 .p-about h1 {
 	position: relative;
+	margin-right: -30px;
 
 	&::before{
 		background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;
-	    background-color: $theme-bg-light-1;
-	    background-size: 210px 210px;
+	    background-color: $theme-color-41;
+	    background-size: $avatar-size $avatar-size;
 	    border: 3px solid white;
 	    content: "";
 	    display: block;
-	    height: 210px;
+	    height: $avatar-size;
 	    position: absolute;
-	    top: 35px;
-	    left: -270px;
-	    width: 210px;
-	    border-radius: 240px;
-	    background-blend-mode: luminosity;
+	    top: -12px;
+	    left: -360px;
+	    width: $avatar-size;
+	    border-radius: 300px;
+	    background-blend-mode: darken;
+	}
+
+	span {
+		font-family: $as-sf-font-family;
+		opacity: .3;
 	}
 }

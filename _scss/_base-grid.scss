@@ -8,13 +8,23 @@
 .l-grid_of_4,
 .l-grid_of_5,
 .l-grid_of_6,
-.l-grid_of_8 {
+.l-grid_of_8,
+.l-grid_of_9 {
     display: grid;
     grid-column-gap: 30px;
 
     // @include media-query(tv) {
     //     grid-column-gap: 60px;
     // }
+}
+
+
+.l-grid_of_9 {
+    grid-column: 1/-1;
+
+    @include media-query(hd) {
+        grid-template-columns: repeat(9, 90px);
+    }
 }
 
 
@@ -25,6 +35,7 @@
         grid-template-columns: repeat(8, 90px);
     }
 }
+
 
 .l-grid_of_5 {
 
@@ -65,63 +76,71 @@
 }
 
 
-.l-span_3-5 {
+.l-span_4-6 {
 
     @include media-query(hd) {
-        grid-column: 3/5;
+        grid-column: 4/6;
     }
 }
 
 
-.l-span_3-6 {
+.l-span_4-7 {
 
     @include media-query(hd) {
-        grid-column: 3/6;
+        grid-column: 4/7;
     }
 }
 
 
-.l-span_3-7 {
+.l-span_4-8 {
 
     @include media-query(hd) {
-        grid-column: 3/7;
-    }
-}
-
-
-.l-span_3-8 {
-    @include media-query(hd) {
-        grid-column: 3/8;
-    }
-}
-
-
-// Starts at 3rd col, end at last/8th
-.l-span_3-9 {
-    @include media-query(hd) {
-        grid-column: 3/-1;
+        grid-column: 4/8;
     }
 }
 
 
 .l-span_4-9 {
     @include media-query(hd) {
+        grid-column: 4/9;
+    }
+}
+
+
+// Starts at 3rd col, end at last/8th
+.l-span_4-10 {
+    @include media-query(hd) {
         grid-column: 4/-1;
     }
 }
 
 
-.l-span_5-9 {
+.l-span_5-10 {
     @include media-query(hd) {
         grid-column: 5/-1;
     }
 }
 
 
-.l-span_6-9 {
-    
+.l-span_6-10 {
     @include media-query(hd) {
         grid-column: 6/-1;
+    }
+}
+
+
+.l-span_7-10 {
+    
+    @include media-query(hd) {
+        grid-column: 7/-1;
+    }
+}
+
+
+.l-span_8-10 {
+    
+    @include media-query(hd) {
+        grid-column: 8/-1;
     }
 }
 
@@ -149,6 +168,12 @@
 .l-span_2-4 {
     @include media-query(hd) {
         grid-column: 2/4;
+    }
+}
+
+.l-span_2-7 {
+    @include media-query(hd) {
+        grid-column: 2/7;
     }
 }
 

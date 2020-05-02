@@ -76,6 +76,15 @@
 }
 
 
+.u-pad_right--60 {
+    
+
+    @include media-query(hd) {
+        padding-right: 60px;
+    }
+}
+
+
 .u-space_left--120 {
 
     @include media-query(hd) {
