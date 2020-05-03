@@ -7,10 +7,6 @@
     position: relative;
     margin: 0 -30px;
 
-    @include media-query(portable) {
-        //height: 840px;
-    }
-
     @include media-query(hd) {
         align-items: center;
         display: flex;
