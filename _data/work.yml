@@ -1,6 +1,18 @@
 # WORK
 
 
+- {	
+	time: 'Oct 2015 – Jul 2018',	
+	link: '/case-study-discover.html',
+	title: 'Designing the <br/>Discover App',
+	desc: 'How I used double diamond to build <i class="u-break_line--hd"></i>and iterate the world’s largest <i class="u-break_line--hd"></i>branded content catalog.',
+	page-title: 'Case Study – Discover',
+	src: '/assets/i/sshots/cover-discover.png',
+	class: 'c-media--dis',
+	cta: 'Read the case study &rarr;'
+}
+
+
 - {
 	time: 'Jun–Aug 2019',	
 	link: '/case-study-datepicker.html',
@@ -23,18 +35,6 @@
 	cta: 'See projects and video &rarr;'
 }
 
-
-
-- {	
-	time: 'Oct 2015 – Jul 2018',	
-	link: '/case-study-discover.html',
-	title: 'Designing the <br/>Discover App',
-	desc: 'How I used double diamond to build <i class="u-break_line--hd"></i>and iterate the world’s largest <i class="u-break_line--hd"></i>branded content catalog.',
-	page-title: 'Case Study – Discover',
-	src: '/assets/i/sshots/cover-discover.png',
-	class: 'c-media--dis',
-	cta: 'Read the case study &rarr;'
-}
 
 - {
 	time: 'Apr–Nov 2019',		
