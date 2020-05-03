@@ -40,7 +40,8 @@ body {
 
 
 
-main {
+main,
+.c-footer {
 	@include media-query(portable) {
 		margin: 20vw auto 2vw;
 	}
@@ -50,13 +51,12 @@ main {
 	}
 
 	@include media-query(hd) {
-		margin: 20vw auto 0 auto;
+		margin: 84px auto 0 auto;
 		max-width: 1140px;
 		padding-left: 120px;
 	}
 
 	@include media-query(tv) {
-		//margin-left: 36%;
 	}
 	
 	section {
@@ -68,9 +68,10 @@ main {
 			grid-column-gap: 30px;
 			margin-bottom: 90px;
 
-			@include media-query(tv) {
-				//grid-column-gap: 45px;
+			&:first-child {
+				margin-bottom: 30vh;
 			}
+
 		}
 	}
 

@@ -31,13 +31,7 @@
     img {
         display: flex;
         box-shadow: none;
-        
-        //top: 300px;
         z-index: 2;
-
-        @include media-query(portable) {
-            //top: 270px;
-        }
 
         @include media-query(hd) {
             position: absolute;

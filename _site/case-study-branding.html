@@ -36,7 +36,7 @@
     <div id="myBar" class="c-progress__bar"></div>
   </div>
 </div>
-<header class="c-header"> <a href="/" class="c-name">
+<header data-aos="fade-right" class="c-header"> <a href="/" class="c-name">
     <svg width="270" height="270" viewBox="0 0 270 270" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M135 243C194.647 243 243 194.647 243 135C243 75.3532 194.647 27 135 27C75.3532 27 27 75.3532 27 135C27 194.647 75.3532 243 135 243ZM135 270C209.558 270 270 209.558 270 135C270 60.4416 209.558 0 135 0C60.4416 0 0 60.4416 0 135C0 209.558 60.4416 270 135 270Z" fill="#111111"></path>
       <path d="M191.243 101.706C195.876 100.211 200.859 102.67 202.488 107.258L206.898 119.671C208.596 124.451 206.01 129.69 201.182 131.249L172.849 140.396C166.984 142.289 164.714 149.383 168.39 154.329L186.872 179.2C189.828 183.177 189.012 188.795 185.048 191.768L174.705 199.525C170.717 202.517 165.056 201.696 162.082 197.695L142.223 170.979C138.624 166.138 131.376 166.138 127.777 170.979L107.918 197.695C104.944 201.696 99.2835 202.517 95.295 199.525L84.9518 191.768C80.9877 188.795 80.1725 183.177 83.128 179.2L101.61 154.329C105.286 149.383 103.016 142.289 97.1514 140.396L68.8175 131.249C63.9898 129.69 61.4035 124.451 63.1018 119.671L67.5116 107.258C69.1415 102.67 74.1242 100.211 78.7573 101.706L107.771 111.073C113.583 112.949 119.536 108.615 119.536 102.508V74C119.536 69.0294 123.566 65 128.536 65H141.464C146.434 65 150.464 69.0294 150.464 74V102.508C150.464 108.615 156.417 112.949 162.229 111.073L191.243 101.706Z" fill="#111111"></path>
@@ -50,11 +50,20 @@
       <li class="c-nav__item"><a href="journal.html" class="c-nav__link c-nav__link--journal">Journal</a></li>
       <li class="c-nav__item"><a href="library.html" class="c-nav__link c-nav__link--library">Library</a></li>
       <li class="c-nav__item"><a href="about.html" class="c-nav__link c-nav__link--about">About</a></li>
+      <!--li.c-nav__item
+      a.c-nav__link(href="library.html") Resume
+      
+      
+      -->
+      <li class="c-nav__item"><a id="myBtn" href="javascript:void(0)" class="c-nav__link">Email</a></li>
     </ul>
   </nav>
-  <div class="c-hire_me">
-    <p>Open to full-time opportunities. <a id="myBtn" href="javascript:void(0)"><b>Email Me</b></a></p>
-  </div>
+  <!--.c-hire_me
+  p Open to full-time opportunities. 
+      
+      a#myBtn(href="javascript:void(0)")
+          b Email Me
+  -->
 </header>
 
 
@@ -62,12 +71,15 @@
 
 <main>
     <!-- INTRO SECTION -->      
-    <section>
+    <section data-aos="fade-down">
         <h1 class="l-span_4-10 u-space_below--more">Positioning Unmetric as a leader <i class="u-break_line--hd"></i>in social media analytics space <i class="u-break_line--hd"></i>and a premium brand.</h1>
 
 
-        <p class="l-span_4-10 u-space_below--more">Having a strong and differentiated brand is more important than ever before. With competition growing every day, both customers and employees need to know what a company stands for. A strong brand helps a company in numerous ways; recognition, navigation, reassurance, confidence, engagement, motivation, satisfaction, which enables better marketing and results in increasing business value.</p>
-        
+        <p class="l-span_4-10">Having a strong and differentiated brand is more important than ever before. With competition growing every day, both customers and employees need to know what a company stands for. A strong brand helps a company in numerous ways; recognition, navigation, reassurance, confidence, engagement, motivation, satisfaction, which enables better marketing and results in increasing business value.</p>
+    </section>
+
+
+    <section data-aos="fade-up">
         <figure class="l-span_full c-sshot--wrapped">
             <img src="/assets/i/sshots/cs-br-teaser.png" alt="Branding Teaser"/>
 
@@ -681,7 +693,7 @@
 <footer class="c-footer l-grid_of_9"><small class="l-span_3">&copy; 2008-2020 Amrinder Sandhu</small>
   <div class="c-footer__links l-span_3 u-space_below">
     <a href="https://www.linkedin.com/in/amrindersandhu/">LinkedIn</a><i class="u-sep">&middot;</i><a href="https://github.com/amrindersandhu">GitHub</a><i class="u-sep">&middot;</i><a href="https://medium.com/@anaami">Medium</a><i class="u-sep">&middot;</i><a href="https://twitter.com/anaami">Twitter</a>
-  </div><small class="l-span_3">Handcoded using Pug, Sass, Jekyll, and love.</small><button id="js-back-to-top" class="back-to-top">&uarr; <span>Back To Top</span></button>
+  </div><small class="l-span_3">Handcoded using Pug, Sass, Jekyll, and ❤</small><button id="js-back-to-top" class="back-to-top">&uarr; <span>Back To Top</span></button>
   <!-- Email Modal-->
   <div id="emailModal" class="c-modal c-modal--email">
     <div class="c-modal__content">

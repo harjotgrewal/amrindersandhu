@@ -9,7 +9,7 @@ page-description: To improve what I know and learn what I don’t, I read blogs 
 {% include header.html %}
 
 <main>      
-    <section class="u-space_below--most">
+    <section class="u-space_below--most" data-aos="fade-down">
         <h1 class="l-span_4-9">To improve what I know and learn what I don’t, I read blogs and articles. Here’s what I find useful.</h1>
     </section>
     
@@ -17,7 +17,7 @@ page-description: To improve what I know and learn what I don’t, I read blogs 
 
 
     {% for entry in site.data.entries.journal %}
-    <section>
+    <section data-aos="fade-up">
         <article class="c-entry l-grid_of_9">
 
             <a class="c-entry__link l-span_4-10" href="{{ entry.url }}" target="_blank">

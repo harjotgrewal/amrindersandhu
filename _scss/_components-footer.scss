@@ -7,10 +7,6 @@
 .c-footer {
     align-items: baseline;
 
-    @include media-query(portable) {
-        max-width: 570px;
-        margin: 0 auto 60px;
-    }
     
     @include media-query(palm) {
         margin-left: 30px;
@@ -31,12 +27,7 @@
 
 
     @include media-query(hd) {
-		margin: 0 auto 6vw auto;
-		max-width: 930px;
-	}
-
-	@include media-query(tv) {
-		//margin-left: 36%;
+		margin-bottom: 30px;
 	}
 
 
