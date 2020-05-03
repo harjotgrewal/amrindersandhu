@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html class="{{ page.page-class }}">
-    <head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<title>{{ page.title }}</title>
-		<meta name="robots" content="index, follow"/>
-		<meta name="title" content="Amrinder Sandhu"/>
-		<meta name="DC.title" content="Amrinder Sandhu"/>
-		<meta name="author" content="Amrinder Sandhu"/>
-		<meta name="description" content="Amrinder Singh Sandhu is a UX/UI designer from Ancaster, Canada. He designs web and mobile apps."/>
-		<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
-		
-		
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@900&display=swap">
-		<link rel="preload" href="assets/js/anime.js" as="script">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5658d6">
-		<meta name="msapplication-TileColor" content="#5658d6">
-		<meta name="theme-color" content="#ffffff">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://amrindersandhu.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@900&display=swap"
+	/>
+	<link rel="preload" as="font" href="https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TRDrZKF09E3.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10ZxCFuj5-v.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfsunDXbtXK-F2qC0s.woff" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="https://fonts.gstatic.com/s/arimo/v13/P5sCzZCDf9_T_10c9CNkiL2t2dk.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="https://fonts.gstatic.com/s/arimo/v13/P5sHzZCDf9_T_10c_JhBnZCP1PM1LY8.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="assets/js/anime.js" as="script" />
+    <meta name="robots" content="index, follow" />
+    <meta name="title" content="Amrinder Sandhu" />
+    <meta name="DC.title" content="Amrinder Sandhu" />
+    <meta name="author" content="Amrinder Sandhu" />
+    <meta
+      name="description"
+      content="Amrinder Singh Sandhu is a UX/UI designer from Ancaster, Canada. He designs web and mobile apps."
+    />
+    <meta
+      id="viewport"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
 
-		<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5658d6" />
+    <meta name="msapplication-TileColor" content="#5658d6" />
+    <meta name="theme-color" content="#ffffff" />
 
-        <!-- Custom CSS -->
-		<link rel="stylesheet" href="/css/styles.css" inline>		
-		
-    </head>
-    <body>
-          {{ content }}         
-			
-	<script src="assets/js/functions.js"></script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4197248-4"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@900&display=swap"
+      rel="stylesheet"
+    />
 
-	gtag('config', 'UA-4197248-4');
-	</script>
-	<script src="assets/js/anime.js"></script>
-	<!-- INITIALIZE AOS -->
-	<script>
-		AOS.init();
-	</script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css" inline />
+  </head>
+  <body>
+    {{ content }}
 
+    <script src="assets/js/functions.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-4197248-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    </body>
+      gtag("config", "UA-4197248-4");
+    </script>
+    <script src="assets/js/anime.js"></script>
+    <!-- INITIALIZE AOS -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
