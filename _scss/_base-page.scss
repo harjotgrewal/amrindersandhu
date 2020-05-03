@@ -51,25 +51,24 @@ main,
 	}
 
 	@include media-query(hd) {
-		margin: 84px auto 0 auto;
+		margin: 0 auto;
 		max-width: 1140px;
 		padding-left: 120px;
 	}
 
-	@include media-query(tv) {
-	}
 	
 	section {
-		margin-bottom: 60px;
+		padding-top: 60px;
 
 		@include media-query(hd) {
 			display: grid;
 			grid-template-columns: repeat(9, 90px);
 			grid-column-gap: 30px;
-			margin-bottom: 90px;
+			padding-top: 90px;
 
 			&:first-child {
-				margin-bottom: 15vh;
+				padding-bottom: 15vh;
+				padding-top: 84px;
 			}
 
 		}

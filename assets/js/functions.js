@@ -88,7 +88,6 @@ window.onclick = function(event) {
 const topButton = document.getElementById('js-back-to-top');
 
 topButton.onclick = function() {
-    console.log('hi');
     window.scrollTo({
         top: 0,
         left: 0,
@@ -219,3 +218,14 @@ function showFavItems() {
     favFilters.classList.add('is_active');
 }
 
+
+
+// Adding active class to page navigation
+
+let pageNav = document.getElementById('js-page_nav');
+
+pageNav.addEventListener(onclick, addActive);
+
+function addActive() {
+    this.classList.add('is-active');
+}

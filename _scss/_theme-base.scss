@@ -17,7 +17,7 @@
     }
 
     .c-name svg path {
-        fill: darken($th-col-2, 15%);
+        fill: darken($th-col-2, $val-1);
     }
 
     .c-header,
@@ -122,7 +122,13 @@ html.p-work {
 
 html.p-cs,
 html.p-pr {
-    @include apply-theme($theme-color-51, $theme-color-52, 10, 30, 50, 70, 85);    
+    @include apply-theme($theme-color-51, $theme-color-52, 10, 30, 50, 70, 85);
+    
+    @include media-query(hd) {
+        .c-footer {
+            margin-bottom: 150px;
+        }
+    }
 }
 
 
@@ -208,6 +214,21 @@ html.th-white {
             background-color: white;
             color: $theme-color-52;
         }
+    }
+}
+
+
+
+html.cs-dis {
+    @include apply-theme($theme-color-61, $theme-color-62);
+
+    .c-name svg path {
+        fill: darken($theme-color-62, 6%);
+    }
+
+    h1, 
+    h2 {
+        color: darken($theme-color-62, 6%);
     }
 }
 

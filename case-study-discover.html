@@ -1,15 +1,53 @@
 ---
 layout: default
 title: Case Study – Discover
-page-class: p-pr
+page-class: p-pr cs-dis
 page-heading: 
 page-description: Redesigning the most used UI component using the most sophisticated design tool – data.
 ---
 
 {% include header.html %}
 
+
+<!-- PAGE NAV -->
+<aside class="c-page_nav" id="js-page_nav">
+    <ul>
+        <li>
+            <a href="#role">Role</a>
+        </li>
+
+        <li>
+            <a href="#discover">Discover</a>
+        </li>
+
+        <li>
+            <a href="#define">Define</a>
+        </li>
+
+        <li>
+            <a href="#develop">Develop</a>
+        </li>
+
+        <li>
+            <a href="#deliver">Deliver</a>
+        </li>
+
+        <li>
+            <a href="#iterate">Iterate</a>
+        </li>
+
+        <li>
+            <a href="#learn">Learn</a>
+        </li>
+    </ul>
+</aside>
+
+
+
+
+
 <main>      
-    <section data-aos="fade-down">
+    <section data-aos="fade-down" id="intro">
         <h1 class="l-span_4-8">Designing the world’s largest branded content catalog: Discover</h1>
 
         <p class="l-span_4-10">With Discover, content creators and planners explore millions of ideas for their new campaigns and content for their social media channels. It allows users to discover inspiration, find concept evidence and explore whitespaces for their brand’s content.</p> 
@@ -28,8 +66,8 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
 
-    <section>
-        <div class="l-span_3 u-space_below">
+    <section id="role">
+        <div class="l-span_3 u-space_below"> 
             <h2>My Role</h2>
 
             <ul>
@@ -103,18 +141,31 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
 
-    <section>
-        <h2 class="l-span_2">Discovery</h2>
-
-        <h3 class="l-span_4-10">The Idea</h3>
-
-        <p class="l-span_4-10">Discover is Unmetric’s third core product and #2 in usage/sales. I worked on it from ideation to execution with our CEO and Head of Product. The first discussion took place in October 2015 when our CEO briefed me his new idea. He explained that we have a huge amount of social data from six biggest networks, and it could be useful to look through that data and learn from history.</p>
+    <section id="discover">
+        <h2 class="l-span_2">Discover</h2>
 
 
-        <h3 class="l-span_4-10">Primary users: Content Creators</h3>
+        <div class="l-span_4-10">
+            <h3>CEO’s Idea</h3>
 
-        <p class="l-span_4-10 u-space_below--more">Content creators were our obvious target audience. Being a creator myself, I knew that finding inspiration is always tricky but a very important step in creating something new. </p>
+            <p class="u-space_below--more">Discover is Unmetric’s third core product and #2 in usage/sales. I worked on it from ideation to execution with our CEO and Head of Product. The first discussion took place in October 2015 when our CEO briefed me his new idea. He explained that we have a huge amount of social data from six biggest networks, and it could be useful to look through that data and learn from history.</p>
+    
+            
+            <div class="l-grid_of_6">
+                <div class="l-span_3">
+                    <h3 class="l-span_4-10">Primary users</h3>
+    
+                    <p class="l-span_4-10 u-space_below--more u-pad_right--30"><strong>Content creators</strong> were our obvious target audience. Being a creator myself, I knew that finding inspiration is always tricky but a very important step in creating something new. </p>    
+                </div>
+                
 
+                <div class="l-span_3">
+                    <h3 class="l-span_4-10">Secondary users</h3>
+    
+                    <p class="l-span_4-10 u-space_below--more u-pad_right--30"><strong>CMOs</strong> were the secondary users. They would be leading the social content strategy team and reviewing new content ideas and campaigns. </p>    
+                </div>
+            </div>
+        </div>
         
 
         <div class="l-grid_of_9 u-space_below">
@@ -125,10 +176,13 @@ page-description: Redesigning the most used UI component using the most sophisti
             </figure>
 
             <div class="l-span_4-10">
-                <h3>Let’s focus on business and user outcomes</h3>
+                <h3>Outlining <del>requirements</del> business and user outcomes</h3>
 
 
                 <p>After our Head of Product shared a doc outlining product goals, specifications and MVP requirements, I got on a call with him to be on the same page. After digesting everything he shared, I recommended we should rather focus on the business outcomes (we are trying to achieve) and user outcomes (that we will help users achieve).</p> 
+
+
+                <h3>Assumptions to be validated</h3>
 
                 <p>In addition to that, I added assumptions we were making as a business and on behalf of users. We agreed that if these assumptions are proven to be false, our product might fail. We also listed down the least amount of features that can help our target audience to achieve their outcomes.</p>
             
@@ -145,7 +199,7 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
         <div class="l-span_4-7">
-            <h3>The Five Whys</h3>
+            <h3>Uncovering user motivations</h3>
 
             <p class="u-pad_right--30">Next, I initiated discussion around user needs and challenges they are facing. I used “<a href="https://www.designkit.org/methods/66" target="_blank">the five why’s</a>” method to uncover the user’s motivations and assumptions we might have for the users.</p>
         </div>
@@ -158,18 +212,19 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
 
-    <section>
-        <h2 class="l-span_2">Define</h2>
+    <section id="define">
+        <h2 class="l-span_3">Define</h2>
 
-        <h3 class="l-span_4-10">User needs and challenges</h3>
+        <div class="l-span_6">
+            <h3>User needs and challenges</h3>
 
-        <p class="l-span_4-10">To build a shared understanding, I created a Google doc outlining user’s needs and challenges, efforts they were making, and their workflow. In the same doc we also wrote product vision and later on added the product architecture.</p>
+            <p>To build a shared understanding, I created a Google doc outlining user’s needs and challenges, efforts they were making, and their workflow. In the same doc we also wrote product vision and later on added the product architecture.</p>
 
+            <h3>Experimenting the Amazon’s Way</h3>
 
-        <h3 class="l-span_4-10">Working backwards: The Amazon’s Way</h3>
-
-        <p class="l-span_4-10">Before adding the last section, i.e., Product architecture, I suggested our team to write a press release for Discover together. This approach is widely <a href="https://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management" target="_link">used by Amazon for product development</a>.</p>
-
+            <p>Before adding the last section, i.e., Product architecture, I suggested our team to write a press release for Discover together. This approach is widely <a href="https://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management" target="_link">used by Amazon</a> for developing new products and features. I wanted to experiment and the team agreed.</p>
+        </div>
+        
 
         <div class="c-sshot--wrapped l-span_4-10 l-grid_spl-1">
             <img class="u-space_below" loading="lazy" src="/assets/i/sshots/proj-dis-ur-doc.png"/>
@@ -200,11 +255,16 @@ page-description: Redesigning the most used UI component using the most sophisti
         <p class="l-span_4-10">I came up with six main sections: </p>
 
         <ul class="l-span_4-10 o-list--ordered u-space_below">
-            <li><strong>Homepage:</strong> A feed of content from the topics a user is following, plus, most engaging content from an industry they chose.</li>
+            <li><strong>Homepage:</strong> A feed of content from the topics a user is following.</li>
+
             <li><strong>Explore:</strong> A list of topics based on the popular days and events.</li>
+            
             <li><strong>Favorites:</strong> All the topics favorited by a user.</li>
+            
             <li><strong>Boards:</strong> A collection of stories bookmarked by a user and her team.</li>
-            <li><strong>Team: </strong>A group of teammates inside Discover who can create boards, add stories to boards and comment on them.</li>
+            
+            <li><strong>Team: </strong>A group of teammates inside Discover.</li>
+            
             <li><strong>Activity:</strong> Everything done by members of a team.</li>
         </ul>
 
@@ -252,27 +312,28 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
 
-    <section>
-        <h2 class="l-span_2">Develop</h2>
+    <section id="develop">
+        <h2 class="l-span_3">Develop</h2>
 
-        <h3 class="l-span_4-10">Making decisions with Wireframes</h3>
+        <div class="l-span_6">
+            <h3>Making decisions with Wireframes</h3>
 
-        <p class="l-span_4-10">After we agreed on the product sections, I quickly created some wireframes to show our Head of Product and we finalized what features needs to be shipped first.</p>
-
+            <p>After we agreed on the product sections, I quickly created some wireframes to show our Head of Product and we finalized what features needs to be shipped first.</p>    
+        </div>
+        
 
         <div class="c-sshot--wrapped l-grid_of_9">
-            <img class="l-span_7 u-space_below" loading="lazy" src="/assets/i/sshots/proj-dis-wf-explore.png" alt="Discover Explore wireframe"/>
+            <img class="l-span_5" loading="lazy" src="/assets/i/sshots/proj-dis-wf-explore.png" alt="Discover Explore wireframe"/>
 
-            <p class="c-caption l-span_2 u-space_below">One of the wireframes I created in Balsamiq to get feedback from the CEO and Head of Product</p>
+            <div class="l-span_4 u-space_above--mob">
+                <img loading="lazy" src="/assets/i/sshots/proj-dis-wf-filters.png" alt="Discover Filters wireframe"/>
 
-
-            <p class="c-caption l-span_2 u-space_below u-align--bottom">One of the wireframes I created in Balsamiq to get feedback from the CEO and Head of Product</p>
-
-            <img class="l-span_7" loading="lazy" src="/assets/i/sshots/proj-dis-wf-filters.png" alt="Discover Filters wireframe"/>
+                <p class="c-caption is-below">Two of 20+ wireframes I created in Balsamiq to get feedback</p>            
+            </div>
         </div>
 
 
-        <h3 class="l-span_4-10">Clearly outlining what needs to be built</h3>
+        <h3 class="l-span_4-10">Developer Handoff: Clearly outlining what needs to be built</h3>
 
 
         <p class="l-span_4-10">Before starting with UI design and development, I created a requirements doc listing all the features, tasks and interaction. This helped development team understand what needs to be built, plus they could collaborate, ask questions and suggest ideas.</p>
@@ -301,15 +362,19 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
 
-    <section>
-        <h2 class="l-span_2">Deliver</h2>
+    <section id="deliver">
+        <h2 class="l-span_3">Deliver</h2>
 
-        <h3 class="l-span_4-10">Build to learn</h3>
+        <div  class="l-span_4-10">
+            <h3>Build to learn</h3>
 
-        <p class="l-span_4-10">We wanted to ship Discover fast and quickly learn and iterate. The UI mockups would have taken weeks if not months. To speed things up I jumped straight into code editor and started building the UI components.</p>
+            <p>We wanted to ship Discover fast and quickly learn and iterate. The UI mockups would have taken weeks if not months. To speed things up I jumped straight into code editor and started building the UI components.</p>
+    
+            <h3>Skipping the mockups for speed</h3>
 
-        <p class="l-span_4-10"><strong>In 2 weeks, I handed off the most important and development intensive features to developers so we can work simultaneously.</strong> After three months of collaboration and development, we launched the beta version to a few existing customers. The first public version was launched after that in June 2016.</p>
-
+            <p><strong>In 2 weeks, I handed off</strong> the most important and development intensive features to developers so we can work simultaneously. After three months of collaboration and development, we launched the beta version to a few existing customers. The first public version was launched after that in June 2016.</p>    
+        </div>
+        
         <figure class="l-span_full c-sshot--wrapped">
             <img loading="lazy" src="/assets/i/sshots/dis-old.png" alt="Discover search results page V1"/>
 
@@ -364,13 +429,16 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
 
-    <section>
+
+    <section id="iterate">
         <h2 class="l-span_2">Iterate</h2>
 
-        <h3 class="l-span_4-10">Learning from the user interviews</h3>
+        <div class="l-span_4-10">
+            <h3>Learning from the user interviews</h3>
         
-        <p class="l-span_4-10">Within a month after launch, we collected both qualitative and quantitative data to understand what’s working and what’s not, and why. I participated in the user interviews (with Unilever, Wunderman, and DFW) with our CEO and Head of Product. Here’s what we learned:</p> 
-
+            <p>Within a month after launch, we collected both qualitative and quantitative data to understand what’s working and what’s not, and why. I participated in the user interviews (with Unilever, Wunderman, and DFW) with our CEO and Head of Product. Here’s what we learned:</p>     
+        </div>
+        
         <ul class="o-list--ordered l-span_4-10 u-space_below--more">
             <li><strong>Who is posting more content:</strong> Both Unilever and DFW emphasized the need to know which profiles were publishing the most content on a particular topic.</li>
 
@@ -406,7 +474,7 @@ page-description: Redesigning the most used UI component using the most sophisti
 
 
     <!-- LEARNING SECTION -->
-    <section>
+    <section class="u-space_below--most" id="learn">
         <h2 class="l-span_1">What I Learned</h2>
 
         <ul class="o-list--bullet l-span_4-10">
