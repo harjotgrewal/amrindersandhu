@@ -1255,6 +1255,10 @@ body {
     max-width: 1140px;
     padding-left: 120px; } }
 
+main section:first-child,
+.c-footer section:first-child {
+  padding-bottom: 12vh; }
+
 @media screen and (min-width: 1279px) {
   main section,
   .c-footer section {
