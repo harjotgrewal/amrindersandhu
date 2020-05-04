@@ -236,3 +236,20 @@ if (pageNav) {
 function addActive() {
     this.classList.add('is-active');
 }
+
+
+// ADD ACTIVE CLASS TO SECTION NAVIGATION
+let sectionNavList = document.querySelectorAll('#js-page_nav a');
+
+function sectionNav() {             
+    sectionNavList.forEach(function(navItem) {
+        navItem.classList.remove('is-active');
+    })
+}
+
+sectionNavList.forEach(function(navItem) {        
+    navItem.addEventListener('click', function() {
+        sectionNav();
+        navItem.classList.add('is-active');
+    });
+});
