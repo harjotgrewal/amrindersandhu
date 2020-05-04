@@ -3017,10 +3017,6 @@ html.p-pr {
   html.p-cs .c-modal--email .c-button,
   html.p-pr .c-modal--email .c-button {
     color: #1847b6 !important; }
-  @media screen and (min-width: 1279px) {
-    html.p-cs .c-footer,
-    html.p-pr .c-footer {
-      margin-bottom: 150px; } }
 
 html.p-about {
   background-color: #E6F0EE; }

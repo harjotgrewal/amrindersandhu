@@ -123,12 +123,6 @@ html.p-work {
 html.p-cs,
 html.p-pr {
     @include apply-theme($theme-color-51, $theme-color-52, 10, 30, 50, 70, 85);
-    
-    @include media-query(hd) {
-        .c-footer {
-            margin-bottom: 150px;
-        }
-    }
 }
 
 
