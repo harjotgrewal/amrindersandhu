@@ -2223,7 +2223,11 @@ button,
       right: 0;
       left: 0;
       bottom: 0;
-      z-index: 3; }
+      z-index: 3;
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+      transition: -webkit-transform 0.5s;
+      transition: transform 0.5s; }
       .c-page_nav ul {
         background-color: rgba(0, 0, 0, 0.6);
         -webkit-backdrop-filter: blur(30px);
@@ -2241,7 +2245,12 @@ button,
           .c-page_nav ul a.is-active {
             opacity: .45; }
         .c-page_nav ul li:last-child {
-          margin-bottom: 0; } }
+          margin-bottom: 0; }
+      .c-page_nav.is-visible {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        display: -ms-flexbox;
+        display: flex; } }
 
 .c-section {
   display: grid;

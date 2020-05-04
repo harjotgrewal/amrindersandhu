@@ -13,6 +13,8 @@
         left: 0;
         bottom: 0;
         z-index: 3;
+        transform: translateY(100px);
+        transition: transform 0.5s;
 
         ul {
             background-color: rgba(black, .6);
@@ -37,6 +39,11 @@
             li:last-child {
               margin-bottom: 0;  
             }
+        }
+
+        &.is-visible {
+            transform: translateY(0);
+            display: flex;
         }
     }
 }

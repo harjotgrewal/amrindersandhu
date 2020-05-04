@@ -8,7 +8,7 @@ function myScrollFunc() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
+  document.getElementById("myBar").style.width = scrolled + "%";  
 }
 
 
@@ -86,7 +86,7 @@ window.onclick = function(event) {
 
 // Back to top
 const topButton = document.getElementById('js-back-to-top');
-
+const sectionNavAppear = document.querySelector('#js-page_nav');
 topButton.onclick = function() {
     window.scrollTo({
         top: 0,
@@ -95,15 +95,23 @@ topButton.onclick = function() {
       });
 }
 
-window.onscroll = function() {
+
+function scrollEvent(element) {
     let scrollTop = window.pageYOffset;
-    if(scrollTop > 1500) {
-        topButton.classList.add('is-visible');
+    if(scrollTop > 1300) {
+        element.classList.add('is-visible');       
     }
-    else if(scrollTop < 1500) {
-        topButton.classList.remove('is-visible');
+    else if(scrollTop < 1300) {
+        element.classList.remove('is-visible');
     }
 }
+
+
+window.addEventListener('scroll', function() {
+    scrollEvent(topButton);
+    scrollEvent(sectionNavAppear);
+})
+
 
 
 // Library 
