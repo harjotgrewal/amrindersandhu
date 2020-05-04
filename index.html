@@ -48,10 +48,9 @@ page-description: For 12 years, Amrinder has lead design at startups to help ach
                         <span>{{ entry.cta }}</span>
                     </div>
 
-                    
-
-                    <img class="l-span_5 {{ entry.img-class }}" src="{{ entry.src }}" alt="{{ entry.alt }}"  data-aos="fade-left"/>
-                    
+                    <div class="l-span_5">
+                        {{ entry.images }}
+                    </div>
                 </a>
             </div>
         {% endfor %}

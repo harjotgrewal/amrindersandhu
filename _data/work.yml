@@ -10,7 +10,7 @@
 	src: '/assets/i/sshots/cover-discover.png',
 	class: 'c-media--dis',
 	cta: 'Read the case study &rarr;',
-	img-class: 'has-shadow'
+	images: '<img class="has-shadow" src="/assets/i/sshots/cover-discover.png" alt="Discover sshot"  data-aos="fade-left"/>'
 }
 
 
@@ -22,7 +22,8 @@
 	page-title: 'Case Study – DatePicker',
 	src: '/assets/i/sshots/cover-datepicker.png',
 	class: 'c-media--dp',
-	cta: 'Read the case study &rarr;'
+	cta: 'Read the case study &rarr;',
+	images: '<img class="has-shadow" src="/assets/i/sshots/cover-datepicker-1.png" alt="Datepicker cover 1"  data-aos="fade-left"/> <img class="has-shadow" src="/assets/i/sshots/cover-datepicker-2.png" alt="Datepicker cover 2"  data-aos="fade-left"/>'
 }
 
 - {
@@ -33,7 +34,8 @@
 	page-title: 'Product – Analyze',
 	src: '/assets/i/sshots/cover-analyze.png',
 	class: 'c-media--ana',
-	cta: 'See projects and video &rarr;'
+	cta: 'See projects and video &rarr;',
+	images: '<img class="has-shadow" src="/assets/i/sshots/cover-analyze-1.png" alt="Analyze sshot 2"  data-aos="fade-left"/> <img class="0has-shadow" src="/assets/i/sshots/cover-analyze-2.png" alt="Analyze sshot 1"  data-aos="fade-left"/> <img class="0has-shadow" src="/assets/i/sshots/cover-analyze-3.png" alt="Analyze sshot 3"  data-aos="fade-left"/> <img class="0has-shadow" src="/assets/i/sshots/cover-analyze-4.png" alt="Analyze sshot 4"  data-aos="fade-left"/> '
 }
 
 
@@ -46,7 +48,7 @@
 	src: '/assets/i/sshots/cover-qas.png',
 	class: 'c-media--qas',
 	cta: 'Read the case study &rarr;',
-	img-class: 'has-shadow'
+	images: '<img class="has-shadow" src="/assets/i/sshots/cover-qas.png" alt="Analyze sshot"  data-aos="fade-left"/>'
 }
 
 
@@ -59,7 +61,7 @@
 	src: '/assets/i/sshots/cover-integ.png',
 	class: 'c-media--int',
 	cta: 'View the project &rarr;',
-	img-class: 'has-shadow'
+	images: '<img class="has-shadow" src="/assets/i/sshots/cover-integ.png" alt="Miro sshot"  data-aos="fade-left"/>'
 }
 
 
@@ -72,7 +74,7 @@
 	src: '/assets/i/sshots/cover-unds.png',
 	class: 'c-media--unds',
 	cta: 'View the project &rarr;',
-	img-class: 'has-shadow'
+	images: '<img class="has-shadow" src="/assets/i/sshots/cover-unds.png" alt="Unmetric design system sshot"  data-aos="fade-left"/>'
 }
 
 
@@ -85,7 +87,7 @@
 	src: '/assets/i/sshots/cover-branding.png',
 	class: 'c-media--br',
 	cta: 'Read the case study &rarr;',
-	img-class: 'has-shadow'
+	images: '<img class="has-shadow" src="/assets/i/sshots/cover-branding.png" alt="Unmetric branding sshot"  data-aos="fade-left"/>'
 }
 
 
@@ -97,7 +99,8 @@
 	page-title: 'Project – Unmetric Website, Blog and More',
 	src: '/assets/i/sshots/cover-web.png',
 	class: 'c-media--web',
-	cta: 'View the project &rarr;'
+	cta: 'View the project &rarr;',
+	images: '<img class="has-shadow" src="/assets/i/sshots/cover-web-1.png" alt="Mobile website"  data-aos="fade-left"/> <img class="has-shadow" src="/assets/i/sshots/cover-web-2.png" alt="Website"  data-aos="fade-left"/> <img class="has-shadow" src="/assets/i/sshots/cover-web-3.png" alt="Blog"  data-aos="fade-left"/>'
 }
 
 

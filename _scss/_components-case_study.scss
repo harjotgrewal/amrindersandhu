@@ -17,7 +17,6 @@
     a {
         align-items: center;
         border: none;
-        overflow: hidden;
     }
 
     p {
@@ -135,7 +134,6 @@
         }
     }
 
-
     @include media-query(palm) {
         &:before {
             height: 420px;
@@ -157,10 +155,79 @@
 
 .c-media--dp {
     @include media-theme(#b2ebf2);
+
+    img:first-child {
+        z-index: 3;
+
+        @include media-query(hd) {
+            top: 240px;
+            width: 640px;
+        }
+    }
+
+    img:nth-child(2) {
+        display: none;
+
+        @include media-query(hd) {
+            display: block;
+            margin-left: 90px;
+            width: 840px;
+        }
+    }
 }
 
 .c-media--ana {
     @include media-theme(#dcd6f7);
+
+    img:first-child {
+        z-index: 4;
+
+        @include media-query(hd) {
+            top: 210px;
+            width: 775px;
+        }
+    }
+
+    img:nth-child(2) {
+        z-index: 3;
+        display: none;
+
+        @include media-query(hd) {
+            display: block;
+            border-radius: 6px;
+            box-shadow: 0 0 30px rgba(black, .15);
+            top: 30px;
+            margin-left: 39px;
+            width: 360px;
+        }
+    }
+
+    img:nth-child(3) {
+        display: none;
+
+        @include media-query(hd) {
+            display: block;
+            border-radius: 6px;
+            box-shadow: 0 0 30px rgba(black, .15);
+            top: -30px;
+            margin-left: 380px;
+            width: 360px;
+        }
+    }
+
+
+    img:nth-child(4) {
+        display: none;
+
+        @include media-query(hd) {
+            display: block;
+            border-radius: 6px;
+            box-shadow: 0 0 30px rgba(black, .15);
+            top: 47px;
+            margin-left: 660px;
+            width: 240px;
+        }
+    }
 }
 
 .c-media--dis {
@@ -181,6 +248,41 @@
 
 .c-media--web {
     @include media-theme(#dcd6f7);
+
+    img:first-child {
+        z-index: 4;
+        display: none;
+
+        @include media-query(hd) {
+            display: block;
+            box-shadow: 0 0 15px rgba(black, .15);
+            border-radius: 24px;
+            padding: 9px;
+            top: 360px;
+            width: 168px;
+        }
+    }
+
+    img:nth-child(2) {
+        z-index: 3;
+
+        @include media-query(hd) {
+            top: 30px;
+            margin-left: 39px;
+            width: 570px;
+        }
+    }
+
+    img:nth-child(3) {
+        display: none;
+
+        @include media-query(hd) {
+            display: block;
+            top: -30px;
+            margin-left: 360px;
+            width: 570px;
+        }
+    }
 }
 
 .c-media--br {

@@ -2,6 +2,10 @@
    #UTILITIES
 \* -------------------- */
 
+.u-hidden {
+    display: none !important;
+}
+
 // MARGINS 
 .u-mar-left--more {
     transform: translateX(600px);
