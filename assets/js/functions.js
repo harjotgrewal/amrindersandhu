@@ -111,9 +111,14 @@ function scrollNavEvent(element) {
     if(scrollTop > 1100) {
         element.classList.add('is-visible');       
     }
+
+    if((window.innerHeight + scrollTop + 300) >= document.body.offsetHeight) {
+        element.classList.remove('is-visible');        
+    }
+
     else if(scrollTop < 1100) {
         element.classList.remove('is-visible');
-    }
+    }    
 }
 
 
