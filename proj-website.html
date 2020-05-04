@@ -261,7 +261,9 @@ page-description: Redesigning the most used UI component using the most sophisti
                             <span>{{ entry.cta }}</span>
                         </div>
 
-                        <img class="l-span_5" src="{{ entry.src }}" alt="{{ entry.alt }}"  data-aos="fade-left"/>
+                        <div class="l-span_5">
+                            {{ entry.images }}
+                        </div>
                     </a>
                 </div>
             {% endif %}

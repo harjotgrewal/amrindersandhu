@@ -479,21 +479,23 @@ page-description:
         {% for entry in site.data.work %}
             {% if entry.page-title != "Case Study – Quick Access Sidebar and Outliers" %}
                 <div class="c-media {{ entry.class }} l-span_full u-space_below--most">
-                <a class="l-grid_of_9" href="{{ entry.link }}">
-                    <div class="c-media__info l-span_4">
-                        <time>{{ entry.time }}</time>
+                    <a class="l-grid_of_9" href="{{ entry.link }}">
+                        <div class="c-media__info l-span_4">
+                            <time>{{ entry.time }}</time>
 
 
-                        <h2>{{ entry.title }}</h2>
+                            <h2>{{ entry.title }}</h2>
 
-                        <p>{{ entry.desc }}</p>
+                            <p>{{ entry.desc }}</p>
 
-                        <span>{{ entry.cta }}</span>
-                    </div>
+                            <span>{{ entry.cta }}</span>
+                        </div>
 
-                    <img class="l-span_5" src="{{ entry.src }}" alt="{{ entry.alt }}"  data-aos="fade-left"/>
-                </a>
-            </div>
+                        <div class="l-span_5">
+                            {{ entry.images }}
+                        </div>
+                    </a>
+                </div>
             {% endif %}
         {% endfor %}
     </section>

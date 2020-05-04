@@ -1529,7 +1529,7 @@ main video,
     margin-top: 30px; }
 
 .c-sshot--wrapped {
-  background-color: white;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.15);
   padding: 30px;
   margin: 0 -30px 45px; }
   @media screen and (max-width: 1278px) {
@@ -1545,7 +1545,8 @@ main video,
     display: block; }
   @media screen and (min-width: 45em) {
     .c-sshot--wrapped {
-      border-radius: 6px; } }
+      border-radius: 6px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); } }
 
 .c-sshot {
   border-radius: 5px;
@@ -2989,8 +2990,6 @@ html.p-work {
     border-color: #c6cddd; }
   html.p-work .c-hire_me p {
     color: #516186; }
-  html.p-work .c-sshot--wrapped {
-    background-color: #f0f1f6; }
   html.p-work .c-name,
   html.p-work h1,
   html.p-work h2,
@@ -3078,9 +3077,6 @@ html.p-pr {
   html.p-cs .c-hire_me p,
   html.p-pr .c-hire_me p {
     color: #516186; }
-  html.p-cs .c-sshot--wrapped,
-  html.p-pr .c-sshot--wrapped {
-    background-color: #f0f1f6; }
   html.p-cs .c-name,
   html.p-cs h1,
   html.p-cs h2,
@@ -3145,8 +3141,6 @@ html.p-about {
     border-color: #c6ddd8; }
   html.p-about .c-hire_me p {
     color: #51867c; }
-  html.p-about .c-sshot--wrapped {
-    background-color: #f0f6f5; }
   html.p-about .c-name,
   html.p-about h1,
   html.p-about h2,
@@ -3207,8 +3201,6 @@ html.p-library {
     border-color: #dfddc9; }
   html.p-library .c-hire_me p {
     color: #8a8452; }
-  html.p-library .c-sshot--wrapped {
-    background-color: #f8f7f3; }
   html.p-library .c-name,
   html.p-library h1,
   html.p-library h2,
@@ -3271,8 +3263,6 @@ html.p-journal {
     border-color: #dfcbc9; }
   html.p-journal .c-hire_me p {
     color: #8a5852; }
-  html.p-journal .c-sshot--wrapped {
-    background-color: #f8f3f3; }
   html.p-journal .c-name,
   html.p-journal h1,
   html.p-journal h2,
@@ -3336,8 +3326,6 @@ html.p-testimonials {
     border-color: #c6cddd; }
   html.p-testimonials .c-hire_me p {
     color: #516186; }
-  html.p-testimonials .c-sshot--wrapped {
-    background-color: #f0f1f6; }
   html.p-testimonials .c-name,
   html.p-testimonials h1,
   html.p-testimonials h2,
@@ -3401,8 +3389,6 @@ html.cs-dis {
     border-color: #d9dde0; }
   html.cs-dis .c-hire_me p {
     color: #697784; }
-  html.cs-dis .c-sshot--wrapped {
-    background-color: #fefefe; }
   html.cs-dis .c-name,
   html.cs-dis h1,
   html.cs-dis h2,

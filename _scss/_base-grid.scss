@@ -279,8 +279,8 @@
 
 
 
-.c-sshot--wrapped {
-    background-color: white;   
+.c-sshot--wrapped {  
+    box-shadow: 0 0 9px rgba(black, .15);
     padding: 30px;
     margin: 0 -30px 45px;
 
@@ -305,6 +305,7 @@
 
     @include media-query(lap-and-up) {
         border-radius: 6px;
+        box-shadow: 0 0 15px rgba(black, .15);
     }
 }
 
