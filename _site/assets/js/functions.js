@@ -109,28 +109,30 @@ window.onscroll = function() {
 // Library 
 const filterWrapper = document.querySelector(".js-filtersWrapper");
 
-const filterControls = filterWrapper.querySelectorAll(".js-filter");
+const filterControls = document.querySelectorAll(".js-filter");
 
-const filterContentFavs = filterWrapper.querySelectorAll(".c-books_list_item--fav")
+const filterContentFavs = document.querySelectorAll(".c-books_list_item--fav")
 
-const filterContentAll = filterWrapper.querySelectorAll(".c-books_list_item--all")
+const filterContentAll = document.querySelectorAll(".c-books_list_item--all")
 
-const allFilters = filterWrapper.querySelector('.js-all-items');
+const allFilters = document.querySelector('.js-all-items');
 
-const favFilters = filterWrapper.querySelector('.js-fav-items');
+const favFilters = document.querySelector('.js-fav-items');
 
-const parentListAll = filterWrapper.querySelector('.c-books_list--all');
+const parentListAll = document.querySelector('.c-books_list--all');
 
-const parentListFavs = filterWrapper.querySelector('.c-books_list--favs');
+const parentListFavs = document.querySelector('.c-books_list--favs');
 
-filterControls.forEach(element => {
-    element.addEventListener("click", event => {
-        let filterbyID = event.target.getAttribute("id");
-        showItemsAll(filterbyID);
-        showItemsFavs(filterbyID);
+
+if (filterControls) {
+    filterControls.forEach(element => {
+        element.addEventListener("click", event => {
+            let filterbyID = event.target.getAttribute("id");
+            showItemsAll(filterbyID);
+            showItemsFavs(filterbyID);
+        });        
     });
-    
-});
+}
 
 
 
@@ -178,7 +180,9 @@ function showItemsFavs(filterbyID) {
     parentListFavs.scrollIntoView({ behavior:"smooth" });
 }
 
-allFilters.addEventListener("click", showAllItems);
+if (allFilters) {
+    allFilters.addEventListener("click", showAllItems);
+}
 
 function showAllItems() {
     for (let entry of Array.from(filterControls)) {
@@ -198,7 +202,9 @@ function showAllItems() {
 }
 
 
-favFilters.addEventListener("click", showFavItems);
+if (favFilters) {
+    favFilters.addEventListener("click", showFavItems);
+}
 
 
 function showFavItems() {
@@ -221,10 +227,11 @@ function showFavItems() {
 
 
 // Adding active class to page navigation
-
 let pageNav = document.getElementById('js-page_nav');
 
-pageNav.addEventListener(onclick, addActive);
+if (pageNav) {
+    pageNav.addEventListener(onclick, addActive);
+}
 
 function addActive() {
     this.classList.add('is-active');
