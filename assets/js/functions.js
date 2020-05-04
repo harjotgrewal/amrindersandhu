@@ -98,10 +98,20 @@ topButton.onclick = function() {
 
 function scrollEvent(element) {
     let scrollTop = window.pageYOffset;
-    if(scrollTop > 1300) {
+    if(scrollTop > 1500) {
         element.classList.add('is-visible');       
     }
-    else if(scrollTop < 1300) {
+    else if(scrollTop < 1500) {
+        element.classList.remove('is-visible');
+    }
+}
+
+function scrollNavEvent(element) {
+    let scrollTop = window.pageYOffset;
+    if(scrollTop > 1100) {
+        element.classList.add('is-visible');       
+    }
+    else if(scrollTop < 1100) {
         element.classList.remove('is-visible');
     }
 }
@@ -109,7 +119,7 @@ function scrollEvent(element) {
 
 window.addEventListener('scroll', function() {
     scrollEvent(topButton);
-    scrollEvent(sectionNavAppear);
+    scrollNavEvent(sectionNavAppear);
 })
 
 
