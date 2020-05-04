@@ -59,7 +59,6 @@ main,
 
 	
 	section {
-		padding-top: 60px;
 
 		@include media-query(hd) {
 			display: grid;
@@ -68,7 +67,7 @@ main,
 			padding-top: 90px;
 
 			&:first-child {
-				padding-bottom: 15vh;
+				padding-bottom: 12vh;
 				padding-top: 84px;
 			}
 

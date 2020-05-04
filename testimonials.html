@@ -28,153 +28,41 @@ page-description: For 12 years, Amrinder has lead design at startups to help ach
 
     
     
-    <hr class="u-space_below--most"/>
+    <hr class="u-space_below--more"/>
 
 
 
 
+    {% for entry in site.data.testimonials %}
+        <section class="c-testimonial u-space_below--more" id="testimonial-1">
+            <div class="l-span_3">
+                <h2>{{ entry.heading }}</h2>
 
-    <section class="c-testimonial" id="testimonial-1">
-        <div class="l-span_6">
-            <blockquote>
-                <p><span>“</span>Forget design. Amrinder is the <b>kind of person you want on your product team. Period.</b> His thoughtful approach to designing great user experiences and products, unwillingness to accept intellectually lazy answers, and <b>pursuit of beauty is refreshing</b> and goes a long way towards building amazing products. I’ve personally and closely worked with him on at least three SaaS products and have been pleasantly surprised each time. <b>I’d work with him in a heartbeat</b> — on anything related to design. Heck, even if it wasn’t about design.<span>”</span></p>
-            </blockquote>
-        </div>
+                <div class="c-testimonial__author l-grid_of_3 u-align--center">
+                    <img class="l-span_1" loading="lazy" src="/assets/i/photos/{{ entry.avatar }}"/>
+        
+                    <small class="l-span_2">{{ entry.author }}</small>
+                </div>
+            </div>
+            
 
-        <div class="l-span_3 l-grid_flip_order c-testimonial__author">
-            <img loading="lazy" src="/assets/i/photos/lux.jpg"/>
+            <div class="l-span_6">
+                <blockquote>
+                    <p><span>“</span>{{ entry.content }}<span>”</span></p>
+                </blockquote>
+            </div>
+        </section>
 
-            <small><b>Lux Narayan</b> <br/> CEO & Co-Founder,<br/> Unmetric</small>
-        </div>
-    </section>
 
-
-
-
-
-    <hr class="u-space_below--most"/>
-
-
-
-
-
-    <section class="c-testimonial" id="testimonial-2">
-        <div class="l-span_6">
-            <blockquote>
-                <p><span>“</span>Amrinder is a <b>valuable asset</b> to any organization. He <b>relentlessly pursues perfection</b>. I’ve worked with Amrinder for almost a decade now and spent countless hours brainstorming, arguing and discussing ideas and concepts that eventually find their way into the products we developed. At Unmetric, <b>we received a lot of accolades for the design</b> and UI/UX and a lot of that credit should go to Amrinder. He is also a <b>capable leader</b> — he built up a great design team at Unmetric. He is always on the <b>lookout for best practices</b> from other startups and catalyzed several process changes that <b>helped us collaborate better and become more productive</b>.<span>”</span></p>
-            </blockquote>
-        </div>
-
-        <div class="l-span_3 l-grid_flip_order c-testimonial__author">
-            <img loading="lazy" src="/assets/i/photos/kumar.jpeg"/>
-
-            <small><b>Kumar Krishnasami</b> <br/> Head of Product and <br/> Co-Founder, Unmetric</small>
-        </div>
-    </section>
-
-
-
-
-    <hr class="u-space_below--most"/>
-
-
-
-
-    <section class="c-testimonial" id="testimonial-3">
-        <div class="l-span_6">
-            <blockquote>
-                <p><span>“</span>Amrinder is an institution in himself! He’s <b>meticulous, methodical and creative - all at the same time</b>. He’s constantly abreast with the latest developments in not just his field of expertise but also process management in general. Got to learn and imbibe a lot while working with him on multiple projects. He’s not just an asset to the Design team but also a great guy to have in the company because he’s <b>unabatedly thinking about not just improving his team’s performance but also elevating the entire organisation’s performance</b>.<span>”</span></p>
-            </blockquote>
-        </div>
-
-        <div class="l-span_3 l-grid_flip_order c-testimonial__author">
-            <img loading="lazy" src="/assets/i/photos/sikandar.jpeg"/>
-
-            <small><b>Sikandar Syed</b> <br/> Director - Customer Success <br/>and Operations, Unmetric</small>
-        </div>
-    </section>
-
-
-
-
-
-
-    <hr class="u-space_below--most"/>
-
-
-
-
-    <section class="c-testimonial" id="testimonial-3">
-        <div class="l-span_6">
-            <blockquote>
-                <p><span>“</span>Once given a problem, <b>Amrinder is unrelenting</b>! He will read books, talk to stakeholders, conduct research — whatever it takes to get across the best possible solution. His cross-disciplinary approach to problem-solving and his accumulated expertise with design thinking, creative direction, product patterns and mental models make him one of the most effective designers I have worked with. <b>I am consistently in awe of his energy and enthusiasm</b>. If given the opportunity to be on his team again, I would do so in a heartbeat!<span>”</span></p>
-            </blockquote>
-        </div>
-
-        <div class="l-span_3 l-grid_flip_order c-testimonial__author">
-            <img loading="lazy" src="/assets/i/photos/karl.jpeg"/>
-
-            <small><b>Karl Fernandes</b> <br/> Senior Product Designer, <br/>Falcon.io</small>
-        </div>
-    </section>
-
-
-
-
-    <hr class="u-space_below--most"/>
-
-
-
-
-
-    <section class="c-testimonial" id="testimonial-4">
-        <div class="l-span_6">
-            <blockquote>
-                <p><span>“</span>Amrinder was one of the <b>most talented and hardworking employees at Unmetric</b>. Every time we showed our product to a prospect or client, one thing that would constantly be appreciated is our design and that is all thanks to him. He constantly stays updated on everything to do with building great products, shares that with the teams as well and thereby <b>raises everyone’s knowledge and understanding</b>. Beyond design, he was also <b>at the forefront of bringing the latest tools, processes, and frameworks</b> in the company including Slack, OKRs, JTBD and many more.<span>”</span></p>
-            </blockquote>
-        </div>
-
-        <div class="l-span_3 l-grid_flip_order c-testimonial__author">
-            <img loading="lazy" src="/assets/i/photos/vikram.jpeg"/>
-
-            <small><b>Vikram Ravi Ramanathan</b> <br/> Head of Customer Success &amp;  <br/> Research, Unmetric</small>
-        </div>
-    </section>
-
-
-
-
-    <hr class="u-space_below--most"/>
-
-
-
-
-    <section class="c-testimonial" id="testimonial-5">
-        <div class="l-span_6">
-            <blockquote>
-                <p><span>“</span>I’ve learned so much from working with Amrinder over the last 8 years. He <b>puts the user experience first and foremost</b>, challenging us to all to be better at our jobs. His versatility and desire to be a <b>part of the conversation at every stage of the customer journey from awareness to becoming a client</b> meant that we created an exceptional user experience. When Amrinder’s on your team, championing your users and pushing for a better experience for them, your clients will notice and you'll reap the benefits of the customer-first approach.<span>”</span></p>
-            </blockquote>
-        </div>
-
-        <div class="l-span_3 l-grid_flip_order c-testimonial__author">
-            <img loading="lazy" src="/assets/i/photos/peter.jpeg"/>
-
-            <small><b>Peter Claridge</b> <br/> Director of Marketing, <br/>Unmetric</small>
-
-        </div>
-    </section>
-
-
-
-
-    <hr class="u-space_below--most"/>
+        <hr class="u-space_below--more"/>
+    {% endfor %}
 
 
 
 
     
 
-    <section class="c-testimonial">
+    <section class="c-testimonial u-space_below--more">
         <h2 class="l-span_3">Prior to leading design at Unmetric for a decade, I worked with over a dozen clients on 50+ projects. <i class="u-break_line--hd"></i>They were impressed too.</h2>
 
 
