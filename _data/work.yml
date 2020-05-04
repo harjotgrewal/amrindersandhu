@@ -9,7 +9,8 @@
 	page-title: 'Case Study – Discover',
 	src: '/assets/i/sshots/cover-discover.png',
 	class: 'c-media--dis',
-	cta: 'Read the case study &rarr;'
+	cta: 'Read the case study &rarr;',
+	img-class: 'has-shadow'
 }
 
 
@@ -44,7 +45,8 @@
 	page-title: 'Case Study – Quick Access Sidebar and Outliers',
 	src: '/assets/i/sshots/cover-qas.png',
 	class: 'c-media--qas',
-	cta: 'Read the case study &rarr;'
+	cta: 'Read the case study &rarr;',
+	img-class: 'has-shadow'
 }
 
 
@@ -56,7 +58,8 @@
 	page-title: 'Project – Unmetric Falcon Integration',
 	src: '/assets/i/sshots/cover-integ.png',
 	class: 'c-media--int',
-	cta: 'View the project &rarr;'
+	cta: 'View the project &rarr;',
+	img-class: 'has-shadow'
 }
 
 
@@ -68,7 +71,8 @@
 	page-title: 'Project – Unmetric Design System',
 	src: '/assets/i/sshots/cover-unds.png',
 	class: 'c-media--unds',
-	cta: 'View the project &rarr;'
+	cta: 'View the project &rarr;',
+	img-class: 'has-shadow'
 }
 
 
@@ -80,7 +84,8 @@
 	page-title: 'Case Study – Branding',
 	src: '/assets/i/sshots/cover-branding.png',
 	class: 'c-media--br',
-	cta: 'Read the case study &rarr;'
+	cta: 'Read the case study &rarr;',
+	img-class: 'has-shadow'
 }
 
 
