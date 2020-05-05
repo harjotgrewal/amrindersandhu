@@ -6,7 +6,7 @@
 
 .c-footer {
     align-items: baseline;
-
+    margin-bottom: 30px;
     
     @include media-query(palm) {
         margin-left: 30px;
