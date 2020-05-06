@@ -77,6 +77,10 @@
         color: darken($th-col-1, $val-3);
     }
 
+    .c-nav__list { 
+        background-color: rgba($th-col-1, .6); 
+    }
+
 
     .c-name, 
     h1, 

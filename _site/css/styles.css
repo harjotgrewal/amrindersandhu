@@ -2180,7 +2180,7 @@ button,
   z-index: 9; }
   @media screen and (min-width: 1279px) {
     .c-nav {
-      margin-bottom: 45px; } }
+      margin-bottom: 15px; } }
 
 @media screen and (max-width: 1278px) {
   .c-nav__list {
@@ -2197,6 +2197,14 @@ button,
     -webkit-column-gap: 30px;
        -moz-column-gap: 30px;
             column-gap: 30px; } }
+
+@media screen and (min-width: 1279px) {
+  .c-nav__list {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    margin: 0 30px;
+    padding: 30px 0; } }
 
 .c-nav__item {
   margin-bottom: 0; }
@@ -2991,6 +2999,8 @@ html.p-work {
     border-color: #c6cddd; }
   html.p-work .c-hire_me p {
     color: #516186; }
+  html.p-work .c-nav__list {
+    background-color: rgba(230, 233, 240, 0.6); }
   html.p-work .c-name,
   html.p-work h1,
   html.p-work h2,
@@ -3078,6 +3088,9 @@ html.p-pr {
   html.p-cs .c-hire_me p,
   html.p-pr .c-hire_me p {
     color: #516186; }
+  html.p-cs .c-nav__list,
+  html.p-pr .c-nav__list {
+    background-color: rgba(230, 233, 240, 0.6); }
   html.p-cs .c-name,
   html.p-cs h1,
   html.p-cs h2,
@@ -3142,6 +3155,8 @@ html.p-about {
     border-color: #c6ddd8; }
   html.p-about .c-hire_me p {
     color: #51867c; }
+  html.p-about .c-nav__list {
+    background-color: rgba(230, 240, 238, 0.6); }
   html.p-about .c-name,
   html.p-about h1,
   html.p-about h2,
@@ -3202,6 +3217,8 @@ html.p-library {
     border-color: #dfddc9; }
   html.p-library .c-hire_me p {
     color: #8a8452; }
+  html.p-library .c-nav__list {
+    background-color: rgba(242, 241, 233, 0.6); }
   html.p-library .c-name,
   html.p-library h1,
   html.p-library h2,
@@ -3264,6 +3281,8 @@ html.p-journal {
     border-color: #dfcbc9; }
   html.p-journal .c-hire_me p {
     color: #8a5852; }
+  html.p-journal .c-nav__list {
+    background-color: rgba(242, 234, 233, 0.6); }
   html.p-journal .c-name,
   html.p-journal h1,
   html.p-journal h2,
@@ -3327,6 +3346,8 @@ html.p-testimonials {
     border-color: #c6cddd; }
   html.p-testimonials .c-hire_me p {
     color: #516186; }
+  html.p-testimonials .c-nav__list {
+    background-color: rgba(230, 233, 240, 0.6); }
   html.p-testimonials .c-name,
   html.p-testimonials h1,
   html.p-testimonials h2,
@@ -3390,6 +3411,8 @@ html.cs-dis {
     border-color: #d9dde0; }
   html.cs-dis .c-hire_me p {
     color: #697784; }
+  html.cs-dis .c-nav__list {
+    background-color: rgba(245, 246, 247, 0.6); }
   html.cs-dis .c-name,
   html.cs-dis h1,
   html.cs-dis h2,
