@@ -193,7 +193,7 @@ figure {
 		margin-right: -30px;
 
 		&::first-line {
-			text-indent: -214px;
+			text-indent: -174px;
 		}
 	}
 }
@@ -205,7 +205,10 @@ $avatar-size: 300px;
 
 .p-about h1 {
 	position: relative;
-	margin-right: -30px;
+	
+	@include media-query(hd) {
+		margin-right: -30px;
+	}
 
 	&::before{
 		background: url('/assets/i/photos/amrinder-11.jpg') no-repeat center;

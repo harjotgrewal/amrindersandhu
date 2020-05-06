@@ -1349,11 +1349,13 @@ main video,
     .p-work h1 {
       margin-right: -30px; }
       .p-work h1::first-line {
-        text-indent: -214px; } }
+        text-indent: -174px; } }
 
 .p-about h1 {
-  position: relative;
-  margin-right: -30px; }
+  position: relative; }
+  @media screen and (min-width: 1279px) {
+    .p-about h1 {
+      margin-right: -30px; } }
   .p-about h1::before {
     background: url("/assets/i/photos/amrinder-11.jpg") no-repeat center;
     background-color: #E6F0EE;
