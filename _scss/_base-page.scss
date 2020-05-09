@@ -177,23 +177,27 @@ figure {
 
 
 
-.p-work h1 {
-	position: relative;
+// HOMEPAGE
+.p-work {
 
-	@include media-query(palm) {
-		span {
-			display: block;
-			font-size: 48px;
-			margin-bottom: 12px;
+	h1 {
+		position: relative;
+
+		@include media-query(palm) {
+			span {
+				display: block;
+				font-size: 48px;
+				margin-bottom: 12px;
+			}
 		}
-	}
-	
+		
 
-	@include media-query(hd) {
-		margin-right: -30px;
+		@include media-query(hd) {
+			margin-right: -30px;
 
-		&::first-line {
-			text-indent: -174px;
+			&::first-line {
+				text-indent: -174px;
+			}
 		}
 	}
 }

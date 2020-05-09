@@ -5,13 +5,14 @@
 .c-header {
     position: relative;
     z-index: 2;
+    margin: 30px auto;
+    overflow: hidden;
 
-    @include media-query(portable) {
-		margin: 0 auto;
-    }
-    
-    @include media-query(palm) {
-        margin: 15px 30px 30px;
+    @include media-query(lap-and-up) {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 90px 1fr);
+        column-gap: 30px;   
     }
 
     @include media-query(hd) {
@@ -23,6 +24,11 @@
 		top: 75px;
         width: 210px;
         bottom: 0;
+        margin: 0;
+    }
+
+    @include media-query(palm) {
+        margin: 45px 0 120px 30px;
     }
 }
 
@@ -34,8 +40,7 @@
     font-family: monospace;
     line-height: 1 !important;
     margin: 30px 30px 30px 0;
-    width: 60px;
-    height: 60px;
+
 
     @include media-query(hd) {
         margin: 0 auto;
@@ -46,10 +51,29 @@
        left: 30px;
    }
 
+   @include media-query(palm) {
+       background-color: white;
+       border-radius: 300px;
+       padding: 15px;
+        position: absolute;
+        left: 61%;
+        margin: 0;
+    }
+
 
    svg {
-       height: 60px;
-       width: 60px;
+       height: 48px;
+       width: 48px;
+
+        @include media-query(lap-and-up) {
+            height: 60px;
+            width: 60px;
+        }
+
+        @include media-query(palm) {
+            height: 240px;
+            width: 240px;
+        }
 
        g {
            fill: rgba(black, .5);

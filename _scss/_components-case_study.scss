@@ -115,7 +115,6 @@
 
     &:before {
         background-color: $media-col-1;
-        //border: 15px solid $media-col-1;
         border-radius: 900px;
         content: "";
         display: block;
@@ -128,8 +127,8 @@
 
     @include media-query(portable) {
         &:before {
-            margin-left: -75px;
             height: 480px;
+            margin-left: -75px;
             width: 480px;
         }
     }
@@ -137,6 +136,7 @@
     @include media-query(palm) {
         &:before {
             height: 420px;
+            margin-top: -42px;
             width: 420px;
         }
     }

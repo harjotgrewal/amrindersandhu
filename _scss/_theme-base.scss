@@ -20,6 +20,12 @@
         fill: darken($th-col-2, $val-1);
     }
 
+    .c-name {
+        @include media-query(palm) {
+            background-color: $th-col-1;
+        }
+    }
+
     .c-header,
     a {
         border-color: darken($th-col-1, $val-1);
