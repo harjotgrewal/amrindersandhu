@@ -190,6 +190,10 @@ hr {
     border-color: rgba(black, .03);
     border-style: solid;
     margin: 0;
+
+    &.is-thick {
+        border-width: 6px 0 0 !important;
+    }
 }
 
 

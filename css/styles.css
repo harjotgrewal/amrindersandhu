@@ -1675,6 +1675,8 @@ hr {
   border-color: rgba(0, 0, 0, 0.03);
   border-style: solid;
   margin: 0; }
+  hr.is-thick {
+    border-width: 6px 0 0 !important; }
 
 main h2 {
   -webkit-transform: translateY(-4px);
