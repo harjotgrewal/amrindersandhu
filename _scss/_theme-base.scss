@@ -45,6 +45,10 @@
         color: darken($th-col-1, $val-3);
     }
 
+    .c-media__info span {
+        color: $th-col-2;
+    }
+
     figcaption,
     figcaption a, 
     .c-caption,
@@ -115,8 +119,7 @@ html.p-work {
         color: darken($theme-color-11, 70);
     }
 
-    .c-media__info time,
-    .c-media__info span {
+    .c-media__info time {
         color: darken($theme-color-11, 40);
     }
 }

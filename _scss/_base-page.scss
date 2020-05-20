@@ -194,10 +194,6 @@ figure {
 
 		@include media-query(hd) {
 			margin-right: -30px;
-
-			&::first-line {
-				text-indent: -174px;
-			}
 		}
 	}
 }

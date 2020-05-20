@@ -1347,9 +1347,7 @@ main video,
       margin-bottom: 12px; } }
   @media screen and (min-width: 1279px) {
     .p-work h1 {
-      margin-right: -30px; }
-      .p-work h1::first-line {
-        text-indent: -174px; } }
+      margin-right: -30px; } }
 
 .p-about h1 {
   position: relative; }
@@ -3013,6 +3011,8 @@ html.p-work {
   html.p-work .c-testimonial small,
   html.p-work blockquote:not(.c-caption) footer {
     color: #516186; }
+  html.p-work .c-media__info span {
+    color: #572DF5; }
   html.p-work figcaption,
   html.p-work figcaption a,
   html.p-work .c-caption,
@@ -3050,8 +3050,7 @@ html.p-work {
     color: #360ada !important; }
   html.p-work .c-nav__link--home {
     color: #362c4a; }
-  html.p-work .c-media__info time,
-  html.p-work .c-media__info span {
+  html.p-work .c-media__info time {
     color: #7d69a6; }
 
 html.p-cs,
@@ -3092,6 +3091,9 @@ html.p-pr {
   html.p-pr .c-testimonial small,
   html.p-pr blockquote:not(.c-caption) footer {
     color: #516186; }
+  html.p-cs .c-media__info span,
+  html.p-pr .c-media__info span {
+    color: #2860E3; }
   html.p-cs figcaption,
   html.p-cs figcaption a,
   html.p-cs .c-caption,
@@ -3176,6 +3178,8 @@ html.p-about {
   html.p-about .c-testimonial small,
   html.p-about blockquote:not(.c-caption) footer {
     color: #51867c; }
+  html.p-about .c-media__info span {
+    color: #03AE24; }
   html.p-about figcaption,
   html.p-about figcaption a,
   html.p-about .c-caption,
@@ -3241,6 +3245,8 @@ html.p-library {
   html.p-library .c-testimonial small,
   html.p-library blockquote:not(.c-caption) footer {
     color: #8a8452; }
+  html.p-library .c-media__info span {
+    color: #F58D2D; }
   html.p-library figcaption,
   html.p-library figcaption a,
   html.p-library .c-caption,
@@ -3308,6 +3314,8 @@ html.p-journal {
   html.p-journal .c-testimonial small,
   html.p-journal blockquote:not(.c-caption) footer {
     color: #8a5852; }
+  html.p-journal .c-media__info span {
+    color: #E33328; }
   html.p-journal figcaption,
   html.p-journal figcaption a,
   html.p-journal .c-caption,
@@ -3376,6 +3384,8 @@ html.p-testimonials {
   html.p-testimonials .c-testimonial small,
   html.p-testimonials blockquote:not(.c-caption) footer {
     color: #516186; }
+  html.p-testimonials .c-media__info span {
+    color: #2860E3; }
   html.p-testimonials figcaption,
   html.p-testimonials figcaption a,
   html.p-testimonials .c-caption,
@@ -3444,6 +3454,8 @@ html.cs-dis {
   html.cs-dis .c-testimonial small,
   html.cs-dis blockquote:not(.c-caption) footer {
     color: #697784; }
+  html.cs-dis .c-media__info span {
+    color: #05ca86; }
   html.cs-dis figcaption,
   html.cs-dis figcaption a,
   html.cs-dis .c-caption,
