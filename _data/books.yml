@@ -66,6 +66,41 @@ favs:
 
 all:
 
+
+- {	
+	url: 'https://www.amazon.com/Writing-Designing-Words-User-Experience-ebook/dp/B082J3Z8R1/',
+	name: 'Writing Is Designing',
+	author: 'Ed Catmull',	
+	src: 'writing_is_designing.jpg',
+	category: 'content'	
+}
+
+
+- {	
+	url: 'https://www.amazon.com/Jobs-Be-Done-Playbook-Organization-ebook/dp/B07X1LQ45Y/',
+	name: 'Jobs To Be Done',
+	author: 'Jim Kalbach',	
+	src: 'jobs_to_be_done.jpg',
+	category: 'ur'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Engaged-Designing-Behavior-Amy-Bucher-ebook/dp/B084WPQNRR/',
+	name: 'Engaged',
+	author: 'Amy Bucher',	
+	src: 'engaged.jpg',
+	category: 'psy'	
+}
+
+- {	
+	url: 'https://www.amazon.com/Meeting-Design-Managers-Makers-Everyone-ebook/dp/B0754NL9R3/',
+	name: 'Meeting Design',
+	author: 'Kevin M. Hoffman',	
+	src: 'meeting_design.jpg',
+	category: 'biz'	
+}
+
+
 - {	
 	url: 'https://abookapart.com/products/expressive-design-systems',
 	name: 'Expressive Design Systems',
