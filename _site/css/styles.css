@@ -2220,8 +2220,7 @@ button,
     backdrop-filter: blur(5px);
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 15px;
-    margin: 0 30px;
-    padding: 30px 0; } }
+    padding: 30px; } }
 
 @media screen and (max-width: 44.9375em) {
   .c-nav__list {
@@ -3428,9 +3427,8 @@ html.p-testimonials {
   html.th-white {
     background-color: #f6f6f6; } }
 
-html.th-white .c-hire_me h4 {
-  background-color: white;
-  color: #2860E3; }
+html.th-white .c-nav__list {
+  background-color: rgba(246, 246, 246, 0.6); }
 
 html.cs-dis {
   background-color: #f5f6f7; }
