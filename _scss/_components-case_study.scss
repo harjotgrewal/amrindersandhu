@@ -96,13 +96,33 @@
     }
 
     span {
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
         display: inline-block;
-        color: #999;
         margin-bottom: 30px;
+        vertical-align: middle;
+        transform: translateZ(0);
+        overflow: hidden;
+
+        &:before {
+            border-radius: 2px;
+            content: "";
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            transform: translateX(-100%);
+            transition: transform .2s ease-in-out;
+        }
 
         @include media-query(hd) {
             margin-bottom: 0;
         }
+    }
+
+    &:hover span::before {
+        transform: translateX(0);
     }
 }
 

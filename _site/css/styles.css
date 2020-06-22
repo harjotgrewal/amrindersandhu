@@ -2630,12 +2630,32 @@ button,
       .c-media__info p {
         margin-bottom: 30px; } }
   .c-media__info span {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     display: inline-block;
-    color: #999;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    overflow: hidden; }
+    .c-media__info span:before {
+      border-radius: 2px;
+      content: "";
+      display: block;
+      height: 2px;
+      width: 100%;
+      background-color: black;
+      position: absolute;
+      bottom: 0;
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+      transition: -webkit-transform .2s ease-in-out;
+      transition: transform .2s ease-in-out; }
     @media screen and (min-width: 1279px) {
       .c-media__info span {
         margin-bottom: 0; } }
+  .c-media__info:hover span::before {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
 
 .c-media--dp:before {
   background-color: #b2ebf2;
@@ -3012,8 +3032,6 @@ html.p-work {
   html.p-work .c-testimonial small,
   html.p-work blockquote:not(.c-caption) footer {
     color: #516186; }
-  html.p-work .c-media__info span {
-    color: #572DF5; }
   html.p-work figcaption,
   html.p-work figcaption a,
   html.p-work .c-caption,
@@ -3045,8 +3063,10 @@ html.p-work {
   html.p-work button,
   html.p-work .c-button,
   html.p-work .c-nav__link:hover,
-  html.p-work .c-media a:hover span {
+  html.p-work .c-media__info span {
     color: #360ada; }
+  html.p-work .c-media__info span::before {
+    background-color: #360ada; }
   html.p-work .c-modal--email .c-button {
     color: #360ada !important; }
   html.p-work .c-nav__link--home {
@@ -3092,9 +3112,6 @@ html.p-pr {
   html.p-pr .c-testimonial small,
   html.p-pr blockquote:not(.c-caption) footer {
     color: #516186; }
-  html.p-cs .c-media__info span,
-  html.p-pr .c-media__info span {
-    color: #2860E3; }
   html.p-cs figcaption,
   html.p-cs figcaption a,
   html.p-cs .c-caption,
@@ -3141,7 +3158,7 @@ html.p-pr {
   html.p-cs button,
   html.p-cs .c-button,
   html.p-cs .c-nav__link:hover,
-  html.p-cs .c-media a:hover span,
+  html.p-cs .c-media__info span,
   html.p-pr .c-name,
   html.p-pr h1,
   html.p-pr h2,
@@ -3149,8 +3166,11 @@ html.p-pr {
   html.p-pr button,
   html.p-pr .c-button,
   html.p-pr .c-nav__link:hover,
-  html.p-pr .c-media a:hover span {
+  html.p-pr .c-media__info span {
     color: #1847b6; }
+  html.p-cs .c-media__info span::before,
+  html.p-pr .c-media__info span::before {
+    background-color: #1847b6; }
   html.p-cs .c-modal--email .c-button,
   html.p-pr .c-modal--email .c-button {
     color: #1847b6 !important; }
@@ -3179,8 +3199,6 @@ html.p-about {
   html.p-about .c-testimonial small,
   html.p-about blockquote:not(.c-caption) footer {
     color: #51867c; }
-  html.p-about .c-media__info span {
-    color: #03AE24; }
   html.p-about figcaption,
   html.p-about figcaption a,
   html.p-about .c-caption,
@@ -3212,8 +3230,10 @@ html.p-about {
   html.p-about button,
   html.p-about .c-button,
   html.p-about .c-nav__link:hover,
-  html.p-about .c-media a:hover span {
+  html.p-about .c-media__info span {
     color: #027218; }
+  html.p-about .c-media__info span::before {
+    background-color: #027218; }
   html.p-about .c-modal--email .c-button {
     color: #027218 !important; }
   html.p-about .c-nav__link--about {
@@ -3246,8 +3266,6 @@ html.p-library {
   html.p-library .c-testimonial small,
   html.p-library blockquote:not(.c-caption) footer {
     color: #8a8452; }
-  html.p-library .c-media__info span {
-    color: #F58D2D; }
   html.p-library figcaption,
   html.p-library figcaption a,
   html.p-library .c-caption,
@@ -3279,8 +3297,10 @@ html.p-library {
   html.p-library button,
   html.p-library .c-button,
   html.p-library .c-nav__link:hover,
-  html.p-library .c-media a:hover span {
+  html.p-library .c-media__info span {
     color: #da6e0a; }
+  html.p-library .c-media__info span::before {
+    background-color: #da6e0a; }
   html.p-library .c-modal--email .c-button {
     color: #da6e0a !important; }
   html.p-library .c-nav__link--library {
@@ -3315,8 +3335,6 @@ html.p-journal {
   html.p-journal .c-testimonial small,
   html.p-journal blockquote:not(.c-caption) footer {
     color: #8a5852; }
-  html.p-journal .c-media__info span {
-    color: #E33328; }
   html.p-journal figcaption,
   html.p-journal figcaption a,
   html.p-journal .c-caption,
@@ -3348,8 +3366,10 @@ html.p-journal {
   html.p-journal button,
   html.p-journal .c-button,
   html.p-journal .c-nav__link:hover,
-  html.p-journal .c-media a:hover span {
+  html.p-journal .c-media__info span {
     color: #b62118; }
+  html.p-journal .c-media__info span::before {
+    background-color: #b62118; }
   html.p-journal .c-modal--email .c-button {
     color: #b62118 !important; }
   html.p-journal .c-book_info,
@@ -3385,8 +3405,6 @@ html.p-testimonials {
   html.p-testimonials .c-testimonial small,
   html.p-testimonials blockquote:not(.c-caption) footer {
     color: #516186; }
-  html.p-testimonials .c-media__info span {
-    color: #2860E3; }
   html.p-testimonials figcaption,
   html.p-testimonials figcaption a,
   html.p-testimonials .c-caption,
@@ -3418,8 +3436,10 @@ html.p-testimonials {
   html.p-testimonials button,
   html.p-testimonials .c-button,
   html.p-testimonials .c-nav__link:hover,
-  html.p-testimonials .c-media a:hover span {
+  html.p-testimonials .c-media__info span {
     color: #1847b6; }
+  html.p-testimonials .c-media__info span::before {
+    background-color: #1847b6; }
   html.p-testimonials .c-modal--email .c-button {
     color: #1847b6 !important; }
 
@@ -3454,8 +3474,6 @@ html.cs-dis {
   html.cs-dis .c-testimonial small,
   html.cs-dis blockquote:not(.c-caption) footer {
     color: #697784; }
-  html.cs-dis .c-media__info span {
-    color: #05ca86; }
   html.cs-dis figcaption,
   html.cs-dis figcaption a,
   html.cs-dis .c-caption,
@@ -3487,8 +3505,10 @@ html.cs-dis {
   html.cs-dis button,
   html.cs-dis .c-button,
   html.cs-dis .c-nav__link:hover,
-  html.cs-dis .c-media a:hover span {
+  html.cs-dis .c-media__info span {
     color: #048e5e; }
+  html.cs-dis .c-media__info span::before {
+    background-color: #048e5e; }
   html.cs-dis .c-modal--email .c-button {
     color: #048e5e !important; }
   html.cs-dis .c-name svg path {
