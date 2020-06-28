@@ -2,6 +2,23 @@
 journal:
 
 - {	
+	title: '<span class="c-dropcap">A</span> fter spending some time with Amazon leadership principles, I figured our the secret sauce of Amazon’s success.', 
+	url: 'https://link.medium.com/i10fFlKTG7',
+	content-title: 'How I (sort of) applied Amazon’s leadership <br/>principles in my previous job',
+	content-copy: 'By reading a couple of books, an article on Medium, and talking to a few people at Amazon, I learned that the leadership principles are the mind and soul of how things get down at Amazon. These 14 leadership principles are shared across the biggest startup where each team and individual have the freedom to choose and follow their path to deliver results.', 
+	date: '28 Jun, 2020'
+}
+
+- {	
+	title: '<span class="c-dropcap">I</span> have no doubt that one can never understand other person’s situation until he or she faces it herself in the exact same context.', 
+	url: 'https://xd.adobe.com/ideas/perspectives/leadership-insights/why-i-dont-believe-in-empathic-design-don-norman/',
+	content-title: 'Why I don’t believe in empathic design',
+	content-copy: 'I approve of the spirit behind the introduction of empathy into design, but I believe the concept is impossible, and even if possible, wrong. The reason we often talk about empathy in design is that we really need to understand the people that we’re working for. The idea is that, essentially, you’re in a person’s head and understand how they feel and what they think.', 
+	date: '28 Jun, 2020'
+}
+
+
+- {	
 	title: '<span class="c-dropcap">T</span>here is nothing more precious than time. I take it very seriously and have been taking measures to save and make time.', 
 	url: 'https://medium.com/@anaami/how-i-make-time-and-you-can-too-6cf83265d9b',
 	content-title: 'How I “make time” and you can too',
