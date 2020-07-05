@@ -66,11 +66,28 @@ favs:
 
 all:
 
+- {	
+	url: 'https://abookapart.com/products/conversational-design',
+	name: 'Conversational Design',
+	author: 'Erika Hall',	
+	src: 'conversational_design.png',
+	category: 'process'	
+}
+
+
+- {	
+	url: 'https://abookapart.com/products/flexible-typesetting',
+	name: 'Flexible Typesetting',
+	author: 'Tim Brown',	
+	src: 'flexible_typesetting.png',
+	category: 'type'	
+}
+
 
 - {	
 	url: 'https://www.amazon.com/Writing-Designing-Words-User-Experience-ebook/dp/B082J3Z8R1/',
 	name: 'Writing Is Designing',
-	author: 'Ed Catmull',	
+	author: 'Michael J. Metts and Andy Welfle',	
 	src: 'writing_is_designing.jpg',
 	category: 'content'	
 }
