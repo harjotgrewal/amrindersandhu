@@ -2582,6 +2582,7 @@ button,
         -ms-hyphens: none;
             hyphens: none; }
   .c-media img {
+    backdrop-filter: blur(15px);
     display: -ms-flexbox;
     display: flex;
     box-shadow: none;
@@ -2646,8 +2647,8 @@ button,
       background-color: black;
       position: absolute;
       bottom: 0;
-      -webkit-transform: translateX(-100%);
-              transform: translateX(-100%);
+      -webkit-transform: translateX(-110%);
+              transform: translateX(-110%);
       transition: -webkit-transform .2s ease-in-out;
       transition: transform .2s ease-in-out; }
     @media screen and (min-width: 1279px) {

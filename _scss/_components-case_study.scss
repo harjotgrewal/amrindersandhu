@@ -24,6 +24,7 @@
     }
 
     img {
+        backdrop-filter: blur(15px);
         display: flex;
         box-shadow: none;
         z-index: 2;
@@ -112,7 +113,7 @@
             background-color: black;
             position: absolute;
             bottom: 0;
-            transform: translateX(-100%);
+            transform: translateX(-110%);
             transition: transform .2s ease-in-out;
         }
 
