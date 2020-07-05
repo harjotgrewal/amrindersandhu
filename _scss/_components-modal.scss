@@ -4,6 +4,7 @@
 
 /* The Modal (background) */
 .c-modal {
+    backdrop-filter: blur(6px);
     display: flex;
     position: fixed; /* Stay in place */
     z-index: 1000; /* Sit on top */

@@ -2121,6 +2121,7 @@ button,
 
 /* The Modal (background) */
 .c-modal {
+  backdrop-filter: blur(6px);
   display: -ms-flexbox;
   display: flex;
   position: fixed;
