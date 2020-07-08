@@ -30,6 +30,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         column-gap: 30px;
+        text-align: right;
     }
 }
 
@@ -54,7 +55,6 @@
     @include media-query(hd) {
         border: none;
         line-height: calc(4vh + 20px);
-
         margin-bottom: 0;
         padding: 2px;
         text-align: center;

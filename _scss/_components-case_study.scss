@@ -25,6 +25,7 @@
 
     img {
         backdrop-filter: blur(15px);
+        backdrop-filter: -webkit-blur(15px);
         display: flex;
         box-shadow: none;
         z-index: 2;
@@ -156,9 +157,9 @@
 
     @include media-query(palm) {
         &:before {
-            height: 420px;
+            height: 480px;
             margin-top: -42px;
-            width: 420px;
+            width: 480px;
         }
     }
 

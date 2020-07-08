@@ -1257,7 +1257,7 @@ body {
 
 main section:first-child,
 .c-footer section:first-child {
-  padding-bottom: 12vh; }
+  padding-bottom: 0vh; }
 
 @media screen and (min-width: 1279px) {
   main section,
@@ -2056,14 +2056,16 @@ button,
       margin: 0; } }
   @media screen and (max-width: 44.9375em) {
     .c-header {
-      margin: 45px 0 120px 30px; } }
+      margin: 30px 30px 120px 0; } }
 
 .c-name {
   border: none;
   display: inline-block;
   font-family: monospace;
   line-height: 1 !important;
-  margin: 30px 30px 30px 0; }
+  margin: 30px 30px 30px 0;
+  -webkit-animation: logo-spinner 1s linear;
+          animation: logo-spinner 1s linear; }
   @media screen and (min-width: 1279px) {
     .c-name {
       margin: 0 auto;
@@ -2075,10 +2077,10 @@ button,
     .c-name {
       background-color: white;
       border-radius: 300px;
+      left: -39%;
+      margin: 0;
       padding: 15px;
-      position: absolute;
-      left: 61%;
-      margin: 0; } }
+      position: absolute; } }
   .c-name svg {
     height: 48px;
     width: 48px; }
@@ -2092,6 +2094,22 @@ button,
         width: 240px; } }
     .c-name svg g {
       fill: rgba(0, 0, 0, 0.5); }
+
+@-webkit-keyframes logo-spinner {
+  from {
+    -webkit-transform: translateX(-200px) rotate(0deg);
+            transform: translateX(-200px) rotate(0deg); }
+  to {
+    -webkit-transform: translateX(0) rotate(360deg);
+            transform: translateX(0) rotate(360deg); } }
+
+@keyframes logo-spinner {
+  from {
+    -webkit-transform: translateX(-200px) rotate(0deg);
+            transform: translateX(-200px) rotate(0deg); }
+  to {
+    -webkit-transform: translateX(0) rotate(360deg);
+            transform: translateX(0) rotate(360deg); } }
 
 .c-hire_me p {
   margin-bottom: 12px; }
@@ -2229,7 +2247,8 @@ button,
     grid-template-columns: repeat(1, 1fr);
     -webkit-column-gap: 30px;
        -moz-column-gap: 30px;
-            column-gap: 30px; } }
+            column-gap: 30px;
+    text-align: right; } }
 
 .c-nav__item {
   margin-bottom: 0; }
@@ -2584,6 +2603,7 @@ button,
             hyphens: none; }
   .c-media img {
     backdrop-filter: blur(15px);
+    backdrop-filter: -webkit-blur(15px);
     display: -ms-flexbox;
     display: flex;
     box-shadow: none;
@@ -2678,9 +2698,9 @@ button,
 
 @media screen and (max-width: 44.9375em) {
   .c-media--dp:before {
-    height: 420px;
+    height: 480px;
     margin-top: -42px;
-    width: 420px; } }
+    width: 480px; } }
 
 @media screen and (min-width: 1279px) {
   .c-media--dp:before {
@@ -2722,9 +2742,9 @@ button,
 
 @media screen and (max-width: 44.9375em) {
   .c-media--ana:before {
-    height: 420px;
+    height: 480px;
     margin-top: -42px;
-    width: 420px; } }
+    width: 480px; } }
 
 @media screen and (min-width: 1279px) {
   .c-media--ana:before {
@@ -2792,9 +2812,9 @@ button,
 
 @media screen and (max-width: 44.9375em) {
   .c-media--dis:before {
-    height: 420px;
+    height: 480px;
     margin-top: -42px;
-    width: 420px; } }
+    width: 480px; } }
 
 @media screen and (min-width: 1279px) {
   .c-media--dis:before {
@@ -2821,9 +2841,9 @@ button,
 
 @media screen and (max-width: 44.9375em) {
   .c-media--int:before {
-    height: 420px;
+    height: 480px;
     margin-top: -42px;
-    width: 420px; } }
+    width: 480px; } }
 
 @media screen and (min-width: 1279px) {
   .c-media--int:before {
@@ -2850,9 +2870,9 @@ button,
 
 @media screen and (max-width: 44.9375em) {
   .c-media--qas:before {
-    height: 420px;
+    height: 480px;
     margin-top: -42px;
-    width: 420px; } }
+    width: 480px; } }
 
 @media screen and (min-width: 1279px) {
   .c-media--qas:before {
@@ -2879,9 +2899,9 @@ button,
 
 @media screen and (max-width: 44.9375em) {
   .c-media--unds:before {
-    height: 420px;
+    height: 480px;
     margin-top: -42px;
-    width: 420px; } }
+    width: 480px; } }
 
 @media screen and (min-width: 1279px) {
   .c-media--unds:before {
@@ -2908,9 +2928,9 @@ button,
 
 @media screen and (max-width: 44.9375em) {
   .c-media--web:before {
-    height: 420px;
+    height: 480px;
     margin-top: -42px;
-    width: 420px; } }
+    width: 480px; } }
 
 @media screen and (min-width: 1279px) {
   .c-media--web:before {
@@ -2966,9 +2986,9 @@ button,
 
 @media screen and (max-width: 44.9375em) {
   .c-media--br:before {
-    height: 420px;
+    height: 480px;
     margin-top: -42px;
-    width: 420px; } }
+    width: 480px; } }
 
 @media screen and (min-width: 1279px) {
   .c-media--br:before {

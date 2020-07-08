@@ -60,7 +60,7 @@ main,
 	
 	section {
 		&:first-child {
-			padding-bottom: 12vh;
+			padding-bottom: 0vh;
 		}
 
 		@include media-query(hd) {
