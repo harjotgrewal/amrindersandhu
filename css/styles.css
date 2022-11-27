@@ -2389,7 +2389,6 @@ button,
     display: none; } }
 
 .c-section__nav {
-  position: -webkit-sticky;
   position: sticky;
   top: 35px; }
 
