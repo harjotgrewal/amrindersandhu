@@ -1,4 +1,4 @@
-jekyll-gulp-sass-browser-sync
+Setup
 =============================
 
 Npm packages - Jekyll, GulpJS, SASS, AutoPrefixer, and BrowserSync.
