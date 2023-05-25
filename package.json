@@ -1,4 +1,7 @@
 {
+  "overrides": {
+    "graceful-fs": "^4.2.11"
+  },
   "name": "browser-sync-jekyll",
   "version": "0.0.0",
   "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
@@ -15,7 +18,7 @@
     "gulp-autoprefixer": "1.0.0",
     "gulp-jade": "^1.1.0",
     "gulp-pug": "^4.0.1",
-    "gulp-sass": "^4.0.2"
+    "sass": "^1.62.1"
   },
   "repository": {
     "type": "git",
@@ -35,6 +38,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "gulp-inline-source": "^4.0.0"
+    "gulp-inline-source": "^4.0.0",
+    "gulp-sass": "^5.1.0"
   }
 }
