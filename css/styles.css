@@ -4588,3 +4588,121 @@ html.cs-dis h2 {
   font-size: 36px;
   font-weight: bold;
 }
+
+/* NEW HOMEPAGE 2024 */
+.new-wrapper {
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: #F2F1E9;
+  color: #8a8452;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+@media screen and (min-width: 45em) {
+  .new-wrapper {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    height: 100vh;
+  }
+}
+.new-wrapper h1, .new-wrapper h2, .new-wrapper h3 {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.new-wrapper h1 {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 32px 0;
+}
+@media screen and (min-width: 1279px) {
+  .new-wrapper h1 {
+    font-size: 28px;
+  }
+}
+.new-wrapper .new-photo {
+  border-radius: 1000px;
+  box-shadow: 0 0px 32px rgba(138, 132, 82, 0.6) inset;
+}
+@media screen and (min-width: 45em) {
+  .new-wrapper .new-photo {
+    margin-top: -24px;
+  }
+}
+.new-wrapper time {
+  font-size: 14px;
+  margin-bottom: 4px;
+  opacity: 0.6;
+}
+.new-wrapper p {
+  font-size: 16px;
+}
+.new-wrapper .new-lhs {
+  background: white;
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  gap: 24px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 48px;
+  text-align: center;
+}
+@media screen and (min-width: 45em) {
+  .new-wrapper .new-lhs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+  }
+}
+.new-wrapper .new-main {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  gap: 24px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 48px;
+  text-align: center;
+}
+.new-wrapper .new-main .new-work {
+  max-width: 320px;
+}
+@media screen and (min-width: 45em) {
+  .new-wrapper .new-main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    text-align: left;
+  }
+}
+.new-wrapper .new-contact-links {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  gap: 24px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+}
+.new-wrapper .new-contact-links a {
+  border: none;
+  color: #8a8452;
+}
