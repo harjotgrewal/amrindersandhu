@@ -4589,12 +4589,14 @@ html.cs-dis h2 {
   font-weight: bold;
 }
 
+/*********************/
 /* NEW HOMEPAGE 2024 */
+/*********************/
 .new-wrapper {
   -ms-flex-align: center;
       align-items: center;
   background-color: #F2F1E9;
-  color: #8a8452;
+  color: rgb(95, 82, 137);
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -4613,25 +4615,29 @@ html.cs-dis h2 {
 .new-wrapper h1, .new-wrapper h2, .new-wrapper h3 {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
+  font-weight: normal;
   margin-bottom: 0;
 }
 .new-wrapper h1 {
-  font-size: 24px;
+  font-size: 21px;
   line-height: 1.4;
-  margin: 32px 0;
+  margin: 12px 0;
 }
 @media screen and (min-width: 1279px) {
   .new-wrapper h1 {
     font-size: 28px;
+    margin: 32px 0;
   }
 }
 .new-wrapper .new-photo {
   border-radius: 1000px;
   box-shadow: 0 0px 32px rgba(138, 132, 82, 0.6) inset;
+  width: 160px;
 }
 @media screen and (min-width: 45em) {
   .new-wrapper .new-photo {
     margin-top: -24px;
+    width: 240px;
   }
 }
 .new-wrapper time {
@@ -4641,6 +4647,12 @@ html.cs-dis h2 {
 }
 .new-wrapper p {
   font-size: 16px;
+  opacity: 0.72;
+}
+@media screen and (min-width: 1279px) {
+  .new-wrapper span.css-break {
+    display: block;
+  }
 }
 .new-wrapper .new-lhs {
   background: white;
@@ -4653,7 +4665,7 @@ html.cs-dis h2 {
   gap: 24px;
   -ms-flex-pack: center;
       justify-content: center;
-  padding: 48px;
+  padding: 48px 24px;
   text-align: center;
 }
 @media screen and (min-width: 45em) {
@@ -4663,6 +4675,9 @@ html.cs-dis h2 {
     left: 0;
     bottom: 0;
     width: 50%;
+    padding: 48px;
+    background: rgb(242, 241, 233);
+    background: linear-gradient(90deg, rgb(242, 241, 233) 0%, rgb(255, 255, 255) 10%);
   }
 }
 .new-wrapper .new-main {
@@ -4677,9 +4692,19 @@ html.cs-dis h2 {
       justify-content: center;
   padding: 48px;
   text-align: center;
+  background: rgb(242, 241, 233);
+  background: linear-gradient(180deg, rgb(242, 241, 233) 0%, rgb(255, 255, 255) 10%);
+  width: 100%;
 }
 .new-wrapper .new-main .new-work {
   max-width: 320px;
+}
+.new-wrapper .new-main .new-work a {
+  border-bottom: 1px solid rgba(95, 82, 137, 0.2);
+  color: #5F5289;
+}
+.new-wrapper .new-main .new-work a:hover {
+  border-bottom-color: rgba(95, 82, 137, 0.6);
 }
 @media screen and (min-width: 45em) {
   .new-wrapper .new-main {
@@ -4689,6 +4714,8 @@ html.cs-dis h2 {
     bottom: 0;
     width: 50%;
     text-align: left;
+    background: rgb(242, 241, 233);
+    background: linear-gradient(90deg, rgb(242, 241, 233) 0%, rgb(255, 255, 255) 10%);
   }
 }
 .new-wrapper .new-contact-links {
@@ -4704,5 +4731,11 @@ html.cs-dis h2 {
 }
 .new-wrapper .new-contact-links a {
   border: none;
-  color: #8a8452;
+  color: #5F5289;
+  opacity: 0.6;
+  border-bottom: 1px solid rgba(95, 82, 137, 0.4);
+}
+.new-wrapper .new-contact-links a:hover {
+  opacity: 1;
+  border-bottom: 1px solid rgba(95, 82, 137, 0.4);
 }
