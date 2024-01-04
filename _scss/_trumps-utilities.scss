@@ -291,8 +291,7 @@
         width: 160px;
 
         @include media-query(lap-and-up) {
-            margin-top: -24px;
-            width: 240px;
+            width: 200px;
         }
     }
 
@@ -324,6 +323,7 @@
         text-align: center;
 
         @include media-query(lap-and-up) {
+            gap: 36px;
             position: absolute;
             top: 0;
             left: 0;
