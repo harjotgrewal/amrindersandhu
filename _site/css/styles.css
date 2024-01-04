@@ -4636,8 +4636,7 @@ html.cs-dis h2 {
 }
 @media screen and (min-width: 45em) {
   .new-wrapper .new-photo {
-    margin-top: -24px;
-    width: 240px;
+    width: 200px;
   }
 }
 .new-wrapper time {
@@ -4670,6 +4669,7 @@ html.cs-dis h2 {
 }
 @media screen and (min-width: 45em) {
   .new-wrapper .new-lhs {
+    gap: 36px;
     position: absolute;
     top: 0;
     left: 0;
