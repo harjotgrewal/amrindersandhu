@@ -48,7 +48,7 @@ btn.onclick = function() {
 
 copyBtn.onclick = function() {
     const el = document.createElement('textarea');
-    el.value = 'contact@amrindersandhu.com';
+    el.value = 'amrinder@outlook.in';
     document.body.appendChild(el);
     el.select();
     document.execCommand('copy');

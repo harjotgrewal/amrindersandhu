@@ -4592,10 +4592,14 @@ html.cs-dis h2 {
 /*********************/
 /* NEW HOMEPAGE 2024 */
 /*********************/
+.new body {
+  background-color: rgb(242, 241, 233);
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
 .new-wrapper {
-  -ms-flex-align: center;
-      align-items: center;
-  background-color: #F2F1E9;
   color: rgb(95, 82, 137);
   display: -ms-flexbox;
   display: flex;
@@ -4604,12 +4608,25 @@ html.cs-dis h2 {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -ms-flex-pack: center;
       justify-content: center;
+  gap: 32px;
+  padding: 0 32px;
+  position: relative;
 }
 @media screen and (min-width: 45em) {
   .new-wrapper {
-    -ms-flex-direction: row;
-        flex-direction: row;
-    height: 100vh;
+    -ms-flex-align: center;
+        align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    grid-template-rows: 180px 120px 120px;
+    padding: 48px;
+    max-width: 1240px;
+    margin: auto;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 .new-wrapper h1, .new-wrapper h2, .new-wrapper h3 {
@@ -4621,34 +4638,52 @@ html.cs-dis h2 {
 .new-wrapper h1 {
   font-size: 21px;
   line-height: 1.4;
-  margin: 12px 0;
 }
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 45em) {
   .new-wrapper h1 {
-    font-size: 24px;
-    margin: 16px 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+}
+.new-wrapper h2 {
+  margin-bottom: 2px;
+}
+.new-wrapper .new-logo {
+  display: none;
+  width: 32px;
+}
+@media screen and (min-width: 45em) {
+  .new-wrapper .new-logo {
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    opacity: 0.4;
   }
 }
 .new-wrapper .new-photo {
   border-radius: 1000px;
   box-shadow: 0 0px 32px rgba(138, 132, 82, 0.6) inset;
-  width: 160px;
+  width: 140px;
 }
 @media screen and (min-width: 45em) {
   .new-wrapper .new-photo {
-    width: 200px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
   }
 }
 .new-wrapper time {
-  font-size: 14px;
-  margin-bottom: 4px;
   opacity: 0.6;
 }
 .new-wrapper p {
   font-size: 16px;
   opacity: 0.72;
+  margin: 0;
 }
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 45em) {
   .new-wrapper span.css-break {
     display: block;
   }
@@ -4696,16 +4731,6 @@ html.cs-dis h2 {
   background: linear-gradient(180deg, rgb(242, 241, 233) 0%, rgb(255, 255, 255) 10%);
   width: 100%;
 }
-.new-wrapper .new-main .new-work {
-  max-width: 320px;
-}
-.new-wrapper .new-main .new-work a {
-  border-bottom: 1px solid rgba(95, 82, 137, 0.2);
-  color: #5F5289;
-}
-.new-wrapper .new-main .new-work a:hover {
-  border-bottom-color: rgba(95, 82, 137, 0.6);
-}
 @media screen and (min-width: 45em) {
   .new-wrapper .new-main {
     position: absolute;
@@ -4718,16 +4743,37 @@ html.cs-dis h2 {
     background: linear-gradient(90deg, rgb(242, 241, 233) 0%, rgb(255, 255, 255) 10%);
   }
 }
+.new-wrapper .new-work {
+  max-width: 320px;
+}
+.new-wrapper .new-work a {
+  border-bottom: 1px solid rgba(95, 82, 137, 0.1);
+  color: rgb(95, 82, 137);
+}
+.new-wrapper .new-work a:hover {
+  border-bottom-color: rgba(95, 82, 137, 0.6);
+}
 .new-wrapper .new-contact-links {
-  -ms-flex-align: center;
-      align-items: center;
   display: -ms-flexbox;
   display: flex;
   font-size: 16px;
   gap: 24px;
-  -ms-flex-pack: center;
-      justify-content: center;
-  text-align: center;
+}
+@media screen and (min-width: 45em) {
+  .new-wrapper .new-contact-links {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    gap: 0;
+    width: 200px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+}
+.new-wrapper .new-contact-links p,
+.new-wrapper .new-contact-links li {
+  margin: 0;
 }
 .new-wrapper .new-contact-links a {
   border: none;

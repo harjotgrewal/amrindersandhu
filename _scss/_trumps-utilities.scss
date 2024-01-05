@@ -252,18 +252,34 @@
 /* NEW HOMEPAGE 2024 */
 /*********************/
 
+.new body {
+    background-color: rgb(242, 241, 233);
+    display: flex;
+    height: 100vh;
+}
+
 .new-wrapper {
-    align-items: center;
-    background-color: #F2F1E9;
     color: rgb(95, 82, 137);
     display: flex;
     flex-direction: column;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     justify-content: center;
+    gap: 32px;
+    padding: 0 32px;
+    position: relative;
 
     @include media-query(lap-and-up) {
-        flex-direction: row;
-        height: 100vh;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 32px;
+        grid-row-gap: 32px;
+        grid-template-rows: 180px 120px 120px;
+        padding: 48px;
+        max-width: 1240px;
+        margin: auto;
+        justify-content: center;
     }
 
 
@@ -277,37 +293,56 @@
     h1 {
         font-size: 21px;
         line-height: 1.4;
-        margin: 12px 0;
 
-        @include media-query(hd) {
-            font-size: 24px;
-            margin: 16px 0;
+        @include media-query(lap-and-up) {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+    }
+
+    h2 {
+        margin-bottom: 2px;
+    }
+
+    .new-logo {
+        display: none;
+        width: 32px;
+
+        @include media-query(lap-and-up) {
+            position: absolute;
+            top: -50px;
+            left: 50px;
+            opacity: .4;
         }
     }
 
     .new-photo {
         border-radius: 1000px;
         box-shadow: 0 0px 32px rgba(138, 132, 82, .6) inset;
-        width: 160px;
+        width: 140px;
 
         @include media-query(lap-and-up) {
-            width: 200px;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
         }
     }
 
     time {        
-        font-size: 14px;
-        margin-bottom: 4px;
         opacity: .6;
     }
 
     p {
         font-size: 16px;
         opacity: .72;
+        margin: 0;
     }
 
     span.css-break {
-        @include media-query(hd) {
+        @include media-query(lap-and-up) {
             display: block;
         }
     }
@@ -347,19 +382,6 @@
         background: linear-gradient(180deg, rgba(242,241,233,1) 0%, rgba(255,255,255,1) 10%);
         width: 100%;
 
-        .new-work {
-            max-width: 320px;
-
-            a {
-                border-bottom: 1px solid rgba(95, 82, 137, .2);
-                color: #5F5289;
-    
-                &:hover {
-                    border-bottom-color: rgba(95, 82, 137, .6);
-                }
-            }
-        }
-
         @include media-query(lap-and-up) {
             position: absolute;
             top: 0;
@@ -372,17 +394,38 @@
         }
     }
 
-    .new-contact-details {
+    .new-work {
+        max-width: 320px;
 
+        a {
+            border-bottom: 1px solid rgba(95, 82, 137, .1);
+            color: rgb(95, 82, 137);
+
+            &:hover {
+                border-bottom-color: rgba(95, 82, 137, .6);
+            }
+        }
     }
 
     .new-contact-links {
-        align-items: center;
         display: flex;
         font-size: 16px;
         gap: 24px;
-        justify-content: center;
-        text-align: center;
+
+        @include media-query(lap-and-up) {
+            flex-direction: column;
+            gap: 0;
+            width: 200px;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+
+        p,
+        li {
+            margin: 0;
+        }
 
         a {
             border: none;
